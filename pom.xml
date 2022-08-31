@@ -1,0 +1,128 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>de.foellix</groupId>
+	<artifactId>SimplifyParser</artifactId>
+	<version>2.0.1-SNAPSHOT</version>
+	<packaging>jar</packaging>
+
+	<name>Simplify Parser</name>
+	<description>Parses APK files to create lists for the simplify operator</description>
+	<url>https://FoelliX.github.io/n.a.</url>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<jadx.version>1.3.1</jadx.version>
+	</properties>
+
+	<build>
+		<defaultGoal>clean install</defaultGoal>
+		<directory>target</directory>
+
+		<sourceDirectory>src</sourceDirectory>
+		<plugins>
+			<plugin>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.8.1</version>
+				<configuration>
+					<source>17</source>
+					<target>17</target>
+				</configuration>
+			</plugin>
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-assembly-plugin</artifactId>
+				<version>3.3.0</version>
+				<executions>
+					<execution>
+						<phase>package</phase>
+						<goals>
+							<goal>single</goal>
+						</goals>
+						<configuration>
+							<archive>
+								<manifest>
+									<mainClass>
+										de.foellix.aql.system.defaulttools.preprocessors.simplifier.Comparator
+									</mainClass>
+								</manifest>
+							</archive>
+							<descriptorRefs>
+								<descriptorRef>jar-with-dependencies</descriptorRef>
+							</descriptorRefs>
+							<outputDirectory>${project.basedir}/target/build</outputDirectory>
+							<finalName>${project.artifactId}-${project.version}</finalName>
+							<appendAssemblyId>false</appendAssemblyId>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
+	</build>
+
+	<repositories>
+		<repository>
+			<id>Google</id>
+			<url>https://maven.google.com</url>
+		</repository>
+	</repositories>
+
+	<dependencies>
+		<dependency>
+			<groupId>de.foellix</groupId>
+			<artifactId>AQL-System</artifactId>
+			<version>2.0.1-SNAPSHOT</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-jdk14
+			<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-jdk14</artifactId>
+			<version>1.7.33</version>
+			</dependency> -->
+
+		<!-- https://mvnrepository.com/artifact/de.jplag/jplag -->
+		<dependency>
+			<groupId>de.jplag</groupId>
+			<artifactId>jplag</artifactId>
+			<version>3.0.0</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/io.github.skylot/jadx-core -->
+		<dependency>
+			<groupId>io.github.skylot</groupId>
+			<artifactId>jadx-core</artifactId>
+			<version>${jadx.version}</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/io.github.skylot/jadx-java-convert -->
+		<dependency>
+			<groupId>io.github.skylot</groupId>
+			<artifactId>jadx-java-convert</artifactId>
+			<version>${jadx.version}</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/com.github.javaparser/javaparser-core -->
+		<dependency>
+			<groupId>com.github.javaparser</groupId>
+			<artifactId>javaparser-core</artifactId>
+			<version>3.23.1</version>
+		</dependency>
+	</dependencies>
+	
+	<developers>
+		<developer>
+			<name>Felix Pauck</name>
+			<email>my@FoelliX.de</email>
+			<organization>FoelliX.de</organization>
+			<organizationUrl>https://FoelliX.de</organizationUrl>
+		</developer>
+	</developers>
+	
+	<licenses>
+		<license>
+			<name>GNU General Public License v3.0</name>
+			<url>https://www.gnu.org/licenses/gpl-3.0.txt</url>
+		</license>
+	</licenses>
+</project>

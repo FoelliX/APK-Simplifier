@@ -1,0 +1,721 @@
+BREW 07/26/2022 - 21:49:51 Continuing with configuration: /media/sf_webservice/config.xml (a9ee75f31fbb720aa6746ae2f72aade2)
+BREW 07/26/2022 - 21:49:51 [1;32mStarting: Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/2/com.paypal.android.p2pmobile.apk') ?[m[m
+BREW 07/26/2022 - 21:49:51 Parsed: Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/2/com.paypal.android.p2pmobile.apk') ?
+BREW 07/26/2022 - 21:49:51 Resolved: Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/2/com.paypal.android.p2pmobile.apk') ?
+BREW 07/26/2022 - 21:49:51 Transformation-rule applied: ToolSelection
+BREW 07/26/2022 - 21:49:51 Transformation-rule applied: ApplySimplifier
+BREW 07/26/2022 - 21:49:51
+Transformed:
+Flows IN App(SIMPLIFY~ [
+	'/home/fpauck/benchmarks/temp/top15/subset/2/com.paypal.android.p2pmobile.apk' !
+] !) USES 'IccTA-1' ?
+BREW 07/26/2022 - 21:49:51 Loaded storage from: /media/sf_brewThesis/data/storage/storage.ser
+BREW 07/26/2022 - 21:49:51 Setting variable (%MEMORY%) value to: "96"
+BREW 07/26/2022 - 21:49:51 Setting variable (%ANDROID_PLATFORMS%) value to: "/media/sf_sdks/platforms/"
+BREW 07/26/2022 - 21:49:51 Setting variable (%ANDROID_BUILDTOOLS%) value to: "null"
+BREW 07/26/2022 - 21:49:51 Setting variable (%DATE%) value to: "26_07_2022-21_49_51"
+BREW 07/26/2022 - 21:49:51 Setting variable (%LINENUMBER_IN%) value to: "-1"
+BREW 07/26/2022 - 21:49:51 Setting variable (%LINENUMBER_IN%) value to: "-1"
+BREW 07/26/2022 - 21:49:51 Warning: Maximum memory (105 GB) specified in config file will never become available. Using maximal available memory instead: 101 GB
+BREW 07/26/2022 - 21:49:51 Timeout (Answer-Loader) set to: 60m
+BREW 07/26/2022 - 21:49:51 Starting execution of default Answer-Loader (2.0.1-SNAPSHOT). [/media/sf_brewThesis/.: Load from file: /media/sf_brewThesis/data/storage/00180.%FILE_ENDING%]
+BREW 07/26/2022 - 21:49:51 Finished execution of default Answer-Loader (2.0.1-SNAPSHOT) after 0.0 seconds. [/media/sf_brewThesis/.: Load from file: /home/fpauck/benchmarks/temp/top15/subset/2/com.paypal.android.p2pmobile.apk]
+BREW 07/26/2022 - 21:49:51 Setting variable (%ANSWERS%) value to: "/home/fpauck/benchmarks/temp/top15/subset/2/com.paypal.android.p2pmobile.apk"
+BREW 07/26/2022 - 21:49:51 Setting variable (%ANSWERSHASH%) value to: "60389617347c01867a0a86c4ccb44ea09e78cd8fc8a7ee9b8fa440101d6949cd"
+BREW 07/26/2022 - 21:49:51 Setting variable (%ANSWERSHASH_MD5%) value to: "75e2196edff9c38aed68beae4725cc68"
+BREW 07/26/2022 - 21:49:51 Setting variable (%ANSWERSHASH_SHA-1%) value to: "961d2d6f62dbd5d9e5b768e0cd2202ec38d849cb"
+BREW 07/26/2022 - 21:49:51 Setting variable (%ANSWERSHASH_SHA-256%) value to: "60389617347c01867a0a86c4ccb44ea09e78cd8fc8a7ee9b8fa440101d6949cd"
+BREW 07/26/2022 - 21:49:52 Timeout (DefaultSimplifyOperator~) set to: 60m
+BREW 07/26/2022 - 21:49:52
+Loaded from storage:
+SIMPLIFY~ [
+	'/home/fpauck/benchmarks/temp/top15/subset/2/com.paypal.android.p2pmobile.apk' !
+] !
+BREW 07/26/2022 - 21:49:52 Setting variable (%APP_APK_IN%) value to: "/media/sf_brewThesis/data/storage/00003.apk"
+BREW 07/26/2022 - 21:49:52 Setting variable (%APP_APK%) value to: "/media/sf_brewThesis/data/storage/00003.apk"
+BREW 07/26/2022 - 21:49:52 Setting variable (%APP_APK_IN_FILENAME%) value to: "00003"
+BREW 07/26/2022 - 21:49:52 Setting variable (%APP_APK_FILENAME%) value to: "00003"
+BREW 07/26/2022 - 21:49:52 Setting variable (%APP_APK_IN_NAME%) value to: "p2pmobile"
+BREW 07/26/2022 - 21:49:52 Setting variable (%APP_APK_NAME%) value to: "p2pmobile"
+BREW 07/26/2022 - 21:49:52 Setting variable (%APP_APK_IN_PACKAGE%) value to: "com.paypal.android.p2pmobile"
+BREW 07/26/2022 - 21:49:52 Setting variable (%APP_APK_PACKAGE%) value to: "com.paypal.android.p2pmobile"
+BREW 07/26/2022 - 21:49:52 Timeout (IccTA) set to: 60m
+BREW 07/26/2022 - 21:49:52 Starting execution of internal IccTA (1). [/home/fpauck/tools/IccTA: /home/fpauck/tools/IccTA/aqlRun.sh /media/sf_brewThesis/data/storage/00003.apk 96 results/00003_result.txt]
+BREW 07/26/2022 - 21:49:52 Setting variable (%PID%) value to: "9245"
+BREW 07/26/2022 - 21:50:19 Process 9245 (IccTA) terminated sucessfully (0)
+BREW 07/26/2022 - 21:50:19 Result available: /home/fpauck/tools/IccTA/results/00003_result.txt
+BREW 07/26/2022 - 21:50:19 Finished execution of internal IccTA (1) after 27.2 seconds. [/home/fpauck/tools/IccTA: /home/fpauck/tools/IccTA/aqlRun.sh /media/sf_brewThesis/data/storage/00003.apk 96 results/00003_result.txt]
+BREW 07/26/2022 - 21:50:19 Running on exit event for the tool: IccTA (1)
+BREW 07/26/2022 - 21:50:20 Timeout-Timer (IccTA) stopped normally.
+BREW 07/26/2022 - 21:50:20 Process (9335) output: Not root! Reattempting as root...
+BREW 07/26/2022 - 21:50:20 Process (9335) output: Root! Flushing memory...
+BREW 07/26/2022 - 21:50:20 Setting variable (%RESULT_FILE%) value to: "/home/fpauck/tools/IccTA/results/00003_result.txt"
+BREW 07/26/2022 - 21:50:20 Setting variable (%APP_APK_IN_NAME%) value to: "p2pmobile"
+BREW 07/26/2022 - 21:50:20 Setting variable (%APP_APK_NAME%) value to: "p2pmobile"
+BREW 07/26/2022 - 21:50:20 Setting variable (%APP_APK_IN_FILENAME%) value to: "00003"
+BREW 07/26/2022 - 21:50:20 Setting variable (%APP_APK_FILENAME%) value to: "00003"
+BREW 07/26/2022 - 21:50:20 Setting variable (%APP_APK_IN%) value to: "/media/sf_brewThesis/data/storage/00003.apk"
+BREW 07/26/2022 - 21:50:20 Setting variable (%APP_APK%) value to: "/media/sf_brewThesis/data/storage/00003.apk"
+BREW 07/26/2022 - 21:50:20 Setting variable (%APP_APK_IN_PACKAGE%) value to: "com.paypal.android.p2pmobile"
+BREW 07/26/2022 - 21:50:20 Setting variable (%APP_APK_PACKAGE%) value to: "com.paypal.android.p2pmobile"
+BREW 07/26/2022 - 21:50:20 Timeout (DefaultConverter for IccTA) set to: 60m
+BREW 07/26/2022 - 21:50:20 Starting execution of default DefaultConverter for IccTA (2.0.1-SNAPSHOT). [/media/sf_brewThesis: DefaultConverter for null (2.0.1-SNAPSHOT) with { %APP_APK_IN_FILENAME% = '00003', %APP_APK_IN_NAME% = 'p2pmobile', %APP_APK_NAME% = 'p2pmobile', %APP_APK_IN% = '/media/sf_brewThesis/data/storage/00003.apk', %APP_APK_FILENAME% = '00003', %APP_APK% = '/media/sf_brewThesis/data/storage/00003.apk', %APP_APK_PACKAGE% = 'com.paypal.android.p2pmobile', %RESULT_FILE% = '/home/fpauck/tools/IccTA/results/00003_result.txt', %LINENUMBER_IN% = '-1', %APP_APK_IN_PACKAGE% = 'com.paypal.android.p2pmobile' }]
+BREW 07/26/2022 - 21:50:21 Storing answered task: /media/sf_brewThesis/data/storage/00178.xml [/home/fpauck/tools/IccTA/aqlRun.sh 1027cdc03b0a42a2c2a4484f32951a6beaaaf14f23e70e47787b55ffa43cbc36 96 results/00003_result.txt]
+BREW 07/26/2022 - 21:50:21 Finished execution of default DefaultConverter for IccTA (2.0.1-SNAPSHOT) after 0.9 seconds. [/media/sf_brewThesis: DefaultConverter for null (2.0.1-SNAPSHOT) with { %APP_APK_IN_FILENAME% = '00003', %APP_APK_IN_NAME% = 'p2pmobile', %APP_APK_NAME% = 'p2pmobile', %APP_APK_IN% = '/media/sf_brewThesis/data/storage/00003.apk', %APP_APK_FILENAME% = '00003', %APP_APK% = '/media/sf_brewThesis/data/storage/00003.apk', %APP_APK_PACKAGE% = 'com.paypal.android.p2pmobile', %RESULT_FILE% = '/home/fpauck/tools/IccTA/results/00003_result.txt', %LINENUMBER_IN% = '-1', %APP_APK_IN_PACKAGE% = 'com.paypal.android.p2pmobile' }]
+BREW 07/26/2022 - 21:50:21 [1;32mFinished (after 30.127s): Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/2/com.paypal.android.p2pmobile.apk') ?[m[m
+BREW 07/26/2022 - 21:50:21
+[1m***** Answer (/media/sf_brewThesis/answers/answer_26_07_2022-21_50_21-001.xml) *****
+[m*** Flows ***
+
+[m[m
+BREW 07/26/2022 - 21:50:21
+
+
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<answer>
+    <flows/>
+</answer>
+
+
+
+
+BREW 07/26/2022 - 21:50:21 Continuing with configuration: /media/sf_webservice/config.xml (a9ee75f31fbb720aa6746ae2f72aade2)
+BREW 07/26/2022 - 21:50:22 [1;32mStarting: Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/2/com.sec.android.easyMover.apk') ?[m[m
+BREW 07/26/2022 - 21:50:22 Parsed: Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/2/com.sec.android.easyMover.apk') ?
+BREW 07/26/2022 - 21:50:22 Resolved: Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/2/com.sec.android.easyMover.apk') ?
+BREW 07/26/2022 - 21:50:22 Transformation-rule applied: ToolSelection
+BREW 07/26/2022 - 21:50:22 Transformation-rule applied: ApplySimplifier
+BREW 07/26/2022 - 21:50:22
+Transformed:
+Flows IN App(SIMPLIFY~ [
+	'/home/fpauck/benchmarks/temp/top15/subset/2/com.sec.android.easyMover.apk' !
+] !) USES 'IccTA-1' ?
+BREW 07/26/2022 - 21:50:22 Loaded storage from: /media/sf_brewThesis/data/storage/storage.ser
+BREW 07/26/2022 - 21:50:22 Setting variable (%MEMORY%) value to: "96"
+BREW 07/26/2022 - 21:50:22 Setting variable (%ANDROID_PLATFORMS%) value to: "/media/sf_sdks/platforms/"
+BREW 07/26/2022 - 21:50:22 Setting variable (%ANDROID_BUILDTOOLS%) value to: "null"
+BREW 07/26/2022 - 21:50:22 Setting variable (%DATE%) value to: "26_07_2022-21_50_22"
+BREW 07/26/2022 - 21:50:22 Setting variable (%LINENUMBER_IN%) value to: "-1"
+BREW 07/26/2022 - 21:50:22 Setting variable (%LINENUMBER_IN%) value to: "-1"
+BREW 07/26/2022 - 21:50:22 Warning: Maximum memory (105 GB) specified in config file will never become available. Using maximal available memory instead: 102 GB
+BREW 07/26/2022 - 21:50:22 Timeout (Answer-Loader) set to: 60m
+BREW 07/26/2022 - 21:50:22 Starting execution of default Answer-Loader (2.0.1-SNAPSHOT). [/media/sf_brewThesis/.: Load from file: /media/sf_brewThesis/data/storage/00184.%FILE_ENDING%]
+BREW 07/26/2022 - 21:50:22 Finished execution of default Answer-Loader (2.0.1-SNAPSHOT) after 0.0 seconds. [/media/sf_brewThesis/.: Load from file: /home/fpauck/benchmarks/temp/top15/subset/2/com.sec.android.easyMover.apk]
+BREW 07/26/2022 - 21:50:22 Setting variable (%ANSWERS%) value to: "/home/fpauck/benchmarks/temp/top15/subset/2/com.sec.android.easyMover.apk"
+BREW 07/26/2022 - 21:50:22 Setting variable (%ANSWERSHASH%) value to: "18dd03135c70147ba58e841aee164bd7af460bfd3ed281978eaa85eed61c4998"
+BREW 07/26/2022 - 21:50:22 Setting variable (%ANSWERSHASH_MD5%) value to: "6b56d3a73d05a8838c130f9d700d5404"
+BREW 07/26/2022 - 21:50:22 Setting variable (%ANSWERSHASH_SHA-1%) value to: "afac23b2f6698d0e95e89d0b998697c22f6988e2"
+BREW 07/26/2022 - 21:50:22 Setting variable (%ANSWERSHASH_SHA-256%) value to: "18dd03135c70147ba58e841aee164bd7af460bfd3ed281978eaa85eed61c4998"
+BREW 07/26/2022 - 21:50:22 Timeout (DefaultSimplifyOperator~) set to: 60m
+BREW 07/26/2022 - 21:50:22
+Loaded from storage:
+SIMPLIFY~ [
+	'/home/fpauck/benchmarks/temp/top15/subset/2/com.sec.android.easyMover.apk' !
+] !
+BREW 07/26/2022 - 21:50:23 Setting variable (%APP_APK_IN%) value to: "/media/sf_brewThesis/data/storage/00007.apk"
+BREW 07/26/2022 - 21:50:23 Setting variable (%APP_APK%) value to: "/media/sf_brewThesis/data/storage/00007.apk"
+BREW 07/26/2022 - 21:50:23 Setting variable (%APP_APK_IN_FILENAME%) value to: "00007"
+BREW 07/26/2022 - 21:50:23 Setting variable (%APP_APK_FILENAME%) value to: "00007"
+BREW 07/26/2022 - 21:50:23 Setting variable (%APP_APK_IN_NAME%) value to: "easyMover"
+BREW 07/26/2022 - 21:50:23 Setting variable (%APP_APK_NAME%) value to: "easyMover"
+BREW 07/26/2022 - 21:50:23 Setting variable (%APP_APK_IN_PACKAGE%) value to: "com.sec.android.easyMover"
+BREW 07/26/2022 - 21:50:23 Setting variable (%APP_APK_PACKAGE%) value to: "com.sec.android.easyMover"
+BREW 07/26/2022 - 21:50:23 Timeout (IccTA) set to: 60m
+BREW 07/26/2022 - 21:50:23 Starting execution of internal IccTA (1). [/home/fpauck/tools/IccTA: /home/fpauck/tools/IccTA/aqlRun.sh /media/sf_brewThesis/data/storage/00007.apk 96 results/00007_result.txt]
+BREW 07/26/2022 - 21:50:23 Setting variable (%PID%) value to: "9372"
+BREW 07/26/2022 - 21:53:42 Process 9372 (IccTA) terminated sucessfully (0)
+BREW 07/26/2022 - 21:53:42 Result available: /home/fpauck/tools/IccTA/results/00007_result.txt
+BREW 07/26/2022 - 21:53:42 Finished execution of internal IccTA (1) after 199.29 seconds. [/home/fpauck/tools/IccTA: /home/fpauck/tools/IccTA/aqlRun.sh /media/sf_brewThesis/data/storage/00007.apk 96 results/00007_result.txt]
+BREW 07/26/2022 - 21:53:42 Running on exit event for the tool: IccTA (1)
+BREW 07/26/2022 - 21:53:43 Timeout-Timer (IccTA) stopped normally.
+BREW 07/26/2022 - 21:53:43 Process (9463) output: Not root! Reattempting as root...
+BREW 07/26/2022 - 21:53:43 Process (9463) output: Root! Flushing memory...
+BREW 07/26/2022 - 21:53:43 Setting variable (%RESULT_FILE%) value to: "/home/fpauck/tools/IccTA/results/00007_result.txt"
+BREW 07/26/2022 - 21:53:43 Setting variable (%APP_APK_IN_NAME%) value to: "easyMover"
+BREW 07/26/2022 - 21:53:43 Setting variable (%APP_APK_NAME%) value to: "easyMover"
+BREW 07/26/2022 - 21:53:43 Setting variable (%APP_APK_IN_FILENAME%) value to: "00007"
+BREW 07/26/2022 - 21:53:43 Setting variable (%APP_APK_FILENAME%) value to: "00007"
+BREW 07/26/2022 - 21:53:43 Setting variable (%APP_APK_IN%) value to: "/media/sf_brewThesis/data/storage/00007.apk"
+BREW 07/26/2022 - 21:53:43 Setting variable (%APP_APK%) value to: "/media/sf_brewThesis/data/storage/00007.apk"
+BREW 07/26/2022 - 21:53:43 Setting variable (%APP_APK_IN_PACKAGE%) value to: "com.sec.android.easyMover"
+BREW 07/26/2022 - 21:53:43 Setting variable (%APP_APK_PACKAGE%) value to: "com.sec.android.easyMover"
+BREW 07/26/2022 - 21:53:43 Timeout (DefaultConverter for IccTA) set to: 60m
+BREW 07/26/2022 - 21:53:43 Starting execution of default DefaultConverter for IccTA (2.0.1-SNAPSHOT). [/media/sf_brewThesis: DefaultConverter for null (2.0.1-SNAPSHOT) with { %APP_APK_IN_FILENAME% = '00007', %APP_APK_IN_NAME% = 'easyMover', %APP_APK_NAME% = 'easyMover', %APP_APK_IN% = '/media/sf_brewThesis/data/storage/00007.apk', %APP_APK_FILENAME% = '00007', %APP_APK% = '/media/sf_brewThesis/data/storage/00007.apk', %APP_APK_PACKAGE% = 'com.sec.android.easyMover', %RESULT_FILE% = '/home/fpauck/tools/IccTA/results/00007_result.txt', %LINENUMBER_IN% = '-1', %APP_APK_IN_PACKAGE% = 'com.sec.android.easyMover' }]
+BREW 07/26/2022 - 21:53:44 Storing answered task: /media/sf_brewThesis/data/storage/00182.xml [/home/fpauck/tools/IccTA/aqlRun.sh a8241616d67b6f5471367430e4252b95931c8d07a7b9752d6ef5740d39d2818b 96 results/00007_result.txt]
+BREW 07/26/2022 - 21:53:44 Finished execution of default DefaultConverter for IccTA (2.0.1-SNAPSHOT) after 1.07 seconds. [/media/sf_brewThesis: DefaultConverter for null (2.0.1-SNAPSHOT) with { %APP_APK_IN_FILENAME% = '00007', %APP_APK_IN_NAME% = 'easyMover', %APP_APK_NAME% = 'easyMover', %APP_APK_IN% = '/media/sf_brewThesis/data/storage/00007.apk', %APP_APK_FILENAME% = '00007', %APP_APK% = '/media/sf_brewThesis/data/storage/00007.apk', %APP_APK_PACKAGE% = 'com.sec.android.easyMover', %RESULT_FILE% = '/home/fpauck/tools/IccTA/results/00007_result.txt', %LINENUMBER_IN% = '-1', %APP_APK_IN_PACKAGE% = 'com.sec.android.easyMover' }]
+BREW 07/26/2022 - 21:53:44 [1;32mFinished (after 202.492s): Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/2/com.sec.android.easyMover.apk') ?[m[m
+BREW 07/26/2022 - 21:53:44
+[1m***** Answer (/media/sf_brewThesis/answers/answer_26_07_2022-21_53_44-001.xml) *****
+[m*** Flows ***
+
+[m[m
+BREW 07/26/2022 - 21:53:44
+
+
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<answer>
+    <flows/>
+</answer>
+
+
+
+
+BREW 07/26/2022 - 21:53:44 Continuing with configuration: /media/sf_webservice/config.xml (a9ee75f31fbb720aa6746ae2f72aade2)
+BREW 07/26/2022 - 21:53:45 [1;32mStarting: Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/2/com.starfinanz.mobile.android.pushtan.apk') ?[m[m
+BREW 07/26/2022 - 21:53:45 Parsed: Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/2/com.starfinanz.mobile.android.pushtan.apk') ?
+BREW 07/26/2022 - 21:53:45 Resolved: Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/2/com.starfinanz.mobile.android.pushtan.apk') ?
+BREW 07/26/2022 - 21:53:45 Transformation-rule applied: ToolSelection
+BREW 07/26/2022 - 21:53:45 Transformation-rule applied: ApplySimplifier
+BREW 07/26/2022 - 21:53:45
+Transformed:
+Flows IN App(SIMPLIFY~ [
+	'/home/fpauck/benchmarks/temp/top15/subset/2/com.starfinanz.mobile.android.pushtan.apk' !
+] !) USES 'IccTA-1' ?
+BREW 07/26/2022 - 21:53:45 Loaded storage from: /media/sf_brewThesis/data/storage/storage.ser
+BREW 07/26/2022 - 21:53:45 Setting variable (%MEMORY%) value to: "96"
+BREW 07/26/2022 - 21:53:45 Setting variable (%ANDROID_PLATFORMS%) value to: "/media/sf_sdks/platforms/"
+BREW 07/26/2022 - 21:53:45 Setting variable (%ANDROID_BUILDTOOLS%) value to: "null"
+BREW 07/26/2022 - 21:53:45 Setting variable (%DATE%) value to: "26_07_2022-21_53_45"
+BREW 07/26/2022 - 21:53:45 Setting variable (%LINENUMBER_IN%) value to: "-1"
+BREW 07/26/2022 - 21:53:45 Setting variable (%LINENUMBER_IN%) value to: "-1"
+BREW 07/26/2022 - 21:53:45 Warning: Maximum memory (105 GB) specified in config file will never become available. Using maximal available memory instead: 102 GB
+BREW 07/26/2022 - 21:53:45 Timeout (Answer-Loader) set to: 60m
+BREW 07/26/2022 - 21:53:45 Starting execution of default Answer-Loader (2.0.1-SNAPSHOT). [/media/sf_brewThesis/.: Load from file: /media/sf_brewThesis/data/storage/00188.%FILE_ENDING%]
+BREW 07/26/2022 - 21:53:45 Finished execution of default Answer-Loader (2.0.1-SNAPSHOT) after 0.0 seconds. [/media/sf_brewThesis/.: Load from file: /home/fpauck/benchmarks/temp/top15/subset/2/com.starfinanz.mobile.android.pushtan.apk]
+BREW 07/26/2022 - 21:53:45 Setting variable (%ANSWERS%) value to: "/home/fpauck/benchmarks/temp/top15/subset/2/com.starfinanz.mobile.android.pushtan.apk"
+BREW 07/26/2022 - 21:53:45 Setting variable (%ANSWERSHASH%) value to: "c307ef857e4d6c975439d35f612a3d2890c8b169e01ad5e75a0d456fb22990a8"
+BREW 07/26/2022 - 21:53:45 Setting variable (%ANSWERSHASH_MD5%) value to: "b879e79a289f0a4f4bbd819ae26d0be1"
+BREW 07/26/2022 - 21:53:45 Setting variable (%ANSWERSHASH_SHA-1%) value to: "403d02a6acda72affae4eecae5cf25efda3983b1"
+BREW 07/26/2022 - 21:53:45 Setting variable (%ANSWERSHASH_SHA-256%) value to: "c307ef857e4d6c975439d35f612a3d2890c8b169e01ad5e75a0d456fb22990a8"
+BREW 07/26/2022 - 21:53:45 Timeout (DefaultSimplifyOperator~) set to: 60m
+BREW 07/26/2022 - 21:53:45
+Loaded from storage:
+SIMPLIFY~ [
+	'/home/fpauck/benchmarks/temp/top15/subset/2/com.starfinanz.mobile.android.pushtan.apk' !
+] !
+BREW 07/26/2022 - 21:53:46 Setting variable (%APP_APK_IN%) value to: "/media/sf_brewThesis/data/storage/00011.apk"
+BREW 07/26/2022 - 21:53:46 Setting variable (%APP_APK%) value to: "/media/sf_brewThesis/data/storage/00011.apk"
+BREW 07/26/2022 - 21:53:46 Setting variable (%APP_APK_IN_FILENAME%) value to: "00011"
+BREW 07/26/2022 - 21:53:46 Setting variable (%APP_APK_FILENAME%) value to: "00011"
+BREW 07/26/2022 - 21:53:46 Setting variable (%APP_APK_IN_NAME%) value to: "pushtan"
+BREW 07/26/2022 - 21:53:46 Setting variable (%APP_APK_NAME%) value to: "pushtan"
+BREW 07/26/2022 - 21:53:46 Setting variable (%APP_APK_IN_PACKAGE%) value to: "com.starfinanz.mobile.android.pushtan"
+BREW 07/26/2022 - 21:53:46 Setting variable (%APP_APK_PACKAGE%) value to: "com.starfinanz.mobile.android.pushtan"
+BREW 07/26/2022 - 21:53:46 Timeout (IccTA) set to: 60m
+BREW 07/26/2022 - 21:53:46 Starting execution of internal IccTA (1). [/home/fpauck/tools/IccTA: /home/fpauck/tools/IccTA/aqlRun.sh /media/sf_brewThesis/data/storage/00011.apk 96 results/00011_result.txt]
+BREW 07/26/2022 - 21:53:46 Setting variable (%PID%) value to: "9497"
+BREW 07/26/2022 - 21:54:10 Process 9497 (IccTA) terminated sucessfully (0)
+BREW 07/26/2022 - 21:54:10 Result available: /home/fpauck/tools/IccTA/results/00011_result.txt
+BREW 07/26/2022 - 21:54:10 Finished execution of internal IccTA (1) after 24.67 seconds. [/home/fpauck/tools/IccTA: /home/fpauck/tools/IccTA/aqlRun.sh /media/sf_brewThesis/data/storage/00011.apk 96 results/00011_result.txt]
+BREW 07/26/2022 - 21:54:10 Running on exit event for the tool: IccTA (1)
+BREW 07/26/2022 - 21:54:10 Process (9588) output: Not root! Reattempting as root...
+BREW 07/26/2022 - 21:54:11 Timeout-Timer (IccTA) stopped normally.
+BREW 07/26/2022 - 21:54:11 Process (9588) output: Root! Flushing memory...
+BREW 07/26/2022 - 21:54:11 Setting variable (%RESULT_FILE%) value to: "/home/fpauck/tools/IccTA/results/00011_result.txt"
+BREW 07/26/2022 - 21:54:11 Setting variable (%APP_APK_IN_NAME%) value to: "pushtan"
+BREW 07/26/2022 - 21:54:11 Setting variable (%APP_APK_NAME%) value to: "pushtan"
+BREW 07/26/2022 - 21:54:11 Setting variable (%APP_APK_IN_FILENAME%) value to: "00011"
+BREW 07/26/2022 - 21:54:11 Setting variable (%APP_APK_FILENAME%) value to: "00011"
+BREW 07/26/2022 - 21:54:11 Setting variable (%APP_APK_IN%) value to: "/media/sf_brewThesis/data/storage/00011.apk"
+BREW 07/26/2022 - 21:54:11 Setting variable (%APP_APK%) value to: "/media/sf_brewThesis/data/storage/00011.apk"
+BREW 07/26/2022 - 21:54:11 Setting variable (%APP_APK_IN_PACKAGE%) value to: "com.starfinanz.mobile.android.pushtan"
+BREW 07/26/2022 - 21:54:11 Setting variable (%APP_APK_PACKAGE%) value to: "com.starfinanz.mobile.android.pushtan"
+BREW 07/26/2022 - 21:54:11 Timeout (DefaultConverter for IccTA) set to: 60m
+BREW 07/26/2022 - 21:54:11 Starting execution of default DefaultConverter for IccTA (2.0.1-SNAPSHOT). [/media/sf_brewThesis: DefaultConverter for null (2.0.1-SNAPSHOT) with { %APP_APK_IN_FILENAME% = '00011', %APP_APK_IN_NAME% = 'pushtan', %APP_APK_NAME% = 'pushtan', %APP_APK_IN% = '/media/sf_brewThesis/data/storage/00011.apk', %APP_APK_FILENAME% = '00011', %APP_APK% = '/media/sf_brewThesis/data/storage/00011.apk', %APP_APK_PACKAGE% = 'com.starfinanz.mobile.android.pushtan', %RESULT_FILE% = '/home/fpauck/tools/IccTA/results/00011_result.txt', %LINENUMBER_IN% = '-1', %APP_APK_IN_PACKAGE% = 'com.starfinanz.mobile.android.pushtan' }]
+BREW 07/26/2022 - 21:54:12 Storing answered task: /media/sf_brewThesis/data/storage/00186.xml [/home/fpauck/tools/IccTA/aqlRun.sh f4d755a1069e0fda7c8f22aaa36f29b864349821187d6cc39c881d4cf22aeb22 96 results/00011_result.txt]
+BREW 07/26/2022 - 21:54:12 Finished execution of default DefaultConverter for IccTA (2.0.1-SNAPSHOT) after 0.8 seconds. [/media/sf_brewThesis: DefaultConverter for null (2.0.1-SNAPSHOT) with { %APP_APK_IN_FILENAME% = '00011', %APP_APK_IN_NAME% = 'pushtan', %APP_APK_NAME% = 'pushtan', %APP_APK_IN% = '/media/sf_brewThesis/data/storage/00011.apk', %APP_APK_FILENAME% = '00011', %APP_APK% = '/media/sf_brewThesis/data/storage/00011.apk', %APP_APK_PACKAGE% = 'com.starfinanz.mobile.android.pushtan', %RESULT_FILE% = '/home/fpauck/tools/IccTA/results/00011_result.txt', %LINENUMBER_IN% = '-1', %APP_APK_IN_PACKAGE% = 'com.starfinanz.mobile.android.pushtan' }]
+BREW 07/26/2022 - 21:54:12 [1;32mFinished (after 27.088s): Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/2/com.starfinanz.mobile.android.pushtan.apk') ?[m[m
+BREW 07/26/2022 - 21:54:12
+[1m***** Answer (/media/sf_brewThesis/answers/answer_26_07_2022-21_54_12-001.xml) *****
+[m*** Flows ***
+
+[m[m
+BREW 07/26/2022 - 21:54:12
+
+
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<answer>
+    <flows/>
+</answer>
+
+
+
+
+BREW 07/26/2022 - 21:54:12 Continuing with configuration: /media/sf_webservice/config.xml (a9ee75f31fbb720aa6746ae2f72aade2)
+BREW 07/26/2022 - 21:54:12 [1;32mStarting: Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/2/com.zhiliaoapp.musically.apk') ?[m[m
+BREW 07/26/2022 - 21:54:12 Parsed: Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/2/com.zhiliaoapp.musically.apk') ?
+BREW 07/26/2022 - 21:54:12 Resolved: Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/2/com.zhiliaoapp.musically.apk') ?
+BREW 07/26/2022 - 21:54:12 Transformation-rule applied: ToolSelection
+BREW 07/26/2022 - 21:54:12 Transformation-rule applied: ApplySimplifier
+BREW 07/26/2022 - 21:54:12
+Transformed:
+Flows IN App(SIMPLIFY~ [
+	'/home/fpauck/benchmarks/temp/top15/subset/2/com.zhiliaoapp.musically.apk' !
+] !) USES 'IccTA-1' ?
+BREW 07/26/2022 - 21:54:13 Loaded storage from: /media/sf_brewThesis/data/storage/storage.ser
+BREW 07/26/2022 - 21:54:13 Setting variable (%MEMORY%) value to: "96"
+BREW 07/26/2022 - 21:54:13 Setting variable (%ANDROID_PLATFORMS%) value to: "/media/sf_sdks/platforms/"
+BREW 07/26/2022 - 21:54:13 Setting variable (%ANDROID_BUILDTOOLS%) value to: "null"
+BREW 07/26/2022 - 21:54:13 Setting variable (%DATE%) value to: "26_07_2022-21_54_13"
+BREW 07/26/2022 - 21:54:13 Setting variable (%LINENUMBER_IN%) value to: "-1"
+BREW 07/26/2022 - 21:54:13 Setting variable (%LINENUMBER_IN%) value to: "-1"
+BREW 07/26/2022 - 21:54:13 Warning: Maximum memory (105 GB) specified in config file will never become available. Using maximal available memory instead: 102 GB
+BREW 07/26/2022 - 21:54:13 Timeout (Answer-Loader) set to: 60m
+BREW 07/26/2022 - 21:54:13 Starting execution of default Answer-Loader (2.0.1-SNAPSHOT). [/media/sf_brewThesis/.: Load from file: /media/sf_brewThesis/data/storage/00192.%FILE_ENDING%]
+BREW 07/26/2022 - 21:54:13 Finished execution of default Answer-Loader (2.0.1-SNAPSHOT) after 0.0 seconds. [/media/sf_brewThesis/.: Load from file: /home/fpauck/benchmarks/temp/top15/subset/2/com.zhiliaoapp.musically.apk]
+BREW 07/26/2022 - 21:54:13 Setting variable (%ANSWERS%) value to: "/home/fpauck/benchmarks/temp/top15/subset/2/com.zhiliaoapp.musically.apk"
+BREW 07/26/2022 - 21:54:13 Setting variable (%ANSWERSHASH%) value to: "638df548313866b64c0011bf50a09c82d73c1e6a8d7d39af4d76b49c2c8483ce"
+BREW 07/26/2022 - 21:54:13 Setting variable (%ANSWERSHASH_MD5%) value to: "7856ca94469da14ca2834666efb98ee8"
+BREW 07/26/2022 - 21:54:13 Setting variable (%ANSWERSHASH_SHA-1%) value to: "39be365dd41e83f1506247fdc4a2f013a9f5247e"
+BREW 07/26/2022 - 21:54:13 Setting variable (%ANSWERSHASH_SHA-256%) value to: "638df548313866b64c0011bf50a09c82d73c1e6a8d7d39af4d76b49c2c8483ce"
+BREW 07/26/2022 - 21:54:13 Timeout (DefaultSimplifyOperator~) set to: 60m
+BREW 07/26/2022 - 21:54:13
+Loaded from storage:
+SIMPLIFY~ [
+	'/home/fpauck/benchmarks/temp/top15/subset/2/com.zhiliaoapp.musically.apk' !
+] !
+BREW 07/26/2022 - 21:54:14 Setting variable (%APP_APK_IN%) value to: "/media/sf_brewThesis/data/storage/00015.apk"
+BREW 07/26/2022 - 21:54:14 Setting variable (%APP_APK%) value to: "/media/sf_brewThesis/data/storage/00015.apk"
+BREW 07/26/2022 - 21:54:14 Setting variable (%APP_APK_IN_FILENAME%) value to: "00015"
+BREW 07/26/2022 - 21:54:14 Setting variable (%APP_APK_FILENAME%) value to: "00015"
+BREW 07/26/2022 - 21:54:14 Setting variable (%APP_APK_IN_NAME%) value to: "musically"
+BREW 07/26/2022 - 21:54:14 Setting variable (%APP_APK_NAME%) value to: "musically"
+BREW 07/26/2022 - 21:54:14 Setting variable (%APP_APK_IN_PACKAGE%) value to: "com.zhiliaoapp.musically"
+BREW 07/26/2022 - 21:54:14 Setting variable (%APP_APK_PACKAGE%) value to: "com.zhiliaoapp.musically"
+BREW 07/26/2022 - 21:54:14 Timeout (IccTA) set to: 60m
+BREW 07/26/2022 - 21:54:14 Starting execution of internal IccTA (1). [/home/fpauck/tools/IccTA: /home/fpauck/tools/IccTA/aqlRun.sh /media/sf_brewThesis/data/storage/00015.apk 96 results/00015_result.txt]
+BREW 07/26/2022 - 21:54:14 Setting variable (%PID%) value to: "9622"
+BREW 07/26/2022 - 21:54:45 Process 9622 (IccTA) terminated sucessfully (0)
+BREW 07/26/2022 - 21:54:45 Result available: /home/fpauck/tools/IccTA/results/00015_result.txt
+BREW 07/26/2022 - 21:54:45 Finished execution of internal IccTA (1) after 31.6 seconds. [/home/fpauck/tools/IccTA: /home/fpauck/tools/IccTA/aqlRun.sh /media/sf_brewThesis/data/storage/00015.apk 96 results/00015_result.txt]
+BREW 07/26/2022 - 21:54:45 Running on exit event for the tool: IccTA (1)
+BREW 07/26/2022 - 21:54:46 Timeout-Timer (IccTA) stopped normally.
+BREW 07/26/2022 - 21:54:46 Process (9715) output: Not root! Reattempting as root...
+BREW 07/26/2022 - 21:54:46 Process (9715) output: Root! Flushing memory...
+BREW 07/26/2022 - 21:54:46 Setting variable (%RESULT_FILE%) value to: "/home/fpauck/tools/IccTA/results/00015_result.txt"
+BREW 07/26/2022 - 21:54:46 Setting variable (%APP_APK_IN_NAME%) value to: "musically"
+BREW 07/26/2022 - 21:54:46 Setting variable (%APP_APK_NAME%) value to: "musically"
+BREW 07/26/2022 - 21:54:46 Setting variable (%APP_APK_IN_FILENAME%) value to: "00015"
+BREW 07/26/2022 - 21:54:46 Setting variable (%APP_APK_FILENAME%) value to: "00015"
+BREW 07/26/2022 - 21:54:46 Setting variable (%APP_APK_IN%) value to: "/media/sf_brewThesis/data/storage/00015.apk"
+BREW 07/26/2022 - 21:54:46 Setting variable (%APP_APK%) value to: "/media/sf_brewThesis/data/storage/00015.apk"
+BREW 07/26/2022 - 21:54:46 Setting variable (%APP_APK_IN_PACKAGE%) value to: "com.zhiliaoapp.musically"
+BREW 07/26/2022 - 21:54:46 Setting variable (%APP_APK_PACKAGE%) value to: "com.zhiliaoapp.musically"
+BREW 07/26/2022 - 21:54:46 Timeout (DefaultConverter for IccTA) set to: 60m
+BREW 07/26/2022 - 21:54:46 Starting execution of default DefaultConverter for IccTA (2.0.1-SNAPSHOT). [/media/sf_brewThesis: DefaultConverter for null (2.0.1-SNAPSHOT) with { %APP_APK_IN_FILENAME% = '00015', %APP_APK_IN_NAME% = 'musically', %APP_APK_NAME% = 'musically', %APP_APK_IN% = '/media/sf_brewThesis/data/storage/00015.apk', %APP_APK_FILENAME% = '00015', %APP_APK% = '/media/sf_brewThesis/data/storage/00015.apk', %APP_APK_PACKAGE% = 'com.zhiliaoapp.musically', %RESULT_FILE% = '/home/fpauck/tools/IccTA/results/00015_result.txt', %LINENUMBER_IN% = '-1', %APP_APK_IN_PACKAGE% = 'com.zhiliaoapp.musically' }]
+BREW 07/26/2022 - 21:54:46 Storing answered task: /media/sf_brewThesis/data/storage/00190.xml [/home/fpauck/tools/IccTA/aqlRun.sh 839683cc5ce8c587aae4ab8dfa2b28a8aa057592182c674b0a7488f1bea3456c 96 results/00015_result.txt]
+BREW 07/26/2022 - 21:54:47 Finished execution of default DefaultConverter for IccTA (2.0.1-SNAPSHOT) after 0.59 seconds. [/media/sf_brewThesis: DefaultConverter for null (2.0.1-SNAPSHOT) with { %APP_APK_IN_FILENAME% = '00015', %APP_APK_IN_NAME% = 'musically', %APP_APK_NAME% = 'musically', %APP_APK_IN% = '/media/sf_brewThesis/data/storage/00015.apk', %APP_APK_FILENAME% = '00015', %APP_APK% = '/media/sf_brewThesis/data/storage/00015.apk', %APP_APK_PACKAGE% = 'com.zhiliaoapp.musically', %RESULT_FILE% = '/home/fpauck/tools/IccTA/results/00015_result.txt', %LINENUMBER_IN% = '-1', %APP_APK_IN_PACKAGE% = 'com.zhiliaoapp.musically' }]
+BREW 07/26/2022 - 21:54:47 [1;32mFinished (after 34.122s): Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/2/com.zhiliaoapp.musically.apk') ?[m[m
+BREW 07/26/2022 - 21:54:47
+[1m***** Answer (/media/sf_brewThesis/answers/answer_26_07_2022-21_54_47-001.xml) *****
+[m*** Flows ***
+
+[m[m
+BREW 07/26/2022 - 21:54:47
+
+
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<answer>
+    <flows/>
+</answer>
+
+
+
+
+BREW 07/26/2022 - 21:54:47 Continuing with configuration: /media/sf_webservice/config.xml (a9ee75f31fbb720aa6746ae2f72aade2)
+BREW 07/26/2022 - 21:54:47 [1;32mStarting: Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/2/de.cellular.ottohybrid.apk') ?[m[m
+BREW 07/26/2022 - 21:54:47 Parsed: Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/2/de.cellular.ottohybrid.apk') ?
+BREW 07/26/2022 - 21:54:47 Resolved: Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/2/de.cellular.ottohybrid.apk') ?
+BREW 07/26/2022 - 21:54:47 Transformation-rule applied: ToolSelection
+BREW 07/26/2022 - 21:54:47 Transformation-rule applied: ApplySimplifier
+BREW 07/26/2022 - 21:54:47
+Transformed:
+Flows IN App(SIMPLIFY~ [
+	'/home/fpauck/benchmarks/temp/top15/subset/2/de.cellular.ottohybrid.apk' !
+] !) USES 'IccTA-1' ?
+BREW 07/26/2022 - 21:54:47 Loaded storage from: /media/sf_brewThesis/data/storage/storage.ser
+BREW 07/26/2022 - 21:54:47 Setting variable (%MEMORY%) value to: "96"
+BREW 07/26/2022 - 21:54:47 Setting variable (%ANDROID_PLATFORMS%) value to: "/media/sf_sdks/platforms/"
+BREW 07/26/2022 - 21:54:47 Setting variable (%ANDROID_BUILDTOOLS%) value to: "null"
+BREW 07/26/2022 - 21:54:47 Setting variable (%DATE%) value to: "26_07_2022-21_54_47"
+BREW 07/26/2022 - 21:54:47 Setting variable (%LINENUMBER_IN%) value to: "-1"
+BREW 07/26/2022 - 21:54:47 Setting variable (%LINENUMBER_IN%) value to: "-1"
+BREW 07/26/2022 - 21:54:47 Warning: Maximum memory (105 GB) specified in config file will never become available. Using maximal available memory instead: 102 GB
+BREW 07/26/2022 - 21:54:47 Timeout (Answer-Loader) set to: 60m
+BREW 07/26/2022 - 21:54:47 Starting execution of default Answer-Loader (2.0.1-SNAPSHOT). [/media/sf_brewThesis/.: Load from file: /media/sf_brewThesis/data/storage/00196.%FILE_ENDING%]
+BREW 07/26/2022 - 21:54:47 Finished execution of default Answer-Loader (2.0.1-SNAPSHOT) after 0.0 seconds. [/media/sf_brewThesis/.: Load from file: /home/fpauck/benchmarks/temp/top15/subset/2/de.cellular.ottohybrid.apk]
+BREW 07/26/2022 - 21:54:47 Setting variable (%ANSWERS%) value to: "/home/fpauck/benchmarks/temp/top15/subset/2/de.cellular.ottohybrid.apk"
+BREW 07/26/2022 - 21:54:47 Setting variable (%ANSWERSHASH%) value to: "aca94f423e1aaae3f9f0d8ab9982403fe8d8c72e0d6720484be3927c6a2b4a27"
+BREW 07/26/2022 - 21:54:47 Setting variable (%ANSWERSHASH_MD5%) value to: "8b2be8af2568e1d6a7bdace97282e69b"
+BREW 07/26/2022 - 21:54:47 Setting variable (%ANSWERSHASH_SHA-1%) value to: "24fd1958e5002c8e5c419e023f60471d99b0a24a"
+BREW 07/26/2022 - 21:54:47 Setting variable (%ANSWERSHASH_SHA-256%) value to: "aca94f423e1aaae3f9f0d8ab9982403fe8d8c72e0d6720484be3927c6a2b4a27"
+BREW 07/26/2022 - 21:54:47 Timeout (DefaultSimplifyOperator~) set to: 60m
+BREW 07/26/2022 - 21:54:47
+Loaded from storage:
+SIMPLIFY~ [
+	'/home/fpauck/benchmarks/temp/top15/subset/2/de.cellular.ottohybrid.apk' !
+] !
+BREW 07/26/2022 - 21:54:48 Setting variable (%APP_APK_IN%) value to: "/media/sf_brewThesis/data/storage/00019.apk"
+BREW 07/26/2022 - 21:54:48 Setting variable (%APP_APK%) value to: "/media/sf_brewThesis/data/storage/00019.apk"
+BREW 07/26/2022 - 21:54:48 Setting variable (%APP_APK_IN_FILENAME%) value to: "00019"
+BREW 07/26/2022 - 21:54:48 Setting variable (%APP_APK_FILENAME%) value to: "00019"
+BREW 07/26/2022 - 21:54:48 Setting variable (%APP_APK_IN_NAME%) value to: "ottohybrid"
+BREW 07/26/2022 - 21:54:48 Setting variable (%APP_APK_NAME%) value to: "ottohybrid"
+BREW 07/26/2022 - 21:54:48 Setting variable (%APP_APK_IN_PACKAGE%) value to: "de.cellular.ottohybrid"
+BREW 07/26/2022 - 21:54:48 Setting variable (%APP_APK_PACKAGE%) value to: "de.cellular.ottohybrid"
+BREW 07/26/2022 - 21:54:48 Timeout (IccTA) set to: 60m
+BREW 07/26/2022 - 21:54:48 Starting execution of internal IccTA (1). [/home/fpauck/tools/IccTA: /home/fpauck/tools/IccTA/aqlRun.sh /media/sf_brewThesis/data/storage/00019.apk 96 results/00019_result.txt]
+BREW 07/26/2022 - 21:54:48 Setting variable (%PID%) value to: "9749"
+BREW 07/26/2022 - 21:55:32 Process 9749 (IccTA) terminated sucessfully (0)
+BREW 07/26/2022 - 21:55:32 Result available: /home/fpauck/tools/IccTA/results/00019_result.txt
+BREW 07/26/2022 - 21:55:32 Finished execution of internal IccTA (1) after 44.08 seconds. [/home/fpauck/tools/IccTA: /home/fpauck/tools/IccTA/aqlRun.sh /media/sf_brewThesis/data/storage/00019.apk 96 results/00019_result.txt]
+BREW 07/26/2022 - 21:55:32 Running on exit event for the tool: IccTA (1)
+BREW 07/26/2022 - 21:55:32 Timeout-Timer (IccTA) stopped normally.
+BREW 07/26/2022 - 21:55:32 Process (9840) output: Not root! Reattempting as root...
+BREW 07/26/2022 - 21:55:32 Process (9840) output: Root! Flushing memory...
+BREW 07/26/2022 - 21:55:32 Setting variable (%RESULT_FILE%) value to: "/home/fpauck/tools/IccTA/results/00019_result.txt"
+BREW 07/26/2022 - 21:55:32 Setting variable (%APP_APK_IN_NAME%) value to: "ottohybrid"
+BREW 07/26/2022 - 21:55:32 Setting variable (%APP_APK_NAME%) value to: "ottohybrid"
+BREW 07/26/2022 - 21:55:32 Setting variable (%APP_APK_IN_FILENAME%) value to: "00019"
+BREW 07/26/2022 - 21:55:32 Setting variable (%APP_APK_FILENAME%) value to: "00019"
+BREW 07/26/2022 - 21:55:32 Setting variable (%APP_APK_IN%) value to: "/media/sf_brewThesis/data/storage/00019.apk"
+BREW 07/26/2022 - 21:55:32 Setting variable (%APP_APK%) value to: "/media/sf_brewThesis/data/storage/00019.apk"
+BREW 07/26/2022 - 21:55:32 Setting variable (%APP_APK_IN_PACKAGE%) value to: "de.cellular.ottohybrid"
+BREW 07/26/2022 - 21:55:32 Setting variable (%APP_APK_PACKAGE%) value to: "de.cellular.ottohybrid"
+BREW 07/26/2022 - 21:55:32 Timeout (DefaultConverter for IccTA) set to: 60m
+BREW 07/26/2022 - 21:55:32 Starting execution of default DefaultConverter for IccTA (2.0.1-SNAPSHOT). [/media/sf_brewThesis: DefaultConverter for null (2.0.1-SNAPSHOT) with { %APP_APK_IN_FILENAME% = '00019', %APP_APK_IN_NAME% = 'ottohybrid', %APP_APK_NAME% = 'ottohybrid', %APP_APK_IN% = '/media/sf_brewThesis/data/storage/00019.apk', %APP_APK_FILENAME% = '00019', %APP_APK% = '/media/sf_brewThesis/data/storage/00019.apk', %APP_APK_PACKAGE% = 'de.cellular.ottohybrid', %RESULT_FILE% = '/home/fpauck/tools/IccTA/results/00019_result.txt', %LINENUMBER_IN% = '-1', %APP_APK_IN_PACKAGE% = 'de.cellular.ottohybrid' }]
+BREW 07/26/2022 - 21:55:33 Storing answered task: /media/sf_brewThesis/data/storage/00194.xml [/home/fpauck/tools/IccTA/aqlRun.sh a7ce9407e0c3ff4ec189c3c77a4531f6e5195089b143e7d320f2a14bca60917e 96 results/00019_result.txt]
+BREW 07/26/2022 - 21:55:33 Finished execution of default DefaultConverter for IccTA (2.0.1-SNAPSHOT) after 0.47 seconds. [/media/sf_brewThesis: DefaultConverter for null (2.0.1-SNAPSHOT) with { %APP_APK_IN_FILENAME% = '00019', %APP_APK_IN_NAME% = 'ottohybrid', %APP_APK_NAME% = 'ottohybrid', %APP_APK_IN% = '/media/sf_brewThesis/data/storage/00019.apk', %APP_APK_FILENAME% = '00019', %APP_APK% = '/media/sf_brewThesis/data/storage/00019.apk', %APP_APK_PACKAGE% = 'de.cellular.ottohybrid', %RESULT_FILE% = '/home/fpauck/tools/IccTA/results/00019_result.txt', %LINENUMBER_IN% = '-1', %APP_APK_IN_PACKAGE% = 'de.cellular.ottohybrid' }]
+BREW 07/26/2022 - 21:55:33 [1;32mFinished (after 45.607s): Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/2/de.cellular.ottohybrid.apk') ?[m[m
+BREW 07/26/2022 - 21:55:33
+[1m***** Answer (/media/sf_brewThesis/answers/answer_26_07_2022-21_55_33-001.xml) *****
+[m*** Flows ***
+
+[m[m
+BREW 07/26/2022 - 21:55:33
+
+
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<answer>
+    <flows/>
+</answer>
+
+
+
+
+BREW 07/26/2022 - 21:55:33 Continuing with configuration: /media/sf_webservice/config.xml (a9ee75f31fbb720aa6746ae2f72aade2)
+BREW 07/26/2022 - 21:55:33 [1;32mStarting: Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/2/de.hafas.android.db.apk') ?[m[m
+BREW 07/26/2022 - 21:55:33 Parsed: Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/2/de.hafas.android.db.apk') ?
+BREW 07/26/2022 - 21:55:33 Resolved: Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/2/de.hafas.android.db.apk') ?
+BREW 07/26/2022 - 21:55:33 Transformation-rule applied: ToolSelection
+BREW 07/26/2022 - 21:55:33 Transformation-rule applied: ApplySimplifier
+BREW 07/26/2022 - 21:55:33
+Transformed:
+Flows IN App(SIMPLIFY~ [
+	'/home/fpauck/benchmarks/temp/top15/subset/2/de.hafas.android.db.apk' !
+] !) USES 'IccTA-1' ?
+BREW 07/26/2022 - 21:55:33 Loaded storage from: /media/sf_brewThesis/data/storage/storage.ser
+BREW 07/26/2022 - 21:55:33 Setting variable (%MEMORY%) value to: "96"
+BREW 07/26/2022 - 21:55:33 Setting variable (%ANDROID_PLATFORMS%) value to: "/media/sf_sdks/platforms/"
+BREW 07/26/2022 - 21:55:33 Setting variable (%ANDROID_BUILDTOOLS%) value to: "null"
+BREW 07/26/2022 - 21:55:33 Setting variable (%DATE%) value to: "26_07_2022-21_55_33"
+BREW 07/26/2022 - 21:55:33 Setting variable (%LINENUMBER_IN%) value to: "-1"
+BREW 07/26/2022 - 21:55:33 Setting variable (%LINENUMBER_IN%) value to: "-1"
+BREW 07/26/2022 - 21:55:33 Warning: Maximum memory (105 GB) specified in config file will never become available. Using maximal available memory instead: 102 GB
+BREW 07/26/2022 - 21:55:33 Timeout (Answer-Loader) set to: 60m
+BREW 07/26/2022 - 21:55:33 Starting execution of default Answer-Loader (2.0.1-SNAPSHOT). [/media/sf_brewThesis/.: Load from file: /media/sf_brewThesis/data/storage/00200.%FILE_ENDING%]
+BREW 07/26/2022 - 21:55:33 Finished execution of default Answer-Loader (2.0.1-SNAPSHOT) after 0.0 seconds. [/media/sf_brewThesis/.: Load from file: /home/fpauck/benchmarks/temp/top15/subset/2/de.hafas.android.db.apk]
+BREW 07/26/2022 - 21:55:34 Setting variable (%ANSWERS%) value to: "/home/fpauck/benchmarks/temp/top15/subset/2/de.hafas.android.db.apk"
+BREW 07/26/2022 - 21:55:34 Setting variable (%ANSWERSHASH%) value to: "9544e2963bbb845dd47b7db8fc936d8aa314309604f924210d1fc7834ad9f0b7"
+BREW 07/26/2022 - 21:55:34 Setting variable (%ANSWERSHASH_MD5%) value to: "c220553a4dc2e3444844c1ce002a8b05"
+BREW 07/26/2022 - 21:55:34 Setting variable (%ANSWERSHASH_SHA-1%) value to: "8f35221f92f2c1ce16813781bf230d9f3a7e0fdd"
+BREW 07/26/2022 - 21:55:34 Setting variable (%ANSWERSHASH_SHA-256%) value to: "9544e2963bbb845dd47b7db8fc936d8aa314309604f924210d1fc7834ad9f0b7"
+BREW 07/26/2022 - 21:55:34 Timeout (DefaultSimplifyOperator~) set to: 60m
+BREW 07/26/2022 - 21:55:35
+Loaded from storage:
+SIMPLIFY~ [
+	'/home/fpauck/benchmarks/temp/top15/subset/2/de.hafas.android.db.apk' !
+] !
+BREW 07/26/2022 - 21:55:35 Setting variable (%APP_APK_IN%) value to: "/media/sf_brewThesis/data/storage/00023.apk"
+BREW 07/26/2022 - 21:55:35 Setting variable (%APP_APK%) value to: "/media/sf_brewThesis/data/storage/00023.apk"
+BREW 07/26/2022 - 21:55:35 Setting variable (%APP_APK_IN_FILENAME%) value to: "00023"
+BREW 07/26/2022 - 21:55:35 Setting variable (%APP_APK_FILENAME%) value to: "00023"
+BREW 07/26/2022 - 21:55:35 Setting variable (%APP_APK_IN_NAME%) value to: "db"
+BREW 07/26/2022 - 21:55:35 Setting variable (%APP_APK_NAME%) value to: "db"
+BREW 07/26/2022 - 21:55:35 Setting variable (%APP_APK_IN_PACKAGE%) value to: "de.hafas.android.db"
+BREW 07/26/2022 - 21:55:35 Setting variable (%APP_APK_PACKAGE%) value to: "de.hafas.android.db"
+BREW 07/26/2022 - 21:55:36 Timeout (IccTA) set to: 60m
+BREW 07/26/2022 - 21:55:37 Starting execution of internal IccTA (1). [/home/fpauck/tools/IccTA: /home/fpauck/tools/IccTA/aqlRun.sh /media/sf_brewThesis/data/storage/00023.apk 96 results/00023_result.txt]
+BREW 07/26/2022 - 21:55:37 Setting variable (%PID%) value to: "9874"
+BREW 07/26/2022 - 21:55:55 Process 9874 (IccTA) terminated sucessfully (0)
+BREW 07/26/2022 - 21:55:55 Result available: /home/fpauck/tools/IccTA/results/00023_result.txt
+BREW 07/26/2022 - 21:55:55 Finished execution of internal IccTA (1) after 18.74 seconds. [/home/fpauck/tools/IccTA: /home/fpauck/tools/IccTA/aqlRun.sh /media/sf_brewThesis/data/storage/00023.apk 96 results/00023_result.txt]
+BREW 07/26/2022 - 21:55:55 Running on exit event for the tool: IccTA (1)
+BREW 07/26/2022 - 21:55:55 Timeout-Timer (IccTA) stopped normally.
+BREW 07/26/2022 - 21:55:55 Process (9967) output: Not root! Reattempting as root...
+BREW 07/26/2022 - 21:55:55 Process (9967) output: Root! Flushing memory...
+BREW 07/26/2022 - 21:55:55 Setting variable (%RESULT_FILE%) value to: "/home/fpauck/tools/IccTA/results/00023_result.txt"
+BREW 07/26/2022 - 21:55:55 Setting variable (%APP_APK_IN_NAME%) value to: "db"
+BREW 07/26/2022 - 21:55:55 Setting variable (%APP_APK_NAME%) value to: "db"
+BREW 07/26/2022 - 21:55:55 Setting variable (%APP_APK_IN_FILENAME%) value to: "00023"
+BREW 07/26/2022 - 21:55:55 Setting variable (%APP_APK_FILENAME%) value to: "00023"
+BREW 07/26/2022 - 21:55:55 Setting variable (%APP_APK_IN%) value to: "/media/sf_brewThesis/data/storage/00023.apk"
+BREW 07/26/2022 - 21:55:55 Setting variable (%APP_APK%) value to: "/media/sf_brewThesis/data/storage/00023.apk"
+BREW 07/26/2022 - 21:55:55 Setting variable (%APP_APK_IN_PACKAGE%) value to: "de.hafas.android.db"
+BREW 07/26/2022 - 21:55:55 Setting variable (%APP_APK_PACKAGE%) value to: "de.hafas.android.db"
+BREW 07/26/2022 - 21:55:56 Timeout (DefaultConverter for IccTA) set to: 60m
+BREW 07/26/2022 - 21:55:57 Starting execution of default DefaultConverter for IccTA (2.0.1-SNAPSHOT). [/media/sf_brewThesis: DefaultConverter for null (2.0.1-SNAPSHOT) with { %APP_APK_IN_FILENAME% = '00023', %APP_APK_IN_NAME% = 'db', %APP_APK_NAME% = 'db', %APP_APK_IN% = '/media/sf_brewThesis/data/storage/00023.apk', %APP_APK_FILENAME% = '00023', %APP_APK% = '/media/sf_brewThesis/data/storage/00023.apk', %APP_APK_PACKAGE% = 'de.hafas.android.db', %RESULT_FILE% = '/home/fpauck/tools/IccTA/results/00023_result.txt', %LINENUMBER_IN% = '-1', %APP_APK_IN_PACKAGE% = 'de.hafas.android.db' }]
+BREW 07/26/2022 - 21:55:59 Storing answered task: /media/sf_brewThesis/data/storage/00198.xml [/home/fpauck/tools/IccTA/aqlRun.sh dc0f293c4206683b610c28b7c9629c6b6e462317ff8b6b948139bae87b4303a4 96 results/00023_result.txt]
+BREW 07/26/2022 - 21:55:59 Finished execution of default DefaultConverter for IccTA (2.0.1-SNAPSHOT) after 2.89 seconds. [/media/sf_brewThesis: DefaultConverter for null (2.0.1-SNAPSHOT) with { %APP_APK_IN_FILENAME% = '00023', %APP_APK_IN_NAME% = 'db', %APP_APK_NAME% = 'db', %APP_APK_IN% = '/media/sf_brewThesis/data/storage/00023.apk', %APP_APK_FILENAME% = '00023', %APP_APK% = '/media/sf_brewThesis/data/storage/00023.apk', %APP_APK_PACKAGE% = 'de.hafas.android.db', %RESULT_FILE% = '/home/fpauck/tools/IccTA/results/00023_result.txt', %LINENUMBER_IN% = '-1', %APP_APK_IN_PACKAGE% = 'de.hafas.android.db' }]
+BREW 07/26/2022 - 21:55:59 [1;32mFinished (after 25.779s): Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/2/de.hafas.android.db.apk') ?[m[m
+BREW 07/26/2022 - 21:55:59
+[1m***** Answer (/media/sf_brewThesis/answers/answer_26_07_2022-21_55_59-001.xml) *****
+[m*** Flows ***
+
+[m[m
+BREW 07/26/2022 - 21:55:59
+
+
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<answer>
+    <flows/>
+</answer>
+
+
+
+
+BREW 07/26/2022 - 21:55:59 Continuing with configuration: /media/sf_webservice/config.xml (a9ee75f31fbb720aa6746ae2f72aade2)
+BREW 07/26/2022 - 21:56:00 [1;32mStarting: Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/2/de.komoot.android.apk') ?[m[m
+BREW 07/26/2022 - 21:56:00 Parsed: Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/2/de.komoot.android.apk') ?
+BREW 07/26/2022 - 21:56:00 Resolved: Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/2/de.komoot.android.apk') ?
+BREW 07/26/2022 - 21:56:00 Transformation-rule applied: ToolSelection
+BREW 07/26/2022 - 21:56:00 Transformation-rule applied: ApplySimplifier
+BREW 07/26/2022 - 21:56:00
+Transformed:
+Flows IN App(SIMPLIFY~ [
+	'/home/fpauck/benchmarks/temp/top15/subset/2/de.komoot.android.apk' !
+] !) USES 'IccTA-1' ?
+BREW 07/26/2022 - 21:56:00 Loaded storage from: /media/sf_brewThesis/data/storage/storage.ser
+BREW 07/26/2022 - 21:56:00 Setting variable (%MEMORY%) value to: "96"
+BREW 07/26/2022 - 21:56:00 Setting variable (%ANDROID_PLATFORMS%) value to: "/media/sf_sdks/platforms/"
+BREW 07/26/2022 - 21:56:00 Setting variable (%ANDROID_BUILDTOOLS%) value to: "null"
+BREW 07/26/2022 - 21:56:00 Setting variable (%DATE%) value to: "26_07_2022-21_56_00"
+BREW 07/26/2022 - 21:56:00 Setting variable (%LINENUMBER_IN%) value to: "-1"
+BREW 07/26/2022 - 21:56:00 Setting variable (%LINENUMBER_IN%) value to: "-1"
+BREW 07/26/2022 - 21:56:00 Warning: Maximum memory (105 GB) specified in config file will never become available. Using maximal available memory instead: 101 GB
+BREW 07/26/2022 - 21:56:00 Timeout (Answer-Loader) set to: 60m
+BREW 07/26/2022 - 21:56:00 Starting execution of default Answer-Loader (2.0.1-SNAPSHOT). [/media/sf_brewThesis/.: Load from file: /media/sf_brewThesis/data/storage/00204.%FILE_ENDING%]
+BREW 07/26/2022 - 21:56:00 Finished execution of default Answer-Loader (2.0.1-SNAPSHOT) after 0.0 seconds. [/media/sf_brewThesis/.: Load from file: /home/fpauck/benchmarks/temp/top15/subset/2/de.komoot.android.apk]
+BREW 07/26/2022 - 21:56:00 Setting variable (%ANSWERS%) value to: "/home/fpauck/benchmarks/temp/top15/subset/2/de.komoot.android.apk"
+BREW 07/26/2022 - 21:56:00 Setting variable (%ANSWERSHASH%) value to: "2b3f177564f5a1dce948ac5ea05379cf7547ac2272adcf34426dbc00be32e12a"
+BREW 07/26/2022 - 21:56:00 Setting variable (%ANSWERSHASH_MD5%) value to: "3bbee433e9bf407ec21ebc91fc2e9919"
+BREW 07/26/2022 - 21:56:00 Setting variable (%ANSWERSHASH_SHA-1%) value to: "a5deb5d1ed3b453b4aa9c52089e5928e75f3300e"
+BREW 07/26/2022 - 21:56:00 Setting variable (%ANSWERSHASH_SHA-256%) value to: "2b3f177564f5a1dce948ac5ea05379cf7547ac2272adcf34426dbc00be32e12a"
+BREW 07/26/2022 - 21:56:00 Timeout (DefaultSimplifyOperator~) set to: 60m
+BREW 07/26/2022 - 21:56:01
+Loaded from storage:
+SIMPLIFY~ [
+	'/home/fpauck/benchmarks/temp/top15/subset/2/de.komoot.android.apk' !
+] !
+BREW 07/26/2022 - 21:56:01 Setting variable (%APP_APK_IN%) value to: "/media/sf_brewThesis/data/storage/00027.apk"
+BREW 07/26/2022 - 21:56:01 Setting variable (%APP_APK%) value to: "/media/sf_brewThesis/data/storage/00027.apk"
+BREW 07/26/2022 - 21:56:01 Setting variable (%APP_APK_IN_FILENAME%) value to: "00027"
+BREW 07/26/2022 - 21:56:01 Setting variable (%APP_APK_FILENAME%) value to: "00027"
+BREW 07/26/2022 - 21:56:01 Setting variable (%APP_APK_IN_NAME%) value to: "android"
+BREW 07/26/2022 - 21:56:01 Setting variable (%APP_APK_NAME%) value to: "android"
+BREW 07/26/2022 - 21:56:01 Setting variable (%APP_APK_IN_PACKAGE%) value to: "de.komoot.android"
+BREW 07/26/2022 - 21:56:01 Setting variable (%APP_APK_PACKAGE%) value to: "de.komoot.android"
+BREW 07/26/2022 - 21:56:01 Timeout (IccTA) set to: 60m
+BREW 07/26/2022 - 21:56:02 Starting execution of internal IccTA (1). [/home/fpauck/tools/IccTA: /home/fpauck/tools/IccTA/aqlRun.sh /media/sf_brewThesis/data/storage/00027.apk 96 results/00027_result.txt]
+BREW 07/26/2022 - 21:56:02 Setting variable (%PID%) value to: "10002"
+BREW 07/26/2022 - 22:56:02 Warning: Timeout-Timer (IccTA) expired for IccTA (1)
+BREW 07/26/2022 - 22:56:02 Running on abort event for the tool: IccTA (1)
+BREW 07/26/2022 - 22:56:02 Process 10002 (IccTA) timed out!
+BREW 07/26/2022 - 22:56:02
+Error: IccTA (1) execution in "/home/fpauck/tools/IccTA" timed out:
+/home/fpauck/tools/IccTA/aqlRun.sh /media/sf_brewThesis/data/storage/00027.apk 96 results/00027_result.txt
+(TimeoutExecutionException: IccTA (1) was internally executed but timed out.)
+BREW 07/26/2022 - 22:56:02 Running on exit event for the tool: IccTA (1)
+BREW 07/26/2022 - 22:56:02 Process (10108) output: Not root! Reattempting as root...
+BREW 07/26/2022 - 22:56:02 Process (10108) output: Root! Flushing memory...
+BREW 07/26/2022 - 22:56:02 Stopping scheduler!
+BREW 07/26/2022 - 22:56:02
+Error: Canceled (after 3602.904s): Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/2/de.komoot.android.apk') ?
+Reason: Answering a part of the query timed out: Flows IN App(SIMPLIFY~ [
+	'/home/fpauck/benchmarks/temp/top15/subset/2/de.komoot.android.apk' !
+] !) USES 'IccTA-1' ?
+BREW 07/26/2022 - 22:56:03 [31mProcess (10096) error: /home/fpauck/tools/env/killpid.sh: line 24: kill: (10002) - No such process[m[m
+BREW 07/26/2022 - 22:56:03 [31mProcess (10096) error: /home/fpauck/tools/env/killpid.sh: line 24: kill: (10003) - No such process[m[m
+BREW 07/26/2022 - 22:56:03 [31mProcess (10096) error: /home/fpauck/tools/env/killpid.sh: line 24: kill: (10029) - No such process[m[m
+BREW 07/26/2022 - 22:56:03 [31mProcess (10096) error: /home/fpauck/tools/env/killpid.sh: line 24: kill: (10038) - No such process[m[m
+BREW 07/26/2022 - 22:56:03 [31mProcess (10096) error: /home/fpauck/tools/env/killpid.sh: line 24: kill: (10055) - No such process[m[m
+BREW 07/26/2022 - 22:56:05 Continuing with configuration: /media/sf_webservice/config.xml (a9ee75f31fbb720aa6746ae2f72aade2)
+BREW 07/26/2022 - 22:56:05 [1;32mStarting: Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/2/de.rki.coronawarnapp.apk') ?[m[m
+BREW 07/26/2022 - 22:56:05 Parsed: Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/2/de.rki.coronawarnapp.apk') ?
+BREW 07/26/2022 - 22:56:05 Resolved: Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/2/de.rki.coronawarnapp.apk') ?
+BREW 07/26/2022 - 22:56:05 Transformation-rule applied: ToolSelection
+BREW 07/26/2022 - 22:56:05 Transformation-rule applied: ApplySimplifier
+BREW 07/26/2022 - 22:56:05
+Transformed:
+Flows IN App(SIMPLIFY~ [
+	'/home/fpauck/benchmarks/temp/top15/subset/2/de.rki.coronawarnapp.apk' !
+] !) USES 'IccTA-1' ?
+BREW 07/26/2022 - 22:56:05 Loaded storage from: /media/sf_brewThesis/data/storage/storage.ser
+BREW 07/26/2022 - 22:56:05 Setting variable (%MEMORY%) value to: "96"
+BREW 07/26/2022 - 22:56:05 Setting variable (%ANDROID_PLATFORMS%) value to: "/media/sf_sdks/platforms/"
+BREW 07/26/2022 - 22:56:05 Setting variable (%ANDROID_BUILDTOOLS%) value to: "null"
+BREW 07/26/2022 - 22:56:05 Setting variable (%DATE%) value to: "26_07_2022-22_56_05"
+BREW 07/26/2022 - 22:56:05 Setting variable (%LINENUMBER_IN%) value to: "-1"
+BREW 07/26/2022 - 22:56:05 Setting variable (%LINENUMBER_IN%) value to: "-1"
+BREW 07/26/2022 - 22:56:05 Warning: Maximum memory (105 GB) specified in config file will never become available. Using maximal available memory instead: 102 GB
+BREW 07/26/2022 - 22:56:05 Timeout (Answer-Loader) set to: 60m
+BREW 07/26/2022 - 22:56:05 Starting execution of default Answer-Loader (2.0.1-SNAPSHOT). [/media/sf_brewThesis/.: Load from file: /media/sf_brewThesis/data/storage/00204.%FILE_ENDING%]
+BREW 07/26/2022 - 22:56:05 Finished execution of default Answer-Loader (2.0.1-SNAPSHOT) after 0.0 seconds. [/media/sf_brewThesis/.: Load from file: /home/fpauck/benchmarks/temp/top15/subset/2/de.rki.coronawarnapp.apk]
+BREW 07/26/2022 - 22:56:05 Setting variable (%ANSWERS%) value to: "/home/fpauck/benchmarks/temp/top15/subset/2/de.rki.coronawarnapp.apk"
+BREW 07/26/2022 - 22:56:05 Setting variable (%ANSWERSHASH%) value to: "df74c6b3a747c2a10427531262dfd73b1d47f20bc25da4867f95bda39b5f272e"
+BREW 07/26/2022 - 22:56:05 Setting variable (%ANSWERSHASH_MD5%) value to: "fe0400b4de861d7cf78aca179a4a64b1"
+BREW 07/26/2022 - 22:56:05 Setting variable (%ANSWERSHASH_SHA-1%) value to: "912ce485056833e125cb11b3d4ccd68a76c9b531"
+BREW 07/26/2022 - 22:56:05 Setting variable (%ANSWERSHASH_SHA-256%) value to: "df74c6b3a747c2a10427531262dfd73b1d47f20bc25da4867f95bda39b5f272e"
+BREW 07/26/2022 - 22:56:05 Timeout (DefaultSimplifyOperator~) set to: 60m
+BREW 07/26/2022 - 22:56:06
+Loaded from storage:
+SIMPLIFY~ [
+	'/home/fpauck/benchmarks/temp/top15/subset/2/de.rki.coronawarnapp.apk' !
+] !
+BREW 07/26/2022 - 22:56:06 Setting variable (%APP_APK_IN%) value to: "/media/sf_brewThesis/data/storage/00031.apk"
+BREW 07/26/2022 - 22:56:06 Setting variable (%APP_APK%) value to: "/media/sf_brewThesis/data/storage/00031.apk"
+BREW 07/26/2022 - 22:56:06 Setting variable (%APP_APK_IN_FILENAME%) value to: "00031"
+BREW 07/26/2022 - 22:56:06 Setting variable (%APP_APK_FILENAME%) value to: "00031"
+BREW 07/26/2022 - 22:56:06 Setting variable (%APP_APK_IN_NAME%) value to: "coronawarnapp"
+BREW 07/26/2022 - 22:56:06 Setting variable (%APP_APK_NAME%) value to: "coronawarnapp"
+BREW 07/26/2022 - 22:56:06 Setting variable (%APP_APK_IN_PACKAGE%) value to: "de.rki.coronawarnapp"
+BREW 07/26/2022 - 22:56:06 Setting variable (%APP_APK_PACKAGE%) value to: "de.rki.coronawarnapp"
+BREW 07/26/2022 - 22:56:06 Timeout (IccTA) set to: 60m
+BREW 07/26/2022 - 22:56:06 Starting execution of internal IccTA (1). [/home/fpauck/tools/IccTA: /home/fpauck/tools/IccTA/aqlRun.sh /media/sf_brewThesis/data/storage/00031.apk 96 results/00031_result.txt]
+BREW 07/26/2022 - 22:56:06 Setting variable (%PID%) value to: "10141"
+BREW 07/26/2022 - 22:57:43 Process 10141 (IccTA) terminated sucessfully (0)
+BREW 07/26/2022 - 22:57:43 Result available: /home/fpauck/tools/IccTA/results/00031_result.txt
+BREW 07/26/2022 - 22:57:43 Finished execution of internal IccTA (1) after 97.68 seconds. [/home/fpauck/tools/IccTA: /home/fpauck/tools/IccTA/aqlRun.sh /media/sf_brewThesis/data/storage/00031.apk 96 results/00031_result.txt]
+BREW 07/26/2022 - 22:57:43 Running on exit event for the tool: IccTA (1)
+BREW 07/26/2022 - 22:57:44 Process (10232) output: Not root! Reattempting as root...
+BREW 07/26/2022 - 22:57:44 Process (10232) output: Root! Flushing memory...
+BREW 07/26/2022 - 22:57:44 Timeout-Timer (IccTA) stopped normally.
+BREW 07/26/2022 - 22:57:44 Setting variable (%RESULT_FILE%) value to: "/home/fpauck/tools/IccTA/results/00031_result.txt"
+BREW 07/26/2022 - 22:57:44 Setting variable (%APP_APK_IN_NAME%) value to: "coronawarnapp"
+BREW 07/26/2022 - 22:57:44 Setting variable (%APP_APK_NAME%) value to: "coronawarnapp"
+BREW 07/26/2022 - 22:57:44 Setting variable (%APP_APK_IN_FILENAME%) value to: "00031"
+BREW 07/26/2022 - 22:57:44 Setting variable (%APP_APK_FILENAME%) value to: "00031"
+BREW 07/26/2022 - 22:57:44 Setting variable (%APP_APK_IN%) value to: "/media/sf_brewThesis/data/storage/00031.apk"
+BREW 07/26/2022 - 22:57:44 Setting variable (%APP_APK%) value to: "/media/sf_brewThesis/data/storage/00031.apk"
+BREW 07/26/2022 - 22:57:44 Setting variable (%APP_APK_IN_PACKAGE%) value to: "de.rki.coronawarnapp"
+BREW 07/26/2022 - 22:57:44 Setting variable (%APP_APK_PACKAGE%) value to: "de.rki.coronawarnapp"
+BREW 07/26/2022 - 22:57:44 Timeout (DefaultConverter for IccTA) set to: 60m
+BREW 07/26/2022 - 22:57:44 Starting execution of default DefaultConverter for IccTA (2.0.1-SNAPSHOT). [/media/sf_brewThesis: DefaultConverter for null (2.0.1-SNAPSHOT) with { %APP_APK_IN_FILENAME% = '00031', %APP_APK_IN_NAME% = 'coronawarnapp', %APP_APK_NAME% = 'coronawarnapp', %APP_APK_IN% = '/media/sf_brewThesis/data/storage/00031.apk', %APP_APK_FILENAME% = '00031', %APP_APK% = '/media/sf_brewThesis/data/storage/00031.apk', %APP_APK_PACKAGE% = 'de.rki.coronawarnapp', %RESULT_FILE% = '/home/fpauck/tools/IccTA/results/00031_result.txt', %LINENUMBER_IN% = '-1', %APP_APK_IN_PACKAGE% = 'de.rki.coronawarnapp' }]
+BREW 07/26/2022 - 22:57:45 Storing answered task: /media/sf_brewThesis/data/storage/00202.xml [/home/fpauck/tools/IccTA/aqlRun.sh 1d780ea183c13d64aab301d35a2abe3ac008665cf86a7f4e1aeff03119c67269 96 results/00031_result.txt]
+BREW 07/26/2022 - 22:57:45 Finished execution of default DefaultConverter for IccTA (2.0.1-SNAPSHOT) after 0.79 seconds. [/media/sf_brewThesis: DefaultConverter for null (2.0.1-SNAPSHOT) with { %APP_APK_IN_FILENAME% = '00031', %APP_APK_IN_NAME% = 'coronawarnapp', %APP_APK_NAME% = 'coronawarnapp', %APP_APK_IN% = '/media/sf_brewThesis/data/storage/00031.apk', %APP_APK_FILENAME% = '00031', %APP_APK% = '/media/sf_brewThesis/data/storage/00031.apk', %APP_APK_PACKAGE% = 'de.rki.coronawarnapp', %RESULT_FILE% = '/home/fpauck/tools/IccTA/results/00031_result.txt', %LINENUMBER_IN% = '-1', %APP_APK_IN_PACKAGE% = 'de.rki.coronawarnapp' }]
+BREW 07/26/2022 - 22:57:45 [1;32mFinished (after 100.019s): Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/2/de.rki.coronawarnapp.apk') ?[m[m
+BREW 07/26/2022 - 22:57:45
+[1m***** Answer (/media/sf_brewThesis/answers/answer_26_07_2022-22_57_45-001.xml) *****
+[m*** Flows ***
+
+[m[m
+BREW 07/26/2022 - 22:57:45
+
+
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<answer>
+    <flows/>
+</answer>
+
+
+
+
+BREW 07/26/2022 - 22:57:45 Continuing with configuration: /media/sf_webservice/config.xml (a9ee75f31fbb720aa6746ae2f72aade2)
+BREW 07/26/2022 - 22:57:46 [1;32mStarting: Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/2/org.telegram.messenger.apk') ?[m[m
+BREW 07/26/2022 - 22:57:46 Parsed: Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/2/org.telegram.messenger.apk') ?
+BREW 07/26/2022 - 22:57:46 Resolved: Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/2/org.telegram.messenger.apk') ?
+BREW 07/26/2022 - 22:57:46 Transformation-rule applied: ToolSelection
+BREW 07/26/2022 - 22:57:46 Transformation-rule applied: ApplySimplifier
+BREW 07/26/2022 - 22:57:46
+Transformed:
+Flows IN App(SIMPLIFY~ [
+	'/home/fpauck/benchmarks/temp/top15/subset/2/org.telegram.messenger.apk' !
+] !) USES 'IccTA-1' ?
+BREW 07/26/2022 - 22:57:46 Loaded storage from: /media/sf_brewThesis/data/storage/storage.ser
+BREW 07/26/2022 - 22:57:46 Setting variable (%MEMORY%) value to: "96"
+BREW 07/26/2022 - 22:57:46 Setting variable (%ANDROID_PLATFORMS%) value to: "/media/sf_sdks/platforms/"
+BREW 07/26/2022 - 22:57:46 Setting variable (%ANDROID_BUILDTOOLS%) value to: "null"
+BREW 07/26/2022 - 22:57:46 Setting variable (%DATE%) value to: "26_07_2022-22_57_46"
+BREW 07/26/2022 - 22:57:46 Setting variable (%LINENUMBER_IN%) value to: "-1"
+BREW 07/26/2022 - 22:57:46 Setting variable (%LINENUMBER_IN%) value to: "-1"
+BREW 07/26/2022 - 22:57:46 Warning: Maximum memory (105 GB) specified in config file will never become available. Using maximal available memory instead: 101 GB
+BREW 07/26/2022 - 22:57:46 Timeout (Answer-Loader) set to: 60m
+BREW 07/26/2022 - 22:57:46 Starting execution of default Answer-Loader (2.0.1-SNAPSHOT). [/media/sf_brewThesis/.: Load from file: /media/sf_brewThesis/data/storage/00208.%FILE_ENDING%]
+BREW 07/26/2022 - 22:57:46 Finished execution of default Answer-Loader (2.0.1-SNAPSHOT) after 0.0 seconds. [/media/sf_brewThesis/.: Load from file: /home/fpauck/benchmarks/temp/top15/subset/2/org.telegram.messenger.apk]
+BREW 07/26/2022 - 22:57:46 Setting variable (%ANSWERS%) value to: "/home/fpauck/benchmarks/temp/top15/subset/2/org.telegram.messenger.apk"
+BREW 07/26/2022 - 22:57:46 Setting variable (%ANSWERSHASH%) value to: "5892f9139196d90307fd5c9e1b100c7d7e6b6323bb7db403c2f4541ff3ff63c0"
+BREW 07/26/2022 - 22:57:46 Setting variable (%ANSWERSHASH_MD5%) value to: "385ced1a557659e9f49b90290dc8328c"
+BREW 07/26/2022 - 22:57:46 Setting variable (%ANSWERSHASH_SHA-1%) value to: "bd00d8d7e3ba74cc5987696c6a303ef04cc38fe6"
+BREW 07/26/2022 - 22:57:46 Setting variable (%ANSWERSHASH_SHA-256%) value to: "5892f9139196d90307fd5c9e1b100c7d7e6b6323bb7db403c2f4541ff3ff63c0"
+BREW 07/26/2022 - 22:57:46 Timeout (DefaultSimplifyOperator~) set to: 60m
+BREW 07/26/2022 - 22:57:47
+Loaded from storage:
+SIMPLIFY~ [
+	'/home/fpauck/benchmarks/temp/top15/subset/2/org.telegram.messenger.apk' !
+] !
+BREW 07/26/2022 - 22:57:47 Setting variable (%APP_APK_IN%) value to: "/media/sf_brewThesis/data/storage/00035.apk"
+BREW 07/26/2022 - 22:57:47 Setting variable (%APP_APK%) value to: "/media/sf_brewThesis/data/storage/00035.apk"
+BREW 07/26/2022 - 22:57:47 Setting variable (%APP_APK_IN_FILENAME%) value to: "00035"
+BREW 07/26/2022 - 22:57:47 Setting variable (%APP_APK_FILENAME%) value to: "00035"
+BREW 07/26/2022 - 22:57:47 Setting variable (%APP_APK_IN_NAME%) value to: "messenger"
+BREW 07/26/2022 - 22:57:47 Setting variable (%APP_APK_NAME%) value to: "messenger"
+BREW 07/26/2022 - 22:57:47 Setting variable (%APP_APK_IN_PACKAGE%) value to: "org.telegram.messenger"
+BREW 07/26/2022 - 22:57:47 Setting variable (%APP_APK_PACKAGE%) value to: "org.telegram.messenger"
+BREW 07/26/2022 - 22:57:47 Timeout (IccTA) set to: 60m
+BREW 07/26/2022 - 22:57:48 Starting execution of internal IccTA (1). [/home/fpauck/tools/IccTA: /home/fpauck/tools/IccTA/aqlRun.sh /media/sf_brewThesis/data/storage/00035.apk 96 results/00035_result.txt]
+BREW 07/26/2022 - 22:57:48 Setting variable (%PID%) value to: "10266"
+BREW 07/26/2022 - 23:00:58 Process 10266 (IccTA) terminated sucessfully (0)
+BREW 07/26/2022 - 23:00:58 Result available: /home/fpauck/tools/IccTA/results/00035_result.txt
+BREW 07/26/2022 - 23:00:58 Finished execution of internal IccTA (1) after 190.87 seconds. [/home/fpauck/tools/IccTA: /home/fpauck/tools/IccTA/aqlRun.sh /media/sf_brewThesis/data/storage/00035.apk 96 results/00035_result.txt]
+BREW 07/26/2022 - 23:00:58 Running on exit event for the tool: IccTA (1)
+BREW 07/26/2022 - 23:00:59 Timeout-Timer (IccTA) stopped normally.
+BREW 07/26/2022 - 23:00:59 Process (10356) output: Not root! Reattempting as root...
+BREW 07/26/2022 - 23:00:59 Process (10356) output: Root! Flushing memory...
+BREW 07/26/2022 - 23:00:59 Setting variable (%RESULT_FILE%) value to: "/home/fpauck/tools/IccTA/results/00035_result.txt"
+BREW 07/26/2022 - 23:00:59 Setting variable (%APP_APK_IN_NAME%) value to: "messenger"
+BREW 07/26/2022 - 23:00:59 Setting variable (%APP_APK_NAME%) value to: "messenger"
+BREW 07/26/2022 - 23:00:59 Setting variable (%APP_APK_IN_FILENAME%) value to: "00035"
+BREW 07/26/2022 - 23:00:59 Setting variable (%APP_APK_FILENAME%) value to: "00035"
+BREW 07/26/2022 - 23:00:59 Setting variable (%APP_APK_IN%) value to: "/media/sf_brewThesis/data/storage/00035.apk"
+BREW 07/26/2022 - 23:00:59 Setting variable (%APP_APK%) value to: "/media/sf_brewThesis/data/storage/00035.apk"
+BREW 07/26/2022 - 23:00:59 Setting variable (%APP_APK_IN_PACKAGE%) value to: "org.telegram.messenger"
+BREW 07/26/2022 - 23:00:59 Setting variable (%APP_APK_PACKAGE%) value to: "org.telegram.messenger"
+BREW 07/26/2022 - 23:00:59 Timeout (DefaultConverter for IccTA) set to: 60m
+BREW 07/26/2022 - 23:00:59 Starting execution of default DefaultConverter for IccTA (2.0.1-SNAPSHOT). [/media/sf_brewThesis: DefaultConverter for null (2.0.1-SNAPSHOT) with { %APP_APK_IN_FILENAME% = '00035', %APP_APK_IN_NAME% = 'messenger', %APP_APK_NAME% = 'messenger', %APP_APK_IN% = '/media/sf_brewThesis/data/storage/00035.apk', %APP_APK_FILENAME% = '00035', %APP_APK% = '/media/sf_brewThesis/data/storage/00035.apk', %APP_APK_PACKAGE% = 'org.telegram.messenger', %RESULT_FILE% = '/home/fpauck/tools/IccTA/results/00035_result.txt', %LINENUMBER_IN% = '-1', %APP_APK_IN_PACKAGE% = 'org.telegram.messenger' }]
+BREW 07/26/2022 - 23:01:00 Storing answered task: /media/sf_brewThesis/data/storage/00206.xml [/home/fpauck/tools/IccTA/aqlRun.sh 4094d598950ae687a72cb5e2b01026bd5b31052b38dd2be109b1ba5f829017cc 96 results/00035_result.txt]
+BREW 07/26/2022 - 23:01:00 Finished execution of default DefaultConverter for IccTA (2.0.1-SNAPSHOT) after 1.4 seconds. [/media/sf_brewThesis: DefaultConverter for null (2.0.1-SNAPSHOT) with { %APP_APK_IN_FILENAME% = '00035', %APP_APK_IN_NAME% = 'messenger', %APP_APK_NAME% = 'messenger', %APP_APK_IN% = '/media/sf_brewThesis/data/storage/00035.apk', %APP_APK_FILENAME% = '00035', %APP_APK% = '/media/sf_brewThesis/data/storage/00035.apk', %APP_APK_PACKAGE% = 'org.telegram.messenger', %RESULT_FILE% = '/home/fpauck/tools/IccTA/results/00035_result.txt', %LINENUMBER_IN% = '-1', %APP_APK_IN_PACKAGE% = 'org.telegram.messenger' }]
+BREW 07/26/2022 - 23:01:00 [1;32mFinished (after 194.89s): Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/2/org.telegram.messenger.apk') ?[m[m
+BREW 07/26/2022 - 23:01:00
+[1m***** Answer (/media/sf_brewThesis/answers/answer_26_07_2022-23_01_00-001.xml) *****
+[m*** Flows ***
+
+[m[m
+BREW 07/26/2022 - 23:01:00
+
+
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<answer>
+    <flows/>
+</answer>
+
+
+
+

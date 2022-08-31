@@ -1,0 +1,711 @@
+BREW 07/26/2022 - 20:52:37 Continuing with configuration: /media/sf_webservice/config.xml (a9ee75f31fbb720aa6746ae2f72aade2)
+BREW 07/26/2022 - 20:52:37 [1;32mStarting: Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/2/com.paypal.android.p2pmobile.apk') ?[m[m
+BREW 07/26/2022 - 20:52:37 Parsed: Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/2/com.paypal.android.p2pmobile.apk') ?
+BREW 07/26/2022 - 20:52:37 Resolved: Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/2/com.paypal.android.p2pmobile.apk') ?
+BREW 07/26/2022 - 20:52:37 Transformation-rule applied: ToolSelection
+BREW 07/26/2022 - 20:52:37 Transformation-rule applied: ApplySimplifier
+BREW 07/26/2022 - 20:52:37
+Transformed:
+Flows IN App(SIMPLIFY~ [
+	'/home/fpauck/benchmarks/temp/top15/subset/2/com.paypal.android.p2pmobile.apk' !
+] !) USES 'DIALDroid' ?
+BREW 07/26/2022 - 20:52:37 Loaded storage from: /media/sf_brewThesis/data/storage/storage.ser
+BREW 07/26/2022 - 20:52:37 Setting variable (%MEMORY%) value to: "96"
+BREW 07/26/2022 - 20:52:37 Setting variable (%ANDROID_PLATFORMS%) value to: "/media/sf_sdks/platforms/"
+BREW 07/26/2022 - 20:52:37 Setting variable (%ANDROID_BUILDTOOLS%) value to: "null"
+BREW 07/26/2022 - 20:52:37 Setting variable (%DATE%) value to: "26_07_2022-20_52_37"
+BREW 07/26/2022 - 20:52:37 Setting variable (%LINENUMBER_IN%) value to: "-1"
+BREW 07/26/2022 - 20:52:37 Setting variable (%LINENUMBER_IN%) value to: "-1"
+BREW 07/26/2022 - 20:52:37 Warning: Maximum memory (105 GB) specified in config file will never become available. Using maximal available memory instead: 102 GB
+BREW 07/26/2022 - 20:52:37 Timeout (Answer-Loader) set to: 60m
+BREW 07/26/2022 - 20:52:37 Starting execution of default Answer-Loader (2.0.1-SNAPSHOT). [/media/sf_brewThesis/.: Load from file: /media/sf_brewThesis/data/storage/00072.%FILE_ENDING%]
+BREW 07/26/2022 - 20:52:37 Finished execution of default Answer-Loader (2.0.1-SNAPSHOT) after 0.0 seconds. [/media/sf_brewThesis/.: Load from file: /home/fpauck/benchmarks/temp/top15/subset/2/com.paypal.android.p2pmobile.apk]
+BREW 07/26/2022 - 20:52:38 Setting variable (%ANSWERS%) value to: "/home/fpauck/benchmarks/temp/top15/subset/2/com.paypal.android.p2pmobile.apk"
+BREW 07/26/2022 - 20:52:38 Setting variable (%ANSWERSHASH%) value to: "60389617347c01867a0a86c4ccb44ea09e78cd8fc8a7ee9b8fa440101d6949cd"
+BREW 07/26/2022 - 20:52:38 Setting variable (%ANSWERSHASH_MD5%) value to: "75e2196edff9c38aed68beae4725cc68"
+BREW 07/26/2022 - 20:52:38 Setting variable (%ANSWERSHASH_SHA-1%) value to: "961d2d6f62dbd5d9e5b768e0cd2202ec38d849cb"
+BREW 07/26/2022 - 20:52:38 Setting variable (%ANSWERSHASH_SHA-256%) value to: "60389617347c01867a0a86c4ccb44ea09e78cd8fc8a7ee9b8fa440101d6949cd"
+BREW 07/26/2022 - 20:52:38 Timeout (DefaultSimplifyOperator~) set to: 60m
+BREW 07/26/2022 - 20:52:38
+Loaded from storage:
+SIMPLIFY~ [
+	'/home/fpauck/benchmarks/temp/top15/subset/2/com.paypal.android.p2pmobile.apk' !
+] !
+BREW 07/26/2022 - 20:52:38 Setting variable (%APP_APK_IN%) value to: "/media/sf_brewThesis/data/storage/00003.apk"
+BREW 07/26/2022 - 20:52:38 Setting variable (%APP_APK%) value to: "/media/sf_brewThesis/data/storage/00003.apk"
+BREW 07/26/2022 - 20:52:38 Setting variable (%APP_APK_IN_FILENAME%) value to: "00003"
+BREW 07/26/2022 - 20:52:38 Setting variable (%APP_APK_FILENAME%) value to: "00003"
+BREW 07/26/2022 - 20:52:38 Setting variable (%APP_APK_IN_NAME%) value to: "p2pmobile"
+BREW 07/26/2022 - 20:52:38 Setting variable (%APP_APK_NAME%) value to: "p2pmobile"
+BREW 07/26/2022 - 20:52:38 Setting variable (%APP_APK_IN_PACKAGE%) value to: "com.paypal.android.p2pmobile"
+BREW 07/26/2022 - 20:52:38 Setting variable (%APP_APK_PACKAGE%) value to: "com.paypal.android.p2pmobile"
+BREW 07/26/2022 - 20:52:38 Running on entry event for the tool: DIALDroid (09-2017-intra)
+BREW 07/26/2022 - 20:52:43 Timeout (DIALDroid) set to: 60m
+BREW 07/26/2022 - 20:52:43 Starting execution of internal DIALDroid (09-2017-intra). [/home/fpauck/tools/DIALDroid/build: /home/fpauck/tools/DIALDroid/build/aqlRun.sh /media/sf_brewThesis/data/storage/00003.apk /media/sf_brewThesis/data/storage/00003.apk results/00003_00003.log 96]
+BREW 07/26/2022 - 20:52:43 Setting variable (%PID%) value to: "5653"
+BREW 07/26/2022 - 20:52:53 Process 5653 (DIALDroid) terminated sucessfully (0)
+BREW 07/26/2022 - 20:52:53 Result available: /home/fpauck/tools/DIALDroid/build/results/00003_00003.log
+BREW 07/26/2022 - 20:52:53 Finished execution of internal DIALDroid (09-2017-intra) after 9.66 seconds. [/home/fpauck/tools/DIALDroid/build: /home/fpauck/tools/DIALDroid/build/aqlRun.sh /media/sf_brewThesis/data/storage/00003.apk /media/sf_brewThesis/data/storage/00003.apk results/00003_00003.log 96]
+BREW 07/26/2022 - 20:52:53 Running on exit event for the tool: DIALDroid (09-2017-intra)
+BREW 07/26/2022 - 20:52:53 Process (5690) output: Not root! Reattempting as root...
+BREW 07/26/2022 - 20:52:53 Timeout-Timer (DIALDroid) stopped normally.
+BREW 07/26/2022 - 20:52:53 Process (5690) output: Root! Flushing memory...
+BREW 07/26/2022 - 20:52:53 Setting variable (%RESULT_FILE%) value to: "/home/fpauck/tools/DIALDroid/build/results/00003_00003.log"
+BREW 07/26/2022 - 20:52:53 Setting variable (%APP_APK_IN_NAME%) value to: "p2pmobile"
+BREW 07/26/2022 - 20:52:53 Setting variable (%APP_APK_NAME%) value to: "p2pmobile"
+BREW 07/26/2022 - 20:52:53 Setting variable (%APP_APK_IN_FILENAME%) value to: "00003"
+BREW 07/26/2022 - 20:52:53 Setting variable (%APP_APK_FILENAME%) value to: "00003"
+BREW 07/26/2022 - 20:52:53 Setting variable (%APP_APK_IN%) value to: "/media/sf_brewThesis/data/storage/00003.apk"
+BREW 07/26/2022 - 20:52:53 Setting variable (%APP_APK%) value to: "/media/sf_brewThesis/data/storage/00003.apk"
+BREW 07/26/2022 - 20:52:53 Setting variable (%APP_APK_IN_PACKAGE%) value to: "com.paypal.android.p2pmobile"
+BREW 07/26/2022 - 20:52:53 Setting variable (%APP_APK_PACKAGE%) value to: "com.paypal.android.p2pmobile"
+BREW 07/26/2022 - 20:52:53 Timeout (DefaultConverter for DIALDroid) set to: 60m
+BREW 07/26/2022 - 20:52:54 Starting execution of default DefaultConverter for DIALDroid (2.0.1-SNAPSHOT). [/media/sf_brewThesis: DefaultConverter for null (2.0.1-SNAPSHOT) with { %APP_APK_IN_FILENAME% = '00003', %APP_APK_IN_NAME% = 'p2pmobile', %APP_APK_NAME% = 'p2pmobile', %APP_APK_IN% = '/media/sf_brewThesis/data/storage/00003.apk', %APP_APK_FILENAME% = '00003', %APP_APK% = '/media/sf_brewThesis/data/storage/00003.apk', %APP_APK_PACKAGE% = 'com.paypal.android.p2pmobile', %RESULT_FILE% = '/home/fpauck/tools/DIALDroid/build/results/00003_00003.log', %LINENUMBER_IN% = '-1', %APP_APK_IN_PACKAGE% = 'com.paypal.android.p2pmobile' }]
+BREW 07/26/2022 - 20:52:54 Storing answered task: /media/sf_brewThesis/data/storage/00070.xml [/home/fpauck/tools/DIALDroid/build/aqlRun.sh 1027cdc03b0a42a2c2a4484f32951a6beaaaf14f23e70e47787b55ffa43cbc36 1027cdc03b0a42a2c2a4484f32951a6beaaaf14f23e70e47787b55ffa43cbc36 results/00003_00003.log 96]
+BREW 07/26/2022 - 20:52:55 Finished execution of default DefaultConverter for DIALDroid (2.0.1-SNAPSHOT) after 1.17 seconds. [/media/sf_brewThesis: DefaultConverter for null (2.0.1-SNAPSHOT) with { %APP_APK_IN_FILENAME% = '00003', %APP_APK_IN_NAME% = 'p2pmobile', %APP_APK_NAME% = 'p2pmobile', %APP_APK_IN% = '/media/sf_brewThesis/data/storage/00003.apk', %APP_APK_FILENAME% = '00003', %APP_APK% = '/media/sf_brewThesis/data/storage/00003.apk', %APP_APK_PACKAGE% = 'com.paypal.android.p2pmobile', %RESULT_FILE% = '/home/fpauck/tools/DIALDroid/build/results/00003_00003.log', %LINENUMBER_IN% = '-1', %APP_APK_IN_PACKAGE% = 'com.paypal.android.p2pmobile' }]
+BREW 07/26/2022 - 20:52:55 [1;32mFinished (after 17.48s): Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/2/com.paypal.android.p2pmobile.apk') ?[m[m
+BREW 07/26/2022 - 20:52:55
+[1m***** Answer (/media/sf_brewThesis/answers/answer_26_07_2022-20_52_55-001.xml) *****
+[m[m[m
+BREW 07/26/2022 - 20:52:55
+
+
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<answer/>
+
+
+
+
+BREW 07/26/2022 - 20:52:55 Continuing with configuration: /media/sf_webservice/config.xml (a9ee75f31fbb720aa6746ae2f72aade2)
+BREW 07/26/2022 - 20:52:55 [1;32mStarting: Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/2/com.sec.android.easyMover.apk') ?[m[m
+BREW 07/26/2022 - 20:52:55 Parsed: Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/2/com.sec.android.easyMover.apk') ?
+BREW 07/26/2022 - 20:52:55 Resolved: Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/2/com.sec.android.easyMover.apk') ?
+BREW 07/26/2022 - 20:52:55 Transformation-rule applied: ToolSelection
+BREW 07/26/2022 - 20:52:55 Transformation-rule applied: ApplySimplifier
+BREW 07/26/2022 - 20:52:55
+Transformed:
+Flows IN App(SIMPLIFY~ [
+	'/home/fpauck/benchmarks/temp/top15/subset/2/com.sec.android.easyMover.apk' !
+] !) USES 'DIALDroid' ?
+BREW 07/26/2022 - 20:52:55 Loaded storage from: /media/sf_brewThesis/data/storage/storage.ser
+BREW 07/26/2022 - 20:52:55 Setting variable (%MEMORY%) value to: "96"
+BREW 07/26/2022 - 20:52:55 Setting variable (%ANDROID_PLATFORMS%) value to: "/media/sf_sdks/platforms/"
+BREW 07/26/2022 - 20:52:55 Setting variable (%ANDROID_BUILDTOOLS%) value to: "null"
+BREW 07/26/2022 - 20:52:55 Setting variable (%DATE%) value to: "26_07_2022-20_52_55"
+BREW 07/26/2022 - 20:52:55 Setting variable (%LINENUMBER_IN%) value to: "-1"
+BREW 07/26/2022 - 20:52:55 Setting variable (%LINENUMBER_IN%) value to: "-1"
+BREW 07/26/2022 - 20:52:55 Warning: Maximum memory (105 GB) specified in config file will never become available. Using maximal available memory instead: 102 GB
+BREW 07/26/2022 - 20:52:55 Timeout (Answer-Loader) set to: 60m
+BREW 07/26/2022 - 20:52:55 Starting execution of default Answer-Loader (2.0.1-SNAPSHOT). [/media/sf_brewThesis/.: Load from file: /media/sf_brewThesis/data/storage/00076.%FILE_ENDING%]
+BREW 07/26/2022 - 20:52:55 Finished execution of default Answer-Loader (2.0.1-SNAPSHOT) after 0.0 seconds. [/media/sf_brewThesis/.: Load from file: /home/fpauck/benchmarks/temp/top15/subset/2/com.sec.android.easyMover.apk]
+BREW 07/26/2022 - 20:52:56 Setting variable (%ANSWERS%) value to: "/home/fpauck/benchmarks/temp/top15/subset/2/com.sec.android.easyMover.apk"
+BREW 07/26/2022 - 20:52:56 Setting variable (%ANSWERSHASH%) value to: "18dd03135c70147ba58e841aee164bd7af460bfd3ed281978eaa85eed61c4998"
+BREW 07/26/2022 - 20:52:56 Setting variable (%ANSWERSHASH_MD5%) value to: "6b56d3a73d05a8838c130f9d700d5404"
+BREW 07/26/2022 - 20:52:56 Setting variable (%ANSWERSHASH_SHA-1%) value to: "afac23b2f6698d0e95e89d0b998697c22f6988e2"
+BREW 07/26/2022 - 20:52:56 Setting variable (%ANSWERSHASH_SHA-256%) value to: "18dd03135c70147ba58e841aee164bd7af460bfd3ed281978eaa85eed61c4998"
+BREW 07/26/2022 - 20:52:56 Timeout (DefaultSimplifyOperator~) set to: 60m
+BREW 07/26/2022 - 20:52:56
+Loaded from storage:
+SIMPLIFY~ [
+	'/home/fpauck/benchmarks/temp/top15/subset/2/com.sec.android.easyMover.apk' !
+] !
+BREW 07/26/2022 - 20:52:56 Setting variable (%APP_APK_IN%) value to: "/media/sf_brewThesis/data/storage/00007.apk"
+BREW 07/26/2022 - 20:52:56 Setting variable (%APP_APK%) value to: "/media/sf_brewThesis/data/storage/00007.apk"
+BREW 07/26/2022 - 20:52:56 Setting variable (%APP_APK_IN_FILENAME%) value to: "00007"
+BREW 07/26/2022 - 20:52:56 Setting variable (%APP_APK_FILENAME%) value to: "00007"
+BREW 07/26/2022 - 20:52:56 Setting variable (%APP_APK_IN_NAME%) value to: "easyMover"
+BREW 07/26/2022 - 20:52:56 Setting variable (%APP_APK_NAME%) value to: "easyMover"
+BREW 07/26/2022 - 20:52:56 Setting variable (%APP_APK_IN_PACKAGE%) value to: "com.sec.android.easyMover"
+BREW 07/26/2022 - 20:52:56 Setting variable (%APP_APK_PACKAGE%) value to: "com.sec.android.easyMover"
+BREW 07/26/2022 - 20:52:57 Running on entry event for the tool: DIALDroid (09-2017-intra)
+BREW 07/26/2022 - 20:53:01 Timeout (DIALDroid) set to: 60m
+BREW 07/26/2022 - 20:53:01 Starting execution of internal DIALDroid (09-2017-intra). [/home/fpauck/tools/DIALDroid/build: /home/fpauck/tools/DIALDroid/build/aqlRun.sh /media/sf_brewThesis/data/storage/00007.apk /media/sf_brewThesis/data/storage/00007.apk results/00007_00007.log 96]
+BREW 07/26/2022 - 20:53:01 Setting variable (%PID%) value to: "5733"
+BREW 07/26/2022 - 20:53:10 Process 5733 (DIALDroid) terminated sucessfully (0)
+BREW 07/26/2022 - 20:53:10 Result available: /home/fpauck/tools/DIALDroid/build/results/00007_00007.log
+BREW 07/26/2022 - 20:53:10 Finished execution of internal DIALDroid (09-2017-intra) after 8.71 seconds. [/home/fpauck/tools/DIALDroid/build: /home/fpauck/tools/DIALDroid/build/aqlRun.sh /media/sf_brewThesis/data/storage/00007.apk /media/sf_brewThesis/data/storage/00007.apk results/00007_00007.log 96]
+BREW 07/26/2022 - 20:53:10 Running on exit event for the tool: DIALDroid (09-2017-intra)
+BREW 07/26/2022 - 20:53:10 Timeout-Timer (DIALDroid) stopped normally.
+BREW 07/26/2022 - 20:53:10 Process (5770) output: Not root! Reattempting as root...
+BREW 07/26/2022 - 20:53:10 Process (5770) output: Root! Flushing memory...
+BREW 07/26/2022 - 20:53:10 Setting variable (%RESULT_FILE%) value to: "/home/fpauck/tools/DIALDroid/build/results/00007_00007.log"
+BREW 07/26/2022 - 20:53:10 Setting variable (%APP_APK_IN_NAME%) value to: "easyMover"
+BREW 07/26/2022 - 20:53:10 Setting variable (%APP_APK_NAME%) value to: "easyMover"
+BREW 07/26/2022 - 20:53:10 Setting variable (%APP_APK_IN_FILENAME%) value to: "00007"
+BREW 07/26/2022 - 20:53:10 Setting variable (%APP_APK_FILENAME%) value to: "00007"
+BREW 07/26/2022 - 20:53:10 Setting variable (%APP_APK_IN%) value to: "/media/sf_brewThesis/data/storage/00007.apk"
+BREW 07/26/2022 - 20:53:10 Setting variable (%APP_APK%) value to: "/media/sf_brewThesis/data/storage/00007.apk"
+BREW 07/26/2022 - 20:53:10 Setting variable (%APP_APK_IN_PACKAGE%) value to: "com.sec.android.easyMover"
+BREW 07/26/2022 - 20:53:10 Setting variable (%APP_APK_PACKAGE%) value to: "com.sec.android.easyMover"
+BREW 07/26/2022 - 20:53:11 Timeout (DefaultConverter for DIALDroid) set to: 60m
+BREW 07/26/2022 - 20:53:11 Starting execution of default DefaultConverter for DIALDroid (2.0.1-SNAPSHOT). [/media/sf_brewThesis: DefaultConverter for null (2.0.1-SNAPSHOT) with { %APP_APK_IN_FILENAME% = '00007', %APP_APK_IN_NAME% = 'easyMover', %APP_APK_NAME% = 'easyMover', %APP_APK_IN% = '/media/sf_brewThesis/data/storage/00007.apk', %APP_APK_FILENAME% = '00007', %APP_APK% = '/media/sf_brewThesis/data/storage/00007.apk', %APP_APK_PACKAGE% = 'com.sec.android.easyMover', %RESULT_FILE% = '/home/fpauck/tools/DIALDroid/build/results/00007_00007.log', %LINENUMBER_IN% = '-1', %APP_APK_IN_PACKAGE% = 'com.sec.android.easyMover' }]
+BREW 07/26/2022 - 20:53:12 Storing answered task: /media/sf_brewThesis/data/storage/00074.xml [/home/fpauck/tools/DIALDroid/build/aqlRun.sh a8241616d67b6f5471367430e4252b95931c8d07a7b9752d6ef5740d39d2818b a8241616d67b6f5471367430e4252b95931c8d07a7b9752d6ef5740d39d2818b results/00007_00007.log 96]
+BREW 07/26/2022 - 20:53:12 Finished execution of default DefaultConverter for DIALDroid (2.0.1-SNAPSHOT) after 1.43 seconds. [/media/sf_brewThesis: DefaultConverter for null (2.0.1-SNAPSHOT) with { %APP_APK_IN_FILENAME% = '00007', %APP_APK_IN_NAME% = 'easyMover', %APP_APK_NAME% = 'easyMover', %APP_APK_IN% = '/media/sf_brewThesis/data/storage/00007.apk', %APP_APK_FILENAME% = '00007', %APP_APK% = '/media/sf_brewThesis/data/storage/00007.apk', %APP_APK_PACKAGE% = 'com.sec.android.easyMover', %RESULT_FILE% = '/home/fpauck/tools/DIALDroid/build/results/00007_00007.log', %LINENUMBER_IN% = '-1', %APP_APK_IN_PACKAGE% = 'com.sec.android.easyMover' }]
+BREW 07/26/2022 - 20:53:12 [1;32mFinished (after 16.844s): Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/2/com.sec.android.easyMover.apk') ?[m[m
+BREW 07/26/2022 - 20:53:12
+[1m***** Answer (/media/sf_brewThesis/answers/answer_26_07_2022-20_53_12-001.xml) *****
+[m[m[m
+BREW 07/26/2022 - 20:53:12
+
+
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<answer/>
+
+
+
+
+BREW 07/26/2022 - 20:53:12 Continuing with configuration: /media/sf_webservice/config.xml (a9ee75f31fbb720aa6746ae2f72aade2)
+BREW 07/26/2022 - 20:53:13 [1;32mStarting: Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/2/com.starfinanz.mobile.android.pushtan.apk') ?[m[m
+BREW 07/26/2022 - 20:53:13 Parsed: Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/2/com.starfinanz.mobile.android.pushtan.apk') ?
+BREW 07/26/2022 - 20:53:13 Resolved: Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/2/com.starfinanz.mobile.android.pushtan.apk') ?
+BREW 07/26/2022 - 20:53:13 Transformation-rule applied: ToolSelection
+BREW 07/26/2022 - 20:53:13 Transformation-rule applied: ApplySimplifier
+BREW 07/26/2022 - 20:53:13
+Transformed:
+Flows IN App(SIMPLIFY~ [
+	'/home/fpauck/benchmarks/temp/top15/subset/2/com.starfinanz.mobile.android.pushtan.apk' !
+] !) USES 'DIALDroid' ?
+BREW 07/26/2022 - 20:53:13 Loaded storage from: /media/sf_brewThesis/data/storage/storage.ser
+BREW 07/26/2022 - 20:53:13 Setting variable (%MEMORY%) value to: "96"
+BREW 07/26/2022 - 20:53:13 Setting variable (%ANDROID_PLATFORMS%) value to: "/media/sf_sdks/platforms/"
+BREW 07/26/2022 - 20:53:13 Setting variable (%ANDROID_BUILDTOOLS%) value to: "null"
+BREW 07/26/2022 - 20:53:13 Setting variable (%DATE%) value to: "26_07_2022-20_53_13"
+BREW 07/26/2022 - 20:53:13 Setting variable (%LINENUMBER_IN%) value to: "-1"
+BREW 07/26/2022 - 20:53:13 Setting variable (%LINENUMBER_IN%) value to: "-1"
+BREW 07/26/2022 - 20:53:13 Warning: Maximum memory (105 GB) specified in config file will never become available. Using maximal available memory instead: 102 GB
+BREW 07/26/2022 - 20:53:13 Timeout (Answer-Loader) set to: 60m
+BREW 07/26/2022 - 20:53:13 Starting execution of default Answer-Loader (2.0.1-SNAPSHOT). [/media/sf_brewThesis/.: Load from file: /media/sf_brewThesis/data/storage/00080.%FILE_ENDING%]
+BREW 07/26/2022 - 20:53:13 Finished execution of default Answer-Loader (2.0.1-SNAPSHOT) after 0.0 seconds. [/media/sf_brewThesis/.: Load from file: /home/fpauck/benchmarks/temp/top15/subset/2/com.starfinanz.mobile.android.pushtan.apk]
+BREW 07/26/2022 - 20:53:13 Setting variable (%ANSWERS%) value to: "/home/fpauck/benchmarks/temp/top15/subset/2/com.starfinanz.mobile.android.pushtan.apk"
+BREW 07/26/2022 - 20:53:13 Setting variable (%ANSWERSHASH%) value to: "c307ef857e4d6c975439d35f612a3d2890c8b169e01ad5e75a0d456fb22990a8"
+BREW 07/26/2022 - 20:53:13 Setting variable (%ANSWERSHASH_MD5%) value to: "b879e79a289f0a4f4bbd819ae26d0be1"
+BREW 07/26/2022 - 20:53:13 Setting variable (%ANSWERSHASH_SHA-1%) value to: "403d02a6acda72affae4eecae5cf25efda3983b1"
+BREW 07/26/2022 - 20:53:13 Setting variable (%ANSWERSHASH_SHA-256%) value to: "c307ef857e4d6c975439d35f612a3d2890c8b169e01ad5e75a0d456fb22990a8"
+BREW 07/26/2022 - 20:53:13 Timeout (DefaultSimplifyOperator~) set to: 60m
+BREW 07/26/2022 - 20:53:13
+Loaded from storage:
+SIMPLIFY~ [
+	'/home/fpauck/benchmarks/temp/top15/subset/2/com.starfinanz.mobile.android.pushtan.apk' !
+] !
+BREW 07/26/2022 - 20:53:13 Setting variable (%APP_APK_IN%) value to: "/media/sf_brewThesis/data/storage/00011.apk"
+BREW 07/26/2022 - 20:53:13 Setting variable (%APP_APK%) value to: "/media/sf_brewThesis/data/storage/00011.apk"
+BREW 07/26/2022 - 20:53:13 Setting variable (%APP_APK_IN_FILENAME%) value to: "00011"
+BREW 07/26/2022 - 20:53:13 Setting variable (%APP_APK_FILENAME%) value to: "00011"
+BREW 07/26/2022 - 20:53:13 Setting variable (%APP_APK_IN_NAME%) value to: "pushtan"
+BREW 07/26/2022 - 20:53:13 Setting variable (%APP_APK_NAME%) value to: "pushtan"
+BREW 07/26/2022 - 20:53:13 Setting variable (%APP_APK_IN_PACKAGE%) value to: "com.starfinanz.mobile.android.pushtan"
+BREW 07/26/2022 - 20:53:13 Setting variable (%APP_APK_PACKAGE%) value to: "com.starfinanz.mobile.android.pushtan"
+BREW 07/26/2022 - 20:53:13 Running on entry event for the tool: DIALDroid (09-2017-intra)
+BREW 07/26/2022 - 20:53:18 Timeout (DIALDroid) set to: 60m
+BREW 07/26/2022 - 20:53:18 Starting execution of internal DIALDroid (09-2017-intra). [/home/fpauck/tools/DIALDroid/build: /home/fpauck/tools/DIALDroid/build/aqlRun.sh /media/sf_brewThesis/data/storage/00011.apk /media/sf_brewThesis/data/storage/00011.apk results/00011_00011.log 96]
+BREW 07/26/2022 - 20:53:18 Setting variable (%PID%) value to: "5811"
+BREW 07/26/2022 - 20:53:35 Process 5811 (DIALDroid) terminated sucessfully (0)
+BREW 07/26/2022 - 20:53:35 Result available: /home/fpauck/tools/DIALDroid/build/results/00011_00011.log
+BREW 07/26/2022 - 20:53:35 Finished execution of internal DIALDroid (09-2017-intra) after 16.62 seconds. [/home/fpauck/tools/DIALDroid/build: /home/fpauck/tools/DIALDroid/build/aqlRun.sh /media/sf_brewThesis/data/storage/00011.apk /media/sf_brewThesis/data/storage/00011.apk results/00011_00011.log 96]
+BREW 07/26/2022 - 20:53:35 Running on exit event for the tool: DIALDroid (09-2017-intra)
+BREW 07/26/2022 - 20:53:35 Timeout-Timer (DIALDroid) stopped normally.
+BREW 07/26/2022 - 20:53:35 Process (5855) output: Not root! Reattempting as root...
+BREW 07/26/2022 - 20:53:35 Process (5855) output: Root! Flushing memory...
+BREW 07/26/2022 - 20:53:35 Setting variable (%RESULT_FILE%) value to: "/home/fpauck/tools/DIALDroid/build/results/00011_00011.log"
+BREW 07/26/2022 - 20:53:35 Setting variable (%APP_APK_IN_NAME%) value to: "pushtan"
+BREW 07/26/2022 - 20:53:35 Setting variable (%APP_APK_NAME%) value to: "pushtan"
+BREW 07/26/2022 - 20:53:35 Setting variable (%APP_APK_IN_FILENAME%) value to: "00011"
+BREW 07/26/2022 - 20:53:35 Setting variable (%APP_APK_FILENAME%) value to: "00011"
+BREW 07/26/2022 - 20:53:35 Setting variable (%APP_APK_IN%) value to: "/media/sf_brewThesis/data/storage/00011.apk"
+BREW 07/26/2022 - 20:53:35 Setting variable (%APP_APK%) value to: "/media/sf_brewThesis/data/storage/00011.apk"
+BREW 07/26/2022 - 20:53:35 Setting variable (%APP_APK_IN_PACKAGE%) value to: "com.starfinanz.mobile.android.pushtan"
+BREW 07/26/2022 - 20:53:35 Setting variable (%APP_APK_PACKAGE%) value to: "com.starfinanz.mobile.android.pushtan"
+BREW 07/26/2022 - 20:53:35 Timeout (DefaultConverter for DIALDroid) set to: 60m
+BREW 07/26/2022 - 20:53:35 Starting execution of default DefaultConverter for DIALDroid (2.0.1-SNAPSHOT). [/media/sf_brewThesis: DefaultConverter for null (2.0.1-SNAPSHOT) with { %APP_APK_IN_FILENAME% = '00011', %APP_APK_IN_NAME% = 'pushtan', %APP_APK_NAME% = 'pushtan', %APP_APK_IN% = '/media/sf_brewThesis/data/storage/00011.apk', %APP_APK_FILENAME% = '00011', %APP_APK% = '/media/sf_brewThesis/data/storage/00011.apk', %APP_APK_PACKAGE% = 'com.starfinanz.mobile.android.pushtan', %RESULT_FILE% = '/home/fpauck/tools/DIALDroid/build/results/00011_00011.log', %LINENUMBER_IN% = '-1', %APP_APK_IN_PACKAGE% = 'com.starfinanz.mobile.android.pushtan' }]
+BREW 07/26/2022 - 20:53:36 Storing answered task: /media/sf_brewThesis/data/storage/00078.xml [/home/fpauck/tools/DIALDroid/build/aqlRun.sh f4d755a1069e0fda7c8f22aaa36f29b864349821187d6cc39c881d4cf22aeb22 f4d755a1069e0fda7c8f22aaa36f29b864349821187d6cc39c881d4cf22aeb22 results/00011_00011.log 96]
+BREW 07/26/2022 - 20:53:36 Finished execution of default DefaultConverter for DIALDroid (2.0.1-SNAPSHOT) after 0.99 seconds. [/media/sf_brewThesis: DefaultConverter for null (2.0.1-SNAPSHOT) with { %APP_APK_IN_FILENAME% = '00011', %APP_APK_IN_NAME% = 'pushtan', %APP_APK_NAME% = 'pushtan', %APP_APK_IN% = '/media/sf_brewThesis/data/storage/00011.apk', %APP_APK_FILENAME% = '00011', %APP_APK% = '/media/sf_brewThesis/data/storage/00011.apk', %APP_APK_PACKAGE% = 'com.starfinanz.mobile.android.pushtan', %RESULT_FILE% = '/home/fpauck/tools/DIALDroid/build/results/00011_00011.log', %LINENUMBER_IN% = '-1', %APP_APK_IN_PACKAGE% = 'com.starfinanz.mobile.android.pushtan' }]
+BREW 07/26/2022 - 20:53:36 [1;32mFinished (after 23.753s): Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/2/com.starfinanz.mobile.android.pushtan.apk') ?[m[m
+BREW 07/26/2022 - 20:53:36
+[1m***** Answer (/media/sf_brewThesis/answers/answer_26_07_2022-20_53_36-001.xml) *****
+[m[m[m
+BREW 07/26/2022 - 20:53:36
+
+
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<answer/>
+
+
+
+
+BREW 07/26/2022 - 20:53:37 Continuing with configuration: /media/sf_webservice/config.xml (a9ee75f31fbb720aa6746ae2f72aade2)
+BREW 07/26/2022 - 20:53:37 [1;32mStarting: Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/2/com.zhiliaoapp.musically.apk') ?[m[m
+BREW 07/26/2022 - 20:53:37 Parsed: Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/2/com.zhiliaoapp.musically.apk') ?
+BREW 07/26/2022 - 20:53:37 Resolved: Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/2/com.zhiliaoapp.musically.apk') ?
+BREW 07/26/2022 - 20:53:37 Transformation-rule applied: ToolSelection
+BREW 07/26/2022 - 20:53:37 Transformation-rule applied: ApplySimplifier
+BREW 07/26/2022 - 20:53:37
+Transformed:
+Flows IN App(SIMPLIFY~ [
+	'/home/fpauck/benchmarks/temp/top15/subset/2/com.zhiliaoapp.musically.apk' !
+] !) USES 'DIALDroid' ?
+BREW 07/26/2022 - 20:53:37 Loaded storage from: /media/sf_brewThesis/data/storage/storage.ser
+BREW 07/26/2022 - 20:53:37 Setting variable (%MEMORY%) value to: "96"
+BREW 07/26/2022 - 20:53:37 Setting variable (%ANDROID_PLATFORMS%) value to: "/media/sf_sdks/platforms/"
+BREW 07/26/2022 - 20:53:37 Setting variable (%ANDROID_BUILDTOOLS%) value to: "null"
+BREW 07/26/2022 - 20:53:37 Setting variable (%DATE%) value to: "26_07_2022-20_53_37"
+BREW 07/26/2022 - 20:53:37 Setting variable (%LINENUMBER_IN%) value to: "-1"
+BREW 07/26/2022 - 20:53:37 Setting variable (%LINENUMBER_IN%) value to: "-1"
+BREW 07/26/2022 - 20:53:37 Warning: Maximum memory (105 GB) specified in config file will never become available. Using maximal available memory instead: 102 GB
+BREW 07/26/2022 - 20:53:37 Timeout (Answer-Loader) set to: 60m
+BREW 07/26/2022 - 20:53:37 Starting execution of default Answer-Loader (2.0.1-SNAPSHOT). [/media/sf_brewThesis/.: Load from file: /media/sf_brewThesis/data/storage/00084.%FILE_ENDING%]
+BREW 07/26/2022 - 20:53:37 Finished execution of default Answer-Loader (2.0.1-SNAPSHOT) after 0.0 seconds. [/media/sf_brewThesis/.: Load from file: /home/fpauck/benchmarks/temp/top15/subset/2/com.zhiliaoapp.musically.apk]
+BREW 07/26/2022 - 20:53:37 Setting variable (%ANSWERS%) value to: "/home/fpauck/benchmarks/temp/top15/subset/2/com.zhiliaoapp.musically.apk"
+BREW 07/26/2022 - 20:53:37 Setting variable (%ANSWERSHASH%) value to: "638df548313866b64c0011bf50a09c82d73c1e6a8d7d39af4d76b49c2c8483ce"
+BREW 07/26/2022 - 20:53:37 Setting variable (%ANSWERSHASH_MD5%) value to: "7856ca94469da14ca2834666efb98ee8"
+BREW 07/26/2022 - 20:53:37 Setting variable (%ANSWERSHASH_SHA-1%) value to: "39be365dd41e83f1506247fdc4a2f013a9f5247e"
+BREW 07/26/2022 - 20:53:37 Setting variable (%ANSWERSHASH_SHA-256%) value to: "638df548313866b64c0011bf50a09c82d73c1e6a8d7d39af4d76b49c2c8483ce"
+BREW 07/26/2022 - 20:53:38 Timeout (DefaultSimplifyOperator~) set to: 60m
+BREW 07/26/2022 - 20:53:38
+Loaded from storage:
+SIMPLIFY~ [
+	'/home/fpauck/benchmarks/temp/top15/subset/2/com.zhiliaoapp.musically.apk' !
+] !
+BREW 07/26/2022 - 20:53:38 Setting variable (%APP_APK_IN%) value to: "/media/sf_brewThesis/data/storage/00015.apk"
+BREW 07/26/2022 - 20:53:38 Setting variable (%APP_APK%) value to: "/media/sf_brewThesis/data/storage/00015.apk"
+BREW 07/26/2022 - 20:53:38 Setting variable (%APP_APK_IN_FILENAME%) value to: "00015"
+BREW 07/26/2022 - 20:53:38 Setting variable (%APP_APK_FILENAME%) value to: "00015"
+BREW 07/26/2022 - 20:53:38 Setting variable (%APP_APK_IN_NAME%) value to: "musically"
+BREW 07/26/2022 - 20:53:38 Setting variable (%APP_APK_NAME%) value to: "musically"
+BREW 07/26/2022 - 20:53:38 Setting variable (%APP_APK_IN_PACKAGE%) value to: "com.zhiliaoapp.musically"
+BREW 07/26/2022 - 20:53:38 Setting variable (%APP_APK_PACKAGE%) value to: "com.zhiliaoapp.musically"
+BREW 07/26/2022 - 20:53:38 Running on entry event for the tool: DIALDroid (09-2017-intra)
+BREW 07/26/2022 - 20:53:42 Timeout (DIALDroid) set to: 60m
+BREW 07/26/2022 - 20:53:42 Starting execution of internal DIALDroid (09-2017-intra). [/home/fpauck/tools/DIALDroid/build: /home/fpauck/tools/DIALDroid/build/aqlRun.sh /media/sf_brewThesis/data/storage/00015.apk /media/sf_brewThesis/data/storage/00015.apk results/00015_00015.log 96]
+BREW 07/26/2022 - 20:53:42 Setting variable (%PID%) value to: "5896"
+BREW 07/26/2022 - 20:54:03 Process 5896 (DIALDroid) terminated sucessfully (0)
+BREW 07/26/2022 - 20:54:03 Result available: /home/fpauck/tools/DIALDroid/build/results/00015_00015.log
+BREW 07/26/2022 - 20:54:03 Finished execution of internal DIALDroid (09-2017-intra) after 20.57 seconds. [/home/fpauck/tools/DIALDroid/build: /home/fpauck/tools/DIALDroid/build/aqlRun.sh /media/sf_brewThesis/data/storage/00015.apk /media/sf_brewThesis/data/storage/00015.apk results/00015_00015.log 96]
+BREW 07/26/2022 - 20:54:03 Running on exit event for the tool: DIALDroid (09-2017-intra)
+BREW 07/26/2022 - 20:54:03 Timeout-Timer (DIALDroid) stopped normally.
+BREW 07/26/2022 - 20:54:03 Process (5940) output: Not root! Reattempting as root...
+BREW 07/26/2022 - 20:54:03 Process (5940) output: Root! Flushing memory...
+BREW 07/26/2022 - 20:54:03 Setting variable (%RESULT_FILE%) value to: "/home/fpauck/tools/DIALDroid/build/results/00015_00015.log"
+BREW 07/26/2022 - 20:54:03 Setting variable (%APP_APK_IN_NAME%) value to: "musically"
+BREW 07/26/2022 - 20:54:03 Setting variable (%APP_APK_NAME%) value to: "musically"
+BREW 07/26/2022 - 20:54:03 Setting variable (%APP_APK_IN_FILENAME%) value to: "00015"
+BREW 07/26/2022 - 20:54:03 Setting variable (%APP_APK_FILENAME%) value to: "00015"
+BREW 07/26/2022 - 20:54:03 Setting variable (%APP_APK_IN%) value to: "/media/sf_brewThesis/data/storage/00015.apk"
+BREW 07/26/2022 - 20:54:03 Setting variable (%APP_APK%) value to: "/media/sf_brewThesis/data/storage/00015.apk"
+BREW 07/26/2022 - 20:54:03 Setting variable (%APP_APK_IN_PACKAGE%) value to: "com.zhiliaoapp.musically"
+BREW 07/26/2022 - 20:54:03 Setting variable (%APP_APK_PACKAGE%) value to: "com.zhiliaoapp.musically"
+BREW 07/26/2022 - 20:54:03 Timeout (DefaultConverter for DIALDroid) set to: 60m
+BREW 07/26/2022 - 20:54:03 Starting execution of default DefaultConverter for DIALDroid (2.0.1-SNAPSHOT). [/media/sf_brewThesis: DefaultConverter for null (2.0.1-SNAPSHOT) with { %APP_APK_IN_FILENAME% = '00015', %APP_APK_IN_NAME% = 'musically', %APP_APK_NAME% = 'musically', %APP_APK_IN% = '/media/sf_brewThesis/data/storage/00015.apk', %APP_APK_FILENAME% = '00015', %APP_APK% = '/media/sf_brewThesis/data/storage/00015.apk', %APP_APK_PACKAGE% = 'com.zhiliaoapp.musically', %RESULT_FILE% = '/home/fpauck/tools/DIALDroid/build/results/00015_00015.log', %LINENUMBER_IN% = '-1', %APP_APK_IN_PACKAGE% = 'com.zhiliaoapp.musically' }]
+BREW 07/26/2022 - 20:54:04 Storing answered task: /media/sf_brewThesis/data/storage/00082.xml [/home/fpauck/tools/DIALDroid/build/aqlRun.sh 839683cc5ce8c587aae4ab8dfa2b28a8aa057592182c674b0a7488f1bea3456c 839683cc5ce8c587aae4ab8dfa2b28a8aa057592182c674b0a7488f1bea3456c results/00015_00015.log 96]
+BREW 07/26/2022 - 20:54:04 Finished execution of default DefaultConverter for DIALDroid (2.0.1-SNAPSHOT) after 0.71 seconds. [/media/sf_brewThesis: DefaultConverter for null (2.0.1-SNAPSHOT) with { %APP_APK_IN_FILENAME% = '00015', %APP_APK_IN_NAME% = 'musically', %APP_APK_NAME% = 'musically', %APP_APK_IN% = '/media/sf_brewThesis/data/storage/00015.apk', %APP_APK_FILENAME% = '00015', %APP_APK% = '/media/sf_brewThesis/data/storage/00015.apk', %APP_APK_PACKAGE% = 'com.zhiliaoapp.musically', %RESULT_FILE% = '/home/fpauck/tools/DIALDroid/build/results/00015_00015.log', %LINENUMBER_IN% = '-1', %APP_APK_IN_PACKAGE% = 'com.zhiliaoapp.musically' }]
+BREW 07/26/2022 - 20:54:04 [1;32mFinished (after 27.205s): Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/2/com.zhiliaoapp.musically.apk') ?[m[m
+BREW 07/26/2022 - 20:54:04
+[1m***** Answer (/media/sf_brewThesis/answers/answer_26_07_2022-20_54_04-001.xml) *****
+[m[m[m
+BREW 07/26/2022 - 20:54:04
+
+
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<answer/>
+
+
+
+
+BREW 07/26/2022 - 20:54:04 Continuing with configuration: /media/sf_webservice/config.xml (a9ee75f31fbb720aa6746ae2f72aade2)
+BREW 07/26/2022 - 20:54:05 [1;32mStarting: Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/2/de.cellular.ottohybrid.apk') ?[m[m
+BREW 07/26/2022 - 20:54:05 Parsed: Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/2/de.cellular.ottohybrid.apk') ?
+BREW 07/26/2022 - 20:54:05 Resolved: Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/2/de.cellular.ottohybrid.apk') ?
+BREW 07/26/2022 - 20:54:05 Transformation-rule applied: ToolSelection
+BREW 07/26/2022 - 20:54:05 Transformation-rule applied: ApplySimplifier
+BREW 07/26/2022 - 20:54:05
+Transformed:
+Flows IN App(SIMPLIFY~ [
+	'/home/fpauck/benchmarks/temp/top15/subset/2/de.cellular.ottohybrid.apk' !
+] !) USES 'DIALDroid' ?
+BREW 07/26/2022 - 20:54:05 Loaded storage from: /media/sf_brewThesis/data/storage/storage.ser
+BREW 07/26/2022 - 20:54:05 Setting variable (%MEMORY%) value to: "96"
+BREW 07/26/2022 - 20:54:05 Setting variable (%ANDROID_PLATFORMS%) value to: "/media/sf_sdks/platforms/"
+BREW 07/26/2022 - 20:54:05 Setting variable (%ANDROID_BUILDTOOLS%) value to: "null"
+BREW 07/26/2022 - 20:54:05 Setting variable (%DATE%) value to: "26_07_2022-20_54_05"
+BREW 07/26/2022 - 20:54:05 Setting variable (%LINENUMBER_IN%) value to: "-1"
+BREW 07/26/2022 - 20:54:05 Setting variable (%LINENUMBER_IN%) value to: "-1"
+BREW 07/26/2022 - 20:54:05 Warning: Maximum memory (105 GB) specified in config file will never become available. Using maximal available memory instead: 102 GB
+BREW 07/26/2022 - 20:54:05 Timeout (Answer-Loader) set to: 60m
+BREW 07/26/2022 - 20:54:05 Starting execution of default Answer-Loader (2.0.1-SNAPSHOT). [/media/sf_brewThesis/.: Load from file: /media/sf_brewThesis/data/storage/00088.%FILE_ENDING%]
+BREW 07/26/2022 - 20:54:05 Finished execution of default Answer-Loader (2.0.1-SNAPSHOT) after 0.0 seconds. [/media/sf_brewThesis/.: Load from file: /home/fpauck/benchmarks/temp/top15/subset/2/de.cellular.ottohybrid.apk]
+BREW 07/26/2022 - 20:54:05 Setting variable (%ANSWERS%) value to: "/home/fpauck/benchmarks/temp/top15/subset/2/de.cellular.ottohybrid.apk"
+BREW 07/26/2022 - 20:54:05 Setting variable (%ANSWERSHASH%) value to: "aca94f423e1aaae3f9f0d8ab9982403fe8d8c72e0d6720484be3927c6a2b4a27"
+BREW 07/26/2022 - 20:54:05 Setting variable (%ANSWERSHASH_MD5%) value to: "8b2be8af2568e1d6a7bdace97282e69b"
+BREW 07/26/2022 - 20:54:05 Setting variable (%ANSWERSHASH_SHA-1%) value to: "24fd1958e5002c8e5c419e023f60471d99b0a24a"
+BREW 07/26/2022 - 20:54:05 Setting variable (%ANSWERSHASH_SHA-256%) value to: "aca94f423e1aaae3f9f0d8ab9982403fe8d8c72e0d6720484be3927c6a2b4a27"
+BREW 07/26/2022 - 20:54:05 Timeout (DefaultSimplifyOperator~) set to: 60m
+BREW 07/26/2022 - 20:54:05
+Loaded from storage:
+SIMPLIFY~ [
+	'/home/fpauck/benchmarks/temp/top15/subset/2/de.cellular.ottohybrid.apk' !
+] !
+BREW 07/26/2022 - 20:54:05 Setting variable (%APP_APK_IN%) value to: "/media/sf_brewThesis/data/storage/00019.apk"
+BREW 07/26/2022 - 20:54:05 Setting variable (%APP_APK%) value to: "/media/sf_brewThesis/data/storage/00019.apk"
+BREW 07/26/2022 - 20:54:05 Setting variable (%APP_APK_IN_FILENAME%) value to: "00019"
+BREW 07/26/2022 - 20:54:05 Setting variable (%APP_APK_FILENAME%) value to: "00019"
+BREW 07/26/2022 - 20:54:05 Setting variable (%APP_APK_IN_NAME%) value to: "ottohybrid"
+BREW 07/26/2022 - 20:54:05 Setting variable (%APP_APK_NAME%) value to: "ottohybrid"
+BREW 07/26/2022 - 20:54:05 Setting variable (%APP_APK_IN_PACKAGE%) value to: "de.cellular.ottohybrid"
+BREW 07/26/2022 - 20:54:05 Setting variable (%APP_APK_PACKAGE%) value to: "de.cellular.ottohybrid"
+BREW 07/26/2022 - 20:54:05 Running on entry event for the tool: DIALDroid (09-2017-intra)
+BREW 07/26/2022 - 20:54:10 Timeout (DIALDroid) set to: 60m
+BREW 07/26/2022 - 20:54:10 Starting execution of internal DIALDroid (09-2017-intra). [/home/fpauck/tools/DIALDroid/build: /home/fpauck/tools/DIALDroid/build/aqlRun.sh /media/sf_brewThesis/data/storage/00019.apk /media/sf_brewThesis/data/storage/00019.apk results/00019_00019.log 96]
+BREW 07/26/2022 - 20:54:10 Setting variable (%PID%) value to: "5981"
+BREW 07/26/2022 - 20:54:22 Process 5981 (DIALDroid) terminated sucessfully (0)
+BREW 07/26/2022 - 20:54:22 Result available: /home/fpauck/tools/DIALDroid/build/results/00019_00019.log
+BREW 07/26/2022 - 20:54:22 Finished execution of internal DIALDroid (09-2017-intra) after 12.54 seconds. [/home/fpauck/tools/DIALDroid/build: /home/fpauck/tools/DIALDroid/build/aqlRun.sh /media/sf_brewThesis/data/storage/00019.apk /media/sf_brewThesis/data/storage/00019.apk results/00019_00019.log 96]
+BREW 07/26/2022 - 20:54:22 Running on exit event for the tool: DIALDroid (09-2017-intra)
+BREW 07/26/2022 - 20:54:23 Timeout-Timer (DIALDroid) stopped normally.
+BREW 07/26/2022 - 20:54:23 Process (6018) output: Not root! Reattempting as root...
+BREW 07/26/2022 - 20:54:23 Process (6018) output: Root! Flushing memory...
+BREW 07/26/2022 - 20:54:23 Setting variable (%RESULT_FILE%) value to: "/home/fpauck/tools/DIALDroid/build/results/00019_00019.log"
+BREW 07/26/2022 - 20:54:23 Setting variable (%APP_APK_IN_NAME%) value to: "ottohybrid"
+BREW 07/26/2022 - 20:54:23 Setting variable (%APP_APK_NAME%) value to: "ottohybrid"
+BREW 07/26/2022 - 20:54:23 Setting variable (%APP_APK_IN_FILENAME%) value to: "00019"
+BREW 07/26/2022 - 20:54:23 Setting variable (%APP_APK_FILENAME%) value to: "00019"
+BREW 07/26/2022 - 20:54:23 Setting variable (%APP_APK_IN%) value to: "/media/sf_brewThesis/data/storage/00019.apk"
+BREW 07/26/2022 - 20:54:23 Setting variable (%APP_APK%) value to: "/media/sf_brewThesis/data/storage/00019.apk"
+BREW 07/26/2022 - 20:54:23 Setting variable (%APP_APK_IN_PACKAGE%) value to: "de.cellular.ottohybrid"
+BREW 07/26/2022 - 20:54:23 Setting variable (%APP_APK_PACKAGE%) value to: "de.cellular.ottohybrid"
+BREW 07/26/2022 - 20:54:23 Timeout (DefaultConverter for DIALDroid) set to: 60m
+BREW 07/26/2022 - 20:54:23 Starting execution of default DefaultConverter for DIALDroid (2.0.1-SNAPSHOT). [/media/sf_brewThesis: DefaultConverter for null (2.0.1-SNAPSHOT) with { %APP_APK_IN_FILENAME% = '00019', %APP_APK_IN_NAME% = 'ottohybrid', %APP_APK_NAME% = 'ottohybrid', %APP_APK_IN% = '/media/sf_brewThesis/data/storage/00019.apk', %APP_APK_FILENAME% = '00019', %APP_APK% = '/media/sf_brewThesis/data/storage/00019.apk', %APP_APK_PACKAGE% = 'de.cellular.ottohybrid', %RESULT_FILE% = '/home/fpauck/tools/DIALDroid/build/results/00019_00019.log', %LINENUMBER_IN% = '-1', %APP_APK_IN_PACKAGE% = 'de.cellular.ottohybrid' }]
+BREW 07/26/2022 - 20:54:23 Storing answered task: /media/sf_brewThesis/data/storage/00086.xml [/home/fpauck/tools/DIALDroid/build/aqlRun.sh a7ce9407e0c3ff4ec189c3c77a4531f6e5195089b143e7d320f2a14bca60917e a7ce9407e0c3ff4ec189c3c77a4531f6e5195089b143e7d320f2a14bca60917e results/00019_00019.log 96]
+BREW 07/26/2022 - 20:54:23 Finished execution of default DefaultConverter for DIALDroid (2.0.1-SNAPSHOT) after 0.5 seconds. [/media/sf_brewThesis: DefaultConverter for null (2.0.1-SNAPSHOT) with { %APP_APK_IN_FILENAME% = '00019', %APP_APK_IN_NAME% = 'ottohybrid', %APP_APK_NAME% = 'ottohybrid', %APP_APK_IN% = '/media/sf_brewThesis/data/storage/00019.apk', %APP_APK_FILENAME% = '00019', %APP_APK% = '/media/sf_brewThesis/data/storage/00019.apk', %APP_APK_PACKAGE% = 'de.cellular.ottohybrid', %RESULT_FILE% = '/home/fpauck/tools/DIALDroid/build/results/00019_00019.log', %LINENUMBER_IN% = '-1', %APP_APK_IN_PACKAGE% = 'de.cellular.ottohybrid' }]
+BREW 07/26/2022 - 20:54:23 [1;32mFinished (after 18.786s): Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/2/de.cellular.ottohybrid.apk') ?[m[m
+BREW 07/26/2022 - 20:54:23
+[1m***** Answer (/media/sf_brewThesis/answers/answer_26_07_2022-20_54_23-001.xml) *****
+[m[m[m
+BREW 07/26/2022 - 20:54:23
+
+
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<answer/>
+
+
+
+
+BREW 07/26/2022 - 20:54:24 Continuing with configuration: /media/sf_webservice/config.xml (a9ee75f31fbb720aa6746ae2f72aade2)
+BREW 07/26/2022 - 20:54:24 [1;32mStarting: Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/2/de.hafas.android.db.apk') ?[m[m
+BREW 07/26/2022 - 20:54:24 Parsed: Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/2/de.hafas.android.db.apk') ?
+BREW 07/26/2022 - 20:54:24 Resolved: Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/2/de.hafas.android.db.apk') ?
+BREW 07/26/2022 - 20:54:24 Transformation-rule applied: ToolSelection
+BREW 07/26/2022 - 20:54:24 Transformation-rule applied: ApplySimplifier
+BREW 07/26/2022 - 20:54:24
+Transformed:
+Flows IN App(SIMPLIFY~ [
+	'/home/fpauck/benchmarks/temp/top15/subset/2/de.hafas.android.db.apk' !
+] !) USES 'DIALDroid' ?
+BREW 07/26/2022 - 20:54:24 Loaded storage from: /media/sf_brewThesis/data/storage/storage.ser
+BREW 07/26/2022 - 20:54:24 Setting variable (%MEMORY%) value to: "96"
+BREW 07/26/2022 - 20:54:24 Setting variable (%ANDROID_PLATFORMS%) value to: "/media/sf_sdks/platforms/"
+BREW 07/26/2022 - 20:54:24 Setting variable (%ANDROID_BUILDTOOLS%) value to: "null"
+BREW 07/26/2022 - 20:54:24 Setting variable (%DATE%) value to: "26_07_2022-20_54_24"
+BREW 07/26/2022 - 20:54:24 Setting variable (%LINENUMBER_IN%) value to: "-1"
+BREW 07/26/2022 - 20:54:24 Setting variable (%LINENUMBER_IN%) value to: "-1"
+BREW 07/26/2022 - 20:54:24 Warning: Maximum memory (105 GB) specified in config file will never become available. Using maximal available memory instead: 102 GB
+BREW 07/26/2022 - 20:54:24 Timeout (Answer-Loader) set to: 60m
+BREW 07/26/2022 - 20:54:24 Starting execution of default Answer-Loader (2.0.1-SNAPSHOT). [/media/sf_brewThesis/.: Load from file: /media/sf_brewThesis/data/storage/00092.%FILE_ENDING%]
+BREW 07/26/2022 - 20:54:24 Finished execution of default Answer-Loader (2.0.1-SNAPSHOT) after 0.0 seconds. [/media/sf_brewThesis/.: Load from file: /home/fpauck/benchmarks/temp/top15/subset/2/de.hafas.android.db.apk]
+BREW 07/26/2022 - 20:54:25 Setting variable (%ANSWERS%) value to: "/home/fpauck/benchmarks/temp/top15/subset/2/de.hafas.android.db.apk"
+BREW 07/26/2022 - 20:54:25 Setting variable (%ANSWERSHASH%) value to: "9544e2963bbb845dd47b7db8fc936d8aa314309604f924210d1fc7834ad9f0b7"
+BREW 07/26/2022 - 20:54:25 Setting variable (%ANSWERSHASH_MD5%) value to: "c220553a4dc2e3444844c1ce002a8b05"
+BREW 07/26/2022 - 20:54:25 Setting variable (%ANSWERSHASH_SHA-1%) value to: "8f35221f92f2c1ce16813781bf230d9f3a7e0fdd"
+BREW 07/26/2022 - 20:54:25 Setting variable (%ANSWERSHASH_SHA-256%) value to: "9544e2963bbb845dd47b7db8fc936d8aa314309604f924210d1fc7834ad9f0b7"
+BREW 07/26/2022 - 20:54:25 Timeout (DefaultSimplifyOperator~) set to: 60m
+BREW 07/26/2022 - 20:54:26
+Loaded from storage:
+SIMPLIFY~ [
+	'/home/fpauck/benchmarks/temp/top15/subset/2/de.hafas.android.db.apk' !
+] !
+BREW 07/26/2022 - 20:54:26 Setting variable (%APP_APK_IN%) value to: "/media/sf_brewThesis/data/storage/00023.apk"
+BREW 07/26/2022 - 20:54:26 Setting variable (%APP_APK%) value to: "/media/sf_brewThesis/data/storage/00023.apk"
+BREW 07/26/2022 - 20:54:26 Setting variable (%APP_APK_IN_FILENAME%) value to: "00023"
+BREW 07/26/2022 - 20:54:26 Setting variable (%APP_APK_FILENAME%) value to: "00023"
+BREW 07/26/2022 - 20:54:26 Setting variable (%APP_APK_IN_NAME%) value to: "db"
+BREW 07/26/2022 - 20:54:26 Setting variable (%APP_APK_NAME%) value to: "db"
+BREW 07/26/2022 - 20:54:26 Setting variable (%APP_APK_IN_PACKAGE%) value to: "de.hafas.android.db"
+BREW 07/26/2022 - 20:54:26 Setting variable (%APP_APK_PACKAGE%) value to: "de.hafas.android.db"
+BREW 07/26/2022 - 20:54:27 Running on entry event for the tool: DIALDroid (09-2017-intra)
+BREW 07/26/2022 - 20:54:31 Timeout (DIALDroid) set to: 60m
+BREW 07/26/2022 - 20:54:32 Starting execution of internal DIALDroid (09-2017-intra). [/home/fpauck/tools/DIALDroid/build: /home/fpauck/tools/DIALDroid/build/aqlRun.sh /media/sf_brewThesis/data/storage/00023.apk /media/sf_brewThesis/data/storage/00023.apk results/00023_00023.log 96]
+BREW 07/26/2022 - 20:54:32 Setting variable (%PID%) value to: "6059"
+BREW 07/26/2022 - 20:54:49 Process 6059 (DIALDroid) terminated sucessfully (0)
+BREW 07/26/2022 - 20:54:49 Result available: /home/fpauck/tools/DIALDroid/build/results/00023_00023.log
+BREW 07/26/2022 - 20:54:49 Finished execution of internal DIALDroid (09-2017-intra) after 17.71 seconds. [/home/fpauck/tools/DIALDroid/build: /home/fpauck/tools/DIALDroid/build/aqlRun.sh /media/sf_brewThesis/data/storage/00023.apk /media/sf_brewThesis/data/storage/00023.apk results/00023_00023.log 96]
+BREW 07/26/2022 - 20:54:49 Running on exit event for the tool: DIALDroid (09-2017-intra)
+BREW 07/26/2022 - 20:54:49 Timeout-Timer (DIALDroid) stopped normally.
+BREW 07/26/2022 - 20:54:49 Process (6103) output: Not root! Reattempting as root...
+BREW 07/26/2022 - 20:54:49 Process (6103) output: Root! Flushing memory...
+BREW 07/26/2022 - 20:54:49 Setting variable (%RESULT_FILE%) value to: "/home/fpauck/tools/DIALDroid/build/results/00023_00023.log"
+BREW 07/26/2022 - 20:54:49 Setting variable (%APP_APK_IN_NAME%) value to: "db"
+BREW 07/26/2022 - 20:54:49 Setting variable (%APP_APK_NAME%) value to: "db"
+BREW 07/26/2022 - 20:54:49 Setting variable (%APP_APK_IN_FILENAME%) value to: "00023"
+BREW 07/26/2022 - 20:54:49 Setting variable (%APP_APK_FILENAME%) value to: "00023"
+BREW 07/26/2022 - 20:54:49 Setting variable (%APP_APK_IN%) value to: "/media/sf_brewThesis/data/storage/00023.apk"
+BREW 07/26/2022 - 20:54:49 Setting variable (%APP_APK%) value to: "/media/sf_brewThesis/data/storage/00023.apk"
+BREW 07/26/2022 - 20:54:49 Setting variable (%APP_APK_IN_PACKAGE%) value to: "de.hafas.android.db"
+BREW 07/26/2022 - 20:54:49 Setting variable (%APP_APK_PACKAGE%) value to: "de.hafas.android.db"
+BREW 07/26/2022 - 20:54:50 Timeout (DefaultConverter for DIALDroid) set to: 60m
+BREW 07/26/2022 - 20:54:51 Starting execution of default DefaultConverter for DIALDroid (2.0.1-SNAPSHOT). [/media/sf_brewThesis: DefaultConverter for null (2.0.1-SNAPSHOT) with { %APP_APK_IN_FILENAME% = '00023', %APP_APK_IN_NAME% = 'db', %APP_APK_NAME% = 'db', %APP_APK_IN% = '/media/sf_brewThesis/data/storage/00023.apk', %APP_APK_FILENAME% = '00023', %APP_APK% = '/media/sf_brewThesis/data/storage/00023.apk', %APP_APK_PACKAGE% = 'de.hafas.android.db', %RESULT_FILE% = '/home/fpauck/tools/DIALDroid/build/results/00023_00023.log', %LINENUMBER_IN% = '-1', %APP_APK_IN_PACKAGE% = 'de.hafas.android.db' }]
+BREW 07/26/2022 - 20:54:54 Storing answered task: /media/sf_brewThesis/data/storage/00090.xml [/home/fpauck/tools/DIALDroid/build/aqlRun.sh dc0f293c4206683b610c28b7c9629c6b6e462317ff8b6b948139bae87b4303a4 dc0f293c4206683b610c28b7c9629c6b6e462317ff8b6b948139bae87b4303a4 results/00023_00023.log 96]
+BREW 07/26/2022 - 20:54:54 Finished execution of default DefaultConverter for DIALDroid (2.0.1-SNAPSHOT) after 3.97 seconds. [/media/sf_brewThesis: DefaultConverter for null (2.0.1-SNAPSHOT) with { %APP_APK_IN_FILENAME% = '00023', %APP_APK_IN_NAME% = 'db', %APP_APK_NAME% = 'db', %APP_APK_IN% = '/media/sf_brewThesis/data/storage/00023.apk', %APP_APK_FILENAME% = '00023', %APP_APK% = '/media/sf_brewThesis/data/storage/00023.apk', %APP_APK_PACKAGE% = 'de.hafas.android.db', %RESULT_FILE% = '/home/fpauck/tools/DIALDroid/build/results/00023_00023.log', %LINENUMBER_IN% = '-1', %APP_APK_IN_PACKAGE% = 'de.hafas.android.db' }]
+BREW 07/26/2022 - 20:54:54 [1;32mFinished (after 30.165s): Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/2/de.hafas.android.db.apk') ?[m[m
+BREW 07/26/2022 - 20:54:54
+[1m***** Answer (/media/sf_brewThesis/answers/answer_26_07_2022-20_54_54-001.xml) *****
+[m[m[m
+BREW 07/26/2022 - 20:54:54
+
+
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<answer/>
+
+
+
+
+BREW 07/26/2022 - 20:54:54 Continuing with configuration: /media/sf_webservice/config.xml (a9ee75f31fbb720aa6746ae2f72aade2)
+BREW 07/26/2022 - 20:54:55 [1;32mStarting: Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/2/de.komoot.android.apk') ?[m[m
+BREW 07/26/2022 - 20:54:55 Parsed: Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/2/de.komoot.android.apk') ?
+BREW 07/26/2022 - 20:54:55 Resolved: Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/2/de.komoot.android.apk') ?
+BREW 07/26/2022 - 20:54:55 Transformation-rule applied: ToolSelection
+BREW 07/26/2022 - 20:54:55 Transformation-rule applied: ApplySimplifier
+BREW 07/26/2022 - 20:54:55
+Transformed:
+Flows IN App(SIMPLIFY~ [
+	'/home/fpauck/benchmarks/temp/top15/subset/2/de.komoot.android.apk' !
+] !) USES 'DIALDroid' ?
+BREW 07/26/2022 - 20:54:55 Loaded storage from: /media/sf_brewThesis/data/storage/storage.ser
+BREW 07/26/2022 - 20:54:55 Setting variable (%MEMORY%) value to: "96"
+BREW 07/26/2022 - 20:54:55 Setting variable (%ANDROID_PLATFORMS%) value to: "/media/sf_sdks/platforms/"
+BREW 07/26/2022 - 20:54:55 Setting variable (%ANDROID_BUILDTOOLS%) value to: "null"
+BREW 07/26/2022 - 20:54:55 Setting variable (%DATE%) value to: "26_07_2022-20_54_55"
+BREW 07/26/2022 - 20:54:55 Setting variable (%LINENUMBER_IN%) value to: "-1"
+BREW 07/26/2022 - 20:54:55 Setting variable (%LINENUMBER_IN%) value to: "-1"
+BREW 07/26/2022 - 20:54:55 Warning: Maximum memory (105 GB) specified in config file will never become available. Using maximal available memory instead: 101 GB
+BREW 07/26/2022 - 20:54:55 Timeout (Answer-Loader) set to: 60m
+BREW 07/26/2022 - 20:54:55 Starting execution of default Answer-Loader (2.0.1-SNAPSHOT). [/media/sf_brewThesis/.: Load from file: /media/sf_brewThesis/data/storage/00096.%FILE_ENDING%]
+BREW 07/26/2022 - 20:54:55 Finished execution of default Answer-Loader (2.0.1-SNAPSHOT) after 0.0 seconds. [/media/sf_brewThesis/.: Load from file: /home/fpauck/benchmarks/temp/top15/subset/2/de.komoot.android.apk]
+BREW 07/26/2022 - 20:54:55 Setting variable (%ANSWERS%) value to: "/home/fpauck/benchmarks/temp/top15/subset/2/de.komoot.android.apk"
+BREW 07/26/2022 - 20:54:55 Setting variable (%ANSWERSHASH%) value to: "2b3f177564f5a1dce948ac5ea05379cf7547ac2272adcf34426dbc00be32e12a"
+BREW 07/26/2022 - 20:54:55 Setting variable (%ANSWERSHASH_MD5%) value to: "3bbee433e9bf407ec21ebc91fc2e9919"
+BREW 07/26/2022 - 20:54:55 Setting variable (%ANSWERSHASH_SHA-1%) value to: "a5deb5d1ed3b453b4aa9c52089e5928e75f3300e"
+BREW 07/26/2022 - 20:54:55 Setting variable (%ANSWERSHASH_SHA-256%) value to: "2b3f177564f5a1dce948ac5ea05379cf7547ac2272adcf34426dbc00be32e12a"
+BREW 07/26/2022 - 20:54:56 Timeout (DefaultSimplifyOperator~) set to: 60m
+BREW 07/26/2022 - 20:54:56
+Loaded from storage:
+SIMPLIFY~ [
+	'/home/fpauck/benchmarks/temp/top15/subset/2/de.komoot.android.apk' !
+] !
+BREW 07/26/2022 - 20:54:56 Setting variable (%APP_APK_IN%) value to: "/media/sf_brewThesis/data/storage/00027.apk"
+BREW 07/26/2022 - 20:54:56 Setting variable (%APP_APK%) value to: "/media/sf_brewThesis/data/storage/00027.apk"
+BREW 07/26/2022 - 20:54:56 Setting variable (%APP_APK_IN_FILENAME%) value to: "00027"
+BREW 07/26/2022 - 20:54:56 Setting variable (%APP_APK_FILENAME%) value to: "00027"
+BREW 07/26/2022 - 20:54:56 Setting variable (%APP_APK_IN_NAME%) value to: "android"
+BREW 07/26/2022 - 20:54:56 Setting variable (%APP_APK_NAME%) value to: "android"
+BREW 07/26/2022 - 20:54:56 Setting variable (%APP_APK_IN_PACKAGE%) value to: "de.komoot.android"
+BREW 07/26/2022 - 20:54:56 Setting variable (%APP_APK_PACKAGE%) value to: "de.komoot.android"
+BREW 07/26/2022 - 20:54:57 Running on entry event for the tool: DIALDroid (09-2017-intra)
+BREW 07/26/2022 - 20:55:01 Timeout (DIALDroid) set to: 60m
+BREW 07/26/2022 - 20:55:02 Starting execution of internal DIALDroid (09-2017-intra). [/home/fpauck/tools/DIALDroid/build: /home/fpauck/tools/DIALDroid/build/aqlRun.sh /media/sf_brewThesis/data/storage/00027.apk /media/sf_brewThesis/data/storage/00027.apk results/00027_00027.log 96]
+BREW 07/26/2022 - 20:55:02 Setting variable (%PID%) value to: "6144"
+BREW 07/26/2022 - 20:55:46 Process 6144 (DIALDroid) terminated sucessfully (0)
+BREW 07/26/2022 - 20:55:46 Result available: /home/fpauck/tools/DIALDroid/build/results/00027_00027.log
+BREW 07/26/2022 - 20:55:46 Finished execution of internal DIALDroid (09-2017-intra) after 44.9 seconds. [/home/fpauck/tools/DIALDroid/build: /home/fpauck/tools/DIALDroid/build/aqlRun.sh /media/sf_brewThesis/data/storage/00027.apk /media/sf_brewThesis/data/storage/00027.apk results/00027_00027.log 96]
+BREW 07/26/2022 - 20:55:46 Running on exit event for the tool: DIALDroid (09-2017-intra)
+BREW 07/26/2022 - 20:55:47 Timeout-Timer (DIALDroid) stopped normally.
+BREW 07/26/2022 - 20:55:47 Process (6181) output: Not root! Reattempting as root...
+BREW 07/26/2022 - 20:55:47 Process (6181) output: Root! Flushing memory...
+BREW 07/26/2022 - 20:55:47 Setting variable (%RESULT_FILE%) value to: "/home/fpauck/tools/DIALDroid/build/results/00027_00027.log"
+BREW 07/26/2022 - 20:55:47 Setting variable (%APP_APK_IN_NAME%) value to: "android"
+BREW 07/26/2022 - 20:55:47 Setting variable (%APP_APK_NAME%) value to: "android"
+BREW 07/26/2022 - 20:55:47 Setting variable (%APP_APK_IN_FILENAME%) value to: "00027"
+BREW 07/26/2022 - 20:55:47 Setting variable (%APP_APK_FILENAME%) value to: "00027"
+BREW 07/26/2022 - 20:55:47 Setting variable (%APP_APK_IN%) value to: "/media/sf_brewThesis/data/storage/00027.apk"
+BREW 07/26/2022 - 20:55:47 Setting variable (%APP_APK%) value to: "/media/sf_brewThesis/data/storage/00027.apk"
+BREW 07/26/2022 - 20:55:47 Setting variable (%APP_APK_IN_PACKAGE%) value to: "de.komoot.android"
+BREW 07/26/2022 - 20:55:47 Setting variable (%APP_APK_PACKAGE%) value to: "de.komoot.android"
+BREW 07/26/2022 - 20:55:47 Timeout (DefaultConverter for DIALDroid) set to: 60m
+BREW 07/26/2022 - 20:55:47 Starting execution of default DefaultConverter for DIALDroid (2.0.1-SNAPSHOT). [/media/sf_brewThesis: DefaultConverter for null (2.0.1-SNAPSHOT) with { %APP_APK_IN_FILENAME% = '00027', %APP_APK_IN_NAME% = 'android', %APP_APK_NAME% = 'android', %APP_APK_IN% = '/media/sf_brewThesis/data/storage/00027.apk', %APP_APK_FILENAME% = '00027', %APP_APK% = '/media/sf_brewThesis/data/storage/00027.apk', %APP_APK_PACKAGE% = 'de.komoot.android', %RESULT_FILE% = '/home/fpauck/tools/DIALDroid/build/results/00027_00027.log', %LINENUMBER_IN% = '-1', %APP_APK_IN_PACKAGE% = 'de.komoot.android' }]
+BREW 07/26/2022 - 20:55:49 Storing answered task: /media/sf_brewThesis/data/storage/00094.xml [/home/fpauck/tools/DIALDroid/build/aqlRun.sh 1d66b522f712d38a2b0d5520da14bb7515945d741fdd9daebfa36ad000e3abef 1d66b522f712d38a2b0d5520da14bb7515945d741fdd9daebfa36ad000e3abef results/00027_00027.log 96]
+BREW 07/26/2022 - 20:55:49 Finished execution of default DefaultConverter for DIALDroid (2.0.1-SNAPSHOT) after 2.27 seconds. [/media/sf_brewThesis: DefaultConverter for null (2.0.1-SNAPSHOT) with { %APP_APK_IN_FILENAME% = '00027', %APP_APK_IN_NAME% = 'android', %APP_APK_NAME% = 'android', %APP_APK_IN% = '/media/sf_brewThesis/data/storage/00027.apk', %APP_APK_FILENAME% = '00027', %APP_APK% = '/media/sf_brewThesis/data/storage/00027.apk', %APP_APK_PACKAGE% = 'de.komoot.android', %RESULT_FILE% = '/home/fpauck/tools/DIALDroid/build/results/00027_00027.log', %LINENUMBER_IN% = '-1', %APP_APK_IN_PACKAGE% = 'de.komoot.android' }]
+BREW 07/26/2022 - 20:55:49 [1;32mFinished (after 54.645s): Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/2/de.komoot.android.apk') ?[m[m
+BREW 07/26/2022 - 20:55:49
+[1m***** Answer (/media/sf_brewThesis/answers/answer_26_07_2022-20_55_49-001.xml) *****
+[m[m[m
+BREW 07/26/2022 - 20:55:49
+
+
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<answer/>
+
+
+
+
+BREW 07/26/2022 - 20:55:50 Continuing with configuration: /media/sf_webservice/config.xml (a9ee75f31fbb720aa6746ae2f72aade2)
+BREW 07/26/2022 - 20:55:50 [1;32mStarting: Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/2/de.rki.coronawarnapp.apk') ?[m[m
+BREW 07/26/2022 - 20:55:50 Parsed: Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/2/de.rki.coronawarnapp.apk') ?
+BREW 07/26/2022 - 20:55:50 Resolved: Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/2/de.rki.coronawarnapp.apk') ?
+BREW 07/26/2022 - 20:55:50 Transformation-rule applied: ToolSelection
+BREW 07/26/2022 - 20:55:50 Transformation-rule applied: ApplySimplifier
+BREW 07/26/2022 - 20:55:50
+Transformed:
+Flows IN App(SIMPLIFY~ [
+	'/home/fpauck/benchmarks/temp/top15/subset/2/de.rki.coronawarnapp.apk' !
+] !) USES 'DIALDroid' ?
+BREW 07/26/2022 - 20:55:50 Loaded storage from: /media/sf_brewThesis/data/storage/storage.ser
+BREW 07/26/2022 - 20:55:50 Setting variable (%MEMORY%) value to: "96"
+BREW 07/26/2022 - 20:55:50 Setting variable (%ANDROID_PLATFORMS%) value to: "/media/sf_sdks/platforms/"
+BREW 07/26/2022 - 20:55:50 Setting variable (%ANDROID_BUILDTOOLS%) value to: "null"
+BREW 07/26/2022 - 20:55:50 Setting variable (%DATE%) value to: "26_07_2022-20_55_50"
+BREW 07/26/2022 - 20:55:50 Setting variable (%LINENUMBER_IN%) value to: "-1"
+BREW 07/26/2022 - 20:55:50 Setting variable (%LINENUMBER_IN%) value to: "-1"
+BREW 07/26/2022 - 20:55:50 Warning: Maximum memory (105 GB) specified in config file will never become available. Using maximal available memory instead: 101 GB
+BREW 07/26/2022 - 20:55:50 Timeout (Answer-Loader) set to: 60m
+BREW 07/26/2022 - 20:55:50 Starting execution of default Answer-Loader (2.0.1-SNAPSHOT). [/media/sf_brewThesis/.: Load from file: /media/sf_brewThesis/data/storage/00100.%FILE_ENDING%]
+BREW 07/26/2022 - 20:55:50 Finished execution of default Answer-Loader (2.0.1-SNAPSHOT) after 0.0 seconds. [/media/sf_brewThesis/.: Load from file: /home/fpauck/benchmarks/temp/top15/subset/2/de.rki.coronawarnapp.apk]
+BREW 07/26/2022 - 20:55:50 Setting variable (%ANSWERS%) value to: "/home/fpauck/benchmarks/temp/top15/subset/2/de.rki.coronawarnapp.apk"
+BREW 07/26/2022 - 20:55:50 Setting variable (%ANSWERSHASH%) value to: "df74c6b3a747c2a10427531262dfd73b1d47f20bc25da4867f95bda39b5f272e"
+BREW 07/26/2022 - 20:55:50 Setting variable (%ANSWERSHASH_MD5%) value to: "fe0400b4de861d7cf78aca179a4a64b1"
+BREW 07/26/2022 - 20:55:50 Setting variable (%ANSWERSHASH_SHA-1%) value to: "912ce485056833e125cb11b3d4ccd68a76c9b531"
+BREW 07/26/2022 - 20:55:50 Setting variable (%ANSWERSHASH_SHA-256%) value to: "df74c6b3a747c2a10427531262dfd73b1d47f20bc25da4867f95bda39b5f272e"
+BREW 07/26/2022 - 20:55:50 Timeout (DefaultSimplifyOperator~) set to: 60m
+BREW 07/26/2022 - 20:55:50
+Loaded from storage:
+SIMPLIFY~ [
+	'/home/fpauck/benchmarks/temp/top15/subset/2/de.rki.coronawarnapp.apk' !
+] !
+BREW 07/26/2022 - 20:55:51 Setting variable (%APP_APK_IN%) value to: "/media/sf_brewThesis/data/storage/00031.apk"
+BREW 07/26/2022 - 20:55:51 Setting variable (%APP_APK%) value to: "/media/sf_brewThesis/data/storage/00031.apk"
+BREW 07/26/2022 - 20:55:51 Setting variable (%APP_APK_IN_FILENAME%) value to: "00031"
+BREW 07/26/2022 - 20:55:51 Setting variable (%APP_APK_FILENAME%) value to: "00031"
+BREW 07/26/2022 - 20:55:51 Setting variable (%APP_APK_IN_NAME%) value to: "coronawarnapp"
+BREW 07/26/2022 - 20:55:51 Setting variable (%APP_APK_NAME%) value to: "coronawarnapp"
+BREW 07/26/2022 - 20:55:51 Setting variable (%APP_APK_IN_PACKAGE%) value to: "de.rki.coronawarnapp"
+BREW 07/26/2022 - 20:55:51 Setting variable (%APP_APK_PACKAGE%) value to: "de.rki.coronawarnapp"
+BREW 07/26/2022 - 20:55:51 Running on entry event for the tool: DIALDroid (09-2017-intra)
+BREW 07/26/2022 - 20:55:55 Timeout (DIALDroid) set to: 60m
+BREW 07/26/2022 - 20:55:55 Starting execution of internal DIALDroid (09-2017-intra). [/home/fpauck/tools/DIALDroid/build: /home/fpauck/tools/DIALDroid/build/aqlRun.sh /media/sf_brewThesis/data/storage/00031.apk /media/sf_brewThesis/data/storage/00031.apk results/00031_00031.log 96]
+BREW 07/26/2022 - 20:55:55 Setting variable (%PID%) value to: "6223"
+BREW 07/26/2022 - 20:56:33 Process 6223 (DIALDroid) terminated sucessfully (0)
+BREW 07/26/2022 - 20:56:33 Result available: /home/fpauck/tools/DIALDroid/build/results/00031_00031.log
+BREW 07/26/2022 - 20:56:33 Finished execution of internal DIALDroid (09-2017-intra) after 37.63 seconds. [/home/fpauck/tools/DIALDroid/build: /home/fpauck/tools/DIALDroid/build/aqlRun.sh /media/sf_brewThesis/data/storage/00031.apk /media/sf_brewThesis/data/storage/00031.apk results/00031_00031.log 96]
+BREW 07/26/2022 - 20:56:33 Running on exit event for the tool: DIALDroid (09-2017-intra)
+BREW 07/26/2022 - 20:56:33 Timeout-Timer (DIALDroid) stopped normally.
+BREW 07/26/2022 - 20:56:33 Process (6270) output: Not root! Reattempting as root...
+BREW 07/26/2022 - 20:56:33 Process (6270) output: Root! Flushing memory...
+BREW 07/26/2022 - 20:56:33 Setting variable (%RESULT_FILE%) value to: "/home/fpauck/tools/DIALDroid/build/results/00031_00031.log"
+BREW 07/26/2022 - 20:56:33 Setting variable (%APP_APK_IN_NAME%) value to: "coronawarnapp"
+BREW 07/26/2022 - 20:56:33 Setting variable (%APP_APK_NAME%) value to: "coronawarnapp"
+BREW 07/26/2022 - 20:56:33 Setting variable (%APP_APK_IN_FILENAME%) value to: "00031"
+BREW 07/26/2022 - 20:56:33 Setting variable (%APP_APK_FILENAME%) value to: "00031"
+BREW 07/26/2022 - 20:56:33 Setting variable (%APP_APK_IN%) value to: "/media/sf_brewThesis/data/storage/00031.apk"
+BREW 07/26/2022 - 20:56:33 Setting variable (%APP_APK%) value to: "/media/sf_brewThesis/data/storage/00031.apk"
+BREW 07/26/2022 - 20:56:33 Setting variable (%APP_APK_IN_PACKAGE%) value to: "de.rki.coronawarnapp"
+BREW 07/26/2022 - 20:56:33 Setting variable (%APP_APK_PACKAGE%) value to: "de.rki.coronawarnapp"
+BREW 07/26/2022 - 20:56:34 Timeout (DefaultConverter for DIALDroid) set to: 60m
+BREW 07/26/2022 - 20:56:34 Starting execution of default DefaultConverter for DIALDroid (2.0.1-SNAPSHOT). [/media/sf_brewThesis: DefaultConverter for null (2.0.1-SNAPSHOT) with { %APP_APK_IN_FILENAME% = '00031', %APP_APK_IN_NAME% = 'coronawarnapp', %APP_APK_NAME% = 'coronawarnapp', %APP_APK_IN% = '/media/sf_brewThesis/data/storage/00031.apk', %APP_APK_FILENAME% = '00031', %APP_APK% = '/media/sf_brewThesis/data/storage/00031.apk', %APP_APK_PACKAGE% = 'de.rki.coronawarnapp', %RESULT_FILE% = '/home/fpauck/tools/DIALDroid/build/results/00031_00031.log', %LINENUMBER_IN% = '-1', %APP_APK_IN_PACKAGE% = 'de.rki.coronawarnapp' }]
+BREW 07/26/2022 - 20:56:34 Storing answered task: /media/sf_brewThesis/data/storage/00098.xml [/home/fpauck/tools/DIALDroid/build/aqlRun.sh 1d780ea183c13d64aab301d35a2abe3ac008665cf86a7f4e1aeff03119c67269 1d780ea183c13d64aab301d35a2abe3ac008665cf86a7f4e1aeff03119c67269 results/00031_00031.log 96]
+BREW 07/26/2022 - 20:56:35 Finished execution of default DefaultConverter for DIALDroid (2.0.1-SNAPSHOT) after 0.97 seconds. [/media/sf_brewThesis: DefaultConverter for null (2.0.1-SNAPSHOT) with { %APP_APK_IN_FILENAME% = '00031', %APP_APK_IN_NAME% = 'coronawarnapp', %APP_APK_NAME% = 'coronawarnapp', %APP_APK_IN% = '/media/sf_brewThesis/data/storage/00031.apk', %APP_APK_FILENAME% = '00031', %APP_APK% = '/media/sf_brewThesis/data/storage/00031.apk', %APP_APK_PACKAGE% = 'de.rki.coronawarnapp', %RESULT_FILE% = '/home/fpauck/tools/DIALDroid/build/results/00031_00031.log', %LINENUMBER_IN% = '-1', %APP_APK_IN_PACKAGE% = 'de.rki.coronawarnapp' }]
+BREW 07/26/2022 - 20:56:35 [1;32mFinished (after 44.623s): Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/2/de.rki.coronawarnapp.apk') ?[m[m
+BREW 07/26/2022 - 20:56:35
+[1m***** Answer (/media/sf_brewThesis/answers/answer_26_07_2022-20_56_35-001.xml) *****
+[m[m[m
+BREW 07/26/2022 - 20:56:35
+
+
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<answer/>
+
+
+
+
+BREW 07/26/2022 - 20:56:35 Continuing with configuration: /media/sf_webservice/config.xml (a9ee75f31fbb720aa6746ae2f72aade2)
+BREW 07/26/2022 - 20:56:35 [1;32mStarting: Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/2/org.telegram.messenger.apk') ?[m[m
+BREW 07/26/2022 - 20:56:35 Parsed: Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/2/org.telegram.messenger.apk') ?
+BREW 07/26/2022 - 20:56:35 Resolved: Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/2/org.telegram.messenger.apk') ?
+BREW 07/26/2022 - 20:56:35 Transformation-rule applied: ToolSelection
+BREW 07/26/2022 - 20:56:35 Transformation-rule applied: ApplySimplifier
+BREW 07/26/2022 - 20:56:35
+Transformed:
+Flows IN App(SIMPLIFY~ [
+	'/home/fpauck/benchmarks/temp/top15/subset/2/org.telegram.messenger.apk' !
+] !) USES 'DIALDroid' ?
+BREW 07/26/2022 - 20:56:35 Loaded storage from: /media/sf_brewThesis/data/storage/storage.ser
+BREW 07/26/2022 - 20:56:35 Setting variable (%MEMORY%) value to: "96"
+BREW 07/26/2022 - 20:56:35 Setting variable (%ANDROID_PLATFORMS%) value to: "/media/sf_sdks/platforms/"
+BREW 07/26/2022 - 20:56:35 Setting variable (%ANDROID_BUILDTOOLS%) value to: "null"
+BREW 07/26/2022 - 20:56:35 Setting variable (%DATE%) value to: "26_07_2022-20_56_35"
+BREW 07/26/2022 - 20:56:35 Setting variable (%LINENUMBER_IN%) value to: "-1"
+BREW 07/26/2022 - 20:56:35 Setting variable (%LINENUMBER_IN%) value to: "-1"
+BREW 07/26/2022 - 20:56:35 Warning: Maximum memory (105 GB) specified in config file will never become available. Using maximal available memory instead: 101 GB
+BREW 07/26/2022 - 20:56:35 Timeout (Answer-Loader) set to: 60m
+BREW 07/26/2022 - 20:56:35 Starting execution of default Answer-Loader (2.0.1-SNAPSHOT). [/media/sf_brewThesis/.: Load from file: /media/sf_brewThesis/data/storage/00104.%FILE_ENDING%]
+BREW 07/26/2022 - 20:56:35 Finished execution of default Answer-Loader (2.0.1-SNAPSHOT) after 0.0 seconds. [/media/sf_brewThesis/.: Load from file: /home/fpauck/benchmarks/temp/top15/subset/2/org.telegram.messenger.apk]
+BREW 07/26/2022 - 20:56:36 Setting variable (%ANSWERS%) value to: "/home/fpauck/benchmarks/temp/top15/subset/2/org.telegram.messenger.apk"
+BREW 07/26/2022 - 20:56:36 Setting variable (%ANSWERSHASH%) value to: "5892f9139196d90307fd5c9e1b100c7d7e6b6323bb7db403c2f4541ff3ff63c0"
+BREW 07/26/2022 - 20:56:36 Setting variable (%ANSWERSHASH_MD5%) value to: "385ced1a557659e9f49b90290dc8328c"
+BREW 07/26/2022 - 20:56:36 Setting variable (%ANSWERSHASH_SHA-1%) value to: "bd00d8d7e3ba74cc5987696c6a303ef04cc38fe6"
+BREW 07/26/2022 - 20:56:36 Setting variable (%ANSWERSHASH_SHA-256%) value to: "5892f9139196d90307fd5c9e1b100c7d7e6b6323bb7db403c2f4541ff3ff63c0"
+BREW 07/26/2022 - 20:56:36 Timeout (DefaultSimplifyOperator~) set to: 60m
+BREW 07/26/2022 - 20:56:36
+Loaded from storage:
+SIMPLIFY~ [
+	'/home/fpauck/benchmarks/temp/top15/subset/2/org.telegram.messenger.apk' !
+] !
+BREW 07/26/2022 - 20:56:36 Setting variable (%APP_APK_IN%) value to: "/media/sf_brewThesis/data/storage/00035.apk"
+BREW 07/26/2022 - 20:56:36 Setting variable (%APP_APK%) value to: "/media/sf_brewThesis/data/storage/00035.apk"
+BREW 07/26/2022 - 20:56:36 Setting variable (%APP_APK_IN_FILENAME%) value to: "00035"
+BREW 07/26/2022 - 20:56:36 Setting variable (%APP_APK_FILENAME%) value to: "00035"
+BREW 07/26/2022 - 20:56:36 Setting variable (%APP_APK_IN_NAME%) value to: "messenger"
+BREW 07/26/2022 - 20:56:36 Setting variable (%APP_APK_NAME%) value to: "messenger"
+BREW 07/26/2022 - 20:56:36 Setting variable (%APP_APK_IN_PACKAGE%) value to: "org.telegram.messenger"
+BREW 07/26/2022 - 20:56:36 Setting variable (%APP_APK_PACKAGE%) value to: "org.telegram.messenger"
+BREW 07/26/2022 - 20:56:37 Running on entry event for the tool: DIALDroid (09-2017-intra)
+BREW 07/26/2022 - 20:56:41 Timeout (DIALDroid) set to: 60m
+BREW 07/26/2022 - 20:56:42 Starting execution of internal DIALDroid (09-2017-intra). [/home/fpauck/tools/DIALDroid/build: /home/fpauck/tools/DIALDroid/build/aqlRun.sh /media/sf_brewThesis/data/storage/00035.apk /media/sf_brewThesis/data/storage/00035.apk results/00035_00035.log 96]
+BREW 07/26/2022 - 20:56:42 Setting variable (%PID%) value to: "6311"
+BREW 07/26/2022 - 20:57:46 Process 6311 (DIALDroid) terminated sucessfully (0)
+BREW 07/26/2022 - 20:57:46 Result available: /home/fpauck/tools/DIALDroid/build/results/00035_00035.log
+BREW 07/26/2022 - 20:57:46 Finished execution of internal DIALDroid (09-2017-intra) after 64.81 seconds. [/home/fpauck/tools/DIALDroid/build: /home/fpauck/tools/DIALDroid/build/aqlRun.sh /media/sf_brewThesis/data/storage/00035.apk /media/sf_brewThesis/data/storage/00035.apk results/00035_00035.log 96]
+BREW 07/26/2022 - 20:57:46 Running on exit event for the tool: DIALDroid (09-2017-intra)
+BREW 07/26/2022 - 20:57:47 Timeout-Timer (DIALDroid) stopped normally.
+BREW 07/26/2022 - 20:57:47 Process (6349) output: Not root! Reattempting as root...
+BREW 07/26/2022 - 20:57:47 Process (6349) output: Root! Flushing memory...
+BREW 07/26/2022 - 20:57:47 Setting variable (%RESULT_FILE%) value to: "/home/fpauck/tools/DIALDroid/build/results/00035_00035.log"
+BREW 07/26/2022 - 20:57:47 Setting variable (%APP_APK_IN_NAME%) value to: "messenger"
+BREW 07/26/2022 - 20:57:47 Setting variable (%APP_APK_NAME%) value to: "messenger"
+BREW 07/26/2022 - 20:57:47 Setting variable (%APP_APK_IN_FILENAME%) value to: "00035"
+BREW 07/26/2022 - 20:57:47 Setting variable (%APP_APK_FILENAME%) value to: "00035"
+BREW 07/26/2022 - 20:57:47 Setting variable (%APP_APK_IN%) value to: "/media/sf_brewThesis/data/storage/00035.apk"
+BREW 07/26/2022 - 20:57:47 Setting variable (%APP_APK%) value to: "/media/sf_brewThesis/data/storage/00035.apk"
+BREW 07/26/2022 - 20:57:47 Setting variable (%APP_APK_IN_PACKAGE%) value to: "org.telegram.messenger"
+BREW 07/26/2022 - 20:57:47 Setting variable (%APP_APK_PACKAGE%) value to: "org.telegram.messenger"
+BREW 07/26/2022 - 20:57:47 Timeout (DefaultConverter for DIALDroid) set to: 60m
+BREW 07/26/2022 - 20:57:47 Starting execution of default DefaultConverter for DIALDroid (2.0.1-SNAPSHOT). [/media/sf_brewThesis: DefaultConverter for null (2.0.1-SNAPSHOT) with { %APP_APK_IN_FILENAME% = '00035', %APP_APK_IN_NAME% = 'messenger', %APP_APK_NAME% = 'messenger', %APP_APK_IN% = '/media/sf_brewThesis/data/storage/00035.apk', %APP_APK_FILENAME% = '00035', %APP_APK% = '/media/sf_brewThesis/data/storage/00035.apk', %APP_APK_PACKAGE% = 'org.telegram.messenger', %RESULT_FILE% = '/home/fpauck/tools/DIALDroid/build/results/00035_00035.log', %LINENUMBER_IN% = '-1', %APP_APK_IN_PACKAGE% = 'org.telegram.messenger' }]
+BREW 07/26/2022 - 20:57:49 Storing answered task: /media/sf_brewThesis/data/storage/00102.xml [/home/fpauck/tools/DIALDroid/build/aqlRun.sh 4094d598950ae687a72cb5e2b01026bd5b31052b38dd2be109b1ba5f829017cc 4094d598950ae687a72cb5e2b01026bd5b31052b38dd2be109b1ba5f829017cc results/00035_00035.log 96]
+BREW 07/26/2022 - 20:57:49 Finished execution of default DefaultConverter for DIALDroid (2.0.1-SNAPSHOT) after 1.87 seconds. [/media/sf_brewThesis: DefaultConverter for null (2.0.1-SNAPSHOT) with { %APP_APK_IN_FILENAME% = '00035', %APP_APK_IN_NAME% = 'messenger', %APP_APK_NAME% = 'messenger', %APP_APK_IN% = '/media/sf_brewThesis/data/storage/00035.apk', %APP_APK_FILENAME% = '00035', %APP_APK% = '/media/sf_brewThesis/data/storage/00035.apk', %APP_APK_PACKAGE% = 'org.telegram.messenger', %RESULT_FILE% = '/home/fpauck/tools/DIALDroid/build/results/00035_00035.log', %LINENUMBER_IN% = '-1', %APP_APK_IN_PACKAGE% = 'org.telegram.messenger' }]
+BREW 07/26/2022 - 20:57:49 [1;32mFinished (after 73.787s): Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/2/org.telegram.messenger.apk') ?[m[m
+BREW 07/26/2022 - 20:57:49
+[1m***** Answer (/media/sf_brewThesis/answers/answer_26_07_2022-20_57_49-001.xml) *****
+[m[m[m
+BREW 07/26/2022 - 20:57:49
+
+
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<answer/>
+
+
+
+

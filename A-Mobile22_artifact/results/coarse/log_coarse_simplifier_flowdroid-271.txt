@@ -1,0 +1,1067 @@
+BREW 08/01/2022 - 18:58:35 Continuing with configuration: /media/sf_webservice/config.xml (a9ee75f31fbb720aa6746ae2f72aade2)
+BREW 08/01/2022 - 18:58:35 [1;32mStarting: Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/1/com.gamma.scan.apk') ?[m[m
+BREW 08/01/2022 - 18:58:35 Parsed: Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/1/com.gamma.scan.apk') ?
+BREW 08/01/2022 - 18:58:35 Resolved: Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/1/com.gamma.scan.apk') ?
+BREW 08/01/2022 - 18:58:35 Transformation-rule applied: ToolSelection
+BREW 08/01/2022 - 18:58:35 Transformation-rule applied: ApplySimplifier
+BREW 08/01/2022 - 18:58:35
+Transformed:
+Flows IN App(SIMPLIFY [
+	'/home/fpauck/benchmarks/temp/top15/subset/1/com.gamma.scan.apk' !
+] !) USES 'FlowDroid-271' ?
+BREW 08/01/2022 - 18:58:36 Loaded storage from: /media/sf_brewThesis/data/storage/storage.ser
+BREW 08/01/2022 - 18:58:36 Setting variable (%MEMORY%) value to: "96"
+BREW 08/01/2022 - 18:58:36 Setting variable (%ANDROID_PLATFORMS%) value to: "/media/sf_sdks/platforms/"
+BREW 08/01/2022 - 18:58:36 Setting variable (%ANDROID_BUILDTOOLS%) value to: "null"
+BREW 08/01/2022 - 18:58:36 Setting variable (%DATE%) value to: "01_08_2022-18_58_36"
+BREW 08/01/2022 - 18:58:36 Setting variable (%LINENUMBER_IN%) value to: "-1"
+BREW 08/01/2022 - 18:58:36 Setting variable (%LINENUMBER_IN%) value to: "-1"
+BREW 08/01/2022 - 18:58:36 Warning: Maximum memory (105 GB) specified in config file will never become available. Using maximal available memory instead: 102 GB
+BREW 08/01/2022 - 18:58:36 Timeout (Answer-Loader) set to: 60m
+BREW 08/01/2022 - 18:58:36 Starting execution of default Answer-Loader (2.0.1-SNAPSHOT). [/media/sf_brewThesis/.: Load from file: /media/sf_brewThesis/data/storage/00580.%FILE_ENDING%]
+BREW 08/01/2022 - 18:58:36 Finished execution of default Answer-Loader (2.0.1-SNAPSHOT) after 0.0 seconds. [/media/sf_brewThesis/.: Load from file: /home/fpauck/benchmarks/temp/top15/subset/1/com.gamma.scan.apk]
+BREW 08/01/2022 - 18:58:36 Setting variable (%ANSWERS%) value to: "/home/fpauck/benchmarks/temp/top15/subset/1/com.gamma.scan.apk"
+BREW 08/01/2022 - 18:58:36 Setting variable (%ANSWERSHASH%) value to: "b24d2d182ec7dd4e17c6f55cad395ede263dc71cdbc4a5614adc7aa7fae4644e"
+BREW 08/01/2022 - 18:58:36 Setting variable (%ANSWERSHASH_MD5%) value to: "01c74e23881a1b9ec6e2d2c0fffb2091"
+BREW 08/01/2022 - 18:58:36 Setting variable (%ANSWERSHASH_SHA-1%) value to: "6962b0b0405b17a07d97eae2285debc003664885"
+BREW 08/01/2022 - 18:58:36 Setting variable (%ANSWERSHASH_SHA-256%) value to: "b24d2d182ec7dd4e17c6f55cad395ede263dc71cdbc4a5614adc7aa7fae4644e"
+BREW 08/01/2022 - 18:58:36 Timeout (DefaultSimplifyOperator) set to: 60m
+BREW 08/01/2022 - 18:58:36
+Loaded from storage:
+SIMPLIFY [
+	'/home/fpauck/benchmarks/temp/top15/subset/1/com.gamma.scan.apk' !
+] !
+BREW 08/01/2022 - 18:58:36 Setting variable (%APP_APK_IN%) value to: "/media/sf_brewThesis/data/storage/00409.apk"
+BREW 08/01/2022 - 18:58:36 Setting variable (%APP_APK%) value to: "/media/sf_brewThesis/data/storage/00409.apk"
+BREW 08/01/2022 - 18:58:36 Setting variable (%APP_APK_IN_FILENAME%) value to: "00409"
+BREW 08/01/2022 - 18:58:36 Setting variable (%APP_APK_FILENAME%) value to: "00409"
+BREW 08/01/2022 - 18:58:36 Setting variable (%APP_APK_IN_NAME%) value to: "scan"
+BREW 08/01/2022 - 18:58:36 Setting variable (%APP_APK_NAME%) value to: "scan"
+BREW 08/01/2022 - 18:58:36 Setting variable (%APP_APK_IN_PACKAGE%) value to: "com.gamma.scan"
+BREW 08/01/2022 - 18:58:36 Setting variable (%APP_APK_PACKAGE%) value to: "com.gamma.scan"
+BREW 08/01/2022 - 18:58:36 Running on entry event for the tool: FlowDroid (2.7.1)
+BREW 08/01/2022 - 18:58:36 Timeout (FlowDroid) set to: 60m
+BREW 08/01/2022 - 18:58:36
+Loaded from storage:
+Flows IN App(SIMPLIFY [
+	'/home/fpauck/benchmarks/temp/top15/subset/1/com.gamma.scan.apk' !
+] !) USES 'FlowDroid-271' ?
+BREW 08/01/2022 - 18:58:36 Running on exit event for the tool: FlowDroid (2.7.1)
+BREW 08/01/2022 - 18:58:37 Process (30407) output: Not root! Reattempting as root...
+BREW 08/01/2022 - 18:58:37 Process (30407) output: Root! Flushing memory...
+BREW 08/01/2022 - 18:58:37 Setting variable (%RESULT_FILE%) value to: "/media/sf_brewThesis/data/storage/00508.xml"
+BREW 08/01/2022 - 18:58:37 Setting variable (%APP_APK_IN_NAME%) value to: "scan"
+BREW 08/01/2022 - 18:58:37 Setting variable (%APP_APK_NAME%) value to: "scan"
+BREW 08/01/2022 - 18:58:37 Setting variable (%APP_APK_IN_FILENAME%) value to: "00409"
+BREW 08/01/2022 - 18:58:37 Setting variable (%APP_APK_FILENAME%) value to: "00409"
+BREW 08/01/2022 - 18:58:37 Setting variable (%APP_APK_IN%) value to: "/media/sf_brewThesis/data/storage/00409.apk"
+BREW 08/01/2022 - 18:58:37 Setting variable (%APP_APK%) value to: "/media/sf_brewThesis/data/storage/00409.apk"
+BREW 08/01/2022 - 18:58:37 Setting variable (%APP_APK_IN_PACKAGE%) value to: "com.gamma.scan"
+BREW 08/01/2022 - 18:58:37 Setting variable (%APP_APK_PACKAGE%) value to: "com.gamma.scan"
+BREW 08/01/2022 - 18:58:37 Timeout (DefaultConverter for FlowDroid*) set to: 60m
+BREW 08/01/2022 - 18:58:37
+Loaded from storage:
+Flows IN App(SIMPLIFY [
+	'/home/fpauck/benchmarks/temp/top15/subset/1/com.gamma.scan.apk' !
+] !) USES 'FlowDroid-271' ?
+BREW 08/01/2022 - 18:58:37 [1;32mFinished (after 1.361s): Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/1/com.gamma.scan.apk') ?[m[m
+BREW 08/01/2022 - 18:58:37
+[1m***** Answer (/media/sf_brewThesis/answers/answer_01_08_2022-18_58_37-001.xml) *****
+[m*** Flows ***
+#1:
+From:
+Statement('$r26 = virtualinvoke $r14.<java.net.HttpURLConnection: java.io.InputStream getInputStream()>()')->Method('<com.facebook.ads.internal.dynamicloading.DexLoadErrorReporter$a: void run()>')->Class('com.facebook.ads.internal.dynamicloading.DexLoadErrorReporter$a')->App('/media/sf_brewThesis/data/storage/00409.apk')
+To:
+Statement('virtualinvoke $r5.<java.io.ByteArrayOutputStream: void write(byte[],int,int)>($r25, 0, $i1)')->Method('<com.facebook.ads.internal.dynamicloading.DexLoadErrorReporter$a: void run()>')->Class('com.facebook.ads.internal.dynamicloading.DexLoadErrorReporter$a')->App('/media/sf_brewThesis/data/storage/00409.apk')
+[m[m
+BREW 08/01/2022 - 18:58:37
+
+
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<answer>
+    <flows>
+        <flow>
+            <reference type="from">
+                <statement>
+                    <statementfull>$r26 = virtualinvoke $r14.&lt;java.net.HttpURLConnection: java.io.InputStream getInputStream()&gt;()</statementfull>
+                    <statementgeneric>java.net.HttpURLConnection: java.io.InputStream getInputStream()</statementgeneric>
+                </statement>
+                <method>&lt;com.facebook.ads.internal.dynamicloading.DexLoadErrorReporter$a: void run()&gt;</method>
+                <classname>com.facebook.ads.internal.dynamicloading.DexLoadErrorReporter$a</classname>
+                <app>
+                    <file>/media/sf_brewThesis/data/storage/00409.apk</file>
+                    <hashes>
+                        <hash type="MD5">763c0270f69a1f30a1f08e7af20227ce</hash>
+                        <hash type="SHA-1">87a71c7bebd4ee53b172f14cb6028991e5c3e394</hash>
+                        <hash type="SHA-256">a63fae262aa53a3930900f766e917ad9023fe5a21684659255b988b5ec67c863</hash>
+                    </hashes>
+                </app>
+            </reference>
+            <reference type="to">
+                <statement>
+                    <statementfull>virtualinvoke $r5.&lt;java.io.ByteArrayOutputStream: void write(byte[],int,int)&gt;($r25, 0, $i1)</statementfull>
+                    <statementgeneric>java.io.ByteArrayOutputStream: void write(byte[],int,int)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>byte[]</type>
+                            <value>$r25</value>
+                        </parameter>
+                        <parameter>
+                            <type>int</type>
+                            <value>0</value>
+                        </parameter>
+                        <parameter>
+                            <type>int</type>
+                            <value>$i1</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;com.facebook.ads.internal.dynamicloading.DexLoadErrorReporter$a: void run()&gt;</method>
+                <classname>com.facebook.ads.internal.dynamicloading.DexLoadErrorReporter$a</classname>
+                <app>
+                    <file>/media/sf_brewThesis/data/storage/00409.apk</file>
+                    <hashes>
+                        <hash type="MD5">763c0270f69a1f30a1f08e7af20227ce</hash>
+                        <hash type="SHA-1">87a71c7bebd4ee53b172f14cb6028991e5c3e394</hash>
+                        <hash type="SHA-256">a63fae262aa53a3930900f766e917ad9023fe5a21684659255b988b5ec67c863</hash>
+                    </hashes>
+                </app>
+            </reference>
+        </flow>
+    </flows>
+</answer>
+
+
+
+
+BREW 08/01/2022 - 18:58:37 Continuing with configuration: /media/sf_webservice/config.xml (a9ee75f31fbb720aa6746ae2f72aade2)
+BREW 08/01/2022 - 18:58:37 [1;32mStarting: Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/1/com.starfinanz.mobile.android.pushtan.apk') ?[m[m
+BREW 08/01/2022 - 18:58:37 Parsed: Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/1/com.starfinanz.mobile.android.pushtan.apk') ?
+BREW 08/01/2022 - 18:58:37 Resolved: Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/1/com.starfinanz.mobile.android.pushtan.apk') ?
+BREW 08/01/2022 - 18:58:37 Transformation-rule applied: ToolSelection
+BREW 08/01/2022 - 18:58:37 Transformation-rule applied: ApplySimplifier
+BREW 08/01/2022 - 18:58:37
+Transformed:
+Flows IN App(SIMPLIFY [
+	'/home/fpauck/benchmarks/temp/top15/subset/1/com.starfinanz.mobile.android.pushtan.apk' !
+] !) USES 'FlowDroid-271' ?
+BREW 08/01/2022 - 18:58:38 Loaded storage from: /media/sf_brewThesis/data/storage/storage.ser
+BREW 08/01/2022 - 18:58:38 Setting variable (%MEMORY%) value to: "96"
+BREW 08/01/2022 - 18:58:38 Setting variable (%ANDROID_PLATFORMS%) value to: "/media/sf_sdks/platforms/"
+BREW 08/01/2022 - 18:58:38 Setting variable (%ANDROID_BUILDTOOLS%) value to: "null"
+BREW 08/01/2022 - 18:58:38 Setting variable (%DATE%) value to: "01_08_2022-18_58_38"
+BREW 08/01/2022 - 18:58:38 Setting variable (%LINENUMBER_IN%) value to: "-1"
+BREW 08/01/2022 - 18:58:38 Setting variable (%LINENUMBER_IN%) value to: "-1"
+BREW 08/01/2022 - 18:58:38 Warning: Maximum memory (105 GB) specified in config file will never become available. Using maximal available memory instead: 102 GB
+BREW 08/01/2022 - 18:58:38 Timeout (Answer-Loader) set to: 60m
+BREW 08/01/2022 - 18:58:38 Starting execution of default Answer-Loader (2.0.1-SNAPSHOT). [/media/sf_brewThesis/.: Load from file: /media/sf_brewThesis/data/storage/00580.%FILE_ENDING%]
+BREW 08/01/2022 - 18:58:38 Finished execution of default Answer-Loader (2.0.1-SNAPSHOT) after 0.0 seconds. [/media/sf_brewThesis/.: Load from file: /home/fpauck/benchmarks/temp/top15/subset/1/com.starfinanz.mobile.android.pushtan.apk]
+BREW 08/01/2022 - 18:58:38 Setting variable (%ANSWERS%) value to: "/home/fpauck/benchmarks/temp/top15/subset/1/com.starfinanz.mobile.android.pushtan.apk"
+BREW 08/01/2022 - 18:58:38 Setting variable (%ANSWERSHASH%) value to: "c307ef857e4d6c975439d35f612a3d2890c8b169e01ad5e75a0d456fb22990a8"
+BREW 08/01/2022 - 18:58:38 Setting variable (%ANSWERSHASH_MD5%) value to: "b879e79a289f0a4f4bbd819ae26d0be1"
+BREW 08/01/2022 - 18:58:38 Setting variable (%ANSWERSHASH_SHA-1%) value to: "403d02a6acda72affae4eecae5cf25efda3983b1"
+BREW 08/01/2022 - 18:58:38 Setting variable (%ANSWERSHASH_SHA-256%) value to: "c307ef857e4d6c975439d35f612a3d2890c8b169e01ad5e75a0d456fb22990a8"
+BREW 08/01/2022 - 18:58:38 Timeout (DefaultSimplifyOperator) set to: 60m
+BREW 08/01/2022 - 18:58:38
+Loaded from storage:
+SIMPLIFY [
+	'/home/fpauck/benchmarks/temp/top15/subset/1/com.starfinanz.mobile.android.pushtan.apk' !
+] !
+BREW 08/01/2022 - 18:58:38 Setting variable (%APP_APK_IN%) value to: "/media/sf_brewThesis/data/storage/00413.apk"
+BREW 08/01/2022 - 18:58:38 Setting variable (%APP_APK%) value to: "/media/sf_brewThesis/data/storage/00413.apk"
+BREW 08/01/2022 - 18:58:38 Setting variable (%APP_APK_IN_FILENAME%) value to: "00413"
+BREW 08/01/2022 - 18:58:38 Setting variable (%APP_APK_FILENAME%) value to: "00413"
+BREW 08/01/2022 - 18:58:38 Setting variable (%APP_APK_IN_NAME%) value to: "pushtan"
+BREW 08/01/2022 - 18:58:38 Setting variable (%APP_APK_NAME%) value to: "pushtan"
+BREW 08/01/2022 - 18:58:38 Setting variable (%APP_APK_IN_PACKAGE%) value to: "com.starfinanz.mobile.android.pushtan"
+BREW 08/01/2022 - 18:58:38 Setting variable (%APP_APK_PACKAGE%) value to: "com.starfinanz.mobile.android.pushtan"
+BREW 08/01/2022 - 18:58:39 Running on entry event for the tool: FlowDroid (2.7.1)
+BREW 08/01/2022 - 18:58:39 Timeout (FlowDroid) set to: 60m
+BREW 08/01/2022 - 18:58:39
+Loaded from storage:
+Flows IN App(SIMPLIFY [
+	'/home/fpauck/benchmarks/temp/top15/subset/1/com.starfinanz.mobile.android.pushtan.apk' !
+] !) USES 'FlowDroid-271' ?
+BREW 08/01/2022 - 18:58:39 Running on exit event for the tool: FlowDroid (2.7.1)
+BREW 08/01/2022 - 18:58:40 Process (30445) output: Not root! Reattempting as root...
+BREW 08/01/2022 - 18:58:40 Process (30445) output: Root! Flushing memory...
+BREW 08/01/2022 - 18:58:40 Setting variable (%RESULT_FILE%) value to: "/media/sf_brewThesis/data/storage/00512.xml"
+BREW 08/01/2022 - 18:58:40 Setting variable (%APP_APK_IN_NAME%) value to: "pushtan"
+BREW 08/01/2022 - 18:58:40 Setting variable (%APP_APK_NAME%) value to: "pushtan"
+BREW 08/01/2022 - 18:58:40 Setting variable (%APP_APK_IN_FILENAME%) value to: "00413"
+BREW 08/01/2022 - 18:58:40 Setting variable (%APP_APK_FILENAME%) value to: "00413"
+BREW 08/01/2022 - 18:58:40 Setting variable (%APP_APK_IN%) value to: "/media/sf_brewThesis/data/storage/00413.apk"
+BREW 08/01/2022 - 18:58:40 Setting variable (%APP_APK%) value to: "/media/sf_brewThesis/data/storage/00413.apk"
+BREW 08/01/2022 - 18:58:40 Setting variable (%APP_APK_IN_PACKAGE%) value to: "com.starfinanz.mobile.android.pushtan"
+BREW 08/01/2022 - 18:58:40 Setting variable (%APP_APK_PACKAGE%) value to: "com.starfinanz.mobile.android.pushtan"
+BREW 08/01/2022 - 18:58:40 Timeout (DefaultConverter for FlowDroid*) set to: 60m
+BREW 08/01/2022 - 18:58:40
+Loaded from storage:
+Flows IN App(SIMPLIFY [
+	'/home/fpauck/benchmarks/temp/top15/subset/1/com.starfinanz.mobile.android.pushtan.apk' !
+] !) USES 'FlowDroid-271' ?
+BREW 08/01/2022 - 18:58:40 [1;32mFinished (after 2.582s): Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/1/com.starfinanz.mobile.android.pushtan.apk') ?[m[m
+BREW 08/01/2022 - 18:58:40
+[1m***** Answer (/media/sf_brewThesis/answers/answer_01_08_2022-18_58_40-001.xml) *****
+[m*** Flows ***
+
+[m[m
+BREW 08/01/2022 - 18:58:40
+
+
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<answer>
+    <flows/>
+</answer>
+
+
+
+
+BREW 08/01/2022 - 18:58:40 Continuing with configuration: /media/sf_webservice/config.xml (a9ee75f31fbb720aa6746ae2f72aade2)
+BREW 08/01/2022 - 18:58:41 [1;32mStarting: Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/1/de.cellular.ottohybrid.apk') ?[m[m
+BREW 08/01/2022 - 18:58:41 Parsed: Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/1/de.cellular.ottohybrid.apk') ?
+BREW 08/01/2022 - 18:58:41 Resolved: Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/1/de.cellular.ottohybrid.apk') ?
+BREW 08/01/2022 - 18:58:41 Transformation-rule applied: ToolSelection
+BREW 08/01/2022 - 18:58:41 Transformation-rule applied: ApplySimplifier
+BREW 08/01/2022 - 18:58:41
+Transformed:
+Flows IN App(SIMPLIFY [
+	'/home/fpauck/benchmarks/temp/top15/subset/1/de.cellular.ottohybrid.apk' !
+] !) USES 'FlowDroid-271' ?
+BREW 08/01/2022 - 18:58:41 Loaded storage from: /media/sf_brewThesis/data/storage/storage.ser
+BREW 08/01/2022 - 18:58:41 Setting variable (%MEMORY%) value to: "96"
+BREW 08/01/2022 - 18:58:41 Setting variable (%ANDROID_PLATFORMS%) value to: "/media/sf_sdks/platforms/"
+BREW 08/01/2022 - 18:58:41 Setting variable (%ANDROID_BUILDTOOLS%) value to: "null"
+BREW 08/01/2022 - 18:58:41 Setting variable (%DATE%) value to: "01_08_2022-18_58_41"
+BREW 08/01/2022 - 18:58:41 Setting variable (%LINENUMBER_IN%) value to: "-1"
+BREW 08/01/2022 - 18:58:41 Setting variable (%LINENUMBER_IN%) value to: "-1"
+BREW 08/01/2022 - 18:58:41 Warning: Maximum memory (105 GB) specified in config file will never become available. Using maximal available memory instead: 102 GB
+BREW 08/01/2022 - 18:58:41 Timeout (Answer-Loader) set to: 60m
+BREW 08/01/2022 - 18:58:41 Starting execution of default Answer-Loader (2.0.1-SNAPSHOT). [/media/sf_brewThesis/.: Load from file: /media/sf_brewThesis/data/storage/00580.%FILE_ENDING%]
+BREW 08/01/2022 - 18:58:41 Finished execution of default Answer-Loader (2.0.1-SNAPSHOT) after 0.0 seconds. [/media/sf_brewThesis/.: Load from file: /home/fpauck/benchmarks/temp/top15/subset/1/de.cellular.ottohybrid.apk]
+BREW 08/01/2022 - 18:58:41 Setting variable (%ANSWERS%) value to: "/home/fpauck/benchmarks/temp/top15/subset/1/de.cellular.ottohybrid.apk"
+BREW 08/01/2022 - 18:58:41 Setting variable (%ANSWERSHASH%) value to: "aca94f423e1aaae3f9f0d8ab9982403fe8d8c72e0d6720484be3927c6a2b4a27"
+BREW 08/01/2022 - 18:58:41 Setting variable (%ANSWERSHASH_MD5%) value to: "8b2be8af2568e1d6a7bdace97282e69b"
+BREW 08/01/2022 - 18:58:41 Setting variable (%ANSWERSHASH_SHA-1%) value to: "24fd1958e5002c8e5c419e023f60471d99b0a24a"
+BREW 08/01/2022 - 18:58:41 Setting variable (%ANSWERSHASH_SHA-256%) value to: "aca94f423e1aaae3f9f0d8ab9982403fe8d8c72e0d6720484be3927c6a2b4a27"
+BREW 08/01/2022 - 18:58:41 Timeout (DefaultSimplifyOperator) set to: 60m
+BREW 08/01/2022 - 18:58:41
+Loaded from storage:
+SIMPLIFY [
+	'/home/fpauck/benchmarks/temp/top15/subset/1/de.cellular.ottohybrid.apk' !
+] !
+BREW 08/01/2022 - 18:58:41 Setting variable (%APP_APK_IN%) value to: "/media/sf_brewThesis/data/storage/00417.apk"
+BREW 08/01/2022 - 18:58:41 Setting variable (%APP_APK%) value to: "/media/sf_brewThesis/data/storage/00417.apk"
+BREW 08/01/2022 - 18:58:41 Setting variable (%APP_APK_IN_FILENAME%) value to: "00417"
+BREW 08/01/2022 - 18:58:41 Setting variable (%APP_APK_FILENAME%) value to: "00417"
+BREW 08/01/2022 - 18:58:41 Setting variable (%APP_APK_IN_NAME%) value to: "ottohybrid"
+BREW 08/01/2022 - 18:58:41 Setting variable (%APP_APK_NAME%) value to: "ottohybrid"
+BREW 08/01/2022 - 18:58:41 Setting variable (%APP_APK_IN_PACKAGE%) value to: "de.cellular.ottohybrid"
+BREW 08/01/2022 - 18:58:41 Setting variable (%APP_APK_PACKAGE%) value to: "de.cellular.ottohybrid"
+BREW 08/01/2022 - 18:58:41 Running on entry event for the tool: FlowDroid (2.7.1)
+BREW 08/01/2022 - 18:58:41 Timeout (FlowDroid) set to: 60m
+BREW 08/01/2022 - 18:58:41
+Loaded from storage:
+Flows IN App(SIMPLIFY [
+	'/home/fpauck/benchmarks/temp/top15/subset/1/de.cellular.ottohybrid.apk' !
+] !) USES 'FlowDroid-271' ?
+BREW 08/01/2022 - 18:58:41 Running on exit event for the tool: FlowDroid (2.7.1)
+BREW 08/01/2022 - 18:58:42 Process (30483) output: Not root! Reattempting as root...
+BREW 08/01/2022 - 18:58:42 Process (30483) output: Root! Flushing memory...
+BREW 08/01/2022 - 18:58:42 Setting variable (%RESULT_FILE%) value to: "/media/sf_brewThesis/data/storage/00516.xml"
+BREW 08/01/2022 - 18:58:42 Setting variable (%APP_APK_IN_NAME%) value to: "ottohybrid"
+BREW 08/01/2022 - 18:58:42 Setting variable (%APP_APK_NAME%) value to: "ottohybrid"
+BREW 08/01/2022 - 18:58:42 Setting variable (%APP_APK_IN_FILENAME%) value to: "00417"
+BREW 08/01/2022 - 18:58:42 Setting variable (%APP_APK_FILENAME%) value to: "00417"
+BREW 08/01/2022 - 18:58:42 Setting variable (%APP_APK_IN%) value to: "/media/sf_brewThesis/data/storage/00417.apk"
+BREW 08/01/2022 - 18:58:42 Setting variable (%APP_APK%) value to: "/media/sf_brewThesis/data/storage/00417.apk"
+BREW 08/01/2022 - 18:58:42 Setting variable (%APP_APK_IN_PACKAGE%) value to: "de.cellular.ottohybrid"
+BREW 08/01/2022 - 18:58:42 Setting variable (%APP_APK_PACKAGE%) value to: "de.cellular.ottohybrid"
+BREW 08/01/2022 - 18:58:42 Timeout (DefaultConverter for FlowDroid*) set to: 60m
+BREW 08/01/2022 - 18:58:42
+Loaded from storage:
+Flows IN App(SIMPLIFY [
+	'/home/fpauck/benchmarks/temp/top15/subset/1/de.cellular.ottohybrid.apk' !
+] !) USES 'FlowDroid-271' ?
+BREW 08/01/2022 - 18:58:42 [1;32mFinished (after 1.439s): Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/1/de.cellular.ottohybrid.apk') ?[m[m
+BREW 08/01/2022 - 18:58:42
+[1m***** Answer (/media/sf_brewThesis/answers/answer_01_08_2022-18_58_42-001.xml) *****
+[m*** Flows ***
+#1:
+From:
+Statement('$r4 = virtualinvoke $r2.<android.content.Intent: java.lang.String getStringExtra(java.lang.String)>("time-zone")')->Method('<net.danlew.android.joda.TimeZoneChangedReceiver: void onReceive(android.content.Context,android.content.Intent)>')->Class('net.danlew.android.joda.TimeZoneChangedReceiver')->App('/media/sf_brewThesis/data/storage/00417.apk')
+To:
+Statement('staticinvoke <android.util.Log: int e(java.lang.String,java.lang.String,java.lang.Throwable)>("joda-time-android", $r4, $r3)')->Method('<net.danlew.android.joda.TimeZoneChangedReceiver: void onReceive(android.content.Context,android.content.Intent)>')->Class('net.danlew.android.joda.TimeZoneChangedReceiver')->App('/media/sf_brewThesis/data/storage/00417.apk')
+#2:
+From:
+Statement('$r4 = virtualinvoke $r2.<android.content.Intent: java.lang.String getStringExtra(java.lang.String)>("time-zone")')->Method('<net.danlew.android.joda.TimeZoneChangedReceiver: void onReceive(android.content.Context,android.content.Intent)>')->Class('net.danlew.android.joda.TimeZoneChangedReceiver')->App('/media/sf_brewThesis/data/storage/00417.apk')
+To:
+Statement('staticinvoke <android.util.Log: int d(java.lang.String,java.lang.String)>("joda-time-android", $r8)')->Method('<net.danlew.android.joda.TimeZoneChangedReceiver: void onReceive(android.content.Context,android.content.Intent)>')->Class('net.danlew.android.joda.TimeZoneChangedReceiver')->App('/media/sf_brewThesis/data/storage/00417.apk')
+[m[m
+BREW 08/01/2022 - 18:58:42
+
+
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<answer>
+    <flows>
+        <flow>
+            <reference type="from">
+                <statement>
+                    <statementfull>$r4 = virtualinvoke $r2.&lt;android.content.Intent: java.lang.String getStringExtra(java.lang.String)&gt;("time-zone")</statementfull>
+                    <statementgeneric>android.content.Intent: java.lang.String getStringExtra(java.lang.String)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>java.lang.String</type>
+                            <value>"time-zone"</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;net.danlew.android.joda.TimeZoneChangedReceiver: void onReceive(android.content.Context,android.content.Intent)&gt;</method>
+                <classname>net.danlew.android.joda.TimeZoneChangedReceiver</classname>
+                <app>
+                    <file>/media/sf_brewThesis/data/storage/00417.apk</file>
+                    <hashes>
+                        <hash type="MD5">f03f74623be799ce10ab8cd992179aad</hash>
+                        <hash type="SHA-1">4376c2156f592cb595657ca57df29dd33f99e556</hash>
+                        <hash type="SHA-256">84df0cb4a399a8b45e677618f753a2c4e417a1d584625c378ff60c8e52cd7a3d</hash>
+                    </hashes>
+                </app>
+            </reference>
+            <reference type="to">
+                <statement>
+                    <statementfull>staticinvoke &lt;android.util.Log: int e(java.lang.String,java.lang.String,java.lang.Throwable)&gt;("joda-time-android", $r4, $r3)</statementfull>
+                    <statementgeneric>android.util.Log: int e(java.lang.String,java.lang.String,java.lang.Throwable)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>java.lang.String</type>
+                            <value>"joda-time-android"</value>
+                        </parameter>
+                        <parameter>
+                            <type>java.lang.String</type>
+                            <value>$r4</value>
+                        </parameter>
+                        <parameter>
+                            <type>java.lang.Throwable</type>
+                            <value>$r3</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;net.danlew.android.joda.TimeZoneChangedReceiver: void onReceive(android.content.Context,android.content.Intent)&gt;</method>
+                <classname>net.danlew.android.joda.TimeZoneChangedReceiver</classname>
+                <app>
+                    <file>/media/sf_brewThesis/data/storage/00417.apk</file>
+                    <hashes>
+                        <hash type="MD5">f03f74623be799ce10ab8cd992179aad</hash>
+                        <hash type="SHA-1">4376c2156f592cb595657ca57df29dd33f99e556</hash>
+                        <hash type="SHA-256">84df0cb4a399a8b45e677618f753a2c4e417a1d584625c378ff60c8e52cd7a3d</hash>
+                    </hashes>
+                </app>
+            </reference>
+        </flow>
+        <flow>
+            <reference type="from">
+                <statement>
+                    <statementfull>$r4 = virtualinvoke $r2.&lt;android.content.Intent: java.lang.String getStringExtra(java.lang.String)&gt;("time-zone")</statementfull>
+                    <statementgeneric>android.content.Intent: java.lang.String getStringExtra(java.lang.String)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>java.lang.String</type>
+                            <value>"time-zone"</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;net.danlew.android.joda.TimeZoneChangedReceiver: void onReceive(android.content.Context,android.content.Intent)&gt;</method>
+                <classname>net.danlew.android.joda.TimeZoneChangedReceiver</classname>
+                <app>
+                    <file>/media/sf_brewThesis/data/storage/00417.apk</file>
+                    <hashes>
+                        <hash type="MD5">f03f74623be799ce10ab8cd992179aad</hash>
+                        <hash type="SHA-1">4376c2156f592cb595657ca57df29dd33f99e556</hash>
+                        <hash type="SHA-256">84df0cb4a399a8b45e677618f753a2c4e417a1d584625c378ff60c8e52cd7a3d</hash>
+                    </hashes>
+                </app>
+            </reference>
+            <reference type="to">
+                <statement>
+                    <statementfull>staticinvoke &lt;android.util.Log: int d(java.lang.String,java.lang.String)&gt;("joda-time-android", $r8)</statementfull>
+                    <statementgeneric>android.util.Log: int d(java.lang.String,java.lang.String)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>java.lang.String</type>
+                            <value>"joda-time-android"</value>
+                        </parameter>
+                        <parameter>
+                            <type>java.lang.String</type>
+                            <value>$r8</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;net.danlew.android.joda.TimeZoneChangedReceiver: void onReceive(android.content.Context,android.content.Intent)&gt;</method>
+                <classname>net.danlew.android.joda.TimeZoneChangedReceiver</classname>
+                <app>
+                    <file>/media/sf_brewThesis/data/storage/00417.apk</file>
+                    <hashes>
+                        <hash type="MD5">f03f74623be799ce10ab8cd992179aad</hash>
+                        <hash type="SHA-1">4376c2156f592cb595657ca57df29dd33f99e556</hash>
+                        <hash type="SHA-256">84df0cb4a399a8b45e677618f753a2c4e417a1d584625c378ff60c8e52cd7a3d</hash>
+                    </hashes>
+                </app>
+            </reference>
+        </flow>
+    </flows>
+</answer>
+
+
+
+
+BREW 08/01/2022 - 18:58:42 Continuing with configuration: /media/sf_webservice/config.xml (a9ee75f31fbb720aa6746ae2f72aade2)
+BREW 08/01/2022 - 18:58:43 [1;32mStarting: Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/1/de.hafas.android.db.apk') ?[m[m
+BREW 08/01/2022 - 18:58:43 Parsed: Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/1/de.hafas.android.db.apk') ?
+BREW 08/01/2022 - 18:58:43 Resolved: Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/1/de.hafas.android.db.apk') ?
+BREW 08/01/2022 - 18:58:43 Transformation-rule applied: ToolSelection
+BREW 08/01/2022 - 18:58:43 Transformation-rule applied: ApplySimplifier
+BREW 08/01/2022 - 18:58:43
+Transformed:
+Flows IN App(SIMPLIFY [
+	'/home/fpauck/benchmarks/temp/top15/subset/1/de.hafas.android.db.apk' !
+] !) USES 'FlowDroid-271' ?
+BREW 08/01/2022 - 18:58:43 Loaded storage from: /media/sf_brewThesis/data/storage/storage.ser
+BREW 08/01/2022 - 18:58:43 Setting variable (%MEMORY%) value to: "96"
+BREW 08/01/2022 - 18:58:43 Setting variable (%ANDROID_PLATFORMS%) value to: "/media/sf_sdks/platforms/"
+BREW 08/01/2022 - 18:58:43 Setting variable (%ANDROID_BUILDTOOLS%) value to: "null"
+BREW 08/01/2022 - 18:58:43 Setting variable (%DATE%) value to: "01_08_2022-18_58_43"
+BREW 08/01/2022 - 18:58:43 Setting variable (%LINENUMBER_IN%) value to: "-1"
+BREW 08/01/2022 - 18:58:43 Setting variable (%LINENUMBER_IN%) value to: "-1"
+BREW 08/01/2022 - 18:58:43 Warning: Maximum memory (105 GB) specified in config file will never become available. Using maximal available memory instead: 102 GB
+BREW 08/01/2022 - 18:58:43 Timeout (Answer-Loader) set to: 60m
+BREW 08/01/2022 - 18:58:43 Starting execution of default Answer-Loader (2.0.1-SNAPSHOT). [/media/sf_brewThesis/.: Load from file: /media/sf_brewThesis/data/storage/00580.%FILE_ENDING%]
+BREW 08/01/2022 - 18:58:43 Finished execution of default Answer-Loader (2.0.1-SNAPSHOT) after 0.0 seconds. [/media/sf_brewThesis/.: Load from file: /home/fpauck/benchmarks/temp/top15/subset/1/de.hafas.android.db.apk]
+BREW 08/01/2022 - 18:58:44 Setting variable (%ANSWERS%) value to: "/home/fpauck/benchmarks/temp/top15/subset/1/de.hafas.android.db.apk"
+BREW 08/01/2022 - 18:58:44 Setting variable (%ANSWERSHASH%) value to: "9544e2963bbb845dd47b7db8fc936d8aa314309604f924210d1fc7834ad9f0b7"
+BREW 08/01/2022 - 18:58:44 Setting variable (%ANSWERSHASH_MD5%) value to: "c220553a4dc2e3444844c1ce002a8b05"
+BREW 08/01/2022 - 18:58:44 Setting variable (%ANSWERSHASH_SHA-1%) value to: "8f35221f92f2c1ce16813781bf230d9f3a7e0fdd"
+BREW 08/01/2022 - 18:58:44 Setting variable (%ANSWERSHASH_SHA-256%) value to: "9544e2963bbb845dd47b7db8fc936d8aa314309604f924210d1fc7834ad9f0b7"
+BREW 08/01/2022 - 18:58:44 Timeout (DefaultSimplifyOperator) set to: 60m
+BREW 08/01/2022 - 18:58:45
+Loaded from storage:
+SIMPLIFY [
+	'/home/fpauck/benchmarks/temp/top15/subset/1/de.hafas.android.db.apk' !
+] !
+BREW 08/01/2022 - 18:58:45 Setting variable (%APP_APK_IN%) value to: "/media/sf_brewThesis/data/storage/00421.apk"
+BREW 08/01/2022 - 18:58:45 Setting variable (%APP_APK%) value to: "/media/sf_brewThesis/data/storage/00421.apk"
+BREW 08/01/2022 - 18:58:45 Setting variable (%APP_APK_IN_FILENAME%) value to: "00421"
+BREW 08/01/2022 - 18:58:45 Setting variable (%APP_APK_FILENAME%) value to: "00421"
+BREW 08/01/2022 - 18:58:45 Setting variable (%APP_APK_IN_NAME%) value to: "db"
+BREW 08/01/2022 - 18:58:45 Setting variable (%APP_APK_NAME%) value to: "db"
+BREW 08/01/2022 - 18:58:45 Setting variable (%APP_APK_IN_PACKAGE%) value to: "de.hafas.android.db"
+BREW 08/01/2022 - 18:58:45 Setting variable (%APP_APK_PACKAGE%) value to: "de.hafas.android.db"
+BREW 08/01/2022 - 18:58:46 Running on entry event for the tool: FlowDroid (2.7.1)
+BREW 08/01/2022 - 18:58:46 Timeout (FlowDroid) set to: 60m
+BREW 08/01/2022 - 18:58:47 Starting execution of internal FlowDroid (2.7.1). [/home/fpauck/tools/FlowDroid/271_linenumbers: java -Xmx96g -jar soot-infoflow-cmd-jar-with-dependencies.jar -a /media/sf_brewThesis/data/storage/00421.apk -p /media/sf_sdks/platforms/ -s /home/fpauck/tools/FlowDroid/env/SourcesAndSinks.txt -o results/00421_result.xml -ol -d]
+BREW 08/01/2022 - 18:58:47 Setting variable (%PID%) value to: "30522"
+BREW 08/01/2022 - 18:58:47 [31mProcess (FlowDroid, 30522) error: [main] INFO soot.jimple.infoflow.cmd.MainClass - Analyzing app /media/sf_brewThesis/data/storage/00421.apk (1 of 1)...[m[m
+BREW 08/01/2022 - 18:58:47 [31mProcess (FlowDroid, 30522) error: [main] INFO soot.jimple.infoflow.android.SetupApplication - Initializing Soot...[m[m
+BREW 08/01/2022 - 18:58:48 [31mProcess (FlowDroid, 30522) error: [main] INFO soot.jimple.infoflow.android.SetupApplication - Loading dex files...[m[m
+BREW 08/01/2022 - 18:58:56 [31mProcess (FlowDroid, 30522) error: [main] INFO soot.jimple.infoflow.android.SetupApplication - ARSC file parsing took 0.350292486 seconds[m[m
+BREW 08/01/2022 - 18:58:57 [31mProcess (FlowDroid, 30522) error: [main] INFO soot.jimple.infoflow.android.entryPointCreators.AndroidEntryPointCreator - Creating Android entry point for 88 components...[m[m
+BREW 08/01/2022 - 18:58:57 [31mProcess (FlowDroid, 30522) error: [main] INFO soot.jimple.infoflow.android.SetupApplication - Constructing the callgraph...[m[m
+BREW 08/01/2022 - 18:59:20 [31mProcess (FlowDroid, 30522) error: [main] INFO soot.jimple.infoflow.android.callbacks.DefaultCallbackAnalyzer - Collecting callbacks in DEFAULT mode...[m[m
+BREW 08/01/2022 - 18:59:21 [31mProcess (FlowDroid, 30522) error: [main] INFO soot.jimple.infoflow.android.callbacks.DefaultCallbackAnalyzer - Callback analysis done.[m[m
+BREW 08/01/2022 - 18:59:21 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.constraintlayout.widget.Guideline[m[m
+BREW 08/01/2022 - 18:59:21 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.google.android.material.timepicker.ClockFaceView is not derived from android.view.View[m[m
+BREW 08/01/2022 - 18:59:21 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class view[m[m
+BREW 08/01/2022 - 18:59:21 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class view[m[m
+BREW 08/01/2022 - 18:59:21 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.swiperefreshlayout.widget.SwipeRefreshLayout[m[m
+BREW 08/01/2022 - 18:59:21 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.swiperefreshlayout.widget.SwipeRefreshLayout[m[m
+BREW 08/01/2022 - 18:59:21 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.appcompat.widget.ButtonBarLayout[m[m
+BREW 08/01/2022 - 18:59:21 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.widget.Space[m[m
+BREW 08/01/2022 - 18:59:21 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.swiperefreshlayout.widget.SwipeRefreshLayout[m[m
+BREW 08/01/2022 - 18:59:21 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.viewpager2.widget.ViewPager2[m[m
+BREW 08/01/2022 - 18:59:21 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.google.android.material.card.MaterialCardView is not derived from android.view.View[m[m
+BREW 08/01/2022 - 18:59:21 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.constraintlayout.widget.ConstraintLayout[m[m
+BREW 08/01/2022 - 18:59:21 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.viewpager2.widget.ViewPager2[m[m
+BREW 08/01/2022 - 18:59:21 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.viewpager2.widget.ViewPager2[m[m
+BREW 08/01/2022 - 18:59:21 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.viewpager2.widget.ViewPager2[m[m
+BREW 08/01/2022 - 18:59:21 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.constraintlayout.widget.ConstraintLayout[m[m
+BREW 08/01/2022 - 18:59:21 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.constraintlayout.widget.ConstraintLayout[m[m
+BREW 08/01/2022 - 18:59:21 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.constraintlayout.widget.ConstraintLayout[m[m
+BREW 08/01/2022 - 18:59:21 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.constraintlayout.widget.ConstraintLayout[m[m
+BREW 08/01/2022 - 18:59:21 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.constraintlayout.widget.ConstraintLayout[m[m
+BREW 08/01/2022 - 18:59:21 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.constraintlayout.widget.ConstraintLayout[m[m
+BREW 08/01/2022 - 18:59:21 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.viewpager2.widget.ViewPager2[m[m
+BREW 08/01/2022 - 18:59:21 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.constraintlayout.widget.ConstraintLayout[m[m
+BREW 08/01/2022 - 18:59:21 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.appcompat.widget.SwitchCompat[m[m
+BREW 08/01/2022 - 18:59:21 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.constraintlayout.widget.ConstraintLayout[m[m
+BREW 08/01/2022 - 18:59:21 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.core.widget.NestedScrollView[m[m
+BREW 08/01/2022 - 18:59:21 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.constraintlayout.widget.ConstraintLayout[m[m
+BREW 08/01/2022 - 18:59:21 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class de.hafas.ui.planner.screen.DbBestPriceToggleSwitchView is not derived from android.view.View[m[m
+BREW 08/01/2022 - 18:59:21 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.recyclerview.widget.RecyclerView[m[m
+BREW 08/01/2022 - 18:59:21 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.viewpager2.widget.ViewPager2[m[m
+BREW 08/01/2022 - 18:59:21 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.google.android.material.card.MaterialCardView is not derived from android.view.View[m[m
+BREW 08/01/2022 - 18:59:21 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.constraintlayout.widget.ConstraintLayout[m[m
+BREW 08/01/2022 - 18:59:21 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.google.android.material.card.MaterialCardView is not derived from android.view.View[m[m
+BREW 08/01/2022 - 18:59:21 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.constraintlayout.widget.ConstraintLayout[m[m
+BREW 08/01/2022 - 18:59:21 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.constraintlayout.widget.ConstraintLayout[m[m
+BREW 08/01/2022 - 18:59:21 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class de.hafas.ui.view.StopTimeView is not derived from android.view.View[m[m
+BREW 08/01/2022 - 18:59:21 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class de.hafas.ui.view.StopTimeView is not derived from android.view.View[m[m
+BREW 08/01/2022 - 18:59:21 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.constraintlayout.widget.Barrier[m[m
+BREW 08/01/2022 - 18:59:21 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.constraintlayout.widget.ConstraintLayout[m[m
+BREW 08/01/2022 - 18:59:21 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.constraintlayout.widget.ConstraintLayout[m[m
+BREW 08/01/2022 - 18:59:21 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.constraintlayout.widget.ConstraintLayout[m[m
+BREW 08/01/2022 - 18:59:21 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.constraintlayout.widget.Guideline[m[m
+BREW 08/01/2022 - 18:59:21 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.viewpager2.widget.ViewPager2[m[m
+BREW 08/01/2022 - 18:59:21 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.constraintlayout.widget.ConstraintLayout[m[m
+BREW 08/01/2022 - 18:59:21 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.constraintlayout.widget.Barrier[m[m
+BREW 08/01/2022 - 18:59:21 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.google.android.material.timepicker.TimePickerView is not derived from android.view.View[m[m
+BREW 08/01/2022 - 18:59:21 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.google.android.material.button.MaterialButton is not derived from android.view.View[m[m
+BREW 08/01/2022 - 18:59:21 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.appcompat.widget.ButtonBarLayout[m[m
+BREW 08/01/2022 - 18:59:21 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.widget.Space[m[m
+BREW 08/01/2022 - 18:59:21 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.legacy.widget.Space[m[m
+BREW 08/01/2022 - 18:59:21 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.legacy.widget.Space[m[m
+BREW 08/01/2022 - 18:59:21 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.legacy.widget.Space[m[m
+BREW 08/01/2022 - 18:59:21 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.legacy.widget.Space[m[m
+BREW 08/01/2022 - 18:59:21 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.legacy.widget.Space[m[m
+BREW 08/01/2022 - 18:59:21 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.legacy.widget.Space[m[m
+BREW 08/01/2022 - 18:59:21 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.constraintlayout.widget.ConstraintLayout[m[m
+BREW 08/01/2022 - 18:59:21 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class de.bahn.dbnav.ui.TopCropImageView is not derived from android.view.View[m[m
+BREW 08/01/2022 - 18:59:21 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.constraintlayout.widget.ConstraintLayout[m[m
+BREW 08/01/2022 - 18:59:21 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.constraintlayout.widget.ConstraintLayout[m[m
+BREW 08/01/2022 - 18:59:21 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.constraintlayout.widget.ConstraintLayout[m[m
+BREW 08/01/2022 - 18:59:21 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.constraintlayout.widget.ConstraintLayout[m[m
+BREW 08/01/2022 - 18:59:21 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.appcompat.widget.ActionBarOverlayLayout[m[m
+BREW 08/01/2022 - 18:59:21 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.appcompat.widget.ActionBarContainer[m[m
+BREW 08/01/2022 - 18:59:21 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.appcompat.widget.Toolbar[m[m
+BREW 08/01/2022 - 18:59:21 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.appcompat.widget.ActionBarContextView[m[m
+BREW 08/01/2022 - 18:59:21 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.appcompat.widget.ButtonBarLayout[m[m
+BREW 08/01/2022 - 18:59:21 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.appcompat.widget.DialogTitle[m[m
+BREW 08/01/2022 - 18:59:21 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.widget.Space[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.appcompat.view.menu.ActionMenuItemView[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.appcompat.widget.ActionMenuView[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.appcompat.widget.ActionBarContextView[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class view[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.appcompat.widget.ButtonBarLayout[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.widget.Space[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.appcompat.widget.AlertDialogLayout[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.core.widget.NestedScrollView[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.widget.Space[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.widget.Space[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.appcompat.widget.DialogTitle[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.widget.Space[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.appcompat.view.menu.ListMenuItemView[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.appcompat.widget.FitWindowsLinearLayout[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.appcompat.view.menu.ExpandedMenuView[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.appcompat.view.menu.ListMenuItemView[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.appcompat.view.menu.ListMenuItemView[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.appcompat.widget.ContentFrameLayout[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.appcompat.widget.FitWindowsLinearLayout[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.appcompat.widget.ViewStubCompat[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.appcompat.widget.FitWindowsFrameLayout[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.appcompat.widget.ViewStubCompat[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.appcompat.widget.ActionBarOverlayLayout[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.appcompat.widget.ActionBarContainer[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.appcompat.widget.Toolbar[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.appcompat.widget.ActionBarContextView[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class view[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class view[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.drawerlayout.widget.DrawerLayout[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.drawerlayout.widget.DrawerLayout[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.drawerlayout.widget.DrawerLayout[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.drawerlayout.widget.DrawerLayout[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.swiperefreshlayout.widget.SwipeRefreshLayout[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.constraintlayout.widget.ConstraintLayout[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.viewpager2.widget.ViewPager2[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class view[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.cardview.widget.CardView[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.constraintlayout.widget.ConstraintLayout[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.browser.browseractions.BrowserActionsFallbackMenuView[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.viewpager2.widget.ViewPager2[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class de.bahn.dbnav.widgets.Switch is not derived from android.view.View[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class de.bahn.dbnav.widgets.Switch is not derived from android.view.View[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.coordinatorlayout.widget.CoordinatorLayout[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class view[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class view[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.google.android.material.internal.NavigationMenuItemView is not derived from android.view.View[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.google.android.material.internal.NavigationMenuView is not derived from android.view.View[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.google.android.material.internal.CheckableImageButton is not derived from android.view.View[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.google.android.material.internal.CheckableImageButton is not derived from android.view.View[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.google.android.material.card.MaterialCardView is not derived from android.view.View[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.constraintlayout.widget.ConstraintLayout[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.recyclerview.widget.RecyclerView[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.core.widget.NestedScrollView[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.core.widget.NestedScrollView[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class de.bahn.dbnav.views.EllipsizingTextView is not derived from android.view.View[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class de.bahn.dbnav.views.EllipsizingTextView is not derived from android.view.View[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.recyclerview.widget.RecyclerView[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class de.bahn.dbnav.views.EllipsizingTextView is not derived from android.view.View[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class de.bahn.dbnav.views.EllipsizingTextView is not derived from android.view.View[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.viewpager2.widget.ViewPager2[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.constraintlayout.widget.ConstraintLayout[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class de.eosuptrade.mticket.view.draggablelistview.DraggableListView[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.viewpager.widget.ViewPager[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.constraintlayout.widget.ConstraintLayout[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class de.bahn.dbnav.views.EllipsizingTextView is not derived from android.view.View[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class de.bahn.dbnav.views.EllipsizingTextView is not derived from android.view.View[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class de.bahn.dbnav.views.EllipsizingTextView is not derived from android.view.View[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class de.bahn.dbnav.views.EllipsizingTextView is not derived from android.view.View[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class de.bahn.dbnav.views.EllipsizingTextView is not derived from android.view.View[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class de.bahn.dbnav.views.EllipsizingTextView is not derived from android.view.View[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class de.bahn.dbnav.views.EllipsizingTextView is not derived from android.view.View[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.recyclerview.widget.RecyclerView[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.recyclerview.widget.RecyclerView[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class de.eosuptrade.mobileshop.ticketmanager.view.ThemeButton is not derived from android.view.View[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class de.eosuptrade.mobileshop.ticketmanager.view.ThemeButton is not derived from android.view.View[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class de.eosuptrade.mobileshop.ticketmanager.view.ThemeButton is not derived from android.view.View[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.viewpager2.widget.ViewPager2[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.viewpager2.widget.ViewPager2[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.swiperefreshlayout.widget.SwipeRefreshLayout[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class de.eosuptrade.mticket.buyticket.payment.PaymentLogoView[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.appcompat.internal.widget.CompatTextView[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.recyclerview.widget.RecyclerView[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.coordinatorlayout.widget.CoordinatorLayout[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.constraintlayout.widget.ConstraintLayout[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.google.android.material.textfield.TextInputEditText is not derived from android.view.View[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.google.android.material.textfield.TextInputEditText is not derived from android.view.View[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.appcompat.widget.AppCompatImageView[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.google.android.material.textfield.TextInputEditText is not derived from android.view.View[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.google.android.material.textfield.TextInputEditText is not derived from android.view.View[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class de.bahn.dbnav.widgets.Switch is not derived from android.view.View[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class de.bahn.dbnav.widgets.Switch is not derived from android.view.View[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.constraintlayout.widget.ConstraintLayout[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.constraintlayout.widget.ConstraintLayout[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.constraintlayout.widget.ConstraintLayout[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.constraintlayout.widget.ConstraintLayout[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.constraintlayout.widget.ConstraintLayout[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.constraintlayout.widget.ConstraintLayout[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.viewpager2.widget.ViewPager2[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.recyclerview.widget.RecyclerView[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.viewpager.widget.ViewPager[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.viewpager.widget.PagerTabStrip[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class de.eosuptrade.mobileshop.ticketmanager.view.ThemeButton is not derived from android.view.View[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class de.eosuptrade.mobileshop.ticketmanager.view.ThemeButton is not derived from android.view.View[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.core.widget.NestedScrollView[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.recyclerview.widget.RecyclerView[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.core.widget.NestedScrollView[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.constraintlayout.widget.ConstraintLayout[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.constraintlayout.widget.ConstraintLayout[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.constraintlayout.widget.Guideline[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.appcompat.widget.Toolbar[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.constraintlayout.widget.ConstraintLayout[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.recyclerview.widget.RecyclerView[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.constraintlayout.widget.ConstraintLayout[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.appcompat.widget.SwitchCompat[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.constraintlayout.widget.ConstraintLayout[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.core.widget.NestedScrollView[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.constraintlayout.widget.ConstraintLayout[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class de.hafas.ui.planner.screen.DbBestPriceToggleSwitchView is not derived from android.view.View[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.recyclerview.widget.RecyclerView[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.viewpager.widget.ViewPager[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.viewpager2.widget.ViewPager2[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.viewpager.widget.ViewPager[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.google.android.material.card.MaterialCardView is not derived from android.view.View[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.constraintlayout.widget.ConstraintLayout[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.drawerlayout.widget.DrawerLayout[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.google.android.material.card.MaterialCardView is not derived from android.view.View[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.constraintlayout.widget.ConstraintLayout[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class de.hafas.ui.planner.view.DBReiseplanVerbundLinkView is not derived from android.view.View[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class de.hafas.ui.planner.view.DBReiseplanVerbundLinkView is not derived from android.view.View[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.swiperefreshlayout.widget.SwipeRefreshLayout[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.swiperefreshlayout.widget.SwipeRefreshLayout[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class de.hafas.ui.planner.screen.DbBestPriceToggleSwitchView is not derived from android.view.View[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.swiperefreshlayout.widget.SwipeRefreshLayout[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class de.hafas.ui.view.StopLineView is not derived from android.view.View[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class de.hafas.ui.view.StopLineView is not derived from android.view.View[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.swiperefreshlayout.widget.SwipeRefreshLayout[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.swiperefreshlayout.widget.SwipeRefreshLayout[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.legacy.widget.Space[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.recyclerview.widget.RecyclerView[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.swiperefreshlayout.widget.SwipeRefreshLayout[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.swiperefreshlayout.widget.SwipeRefreshLayout[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.google.android.material.textfield.TextInputEditText is not derived from android.view.View[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.google.android.material.textfield.TextInputEditText is not derived from android.view.View[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.swiperefreshlayout.widget.SwipeRefreshLayout[m[m
+BREW 08/01/2022 - 18:59:22 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.gridlayout.widget.GridLayout[m[m
+BREW 08/01/2022 - 18:59:23 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.constraintlayout.widget.ConstraintLayout[m[m
+BREW 08/01/2022 - 18:59:23 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class de.hafas.ui.view.StopTimeView is not derived from android.view.View[m[m
+BREW 08/01/2022 - 18:59:23 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class de.hafas.ui.view.StopTimeView is not derived from android.view.View[m[m
+BREW 08/01/2022 - 18:59:23 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.constraintlayout.widget.Barrier[m[m
+BREW 08/01/2022 - 18:59:23 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.swiperefreshlayout.widget.SwipeRefreshLayout[m[m
+BREW 08/01/2022 - 18:59:23 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.constraintlayout.widget.ConstraintLayout[m[m
+BREW 08/01/2022 - 18:59:23 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.constraintlayout.widget.ConstraintLayout[m[m
+BREW 08/01/2022 - 18:59:23 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.constraintlayout.widget.ConstraintLayout[m[m
+BREW 08/01/2022 - 18:59:23 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.constraintlayout.widget.Guideline[m[m
+BREW 08/01/2022 - 18:59:23 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.gridlayout.widget.GridLayout[m[m
+BREW 08/01/2022 - 18:59:23 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class de.hafas.ui.view.StopTimeView is not derived from android.view.View[m[m
+BREW 08/01/2022 - 18:59:23 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class de.bahn.dbnav.widgets.Switch is not derived from android.view.View[m[m
+BREW 08/01/2022 - 18:59:23 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.viewpager2.widget.ViewPager2[m[m
+BREW 08/01/2022 - 18:59:23 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.google.android.material.textfield.TextInputEditText is not derived from android.view.View[m[m
+BREW 08/01/2022 - 18:59:23 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.gridlayout.widget.GridLayout[m[m
+BREW 08/01/2022 - 18:59:23 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class de.hafas.ui.view.DisableableViewPager is not derived from android.view.View[m[m
+BREW 08/01/2022 - 18:59:23 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class de.hafas.ui.view.DynamicDataGridLayout is not derived from android.view.View[m[m
+BREW 08/01/2022 - 18:59:23 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class de.hafas.ui.view.StopTimeView is not derived from android.view.View[m[m
+BREW 08/01/2022 - 18:59:23 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.constraintlayout.widget.ConstraintLayout[m[m
+BREW 08/01/2022 - 18:59:23 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.gridlayout.widget.GridLayout[m[m
+BREW 08/01/2022 - 18:59:23 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class de.hafas.ui.view.StopTimeView is not derived from android.view.View[m[m
+BREW 08/01/2022 - 18:59:23 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.gridlayout.widget.GridLayout[m[m
+BREW 08/01/2022 - 18:59:23 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class de.hafas.ui.view.StopTimeView is not derived from android.view.View[m[m
+BREW 08/01/2022 - 18:59:23 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class de.hafas.ui.view.StopTimeView is not derived from android.view.View[m[m
+BREW 08/01/2022 - 18:59:23 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class de.hafas.ui.view.StopTimeView is not derived from android.view.View[m[m
+BREW 08/01/2022 - 18:59:23 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class de.hafas.ui.view.StopTimeView is not derived from android.view.View[m[m
+BREW 08/01/2022 - 18:59:23 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.appcompat.widget.SwitchCompat[m[m
+BREW 08/01/2022 - 18:59:23 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.viewpager.widget.ViewPager[m[m
+BREW 08/01/2022 - 18:59:23 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.viewpager.widget.ViewPager[m[m
+BREW 08/01/2022 - 18:59:23 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.preference.internal.PreferenceImageView[m[m
+BREW 08/01/2022 - 18:59:23 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.constraintlayout.widget.ConstraintLayout[m[m
+BREW 08/01/2022 - 18:59:23 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class de.bahn.dbnav.widgets.Switch is not derived from android.view.View[m[m
+BREW 08/01/2022 - 18:59:23 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.appcompat.widget.AppCompatImageView[m[m
+BREW 08/01/2022 - 18:59:23 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.appcompat.widget.Toolbar[m[m
+BREW 08/01/2022 - 18:59:23 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.google.android.material.button.MaterialButton is not derived from android.view.View[m[m
+BREW 08/01/2022 - 18:59:23 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.google.android.material.button.MaterialButton is not derived from android.view.View[m[m
+BREW 08/01/2022 - 18:59:23 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.google.android.material.chip.Chip is not derived from android.view.View[m[m
+BREW 08/01/2022 - 18:59:23 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.google.android.material.timepicker.ClockFaceView is not derived from android.view.View[m[m
+BREW 08/01/2022 - 18:59:23 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.constraintlayout.widget.ConstraintLayout[m[m
+BREW 08/01/2022 - 18:59:23 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.constraintlayout.widget.Barrier[m[m
+BREW 08/01/2022 - 18:59:23 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.google.android.material.timepicker.TimePickerView is not derived from android.view.View[m[m
+BREW 08/01/2022 - 18:59:23 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.google.android.material.button.MaterialButton is not derived from android.view.View[m[m
+BREW 08/01/2022 - 18:59:23 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.appcompat.widget.AlertDialogLayout[m[m
+BREW 08/01/2022 - 18:59:23 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.core.widget.NestedScrollView[m[m
+BREW 08/01/2022 - 18:59:23 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.widget.Space[m[m
+BREW 08/01/2022 - 18:59:23 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.widget.Space[m[m
+BREW 08/01/2022 - 18:59:23 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.appcompat.widget.ButtonBarLayout[m[m
+BREW 08/01/2022 - 18:59:23 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.widget.Space[m[m
+BREW 08/01/2022 - 18:59:23 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.appcompat.widget.DialogTitle[m[m
+BREW 08/01/2022 - 18:59:23 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class android.widget.Space[m[m
+BREW 08/01/2022 - 18:59:23 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.recyclerview.widget.RecyclerView[m[m
+BREW 08/01/2022 - 18:59:23 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.google.android.material.button.MaterialButton is not derived from android.view.View[m[m
+BREW 08/01/2022 - 18:59:23 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.google.android.material.button.MaterialButton is not derived from android.view.View[m[m
+BREW 08/01/2022 - 18:59:23 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.google.android.material.button.MaterialButton is not derived from android.view.View[m[m
+BREW 08/01/2022 - 18:59:23 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.recyclerview.widget.RecyclerView[m[m
+BREW 08/01/2022 - 18:59:23 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class view[m[m
+BREW 08/01/2022 - 18:59:23 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class view[m[m
+BREW 08/01/2022 - 18:59:23 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.google.android.material.button.MaterialButton is not derived from android.view.View[m[m
+BREW 08/01/2022 - 18:59:23 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.google.android.material.button.MaterialButton is not derived from android.view.View[m[m
+BREW 08/01/2022 - 18:59:23 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.google.android.material.internal.CheckableImageButton is not derived from android.view.View[m[m
+BREW 08/01/2022 - 18:59:23 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.google.android.material.textfield.TextInputEditText is not derived from android.view.View[m[m
+BREW 08/01/2022 - 18:59:23 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.google.android.material.textfield.TextInputEditText is not derived from android.view.View[m[m
+BREW 08/01/2022 - 18:59:23 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.google.android.material.textfield.TextInputEditText is not derived from android.view.View[m[m
+BREW 08/01/2022 - 18:59:23 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class DateTimeView[m[m
+BREW 08/01/2022 - 18:59:23 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class DateTimeView[m[m
+BREW 08/01/2022 - 18:59:23 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class DateTimeView[m[m
+BREW 08/01/2022 - 18:59:23 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class DateTimeView[m[m
+BREW 08/01/2022 - 18:59:23 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class DateTimeView[m[m
+BREW 08/01/2022 - 18:59:23 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class view[m[m
+BREW 08/01/2022 - 18:59:23 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.preference.internal.PreferenceImageView[m[m
+BREW 08/01/2022 - 18:59:23 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.recyclerview.widget.RecyclerView[m[m
+BREW 08/01/2022 - 18:59:23 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.preference.UnPressableLinearLayout[m[m
+BREW 08/01/2022 - 18:59:23 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.preference.UnPressableLinearLayout[m[m
+BREW 08/01/2022 - 18:59:23 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.appcompat.widget.SwitchCompat[m[m
+BREW 08/01/2022 - 18:59:23 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class requestFocus[m[m
+BREW 08/01/2022 - 18:59:23 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.legacy.widget.Space[m[m
+BREW 08/01/2022 - 18:59:23 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.legacy.widget.Space[m[m
+BREW 08/01/2022 - 18:59:23 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.legacy.widget.Space[m[m
+BREW 08/01/2022 - 18:59:23 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.legacy.widget.Space[m[m
+BREW 08/01/2022 - 18:59:23 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.legacy.widget.Space[m[m
+BREW 08/01/2022 - 18:59:23 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.legacy.widget.Space[m[m
+BREW 08/01/2022 - 18:59:23 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.constraintlayout.widget.ConstraintLayout[m[m
+BREW 08/01/2022 - 18:59:23 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.constraintlayout.widget.ConstraintLayout[m[m
+BREW 08/01/2022 - 18:59:23 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.viewpager.widget.ViewPager[m[m
+BREW 08/01/2022 - 18:59:23 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.swiperefreshlayout.widget.SwipeRefreshLayout[m[m
+BREW 08/01/2022 - 18:59:23 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.core.widget.NestedScrollView[m[m
+BREW 08/01/2022 - 18:59:23 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class de.bahn.dbnav.views.tabs.CustomViewPager is not derived from android.view.View[m[m
+BREW 08/01/2022 - 18:59:23 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class de.bahn.dbnav.views.tabs.CustomViewPager is not derived from android.view.View[m[m
+BREW 08/01/2022 - 18:59:23 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.google.android.material.chip.Chip is not derived from android.view.View[m[m
+BREW 08/01/2022 - 18:59:23 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.google.android.material.chip.Chip is not derived from android.view.View[m[m
+BREW 08/01/2022 - 18:59:23 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.google.android.material.chip.Chip is not derived from android.view.View[m[m
+BREW 08/01/2022 - 18:59:23 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.google.android.material.chip.Chip is not derived from android.view.View[m[m
+BREW 08/01/2022 - 18:59:23 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.google.android.material.chip.Chip is not derived from android.view.View[m[m
+BREW 08/01/2022 - 18:59:23 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.google.android.material.appbar.MaterialToolbar is not derived from android.view.View[m[m
+BREW 08/01/2022 - 18:59:23 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.google.android.material.appbar.MaterialToolbar is not derived from android.view.View[m[m
+BREW 08/01/2022 - 18:59:23 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.google.android.material.appbar.MaterialToolbar is not derived from android.view.View[m[m
+BREW 08/01/2022 - 18:59:23 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.google.android.material.appbar.MaterialToolbar is not derived from android.view.View[m[m
+BREW 08/01/2022 - 18:59:23 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.google.android.material.textview.MaterialTextView is not derived from android.view.View[m[m
+BREW 08/01/2022 - 18:59:23 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.google.android.material.textview.MaterialTextView is not derived from android.view.View[m[m
+BREW 08/01/2022 - 18:59:23 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.google.android.material.textview.MaterialTextView is not derived from android.view.View[m[m
+BREW 08/01/2022 - 18:59:23 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.google.android.material.textview.MaterialTextView is not derived from android.view.View[m[m
+BREW 08/01/2022 - 18:59:23 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.google.android.material.textview.MaterialTextView is not derived from android.view.View[m[m
+BREW 08/01/2022 - 18:59:23 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class de.eosuptrade.mobileshop.ticketmanager.view.ThemeButton is not derived from android.view.View[m[m
+BREW 08/01/2022 - 18:59:23 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.drawerlayout.widget.DrawerLayout[m[m
+BREW 08/01/2022 - 18:59:23 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class de.eosuptrade.mticket.view.edittext.EosAutoCompleteTextView[m[m
+BREW 08/01/2022 - 18:59:23 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.appcompat.internal.widget.CompatTextView[m[m
+BREW 08/01/2022 - 18:59:23 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class de.eosuptrade.mticket.buyticket.payment.PaymentLogoView[m[m
+BREW 08/01/2022 - 18:59:23 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class de.eosuptrade.mticket.fragment.location.BearingImageView[m[m
+BREW 08/01/2022 - 18:59:23 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.viewpager.widget.ViewPager[m[m
+BREW 08/01/2022 - 18:59:23 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.constraintlayout.widget.ConstraintLayout[m[m
+BREW 08/01/2022 - 18:59:23 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.constraintlayout.widget.ConstraintLayout[m[m
+BREW 08/01/2022 - 18:59:23 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.constraintlayout.widget.ConstraintLayout[m[m
+BREW 08/01/2022 - 18:59:23 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.constraintlayout.widget.ConstraintLayout[m[m
+BREW 08/01/2022 - 18:59:23 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.constraintlayout.widget.ConstraintLayout[m[m
+BREW 08/01/2022 - 18:59:23 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class de.bahn.dbnav.ui.TopCropImageView is not derived from android.view.View[m[m
+BREW 08/01/2022 - 18:59:23 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Could not find layout class androidx.appcompat.widget.Toolbar[m[m
+BREW 08/01/2022 - 18:59:23 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.yalantis.ucrop.view.widget.AspectRatioTextView is not derived from android.view.View[m[m
+BREW 08/01/2022 - 18:59:23 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.resources.LayoutFileParser - Layout class com.yalantis.ucrop.view.GestureCropImageView is not derived from android.view.View[m[m
+BREW 08/01/2022 - 18:59:23 [31mProcess (FlowDroid, 30522) error: [main] INFO soot.jimple.infoflow.android.entryPointCreators.AndroidEntryPointCreator - Creating Android entry point for 88 components...[m[m
+BREW 08/01/2022 - 18:59:23 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.entryPointCreators.AndroidEntryPointCreator - Cannot create valid constructor for com.tealium.internal.c, because it is an interface and cannot substitute with subclass[m[m
+BREW 08/01/2022 - 18:59:23 [31mProcess (FlowDroid, 30522) error: [main] INFO soot.jimple.infoflow.android.SetupApplication - Constructing the callgraph...[m[m
+BREW 08/01/2022 - 18:59:46 [31mProcess (FlowDroid, 30522) error: [main] INFO soot.jimple.infoflow.android.callbacks.DefaultCallbackAnalyzer - Running incremental callback analysis for 27 components...[m[m
+BREW 08/01/2022 - 18:59:46 [31mProcess (FlowDroid, 30522) error: [main] INFO soot.jimple.infoflow.android.callbacks.DefaultCallbackAnalyzer - Incremental callback analysis done.[m[m
+BREW 08/01/2022 - 18:59:46 [31mProcess (FlowDroid, 30522) error: [main] INFO soot.jimple.infoflow.memory.MemoryWarningSystem - Shutting down the memory warning system...[m[m
+BREW 08/01/2022 - 18:59:46 [31mProcess (FlowDroid, 30522) error: [main] INFO soot.jimple.infoflow.android.SetupApplication - Callback analysis terminated normally[m[m
+BREW 08/01/2022 - 18:59:46 [31mProcess (FlowDroid, 30522) error: [main] INFO soot.jimple.infoflow.android.SetupApplication - Entry point calculation done.[m[m
+BREW 08/01/2022 - 18:59:46 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match:     [m[m
+BREW 08/01/2022 - 18:59:46 [31mProcess (FlowDroid, 30522) error: [main] INFO soot.jimple.infoflow.android.source.AccessPathBasedSourceSinkManager - Created a SourceSinkManager with 112 sources, 201 sinks, and 66 callback methods.[m[m
+BREW 08/01/2022 - 18:59:46 [31mProcess (FlowDroid, 30522) error: [main] INFO soot.jimple.infoflow.android.SetupApplication - Collecting callbacks and building a callgraph took 50 seconds[m[m
+BREW 08/01/2022 - 18:59:46 [31mProcess (FlowDroid, 30522) error: [main] INFO soot.jimple.infoflow.android.SetupApplication - Running data flow analysis on /media/sf_brewThesis/data/storage/00421.apk with 112 sources and 201 sinks...[m[m
+BREW 08/01/2022 - 18:59:46 [31mProcess (FlowDroid, 30522) error: [main] INFO soot.jimple.infoflow.InfoflowConfiguration - Implicit flow tracking is NOT enabled[m[m
+BREW 08/01/2022 - 18:59:46 [31mProcess (FlowDroid, 30522) error: [main] INFO soot.jimple.infoflow.InfoflowConfiguration - Exceptional flow tracking is enabled[m[m
+BREW 08/01/2022 - 18:59:46 [31mProcess (FlowDroid, 30522) error: [main] INFO soot.jimple.infoflow.InfoflowConfiguration - Running with a maximum access path length of 5[m[m
+BREW 08/01/2022 - 18:59:46 [31mProcess (FlowDroid, 30522) error: [main] INFO soot.jimple.infoflow.InfoflowConfiguration - Using path-agnostic result collection[m[m
+BREW 08/01/2022 - 18:59:46 [31mProcess (FlowDroid, 30522) error: [main] INFO soot.jimple.infoflow.InfoflowConfiguration - Recursive access path shortening is enabled[m[m
+BREW 08/01/2022 - 18:59:46 [31mProcess (FlowDroid, 30522) error: [main] INFO soot.jimple.infoflow.InfoflowConfiguration - Taint analysis enabled: true[m[m
+BREW 08/01/2022 - 18:59:46 [31mProcess (FlowDroid, 30522) error: [main] INFO soot.jimple.infoflow.InfoflowConfiguration - Using alias algorithm FlowSensitive[m[m
+BREW 08/01/2022 - 18:59:46 [31mProcess (FlowDroid, 30522) error: [main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Callgraph construction took 0 seconds[m[m
+BREW 08/01/2022 - 18:59:47 [31mProcess (FlowDroid, 30522) error: [main] INFO soot.jimple.infoflow.codeOptimization.InterproceduralConstantValuePropagator - Removing side-effect free methods is disabled[m[m
+BREW 08/01/2022 - 18:59:48 [31mProcess (FlowDroid, 30522) error: [main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Dead code elimination took 1.595556408 seconds[m[m
+BREW 08/01/2022 - 18:59:48 [31mProcess (FlowDroid, 30522) error: [main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Callgraph has 35375 edges[m[m
+BREW 08/01/2022 - 18:59:48 [31mProcess (FlowDroid, 30522) error: [main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Starting Taint Analysis[m[m
+BREW 08/01/2022 - 18:59:48 [31mProcess (FlowDroid, 30522) error: [main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Using context- and flow-sensitive solver[m[m
+BREW 08/01/2022 - 18:59:48 [31mProcess (FlowDroid, 30522) error: [main] WARN soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Running with limited join point abstractions can break context-sensitive path builders[m[m
+BREW 08/01/2022 - 18:59:48 [31mProcess (FlowDroid, 30522) error: [main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Looking for sources and sinks...[m[m
+BREW 08/01/2022 - 18:59:49 [31mProcess (FlowDroid, 30522) error: [main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Source lookup done, found 104 sources and 232 sinks.[m[m
+BREW 08/01/2022 - 19:58:47 Warning: Timeout-Timer (FlowDroid) expired for FlowDroid (2.7.1)
+BREW 08/01/2022 - 19:58:47 Running on abort event for the tool: FlowDroid (2.7.1)
+BREW 08/01/2022 - 19:58:50 Process 30522 (FlowDroid) timed out!
+BREW 08/01/2022 - 19:58:50
+Error: FlowDroid (2.7.1) execution in "/home/fpauck/tools/FlowDroid/271_linenumbers" timed out:
+java -Xmx96g -jar soot-infoflow-cmd-jar-with-dependencies.jar -a /media/sf_brewThesis/data/storage/00421.apk -p /media/sf_sdks/platforms/ -s /home/fpauck/tools/FlowDroid/env/SourcesAndSinks.txt -o results/00421_result.xml -ol -d
+(TimeoutExecutionException: FlowDroid (2.7.1) was internally executed but timed out.)
+BREW 08/01/2022 - 19:58:50 Running on exit event for the tool: FlowDroid (2.7.1)
+BREW 08/01/2022 - 19:58:50 Process (30574) output: Not root! Reattempting as root...
+BREW 08/01/2022 - 19:58:50 Process (30574) output: Root! Flushing memory...
+BREW 08/01/2022 - 19:58:50 Stopping scheduler!
+BREW 08/01/2022 - 19:58:50
+Error: Canceled (after 3607.677s): Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/1/de.hafas.android.db.apk') ?
+Reason: Answering a part of the query timed out: Flows IN App(SIMPLIFY [
+	'/home/fpauck/benchmarks/temp/top15/subset/1/de.hafas.android.db.apk' !
+] !) USES 'FlowDroid-271' ?
+BREW 08/01/2022 - 19:58:51 Continuing with configuration: /media/sf_webservice/config.xml (a9ee75f31fbb720aa6746ae2f72aade2)
+BREW 08/01/2022 - 19:58:51 [1;32mStarting: Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/1/de.rki.coronawarnapp.apk') ?[m[m
+BREW 08/01/2022 - 19:58:51 Parsed: Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/1/de.rki.coronawarnapp.apk') ?
+BREW 08/01/2022 - 19:58:51 Resolved: Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/1/de.rki.coronawarnapp.apk') ?
+BREW 08/01/2022 - 19:58:51 Transformation-rule applied: ToolSelection
+BREW 08/01/2022 - 19:58:51 Transformation-rule applied: ApplySimplifier
+BREW 08/01/2022 - 19:58:51
+Transformed:
+Flows IN App(SIMPLIFY [
+	'/home/fpauck/benchmarks/temp/top15/subset/1/de.rki.coronawarnapp.apk' !
+] !) USES 'FlowDroid-271' ?
+BREW 08/01/2022 - 19:58:51 Loaded storage from: /media/sf_brewThesis/data/storage/storage.ser
+BREW 08/01/2022 - 19:58:51 Setting variable (%MEMORY%) value to: "96"
+BREW 08/01/2022 - 19:58:51 Setting variable (%ANDROID_PLATFORMS%) value to: "/media/sf_sdks/platforms/"
+BREW 08/01/2022 - 19:58:51 Setting variable (%ANDROID_BUILDTOOLS%) value to: "null"
+BREW 08/01/2022 - 19:58:51 Setting variable (%DATE%) value to: "01_08_2022-19_58_51"
+BREW 08/01/2022 - 19:58:51 Setting variable (%LINENUMBER_IN%) value to: "-1"
+BREW 08/01/2022 - 19:58:51 Setting variable (%LINENUMBER_IN%) value to: "-1"
+BREW 08/01/2022 - 19:58:51 Warning: Maximum memory (105 GB) specified in config file will never become available. Using maximal available memory instead: 102 GB
+BREW 08/01/2022 - 19:58:51 Timeout (Answer-Loader) set to: 60m
+BREW 08/01/2022 - 19:58:51 Starting execution of default Answer-Loader (2.0.1-SNAPSHOT). [/media/sf_brewThesis/.: Load from file: /media/sf_brewThesis/data/storage/00580.%FILE_ENDING%]
+BREW 08/01/2022 - 19:58:51 Finished execution of default Answer-Loader (2.0.1-SNAPSHOT) after 0.0 seconds. [/media/sf_brewThesis/.: Load from file: /home/fpauck/benchmarks/temp/top15/subset/1/de.rki.coronawarnapp.apk]
+BREW 08/01/2022 - 19:58:51 Setting variable (%ANSWERS%) value to: "/home/fpauck/benchmarks/temp/top15/subset/1/de.rki.coronawarnapp.apk"
+BREW 08/01/2022 - 19:58:51 Setting variable (%ANSWERSHASH%) value to: "df74c6b3a747c2a10427531262dfd73b1d47f20bc25da4867f95bda39b5f272e"
+BREW 08/01/2022 - 19:58:51 Setting variable (%ANSWERSHASH_MD5%) value to: "fe0400b4de861d7cf78aca179a4a64b1"
+BREW 08/01/2022 - 19:58:51 Setting variable (%ANSWERSHASH_SHA-1%) value to: "912ce485056833e125cb11b3d4ccd68a76c9b531"
+BREW 08/01/2022 - 19:58:51 Setting variable (%ANSWERSHASH_SHA-256%) value to: "df74c6b3a747c2a10427531262dfd73b1d47f20bc25da4867f95bda39b5f272e"
+BREW 08/01/2022 - 19:58:51 Timeout (DefaultSimplifyOperator) set to: 60m
+BREW 08/01/2022 - 19:58:52
+Loaded from storage:
+SIMPLIFY [
+	'/home/fpauck/benchmarks/temp/top15/subset/1/de.rki.coronawarnapp.apk' !
+] !
+BREW 08/01/2022 - 19:58:52 Setting variable (%APP_APK_IN%) value to: "/media/sf_brewThesis/data/storage/00425.apk"
+BREW 08/01/2022 - 19:58:52 Setting variable (%APP_APK%) value to: "/media/sf_brewThesis/data/storage/00425.apk"
+BREW 08/01/2022 - 19:58:52 Setting variable (%APP_APK_IN_FILENAME%) value to: "00425"
+BREW 08/01/2022 - 19:58:52 Setting variable (%APP_APK_FILENAME%) value to: "00425"
+BREW 08/01/2022 - 19:58:52 Setting variable (%APP_APK_IN_NAME%) value to: "coronawarnapp"
+BREW 08/01/2022 - 19:58:52 Setting variable (%APP_APK_NAME%) value to: "coronawarnapp"
+BREW 08/01/2022 - 19:58:52 Setting variable (%APP_APK_IN_PACKAGE%) value to: "de.rki.coronawarnapp"
+BREW 08/01/2022 - 19:58:52 Setting variable (%APP_APK_PACKAGE%) value to: "de.rki.coronawarnapp"
+BREW 08/01/2022 - 19:58:52 Running on entry event for the tool: FlowDroid (2.7.1)
+BREW 08/01/2022 - 19:58:52 Timeout (FlowDroid) set to: 60m
+BREW 08/01/2022 - 19:58:52 Starting execution of internal FlowDroid (2.7.1). [/home/fpauck/tools/FlowDroid/271_linenumbers: java -Xmx96g -jar soot-infoflow-cmd-jar-with-dependencies.jar -a /media/sf_brewThesis/data/storage/00425.apk -p /media/sf_sdks/platforms/ -s /home/fpauck/tools/FlowDroid/env/SourcesAndSinks.txt -o results/00425_result.xml -ol -d]
+BREW 08/01/2022 - 19:58:52 Setting variable (%PID%) value to: "30612"
+BREW 08/01/2022 - 19:58:53 [31mProcess (FlowDroid, 30612) error: [main] INFO soot.jimple.infoflow.cmd.MainClass - Analyzing app /media/sf_brewThesis/data/storage/00425.apk (1 of 1)...[m[m
+BREW 08/01/2022 - 19:58:53 [31mProcess (FlowDroid, 30612) error: [main] INFO soot.jimple.infoflow.android.SetupApplication - Initializing Soot...[m[m
+BREW 08/01/2022 - 19:58:53 [31mProcess (FlowDroid, 30612) error: [main] INFO soot.jimple.infoflow.android.SetupApplication - Loading dex files...[m[m
+BREW 08/01/2022 - 19:58:57 [31mProcess (FlowDroid, 30612) error: The data flow analysis has failed. Error message: error: expected 1 element for annotation Signature. Got 0 instead.[m[m
+BREW 08/01/2022 - 19:58:57 [31mProcess (FlowDroid, 30612) error: java.lang.RuntimeException: error: expected 1 element for annotation Signature. Got 0 instead.[m[m
+BREW 08/01/2022 - 19:58:57 [31mProcess (FlowDroid, 30612) error: 	at soot.dexpler.DexAnnotation.addAnnotation(DexAnnotation.java:630)[m[m
+BREW 08/01/2022 - 19:58:57 [31mProcess (FlowDroid, 30612) error: 	at soot.dexpler.DexAnnotation.handleAnnotation(DexAnnotation.java:443)[m[m
+BREW 08/01/2022 - 19:58:57 [31mProcess (FlowDroid, 30612) error: 	at soot.dexpler.DexAnnotation.handleClassAnnotation(DexAnnotation.java:137)[m[m
+BREW 08/01/2022 - 19:58:57 [31mProcess (FlowDroid, 30612) error: 	at soot.dexpler.DexClassLoader.makeSootClass(DexClassLoader.java:129)[m[m
+BREW 08/01/2022 - 19:58:57 [31mProcess (FlowDroid, 30612) error: 	at soot.dexpler.DexlibWrapper.makeSootClass(DexlibWrapper.java:162)[m[m
+BREW 08/01/2022 - 19:58:57 [31mProcess (FlowDroid, 30612) error: 	at soot.dexpler.DexResolver.resolveFromFile(DexResolver.java:63)[m[m
+BREW 08/01/2022 - 19:58:57 [31mProcess (FlowDroid, 30612) error: 	at soot.DexClassSource.resolve(DexClassSource.java:63)[m[m
+BREW 08/01/2022 - 19:58:57 [31mProcess (FlowDroid, 30612) error: 	at soot.SootResolver.bringToHierarchyUnchecked(SootResolver.java:240)[m[m
+BREW 08/01/2022 - 19:58:57 [31mProcess (FlowDroid, 30612) error: 	at soot.SootResolver.bringToHierarchy(SootResolver.java:214)[m[m
+BREW 08/01/2022 - 19:58:57 [31mProcess (FlowDroid, 30612) error: 	at soot.SootResolver.bringToSignatures(SootResolver.java:279)[m[m
+BREW 08/01/2022 - 19:58:57 [31mProcess (FlowDroid, 30612) error: 	at soot.SootResolver.bringToBodies(SootResolver.java:319)[m[m
+BREW 08/01/2022 - 19:58:57 [31mProcess (FlowDroid, 30612) error: 	at soot.SootResolver.processResolveWorklist(SootResolver.java:164)[m[m
+BREW 08/01/2022 - 19:58:57 [31mProcess (FlowDroid, 30612) error: 	at soot.SootResolver.resolveClass(SootResolver.java:134)[m[m
+BREW 08/01/2022 - 19:58:57 [31mProcess (FlowDroid, 30612) error: 	at soot.dexpler.DexlibWrapper.initialize(DexlibWrapper.java:150)[m[m
+BREW 08/01/2022 - 19:58:57 [31mProcess (FlowDroid, 30612) error: 	at soot.dexpler.DexResolver.initializeDexFile(DexResolver.java:81)[m[m
+BREW 08/01/2022 - 19:58:57 [31mProcess (FlowDroid, 30612) error: 	at soot.dexpler.DexResolver.resolveFromFile(DexResolver.java:62)[m[m
+BREW 08/01/2022 - 19:58:57 [31mProcess (FlowDroid, 30612) error: 	at soot.DexClassSource.resolve(DexClassSource.java:63)[m[m
+BREW 08/01/2022 - 19:58:57 [31mProcess (FlowDroid, 30612) error: 	at soot.SootResolver.bringToHierarchyUnchecked(SootResolver.java:240)[m[m
+BREW 08/01/2022 - 19:58:57 [31mProcess (FlowDroid, 30612) error: 	at soot.SootResolver.bringToHierarchy(SootResolver.java:214)[m[m
+BREW 08/01/2022 - 19:58:57 [31mProcess (FlowDroid, 30612) error: 	at soot.SootResolver.bringToSignatures(SootResolver.java:279)[m[m
+BREW 08/01/2022 - 19:58:57 [31mProcess (FlowDroid, 30612) error: 	at soot.SootResolver.bringToBodies(SootResolver.java:319)[m[m
+BREW 08/01/2022 - 19:58:57 [31mProcess (FlowDroid, 30612) error: 	at soot.SootResolver.processResolveWorklist(SootResolver.java:164)[m[m
+BREW 08/01/2022 - 19:58:57 [31mProcess (FlowDroid, 30612) error: 	at soot.SootResolver.resolveClass(SootResolver.java:134)[m[m
+BREW 08/01/2022 - 19:58:57 [31mProcess (FlowDroid, 30612) error: 	at soot.Scene.loadClass(Scene.java:942)[m[m
+BREW 08/01/2022 - 19:58:57 [31mProcess (FlowDroid, 30612) error: 	at soot.Scene.loadClassAndSupport(Scene.java:927)[m[m
+BREW 08/01/2022 - 19:58:57 [31mProcess (FlowDroid, 30612) error: 	at soot.Scene.loadNecessaryClasses(Scene.java:1753)[m[m
+BREW 08/01/2022 - 19:58:57 [31mProcess (FlowDroid, 30612) error: 	at soot.jimple.infoflow.android.SetupApplication.initializeSoot(SetupApplication.java:1091)[m[m
+BREW 08/01/2022 - 19:58:57 [31mProcess (FlowDroid, 30612) error: 	at soot.jimple.infoflow.android.SetupApplication.runInfoflow(SetupApplication.java:1335)[m[m
+BREW 08/01/2022 - 19:58:57 [31mProcess (FlowDroid, 30612) error: 	at soot.jimple.infoflow.android.SetupApplication.runInfoflow(SetupApplication.java:1310)[m[m
+BREW 08/01/2022 - 19:58:57 [31mProcess (FlowDroid, 30612) error: 	at soot.jimple.infoflow.cmd.MainClass.run(MainClass.java:339)[m[m
+BREW 08/01/2022 - 19:58:57 [31mProcess (FlowDroid, 30612) error: 	at soot.jimple.infoflow.cmd.MainClass.main(MainClass.java:237)[m[m
+BREW 08/01/2022 - 19:58:57 Process 30612 (FlowDroid) terminated sucessfully (0)
+BREW 08/01/2022 - 19:59:08 File not found! (Neither "/home/fpauck/tools/FlowDroid/271_linenumbers/results/00425_result.xml", nor "/home/fpauck/tools/FlowDroid/271_linenumbers/home/fpauck/tools/FlowDroid/271_linenumbers/results/00425_result.xml")
+BREW 08/01/2022 - 19:59:08
+Error: FlowDroid (2.7.1) execution in "/home/fpauck/tools/FlowDroid/271_linenumbers" canceled:
+java -Xmx96g -jar soot-infoflow-cmd-jar-with-dependencies.jar -a /media/sf_brewThesis/data/storage/00425.apk -p /media/sf_sdks/platforms/ -s /home/fpauck/tools/FlowDroid/env/SourcesAndSinks.txt -o results/00425_result.xml -ol -d
+(CancelExecutionException: Result file was not generated. Maybe FlowDroid (2.7.1) has not finished properly.
+(/home/fpauck/tools/FlowDroid/271_linenumbers/results/00425_result.xml))
+BREW 08/01/2022 - 19:59:08 Running on abort event for the tool: FlowDroid (2.7.1)
+BREW 08/01/2022 - 19:59:09 [31mProcess (30635) error: /home/fpauck/tools/env/killpid.sh: line 17: kill: (30612) - No such process[m[m
+BREW 08/01/2022 - 19:59:10 [31mProcess (30635) error: /home/fpauck/tools/env/killpid.sh: line 24: kill: (30612) - No such process[m[m
+BREW 08/01/2022 - 19:59:10 Running on exit event for the tool: FlowDroid (2.7.1)
+BREW 08/01/2022 - 19:59:10 Process (30640) output: Not root! Reattempting as root...
+BREW 08/01/2022 - 19:59:10 Timeout-Timer (FlowDroid) stopped normally.
+BREW 08/01/2022 - 19:59:10 Process (30640) output: Root! Flushing memory...
+BREW 08/01/2022 - 19:59:10 Stopping scheduler!
+BREW 08/01/2022 - 19:59:10
+Error: Canceled (after 19.213s): Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/1/de.rki.coronawarnapp.apk') ?
+Reason: Answering a part of the query canceled: Flows IN App(SIMPLIFY [
+	'/home/fpauck/benchmarks/temp/top15/subset/1/de.rki.coronawarnapp.apk' !
+] !) USES 'FlowDroid-271' ?
+BREW 08/01/2022 - 19:59:10 Continuing with configuration: /media/sf_webservice/config.xml (a9ee75f31fbb720aa6746ae2f72aade2)
+BREW 08/01/2022 - 19:59:11 [1;32mStarting: Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/1/org.telegram.messenger.apk') ?[m[m
+BREW 08/01/2022 - 19:59:11 Parsed: Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/1/org.telegram.messenger.apk') ?
+BREW 08/01/2022 - 19:59:11 Resolved: Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/1/org.telegram.messenger.apk') ?
+BREW 08/01/2022 - 19:59:11 Transformation-rule applied: ToolSelection
+BREW 08/01/2022 - 19:59:11 Transformation-rule applied: ApplySimplifier
+BREW 08/01/2022 - 19:59:11
+Transformed:
+Flows IN App(SIMPLIFY [
+	'/home/fpauck/benchmarks/temp/top15/subset/1/org.telegram.messenger.apk' !
+] !) USES 'FlowDroid-271' ?
+BREW 08/01/2022 - 19:59:11 Loaded storage from: /media/sf_brewThesis/data/storage/storage.ser
+BREW 08/01/2022 - 19:59:11 Setting variable (%MEMORY%) value to: "96"
+BREW 08/01/2022 - 19:59:11 Setting variable (%ANDROID_PLATFORMS%) value to: "/media/sf_sdks/platforms/"
+BREW 08/01/2022 - 19:59:11 Setting variable (%ANDROID_BUILDTOOLS%) value to: "null"
+BREW 08/01/2022 - 19:59:11 Setting variable (%DATE%) value to: "01_08_2022-19_59_11"
+BREW 08/01/2022 - 19:59:11 Setting variable (%LINENUMBER_IN%) value to: "-1"
+BREW 08/01/2022 - 19:59:11 Setting variable (%LINENUMBER_IN%) value to: "-1"
+BREW 08/01/2022 - 19:59:11 Warning: Maximum memory (105 GB) specified in config file will never become available. Using maximal available memory instead: 102 GB
+BREW 08/01/2022 - 19:59:11 Timeout (Answer-Loader) set to: 60m
+BREW 08/01/2022 - 19:59:11 Starting execution of default Answer-Loader (2.0.1-SNAPSHOT). [/media/sf_brewThesis/.: Load from file: /media/sf_brewThesis/data/storage/00580.%FILE_ENDING%]
+BREW 08/01/2022 - 19:59:11 Finished execution of default Answer-Loader (2.0.1-SNAPSHOT) after 0.0 seconds. [/media/sf_brewThesis/.: Load from file: /home/fpauck/benchmarks/temp/top15/subset/1/org.telegram.messenger.apk]
+BREW 08/01/2022 - 19:59:11 Setting variable (%ANSWERS%) value to: "/home/fpauck/benchmarks/temp/top15/subset/1/org.telegram.messenger.apk"
+BREW 08/01/2022 - 19:59:11 Setting variable (%ANSWERSHASH%) value to: "5892f9139196d90307fd5c9e1b100c7d7e6b6323bb7db403c2f4541ff3ff63c0"
+BREW 08/01/2022 - 19:59:11 Setting variable (%ANSWERSHASH_MD5%) value to: "385ced1a557659e9f49b90290dc8328c"
+BREW 08/01/2022 - 19:59:11 Setting variable (%ANSWERSHASH_SHA-1%) value to: "bd00d8d7e3ba74cc5987696c6a303ef04cc38fe6"
+BREW 08/01/2022 - 19:59:11 Setting variable (%ANSWERSHASH_SHA-256%) value to: "5892f9139196d90307fd5c9e1b100c7d7e6b6323bb7db403c2f4541ff3ff63c0"
+BREW 08/01/2022 - 19:59:12 Timeout (DefaultSimplifyOperator) set to: 60m
+BREW 08/01/2022 - 19:59:12
+Loaded from storage:
+SIMPLIFY [
+	'/home/fpauck/benchmarks/temp/top15/subset/1/org.telegram.messenger.apk' !
+] !
+BREW 08/01/2022 - 19:59:12 Setting variable (%APP_APK_IN%) value to: "/media/sf_brewThesis/data/storage/00429.apk"
+BREW 08/01/2022 - 19:59:12 Setting variable (%APP_APK%) value to: "/media/sf_brewThesis/data/storage/00429.apk"
+BREW 08/01/2022 - 19:59:12 Setting variable (%APP_APK_IN_FILENAME%) value to: "00429"
+BREW 08/01/2022 - 19:59:12 Setting variable (%APP_APK_FILENAME%) value to: "00429"
+BREW 08/01/2022 - 19:59:12 Setting variable (%APP_APK_IN_NAME%) value to: "messenger"
+BREW 08/01/2022 - 19:59:12 Setting variable (%APP_APK_NAME%) value to: "messenger"
+BREW 08/01/2022 - 19:59:12 Setting variable (%APP_APK_IN_PACKAGE%) value to: "org.telegram.messenger"
+BREW 08/01/2022 - 19:59:12 Setting variable (%APP_APK_PACKAGE%) value to: "org.telegram.messenger"
+BREW 08/01/2022 - 19:59:13 Running on entry event for the tool: FlowDroid (2.7.1)
+BREW 08/01/2022 - 19:59:13 Timeout (FlowDroid) set to: 60m
+BREW 08/01/2022 - 19:59:13 Starting execution of internal FlowDroid (2.7.1). [/home/fpauck/tools/FlowDroid/271_linenumbers: java -Xmx96g -jar soot-infoflow-cmd-jar-with-dependencies.jar -a /media/sf_brewThesis/data/storage/00429.apk -p /media/sf_sdks/platforms/ -s /home/fpauck/tools/FlowDroid/env/SourcesAndSinks.txt -o results/00429_result.xml -ol -d]
+BREW 08/01/2022 - 19:59:13 Setting variable (%PID%) value to: "30679"
+BREW 08/01/2022 - 19:59:13 [31mProcess (FlowDroid, 30679) error: [main] INFO soot.jimple.infoflow.cmd.MainClass - Analyzing app /media/sf_brewThesis/data/storage/00429.apk (1 of 1)...[m[m
+BREW 08/01/2022 - 19:59:13 [31mProcess (FlowDroid, 30679) error: [main] INFO soot.jimple.infoflow.android.SetupApplication - Initializing Soot...[m[m
+BREW 08/01/2022 - 19:59:13 [31mProcess (FlowDroid, 30679) error: [main] INFO soot.jimple.infoflow.android.SetupApplication - Loading dex files...[m[m
+BREW 08/01/2022 - 19:59:22 [31mProcess (FlowDroid, 30679) error: [main] INFO soot.jimple.infoflow.android.SetupApplication - ARSC file parsing took 0.844239148 seconds[m[m
+BREW 08/01/2022 - 19:59:23 [31mProcess (FlowDroid, 30679) error: [main] INFO soot.jimple.infoflow.android.entryPointCreators.AndroidEntryPointCreator - Creating Android entry point for 53 components...[m[m
+BREW 08/01/2022 - 19:59:23 [31mProcess (FlowDroid, 30679) error: [main] INFO soot.jimple.infoflow.android.SetupApplication - Constructing the callgraph...[m[m
+BREW 08/01/2022 - 20:00:41 [31mProcess (FlowDroid, 30679) error: [main] INFO soot.jimple.infoflow.android.callbacks.DefaultCallbackAnalyzer - Collecting callbacks in DEFAULT mode...[m[m
+BREW 08/01/2022 - 20:00:48 [31mProcess (FlowDroid, 30679) error: [main] INFO soot.jimple.infoflow.android.callbacks.DefaultCallbackAnalyzer - Callback analysis done.[m[m
+BREW 08/01/2022 - 20:00:48 [31mProcess (FlowDroid, 30679) error: [main] INFO soot.jimple.infoflow.android.entryPointCreators.AndroidEntryPointCreator - Creating Android entry point for 58 components...[m[m
+BREW 08/01/2022 - 20:00:48 [31mProcess (FlowDroid, 30679) error: [main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for org.telegram.ui.ActionBar.Theme$ResourcesProvider, because it is an interface and cannot substitute with subclass[m[m
+BREW 08/01/2022 - 20:00:48 [31mProcess (FlowDroid, 30679) error: [main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot generate constructor for phantom class androidx.recyclerview.widget.LinearLayoutManager[m[m
+BREW 08/01/2022 - 20:00:48 [31mProcess (FlowDroid, 30679) error: [main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot generate constructor for phantom class androidx.recyclerview.widget.RecyclerView$Adapter[m[m
+BREW 08/01/2022 - 20:00:48 [31mProcess (FlowDroid, 30679) error: [main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for org.telegram.ui.Components.RecyclerAnimationScrollHelper$AnimatableAdapter, because it is abstract and cannot substitute with subclass[m[m
+BREW 08/01/2022 - 20:00:48 [31mProcess (FlowDroid, 30679) error: [main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for org.telegram.tgnet.TLRPC$ChatFull, because it is abstract and cannot substitute with subclass[m[m
+BREW 08/01/2022 - 20:00:48 [31mProcess (FlowDroid, 30679) error: [main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot generate constructor for phantom class androidx.recyclerview.widget.RecyclerView[m[m
+BREW 08/01/2022 - 20:00:48 [31mProcess (FlowDroid, 30679) error: [main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Could not find a suitable constructor for class org.telegram.ui.GroupCallActivity[m[m
+BREW 08/01/2022 - 20:00:48 [31mProcess (FlowDroid, 30679) error: [main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot generate constructor for phantom class androidx.core.util.Consumer[m[m
+BREW 08/01/2022 - 20:00:48 [31mProcess (FlowDroid, 30679) error: [main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for org.telegram.ui.Components.Bulletin$Layout, because it is abstract and cannot substitute with subclass[m[m
+BREW 08/01/2022 - 20:00:48 [31mProcess (FlowDroid, 30679) error: [main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for org.telegram.tgnet.TLRPC$Message, because it is abstract and cannot substitute with subclass[m[m
+BREW 08/01/2022 - 20:00:48 [31mProcess (FlowDroid, 30679) error: [main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for org.telegram.ui.ActionBar.Theme$ResourcesProvider, because it is an interface and cannot substitute with subclass[m[m
+BREW 08/01/2022 - 20:00:48 [31mProcess (FlowDroid, 30679) error: [main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot generate constructor for phantom class androidx.recyclerview.widget.RecyclerView[m[m
+BREW 08/01/2022 - 20:00:48 [31mProcess (FlowDroid, 30679) error: [main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Could not find a suitable constructor for class org.telegram.ui.GroupCallActivity[m[m
+BREW 08/01/2022 - 20:00:48 [31mProcess (FlowDroid, 30679) error: [main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for org.telegram.tgnet.TLRPC$ChatFull, because it is abstract and cannot substitute with subclass[m[m
+BREW 08/01/2022 - 20:00:48 [31mProcess (FlowDroid, 30679) error: [main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for org.telegram.ui.ActionBar.BaseFragment, because it is abstract and cannot substitute with subclass[m[m
+BREW 08/01/2022 - 20:00:48 [31mProcess (FlowDroid, 30679) error: [main] WARN soot.jimple.infoflow.android.entryPointCreators.components.ActivityEntryPointCreator - Cannot create valid constructor for org.telegram.tgnet.TLRPC$Message, because it is abstract and cannot substitute with subclass[m[m
+BREW 08/01/2022 - 20:00:48 [31mProcess (FlowDroid, 30679) error: [main] WARN soot.jimple.infoflow.android.entryPointCreators.components.BroadcastReceiverEntryPointCreator - Could not find a suitable constructor for class org.telegram.messenger.LocaleController$1[m[m
+BREW 08/01/2022 - 20:00:48 [31mProcess (FlowDroid, 30679) error: [main] INFO soot.jimple.infoflow.android.SetupApplication - Constructing the callgraph...[m[m
+BREW 08/01/2022 - 20:02:08 [31mProcess (FlowDroid, 30679) error: [main] INFO soot.jimple.infoflow.android.callbacks.DefaultCallbackAnalyzer - Running incremental callback analysis for 45 components...[m[m
+BREW 08/01/2022 - 20:02:13 [31mProcess (FlowDroid, 30679) error: [main] INFO soot.jimple.infoflow.android.callbacks.DefaultCallbackAnalyzer - Incremental callback analysis done.[m[m
+BREW 08/01/2022 - 20:02:13 [31mProcess (FlowDroid, 30679) error: [main] INFO soot.jimple.infoflow.android.entryPointCreators.AndroidEntryPointCreator - Creating Android entry point for 58 components...[m[m
+BREW 08/01/2022 - 20:02:13 [31mProcess (FlowDroid, 30679) error: [main] WARN soot.jimple.infoflow.android.entryPointCreators.components.BroadcastReceiverEntryPointCreator - Could not find a suitable constructor for class org.telegram.messenger.LocaleController$1[m[m
+BREW 08/01/2022 - 20:02:13 [31mProcess (FlowDroid, 30679) error: [main] INFO soot.jimple.infoflow.android.SetupApplication - Constructing the callgraph...[m[m
+BREW 08/01/2022 - 20:02:59 [31mProcess (FlowDroid, 30679) error: [main] INFO soot.jimple.infoflow.android.callbacks.DefaultCallbackAnalyzer - Running incremental callback analysis for 0 components...[m[m
+BREW 08/01/2022 - 20:02:59 [31mProcess (FlowDroid, 30679) error: [main] INFO soot.jimple.infoflow.android.callbacks.DefaultCallbackAnalyzer - Incremental callback analysis done.[m[m
+BREW 08/01/2022 - 20:02:59 [31mProcess (FlowDroid, 30679) error: [main] INFO soot.jimple.infoflow.memory.MemoryWarningSystem - Shutting down the memory warning system...[m[m
+BREW 08/01/2022 - 20:02:59 [31mProcess (FlowDroid, 30679) error: [main] INFO soot.jimple.infoflow.android.SetupApplication - Callback analysis terminated normally[m[m
+BREW 08/01/2022 - 20:02:59 [31mProcess (FlowDroid, 30679) error: [main] INFO soot.jimple.infoflow.android.SetupApplication - Entry point calculation done.[m[m
+BREW 08/01/2022 - 20:02:59 [31mProcess (FlowDroid, 30679) error: [main] WARN soot.jimple.infoflow.android.data.parsers.PermissionMethodParser - Line does not match:     [m[m
+BREW 08/01/2022 - 20:02:59 [31mProcess (FlowDroid, 30679) error: [main] INFO soot.jimple.infoflow.android.source.AccessPathBasedSourceSinkManager - Created a SourceSinkManager with 112 sources, 201 sinks, and 129 callback methods.[m[m
+BREW 08/01/2022 - 20:02:59 [31mProcess (FlowDroid, 30679) error: [main] INFO soot.jimple.infoflow.android.SetupApplication - Collecting callbacks and building a callgraph took 216 seconds[m[m
+BREW 08/01/2022 - 20:02:59 [31mProcess (FlowDroid, 30679) error: [main] INFO soot.jimple.infoflow.android.SetupApplication - Running data flow analysis on /media/sf_brewThesis/data/storage/00429.apk with 112 sources and 201 sinks...[m[m
+BREW 08/01/2022 - 20:02:59 [31mProcess (FlowDroid, 30679) error: [main] INFO soot.jimple.infoflow.InfoflowConfiguration - Implicit flow tracking is NOT enabled[m[m
+BREW 08/01/2022 - 20:02:59 [31mProcess (FlowDroid, 30679) error: [main] INFO soot.jimple.infoflow.InfoflowConfiguration - Exceptional flow tracking is enabled[m[m
+BREW 08/01/2022 - 20:02:59 [31mProcess (FlowDroid, 30679) error: [main] INFO soot.jimple.infoflow.InfoflowConfiguration - Running with a maximum access path length of 5[m[m
+BREW 08/01/2022 - 20:02:59 [31mProcess (FlowDroid, 30679) error: [main] INFO soot.jimple.infoflow.InfoflowConfiguration - Using path-agnostic result collection[m[m
+BREW 08/01/2022 - 20:02:59 [31mProcess (FlowDroid, 30679) error: [main] INFO soot.jimple.infoflow.InfoflowConfiguration - Recursive access path shortening is enabled[m[m
+BREW 08/01/2022 - 20:02:59 [31mProcess (FlowDroid, 30679) error: [main] INFO soot.jimple.infoflow.InfoflowConfiguration - Taint analysis enabled: true[m[m
+BREW 08/01/2022 - 20:02:59 [31mProcess (FlowDroid, 30679) error: [main] INFO soot.jimple.infoflow.InfoflowConfiguration - Using alias algorithm FlowSensitive[m[m
+BREW 08/01/2022 - 20:02:59 [31mProcess (FlowDroid, 30679) error: [main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Callgraph construction took 0 seconds[m[m
+BREW 08/01/2022 - 20:03:01 [31mProcess (FlowDroid, 30679) error: [main] INFO soot.jimple.infoflow.codeOptimization.InterproceduralConstantValuePropagator - Removing side-effect free methods is disabled[m[m
+BREW 08/01/2022 - 20:03:06 [31mProcess (FlowDroid, 30679) error: [main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Dead code elimination took 7.076799051 seconds[m[m
+BREW 08/01/2022 - 20:03:06 [31mProcess (FlowDroid, 30679) error: [main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Callgraph has 151520 edges[m[m
+BREW 08/01/2022 - 20:03:06 [31mProcess (FlowDroid, 30679) error: [main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Starting Taint Analysis[m[m
+BREW 08/01/2022 - 20:03:06 [31mProcess (FlowDroid, 30679) error: [main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Using context- and flow-sensitive solver[m[m
+BREW 08/01/2022 - 20:03:06 [31mProcess (FlowDroid, 30679) error: [main] WARN soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Running with limited join point abstractions can break context-sensitive path builders[m[m
+BREW 08/01/2022 - 20:03:06 [31mProcess (FlowDroid, 30679) error: [main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Looking for sources and sinks...[m[m
+BREW 08/01/2022 - 20:03:08 [31mProcess (FlowDroid, 30679) error: [main] INFO soot.jimple.infoflow.android.SetupApplication$InPlaceInfoflow - Source lookup done, found 155 sources and 603 sinks.[m[m
+BREW 08/01/2022 - 20:59:13 Warning: Timeout-Timer (FlowDroid) expired for FlowDroid (2.7.1)
+BREW 08/01/2022 - 20:59:13 Running on abort event for the tool: FlowDroid (2.7.1)
+BREW 08/01/2022 - 20:59:14 Process 30679 (FlowDroid) timed out!
+BREW 08/01/2022 - 20:59:14
+Error: FlowDroid (2.7.1) execution in "/home/fpauck/tools/FlowDroid/271_linenumbers" timed out:
+java -Xmx96g -jar soot-infoflow-cmd-jar-with-dependencies.jar -a /media/sf_brewThesis/data/storage/00429.apk -p /media/sf_sdks/platforms/ -s /home/fpauck/tools/FlowDroid/env/SourcesAndSinks.txt -o results/00429_result.xml -ol -d
+(TimeoutExecutionException: FlowDroid (2.7.1) was internally executed but timed out.)
+BREW 08/01/2022 - 20:59:14 Running on exit event for the tool: FlowDroid (2.7.1)
+BREW 08/01/2022 - 20:59:15 [31mProcess (30734) error: /home/fpauck/tools/env/killpid.sh: line 24: kill: (30679) - No such process[m[m
+BREW 08/01/2022 - 20:59:15 Process (30742) output: Not root! Reattempting as root...
+BREW 08/01/2022 - 20:59:15 Process (30742) output: Root! Flushing memory...
+BREW 08/01/2022 - 20:59:15 Stopping scheduler!
+BREW 08/01/2022 - 20:59:15
+Error: Canceled (after 3604.021s): Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/1/org.telegram.messenger.apk') ?
+Reason: Answering a part of the query timed out: Flows IN App(SIMPLIFY [
+	'/home/fpauck/benchmarks/temp/top15/subset/1/org.telegram.messenger.apk' !
+] !) USES 'FlowDroid-271' ?

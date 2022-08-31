@@ -1,0 +1,626 @@
+BREW 07/28/2022 - 02:55:08 Continuing with configuration: /media/sf_webservice/config.xml (a9ee75f31fbb720aa6746ae2f72aade2)
+BREW 07/28/2022 - 02:55:08 [1;32mStarting: Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/1/com.gamma.scan.apk') ?[m[m
+BREW 07/28/2022 - 02:55:08 Parsed: Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/1/com.gamma.scan.apk') ?
+BREW 07/28/2022 - 02:55:08 Resolved: Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/1/com.gamma.scan.apk') ?
+BREW 07/28/2022 - 02:55:08 Transformation-rule applied: ToolSelection
+BREW 07/28/2022 - 02:55:08 Transformation-rule applied: ApplySimplifier
+BREW 07/28/2022 - 02:55:08
+Transformed:
+Flows IN App(SIMPLIFY [
+	'/home/fpauck/benchmarks/temp/top15/subset/1/com.gamma.scan.apk' !
+] !) USES 'FlowDroid-1' WITH 'SourcesAndSinks' = '/home/fpauck/tools/FlowDroid/env/SourcesAndSinks_newForOld.txt' ?
+BREW 07/28/2022 - 02:55:08 Loaded storage from: /media/sf_brewThesis/data/storage/storage.ser
+BREW 07/28/2022 - 02:55:08 Setting variable (%MEMORY%) value to: "96"
+BREW 07/28/2022 - 02:55:08 Setting variable (%ANDROID_PLATFORMS%) value to: "/media/sf_sdks/platforms/"
+BREW 07/28/2022 - 02:55:08 Setting variable (%ANDROID_BUILDTOOLS%) value to: "null"
+BREW 07/28/2022 - 02:55:08 Setting variable (%DATE%) value to: "28_07_2022-02_55_08"
+BREW 07/28/2022 - 02:55:08 Setting variable (%LINENUMBER_IN%) value to: "-1"
+BREW 07/28/2022 - 02:55:08 Setting variable (%SourcesAndSinks%) value to: "/home/fpauck/tools/FlowDroid/env/SourcesAndSinks_newForOld.txt"
+BREW 07/28/2022 - 02:55:08 Setting variable (%LINENUMBER_IN%) value to: "-1"
+BREW 07/28/2022 - 02:55:08 Warning: Maximum memory (105 GB) specified in config file will never become available. Using maximal available memory instead: 102 GB
+BREW 07/28/2022 - 02:55:08 Timeout (Answer-Loader) set to: 60m
+BREW 07/28/2022 - 02:55:08 Starting execution of default Answer-Loader (2.0.1-SNAPSHOT). [/media/sf_brewThesis/.: Load from file: /media/sf_brewThesis/data/storage/00486.%FILE_ENDING%]
+BREW 07/28/2022 - 02:55:08 Finished execution of default Answer-Loader (2.0.1-SNAPSHOT) after 0.0 seconds. [/media/sf_brewThesis/.: Load from file: /home/fpauck/benchmarks/temp/top15/subset/1/com.gamma.scan.apk]
+BREW 07/28/2022 - 02:55:08 Setting variable (%ANSWERS%) value to: "/home/fpauck/benchmarks/temp/top15/subset/1/com.gamma.scan.apk"
+BREW 07/28/2022 - 02:55:08 Setting variable (%ANSWERSHASH%) value to: "b24d2d182ec7dd4e17c6f55cad395ede263dc71cdbc4a5614adc7aa7fae4644e"
+BREW 07/28/2022 - 02:55:08 Setting variable (%ANSWERSHASH_MD5%) value to: "01c74e23881a1b9ec6e2d2c0fffb2091"
+BREW 07/28/2022 - 02:55:08 Setting variable (%ANSWERSHASH_SHA-1%) value to: "6962b0b0405b17a07d97eae2285debc003664885"
+BREW 07/28/2022 - 02:55:08 Setting variable (%ANSWERSHASH_SHA-256%) value to: "b24d2d182ec7dd4e17c6f55cad395ede263dc71cdbc4a5614adc7aa7fae4644e"
+BREW 07/28/2022 - 02:55:08 Timeout (DefaultSimplifyOperator) set to: 60m
+BREW 07/28/2022 - 02:55:08
+Loaded from storage:
+SIMPLIFY [
+	'/home/fpauck/benchmarks/temp/top15/subset/1/com.gamma.scan.apk' !
+] !
+BREW 07/28/2022 - 02:55:09 Setting variable (%APP_APK_IN%) value to: "/media/sf_brewThesis/data/storage/00409.apk"
+BREW 07/28/2022 - 02:55:09 Setting variable (%APP_APK%) value to: "/media/sf_brewThesis/data/storage/00409.apk"
+BREW 07/28/2022 - 02:55:09 Setting variable (%APP_APK_IN_FILENAME%) value to: "00409"
+BREW 07/28/2022 - 02:55:09 Setting variable (%APP_APK_FILENAME%) value to: "00409"
+BREW 07/28/2022 - 02:55:09 Setting variable (%APP_APK_IN_NAME%) value to: "scan"
+BREW 07/28/2022 - 02:55:09 Setting variable (%APP_APK_NAME%) value to: "scan"
+BREW 07/28/2022 - 02:55:09 Setting variable (%APP_APK_IN_PACKAGE%) value to: "com.gamma.scan"
+BREW 07/28/2022 - 02:55:09 Setting variable (%APP_APK_PACKAGE%) value to: "com.gamma.scan"
+BREW 07/28/2022 - 02:55:09 Running on entry event for the tool: FlowDroid (1)
+BREW 07/28/2022 - 02:55:09 Timeout (FlowDroid) set to: 60m
+BREW 07/28/2022 - 02:55:09 Starting execution of internal FlowDroid (1). [/home/fpauck/tools/FlowDroid/old: /home/fpauck/tools/FlowDroid/old/aqlRunSS.sh 96 /media/sf_brewThesis/data/storage/00409.apk /media/sf_sdks/platforms/ results/00409_result.txt /home/fpauck/tools/FlowDroid/env/SourcesAndSinks_newForOld.txt]
+BREW 07/28/2022 - 02:55:09 Setting variable (%PID%) value to: "22761"
+BREW 07/28/2022 - 02:55:10 Process (FlowDroid, 22761) output: 'SourcesAndSinks.txt' -> 'SourcesAndSinks_bak.txt'
+BREW 07/28/2022 - 02:55:10 Process (FlowDroid, 22761) output: '/home/fpauck/tools/FlowDroid/env/SourcesAndSinks_newForOld.txt' -> 'SourcesAndSinks.txt'
+BREW 07/28/2022 - 02:55:29 Process (FlowDroid, 22761) output: removed 'SourcesAndSinks.txt'
+BREW 07/28/2022 - 02:55:29 Process (FlowDroid, 22761) output: 'SourcesAndSinks_bak.txt' -> 'SourcesAndSinks.txt'
+BREW 07/28/2022 - 02:55:29 Process 22761 (FlowDroid) terminated sucessfully (0)
+BREW 07/28/2022 - 02:55:29 Result available: /home/fpauck/tools/FlowDroid/old/results/00409_result.txt
+BREW 07/28/2022 - 02:55:29 Finished execution of internal FlowDroid (1) after 20.08 seconds. [/home/fpauck/tools/FlowDroid/old: /home/fpauck/tools/FlowDroid/old/aqlRunSS.sh 96 /media/sf_brewThesis/data/storage/00409.apk /media/sf_sdks/platforms/ results/00409_result.txt /home/fpauck/tools/FlowDroid/env/SourcesAndSinks_newForOld.txt]
+BREW 07/28/2022 - 02:55:29 Running on exit event for the tool: FlowDroid (1)
+BREW 07/28/2022 - 02:55:30 Timeout-Timer (FlowDroid) stopped normally.
+BREW 07/28/2022 - 02:55:30 Process (22781) output: Not root! Reattempting as root...
+BREW 07/28/2022 - 02:55:30 Process (22781) output: Root! Flushing memory...
+BREW 07/28/2022 - 02:55:30 Setting variable (%RESULT_FILE%) value to: "/home/fpauck/tools/FlowDroid/old/results/00409_result.txt"
+BREW 07/28/2022 - 02:55:30 Setting variable (%APP_APK_IN_NAME%) value to: "scan"
+BREW 07/28/2022 - 02:55:30 Setting variable (%APP_APK_NAME%) value to: "scan"
+BREW 07/28/2022 - 02:55:30 Setting variable (%APP_APK_IN_FILENAME%) value to: "00409"
+BREW 07/28/2022 - 02:55:30 Setting variable (%APP_APK_FILENAME%) value to: "00409"
+BREW 07/28/2022 - 02:55:30 Setting variable (%APP_APK_IN%) value to: "/media/sf_brewThesis/data/storage/00409.apk"
+BREW 07/28/2022 - 02:55:30 Setting variable (%APP_APK%) value to: "/media/sf_brewThesis/data/storage/00409.apk"
+BREW 07/28/2022 - 02:55:30 Setting variable (%APP_APK_IN_PACKAGE%) value to: "com.gamma.scan"
+BREW 07/28/2022 - 02:55:30 Setting variable (%APP_APK_PACKAGE%) value to: "com.gamma.scan"
+BREW 07/28/2022 - 02:55:30 Timeout (DefaultConverter for FlowDroid) set to: 60m
+BREW 07/28/2022 - 02:55:30 Starting execution of default DefaultConverter for FlowDroid (2.0.1-SNAPSHOT). [/media/sf_brewThesis: DefaultConverter for null (2.0.1-SNAPSHOT) with { %APP_APK_IN_FILENAME% = '00409', %APP_APK_IN_NAME% = 'scan', %APP_APK_NAME% = 'scan', %APP_APK_IN% = '/media/sf_brewThesis/data/storage/00409.apk', %APP_APK_FILENAME% = '00409', %APP_APK% = '/media/sf_brewThesis/data/storage/00409.apk', %APP_APK_PACKAGE% = 'com.gamma.scan', %RESULT_FILE% = '/home/fpauck/tools/FlowDroid/old/results/00409_result.txt', %LINENUMBER_IN% = '-1', %APP_APK_IN_PACKAGE% = 'com.gamma.scan' }]
+BREW 07/28/2022 - 02:55:30 Storing answered task: /media/sf_brewThesis/data/storage/00484.xml [/home/fpauck/tools/FlowDroid/old/aqlRunSS.sh 96 2e362e9ba2b99978daee10349af71206eb062a47494b5b6efd871f11f1927a15 /media/sf_sdks/platforms/ results/00409_result.txt 3f1e3450c7c1d5392fd123320ac727a0acd6bb4f71e57e92afb82b9ed513489e]
+BREW 07/28/2022 - 02:55:30 Finished execution of default DefaultConverter for FlowDroid (2.0.1-SNAPSHOT) after 0.57 seconds. [/media/sf_brewThesis: DefaultConverter for null (2.0.1-SNAPSHOT) with { %APP_APK_IN_FILENAME% = '00409', %APP_APK_IN_NAME% = 'scan', %APP_APK_NAME% = 'scan', %APP_APK_IN% = '/media/sf_brewThesis/data/storage/00409.apk', %APP_APK_FILENAME% = '00409', %APP_APK% = '/media/sf_brewThesis/data/storage/00409.apk', %APP_APK_PACKAGE% = 'com.gamma.scan', %RESULT_FILE% = '/home/fpauck/tools/FlowDroid/old/results/00409_result.txt', %LINENUMBER_IN% = '-1', %APP_APK_IN_PACKAGE% = 'com.gamma.scan' }]
+BREW 07/28/2022 - 02:55:31 [1;32mFinished (after 22.508s): Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/1/com.gamma.scan.apk') ?[m[m
+BREW 07/28/2022 - 02:55:31
+[1m***** Answer (/media/sf_brewThesis/answers/answer_28_07_2022-02_55_31-001.xml) *****
+[m*** Flows ***
+
+[m[m
+BREW 07/28/2022 - 02:55:31
+
+
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<answer>
+    <flows/>
+</answer>
+
+
+
+
+BREW 07/28/2022 - 02:55:31 Continuing with configuration: /media/sf_webservice/config.xml (a9ee75f31fbb720aa6746ae2f72aade2)
+BREW 07/28/2022 - 02:55:31 [1;32mStarting: Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/1/com.starfinanz.mobile.android.pushtan.apk') ?[m[m
+BREW 07/28/2022 - 02:55:31 Parsed: Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/1/com.starfinanz.mobile.android.pushtan.apk') ?
+BREW 07/28/2022 - 02:55:31 Resolved: Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/1/com.starfinanz.mobile.android.pushtan.apk') ?
+BREW 07/28/2022 - 02:55:31 Transformation-rule applied: ToolSelection
+BREW 07/28/2022 - 02:55:31 Transformation-rule applied: ApplySimplifier
+BREW 07/28/2022 - 02:55:31
+Transformed:
+Flows IN App(SIMPLIFY [
+	'/home/fpauck/benchmarks/temp/top15/subset/1/com.starfinanz.mobile.android.pushtan.apk' !
+] !) USES 'FlowDroid-1' WITH 'SourcesAndSinks' = '/home/fpauck/tools/FlowDroid/env/SourcesAndSinks_newForOld.txt' ?
+BREW 07/28/2022 - 02:55:31 Loaded storage from: /media/sf_brewThesis/data/storage/storage.ser
+BREW 07/28/2022 - 02:55:31 Setting variable (%MEMORY%) value to: "96"
+BREW 07/28/2022 - 02:55:31 Setting variable (%ANDROID_PLATFORMS%) value to: "/media/sf_sdks/platforms/"
+BREW 07/28/2022 - 02:55:31 Setting variable (%ANDROID_BUILDTOOLS%) value to: "null"
+BREW 07/28/2022 - 02:55:31 Setting variable (%DATE%) value to: "28_07_2022-02_55_31"
+BREW 07/28/2022 - 02:55:31 Setting variable (%LINENUMBER_IN%) value to: "-1"
+BREW 07/28/2022 - 02:55:31 Setting variable (%SourcesAndSinks%) value to: "/home/fpauck/tools/FlowDroid/env/SourcesAndSinks_newForOld.txt"
+BREW 07/28/2022 - 02:55:31 Setting variable (%LINENUMBER_IN%) value to: "-1"
+BREW 07/28/2022 - 02:55:31 Warning: Maximum memory (105 GB) specified in config file will never become available. Using maximal available memory instead: 102 GB
+BREW 07/28/2022 - 02:55:31 Timeout (Answer-Loader) set to: 60m
+BREW 07/28/2022 - 02:55:31 Starting execution of default Answer-Loader (2.0.1-SNAPSHOT). [/media/sf_brewThesis/.: Load from file: /media/sf_brewThesis/data/storage/00490.%FILE_ENDING%]
+BREW 07/28/2022 - 02:55:31 Finished execution of default Answer-Loader (2.0.1-SNAPSHOT) after 0.0 seconds. [/media/sf_brewThesis/.: Load from file: /home/fpauck/benchmarks/temp/top15/subset/1/com.starfinanz.mobile.android.pushtan.apk]
+BREW 07/28/2022 - 02:55:32 Setting variable (%ANSWERS%) value to: "/home/fpauck/benchmarks/temp/top15/subset/1/com.starfinanz.mobile.android.pushtan.apk"
+BREW 07/28/2022 - 02:55:32 Setting variable (%ANSWERSHASH%) value to: "c307ef857e4d6c975439d35f612a3d2890c8b169e01ad5e75a0d456fb22990a8"
+BREW 07/28/2022 - 02:55:32 Setting variable (%ANSWERSHASH_MD5%) value to: "b879e79a289f0a4f4bbd819ae26d0be1"
+BREW 07/28/2022 - 02:55:32 Setting variable (%ANSWERSHASH_SHA-1%) value to: "403d02a6acda72affae4eecae5cf25efda3983b1"
+BREW 07/28/2022 - 02:55:32 Setting variable (%ANSWERSHASH_SHA-256%) value to: "c307ef857e4d6c975439d35f612a3d2890c8b169e01ad5e75a0d456fb22990a8"
+BREW 07/28/2022 - 02:55:32 Timeout (DefaultSimplifyOperator) set to: 60m
+BREW 07/28/2022 - 02:55:32
+Loaded from storage:
+SIMPLIFY [
+	'/home/fpauck/benchmarks/temp/top15/subset/1/com.starfinanz.mobile.android.pushtan.apk' !
+] !
+BREW 07/28/2022 - 02:55:32 Setting variable (%APP_APK_IN%) value to: "/media/sf_brewThesis/data/storage/00413.apk"
+BREW 07/28/2022 - 02:55:32 Setting variable (%APP_APK%) value to: "/media/sf_brewThesis/data/storage/00413.apk"
+BREW 07/28/2022 - 02:55:32 Setting variable (%APP_APK_IN_FILENAME%) value to: "00413"
+BREW 07/28/2022 - 02:55:32 Setting variable (%APP_APK_FILENAME%) value to: "00413"
+BREW 07/28/2022 - 02:55:32 Setting variable (%APP_APK_IN_NAME%) value to: "pushtan"
+BREW 07/28/2022 - 02:55:32 Setting variable (%APP_APK_NAME%) value to: "pushtan"
+BREW 07/28/2022 - 02:55:32 Setting variable (%APP_APK_IN_PACKAGE%) value to: "com.starfinanz.mobile.android.pushtan"
+BREW 07/28/2022 - 02:55:32 Setting variable (%APP_APK_PACKAGE%) value to: "com.starfinanz.mobile.android.pushtan"
+BREW 07/28/2022 - 02:55:32 Running on entry event for the tool: FlowDroid (1)
+BREW 07/28/2022 - 02:55:32 Timeout (FlowDroid) set to: 60m
+BREW 07/28/2022 - 02:55:32 Starting execution of internal FlowDroid (1). [/home/fpauck/tools/FlowDroid/old: /home/fpauck/tools/FlowDroid/old/aqlRunSS.sh 96 /media/sf_brewThesis/data/storage/00413.apk /media/sf_sdks/platforms/ results/00413_result.txt /home/fpauck/tools/FlowDroid/env/SourcesAndSinks_newForOld.txt]
+BREW 07/28/2022 - 02:55:32 Setting variable (%PID%) value to: "22820"
+BREW 07/28/2022 - 02:55:33 Process (FlowDroid, 22820) output: 'SourcesAndSinks.txt' -> 'SourcesAndSinks_bak.txt'
+BREW 07/28/2022 - 02:55:33 Process (FlowDroid, 22820) output: '/home/fpauck/tools/FlowDroid/env/SourcesAndSinks_newForOld.txt' -> 'SourcesAndSinks.txt'
+BREW 07/28/2022 - 02:55:54 Process (FlowDroid, 22820) output: removed 'SourcesAndSinks.txt'
+BREW 07/28/2022 - 02:55:54 Process (FlowDroid, 22820) output: 'SourcesAndSinks_bak.txt' -> 'SourcesAndSinks.txt'
+BREW 07/28/2022 - 02:55:54 Process 22820 (FlowDroid) terminated sucessfully (0)
+BREW 07/28/2022 - 02:55:54 Result available: /home/fpauck/tools/FlowDroid/old/results/00413_result.txt
+BREW 07/28/2022 - 02:55:54 Finished execution of internal FlowDroid (1) after 21.64 seconds. [/home/fpauck/tools/FlowDroid/old: /home/fpauck/tools/FlowDroid/old/aqlRunSS.sh 96 /media/sf_brewThesis/data/storage/00413.apk /media/sf_sdks/platforms/ results/00413_result.txt /home/fpauck/tools/FlowDroid/env/SourcesAndSinks_newForOld.txt]
+BREW 07/28/2022 - 02:55:54 Running on exit event for the tool: FlowDroid (1)
+BREW 07/28/2022 - 02:55:54 Timeout-Timer (FlowDroid) stopped normally.
+BREW 07/28/2022 - 02:55:54 Process (22840) output: Not root! Reattempting as root...
+BREW 07/28/2022 - 02:55:54 Process (22840) output: Root! Flushing memory...
+BREW 07/28/2022 - 02:55:54 Setting variable (%RESULT_FILE%) value to: "/home/fpauck/tools/FlowDroid/old/results/00413_result.txt"
+BREW 07/28/2022 - 02:55:54 Setting variable (%APP_APK_IN_NAME%) value to: "pushtan"
+BREW 07/28/2022 - 02:55:54 Setting variable (%APP_APK_NAME%) value to: "pushtan"
+BREW 07/28/2022 - 02:55:54 Setting variable (%APP_APK_IN_FILENAME%) value to: "00413"
+BREW 07/28/2022 - 02:55:54 Setting variable (%APP_APK_FILENAME%) value to: "00413"
+BREW 07/28/2022 - 02:55:54 Setting variable (%APP_APK_IN%) value to: "/media/sf_brewThesis/data/storage/00413.apk"
+BREW 07/28/2022 - 02:55:54 Setting variable (%APP_APK%) value to: "/media/sf_brewThesis/data/storage/00413.apk"
+BREW 07/28/2022 - 02:55:54 Setting variable (%APP_APK_IN_PACKAGE%) value to: "com.starfinanz.mobile.android.pushtan"
+BREW 07/28/2022 - 02:55:54 Setting variable (%APP_APK_PACKAGE%) value to: "com.starfinanz.mobile.android.pushtan"
+BREW 07/28/2022 - 02:55:54 Timeout (DefaultConverter for FlowDroid) set to: 60m
+BREW 07/28/2022 - 02:55:55 Starting execution of default DefaultConverter for FlowDroid (2.0.1-SNAPSHOT). [/media/sf_brewThesis: DefaultConverter for null (2.0.1-SNAPSHOT) with { %APP_APK_IN_FILENAME% = '00413', %APP_APK_IN_NAME% = 'pushtan', %APP_APK_NAME% = 'pushtan', %APP_APK_IN% = '/media/sf_brewThesis/data/storage/00413.apk', %APP_APK_FILENAME% = '00413', %APP_APK% = '/media/sf_brewThesis/data/storage/00413.apk', %APP_APK_PACKAGE% = 'com.starfinanz.mobile.android.pushtan', %RESULT_FILE% = '/home/fpauck/tools/FlowDroid/old/results/00413_result.txt', %LINENUMBER_IN% = '-1', %APP_APK_IN_PACKAGE% = 'com.starfinanz.mobile.android.pushtan' }]
+BREW 07/28/2022 - 02:55:55 Storing answered task: /media/sf_brewThesis/data/storage/00488.xml [/home/fpauck/tools/FlowDroid/old/aqlRunSS.sh 96 4cb84403fc9c9b8536bac7920e1c1f85e7f54a0caf2aec46b3d7c4b62e97b66c /media/sf_sdks/platforms/ results/00413_result.txt 3f1e3450c7c1d5392fd123320ac727a0acd6bb4f71e57e92afb82b9ed513489e]
+BREW 07/28/2022 - 02:55:55 Finished execution of default DefaultConverter for FlowDroid (2.0.1-SNAPSHOT) after 0.9 seconds. [/media/sf_brewThesis: DefaultConverter for null (2.0.1-SNAPSHOT) with { %APP_APK_IN_FILENAME% = '00413', %APP_APK_IN_NAME% = 'pushtan', %APP_APK_NAME% = 'pushtan', %APP_APK_IN% = '/media/sf_brewThesis/data/storage/00413.apk', %APP_APK_FILENAME% = '00413', %APP_APK% = '/media/sf_brewThesis/data/storage/00413.apk', %APP_APK_PACKAGE% = 'com.starfinanz.mobile.android.pushtan', %RESULT_FILE% = '/home/fpauck/tools/FlowDroid/old/results/00413_result.txt', %LINENUMBER_IN% = '-1', %APP_APK_IN_PACKAGE% = 'com.starfinanz.mobile.android.pushtan' }]
+BREW 07/28/2022 - 02:55:55 [1;32mFinished (after 24.251s): Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/1/com.starfinanz.mobile.android.pushtan.apk') ?[m[m
+BREW 07/28/2022 - 02:55:55
+[1m***** Answer (/media/sf_brewThesis/answers/answer_28_07_2022-02_55_55-001.xml) *****
+[m*** Flows ***
+
+[m[m
+BREW 07/28/2022 - 02:55:55
+
+
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<answer>
+    <flows/>
+</answer>
+
+
+
+
+BREW 07/28/2022 - 02:55:56 Continuing with configuration: /media/sf_webservice/config.xml (a9ee75f31fbb720aa6746ae2f72aade2)
+BREW 07/28/2022 - 02:55:56 [1;32mStarting: Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/1/de.cellular.ottohybrid.apk') ?[m[m
+BREW 07/28/2022 - 02:55:56 Parsed: Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/1/de.cellular.ottohybrid.apk') ?
+BREW 07/28/2022 - 02:55:56 Resolved: Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/1/de.cellular.ottohybrid.apk') ?
+BREW 07/28/2022 - 02:55:56 Transformation-rule applied: ToolSelection
+BREW 07/28/2022 - 02:55:56 Transformation-rule applied: ApplySimplifier
+BREW 07/28/2022 - 02:55:56
+Transformed:
+Flows IN App(SIMPLIFY [
+	'/home/fpauck/benchmarks/temp/top15/subset/1/de.cellular.ottohybrid.apk' !
+] !) USES 'FlowDroid-1' WITH 'SourcesAndSinks' = '/home/fpauck/tools/FlowDroid/env/SourcesAndSinks_newForOld.txt' ?
+BREW 07/28/2022 - 02:55:56 Loaded storage from: /media/sf_brewThesis/data/storage/storage.ser
+BREW 07/28/2022 - 02:55:56 Setting variable (%MEMORY%) value to: "96"
+BREW 07/28/2022 - 02:55:56 Setting variable (%ANDROID_PLATFORMS%) value to: "/media/sf_sdks/platforms/"
+BREW 07/28/2022 - 02:55:56 Setting variable (%ANDROID_BUILDTOOLS%) value to: "null"
+BREW 07/28/2022 - 02:55:56 Setting variable (%DATE%) value to: "28_07_2022-02_55_56"
+BREW 07/28/2022 - 02:55:56 Setting variable (%LINENUMBER_IN%) value to: "-1"
+BREW 07/28/2022 - 02:55:56 Setting variable (%SourcesAndSinks%) value to: "/home/fpauck/tools/FlowDroid/env/SourcesAndSinks_newForOld.txt"
+BREW 07/28/2022 - 02:55:56 Setting variable (%LINENUMBER_IN%) value to: "-1"
+BREW 07/28/2022 - 02:55:56 Warning: Maximum memory (105 GB) specified in config file will never become available. Using maximal available memory instead: 101 GB
+BREW 07/28/2022 - 02:55:56 Timeout (Answer-Loader) set to: 60m
+BREW 07/28/2022 - 02:55:56 Starting execution of default Answer-Loader (2.0.1-SNAPSHOT). [/media/sf_brewThesis/.: Load from file: /media/sf_brewThesis/data/storage/00494.%FILE_ENDING%]
+BREW 07/28/2022 - 02:55:56 Finished execution of default Answer-Loader (2.0.1-SNAPSHOT) after 0.0 seconds. [/media/sf_brewThesis/.: Load from file: /home/fpauck/benchmarks/temp/top15/subset/1/de.cellular.ottohybrid.apk]
+BREW 07/28/2022 - 02:55:56 Setting variable (%ANSWERS%) value to: "/home/fpauck/benchmarks/temp/top15/subset/1/de.cellular.ottohybrid.apk"
+BREW 07/28/2022 - 02:55:56 Setting variable (%ANSWERSHASH%) value to: "aca94f423e1aaae3f9f0d8ab9982403fe8d8c72e0d6720484be3927c6a2b4a27"
+BREW 07/28/2022 - 02:55:56 Setting variable (%ANSWERSHASH_MD5%) value to: "8b2be8af2568e1d6a7bdace97282e69b"
+BREW 07/28/2022 - 02:55:56 Setting variable (%ANSWERSHASH_SHA-1%) value to: "24fd1958e5002c8e5c419e023f60471d99b0a24a"
+BREW 07/28/2022 - 02:55:56 Setting variable (%ANSWERSHASH_SHA-256%) value to: "aca94f423e1aaae3f9f0d8ab9982403fe8d8c72e0d6720484be3927c6a2b4a27"
+BREW 07/28/2022 - 02:55:56 Timeout (DefaultSimplifyOperator) set to: 60m
+BREW 07/28/2022 - 02:55:56
+Loaded from storage:
+SIMPLIFY [
+	'/home/fpauck/benchmarks/temp/top15/subset/1/de.cellular.ottohybrid.apk' !
+] !
+BREW 07/28/2022 - 02:55:56 Setting variable (%APP_APK_IN%) value to: "/media/sf_brewThesis/data/storage/00417.apk"
+BREW 07/28/2022 - 02:55:56 Setting variable (%APP_APK%) value to: "/media/sf_brewThesis/data/storage/00417.apk"
+BREW 07/28/2022 - 02:55:56 Setting variable (%APP_APK_IN_FILENAME%) value to: "00417"
+BREW 07/28/2022 - 02:55:56 Setting variable (%APP_APK_FILENAME%) value to: "00417"
+BREW 07/28/2022 - 02:55:56 Setting variable (%APP_APK_IN_NAME%) value to: "ottohybrid"
+BREW 07/28/2022 - 02:55:56 Setting variable (%APP_APK_NAME%) value to: "ottohybrid"
+BREW 07/28/2022 - 02:55:56 Setting variable (%APP_APK_IN_PACKAGE%) value to: "de.cellular.ottohybrid"
+BREW 07/28/2022 - 02:55:56 Setting variable (%APP_APK_PACKAGE%) value to: "de.cellular.ottohybrid"
+BREW 07/28/2022 - 02:55:57 Running on entry event for the tool: FlowDroid (1)
+BREW 07/28/2022 - 02:55:57 Timeout (FlowDroid) set to: 60m
+BREW 07/28/2022 - 02:55:57 Starting execution of internal FlowDroid (1). [/home/fpauck/tools/FlowDroid/old: /home/fpauck/tools/FlowDroid/old/aqlRunSS.sh 96 /media/sf_brewThesis/data/storage/00417.apk /media/sf_sdks/platforms/ results/00417_result.txt /home/fpauck/tools/FlowDroid/env/SourcesAndSinks_newForOld.txt]
+BREW 07/28/2022 - 02:55:57 Setting variable (%PID%) value to: "22879"
+BREW 07/28/2022 - 02:55:57 Process (FlowDroid, 22879) output: 'SourcesAndSinks.txt' -> 'SourcesAndSinks_bak.txt'
+BREW 07/28/2022 - 02:55:57 Process (FlowDroid, 22879) output: '/home/fpauck/tools/FlowDroid/env/SourcesAndSinks_newForOld.txt' -> 'SourcesAndSinks.txt'
+BREW 07/28/2022 - 02:56:21 Process (FlowDroid, 22879) output: removed 'SourcesAndSinks.txt'
+BREW 07/28/2022 - 02:56:21 Process (FlowDroid, 22879) output: 'SourcesAndSinks_bak.txt' -> 'SourcesAndSinks.txt'
+BREW 07/28/2022 - 02:56:21 Process 22879 (FlowDroid) terminated sucessfully (0)
+BREW 07/28/2022 - 02:56:21 Result available: /home/fpauck/tools/FlowDroid/old/results/00417_result.txt
+BREW 07/28/2022 - 02:56:21 Finished execution of internal FlowDroid (1) after 24.07 seconds. [/home/fpauck/tools/FlowDroid/old: /home/fpauck/tools/FlowDroid/old/aqlRunSS.sh 96 /media/sf_brewThesis/data/storage/00417.apk /media/sf_sdks/platforms/ results/00417_result.txt /home/fpauck/tools/FlowDroid/env/SourcesAndSinks_newForOld.txt]
+BREW 07/28/2022 - 02:56:21 Running on exit event for the tool: FlowDroid (1)
+BREW 07/28/2022 - 02:56:21 Timeout-Timer (FlowDroid) stopped normally.
+BREW 07/28/2022 - 02:56:21 Process (22899) output: Not root! Reattempting as root...
+BREW 07/28/2022 - 02:56:21 Process (22899) output: Root! Flushing memory...
+BREW 07/28/2022 - 02:56:21 Setting variable (%RESULT_FILE%) value to: "/home/fpauck/tools/FlowDroid/old/results/00417_result.txt"
+BREW 07/28/2022 - 02:56:21 Setting variable (%APP_APK_IN_NAME%) value to: "ottohybrid"
+BREW 07/28/2022 - 02:56:21 Setting variable (%APP_APK_NAME%) value to: "ottohybrid"
+BREW 07/28/2022 - 02:56:21 Setting variable (%APP_APK_IN_FILENAME%) value to: "00417"
+BREW 07/28/2022 - 02:56:21 Setting variable (%APP_APK_FILENAME%) value to: "00417"
+BREW 07/28/2022 - 02:56:21 Setting variable (%APP_APK_IN%) value to: "/media/sf_brewThesis/data/storage/00417.apk"
+BREW 07/28/2022 - 02:56:21 Setting variable (%APP_APK%) value to: "/media/sf_brewThesis/data/storage/00417.apk"
+BREW 07/28/2022 - 02:56:21 Setting variable (%APP_APK_IN_PACKAGE%) value to: "de.cellular.ottohybrid"
+BREW 07/28/2022 - 02:56:21 Setting variable (%APP_APK_PACKAGE%) value to: "de.cellular.ottohybrid"
+BREW 07/28/2022 - 02:56:21 Timeout (DefaultConverter for FlowDroid) set to: 60m
+BREW 07/28/2022 - 02:56:21 Starting execution of default DefaultConverter for FlowDroid (2.0.1-SNAPSHOT). [/media/sf_brewThesis: DefaultConverter for null (2.0.1-SNAPSHOT) with { %APP_APK_IN_FILENAME% = '00417', %APP_APK_IN_NAME% = 'ottohybrid', %APP_APK_NAME% = 'ottohybrid', %APP_APK_IN% = '/media/sf_brewThesis/data/storage/00417.apk', %APP_APK_FILENAME% = '00417', %APP_APK% = '/media/sf_brewThesis/data/storage/00417.apk', %APP_APK_PACKAGE% = 'de.cellular.ottohybrid', %RESULT_FILE% = '/home/fpauck/tools/FlowDroid/old/results/00417_result.txt', %LINENUMBER_IN% = '-1', %APP_APK_IN_PACKAGE% = 'de.cellular.ottohybrid' }]
+BREW 07/28/2022 - 02:56:22 Storing answered task: /media/sf_brewThesis/data/storage/00492.xml [/home/fpauck/tools/FlowDroid/old/aqlRunSS.sh 96 5d6c5cbbd5c3a60a6576a954eb1787fbde4380fc631deef14fccdee228b5d5ee /media/sf_sdks/platforms/ results/00417_result.txt 3f1e3450c7c1d5392fd123320ac727a0acd6bb4f71e57e92afb82b9ed513489e]
+BREW 07/28/2022 - 02:56:22 Finished execution of default DefaultConverter for FlowDroid (2.0.1-SNAPSHOT) after 0.62 seconds. [/media/sf_brewThesis: DefaultConverter for null (2.0.1-SNAPSHOT) with { %APP_APK_IN_FILENAME% = '00417', %APP_APK_IN_NAME% = 'ottohybrid', %APP_APK_NAME% = 'ottohybrid', %APP_APK_IN% = '/media/sf_brewThesis/data/storage/00417.apk', %APP_APK_FILENAME% = '00417', %APP_APK% = '/media/sf_brewThesis/data/storage/00417.apk', %APP_APK_PACKAGE% = 'de.cellular.ottohybrid', %RESULT_FILE% = '/home/fpauck/tools/FlowDroid/old/results/00417_result.txt', %LINENUMBER_IN% = '-1', %APP_APK_IN_PACKAGE% = 'de.cellular.ottohybrid' }]
+BREW 07/28/2022 - 02:56:22 [1;32mFinished (after 25.993s): Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/1/de.cellular.ottohybrid.apk') ?[m[m
+BREW 07/28/2022 - 02:56:22
+[1m***** Answer (/media/sf_brewThesis/answers/answer_28_07_2022-02_56_22-001.xml) *****
+[m*** Flows ***
+
+[m[m
+BREW 07/28/2022 - 02:56:22
+
+
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<answer>
+    <flows/>
+</answer>
+
+
+
+
+BREW 07/28/2022 - 02:56:22 Continuing with configuration: /media/sf_webservice/config.xml (a9ee75f31fbb720aa6746ae2f72aade2)
+BREW 07/28/2022 - 02:56:22 [1;32mStarting: Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/1/de.hafas.android.db.apk') ?[m[m
+BREW 07/28/2022 - 02:56:23 Parsed: Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/1/de.hafas.android.db.apk') ?
+BREW 07/28/2022 - 02:56:23 Resolved: Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/1/de.hafas.android.db.apk') ?
+BREW 07/28/2022 - 02:56:23 Transformation-rule applied: ToolSelection
+BREW 07/28/2022 - 02:56:23 Transformation-rule applied: ApplySimplifier
+BREW 07/28/2022 - 02:56:23
+Transformed:
+Flows IN App(SIMPLIFY [
+	'/home/fpauck/benchmarks/temp/top15/subset/1/de.hafas.android.db.apk' !
+] !) USES 'FlowDroid-1' WITH 'SourcesAndSinks' = '/home/fpauck/tools/FlowDroid/env/SourcesAndSinks_newForOld.txt' ?
+BREW 07/28/2022 - 02:56:23 Loaded storage from: /media/sf_brewThesis/data/storage/storage.ser
+BREW 07/28/2022 - 02:56:23 Setting variable (%MEMORY%) value to: "96"
+BREW 07/28/2022 - 02:56:23 Setting variable (%ANDROID_PLATFORMS%) value to: "/media/sf_sdks/platforms/"
+BREW 07/28/2022 - 02:56:23 Setting variable (%ANDROID_BUILDTOOLS%) value to: "null"
+BREW 07/28/2022 - 02:56:23 Setting variable (%DATE%) value to: "28_07_2022-02_56_23"
+BREW 07/28/2022 - 02:56:23 Setting variable (%LINENUMBER_IN%) value to: "-1"
+BREW 07/28/2022 - 02:56:23 Setting variable (%SourcesAndSinks%) value to: "/home/fpauck/tools/FlowDroid/env/SourcesAndSinks_newForOld.txt"
+BREW 07/28/2022 - 02:56:23 Setting variable (%LINENUMBER_IN%) value to: "-1"
+BREW 07/28/2022 - 02:56:23 Warning: Maximum memory (105 GB) specified in config file will never become available. Using maximal available memory instead: 102 GB
+BREW 07/28/2022 - 02:56:23 Timeout (Answer-Loader) set to: 60m
+BREW 07/28/2022 - 02:56:23 Starting execution of default Answer-Loader (2.0.1-SNAPSHOT). [/media/sf_brewThesis/.: Load from file: /media/sf_brewThesis/data/storage/00498.%FILE_ENDING%]
+BREW 07/28/2022 - 02:56:23 Finished execution of default Answer-Loader (2.0.1-SNAPSHOT) after 0.0 seconds. [/media/sf_brewThesis/.: Load from file: /home/fpauck/benchmarks/temp/top15/subset/1/de.hafas.android.db.apk]
+BREW 07/28/2022 - 02:56:23 Setting variable (%ANSWERS%) value to: "/home/fpauck/benchmarks/temp/top15/subset/1/de.hafas.android.db.apk"
+BREW 07/28/2022 - 02:56:23 Setting variable (%ANSWERSHASH%) value to: "9544e2963bbb845dd47b7db8fc936d8aa314309604f924210d1fc7834ad9f0b7"
+BREW 07/28/2022 - 02:56:23 Setting variable (%ANSWERSHASH_MD5%) value to: "c220553a4dc2e3444844c1ce002a8b05"
+BREW 07/28/2022 - 02:56:23 Setting variable (%ANSWERSHASH_SHA-1%) value to: "8f35221f92f2c1ce16813781bf230d9f3a7e0fdd"
+BREW 07/28/2022 - 02:56:23 Setting variable (%ANSWERSHASH_SHA-256%) value to: "9544e2963bbb845dd47b7db8fc936d8aa314309604f924210d1fc7834ad9f0b7"
+BREW 07/28/2022 - 02:56:24 Timeout (DefaultSimplifyOperator) set to: 60m
+BREW 07/28/2022 - 02:56:24
+Loaded from storage:
+SIMPLIFY [
+	'/home/fpauck/benchmarks/temp/top15/subset/1/de.hafas.android.db.apk' !
+] !
+BREW 07/28/2022 - 02:56:25 Setting variable (%APP_APK_IN%) value to: "/media/sf_brewThesis/data/storage/00421.apk"
+BREW 07/28/2022 - 02:56:25 Setting variable (%APP_APK%) value to: "/media/sf_brewThesis/data/storage/00421.apk"
+BREW 07/28/2022 - 02:56:25 Setting variable (%APP_APK_IN_FILENAME%) value to: "00421"
+BREW 07/28/2022 - 02:56:25 Setting variable (%APP_APK_FILENAME%) value to: "00421"
+BREW 07/28/2022 - 02:56:25 Setting variable (%APP_APK_IN_NAME%) value to: "db"
+BREW 07/28/2022 - 02:56:25 Setting variable (%APP_APK_NAME%) value to: "db"
+BREW 07/28/2022 - 02:56:25 Setting variable (%APP_APK_IN_PACKAGE%) value to: "de.hafas.android.db"
+BREW 07/28/2022 - 02:56:25 Setting variable (%APP_APK_PACKAGE%) value to: "de.hafas.android.db"
+BREW 07/28/2022 - 02:56:26 Running on entry event for the tool: FlowDroid (1)
+BREW 07/28/2022 - 02:56:26 Timeout (FlowDroid) set to: 60m
+BREW 07/28/2022 - 02:56:26 Starting execution of internal FlowDroid (1). [/home/fpauck/tools/FlowDroid/old: /home/fpauck/tools/FlowDroid/old/aqlRunSS.sh 96 /media/sf_brewThesis/data/storage/00421.apk /media/sf_sdks/platforms/ results/00421_result.txt /home/fpauck/tools/FlowDroid/env/SourcesAndSinks_newForOld.txt]
+BREW 07/28/2022 - 02:56:26 Setting variable (%PID%) value to: "22939"
+BREW 07/28/2022 - 02:56:26 Process (FlowDroid, 22939) output: 'SourcesAndSinks.txt' -> 'SourcesAndSinks_bak.txt'
+BREW 07/28/2022 - 02:56:27 Process (FlowDroid, 22939) output: '/home/fpauck/tools/FlowDroid/env/SourcesAndSinks_newForOld.txt' -> 'SourcesAndSinks.txt'
+BREW 07/28/2022 - 02:57:34 Process (FlowDroid, 22939) output: removed 'SourcesAndSinks.txt'
+BREW 07/28/2022 - 02:57:34 Process (FlowDroid, 22939) output: 'SourcesAndSinks_bak.txt' -> 'SourcesAndSinks.txt'
+BREW 07/28/2022 - 02:57:34 Process 22939 (FlowDroid) terminated sucessfully (0)
+BREW 07/28/2022 - 02:57:34 Result available: /home/fpauck/tools/FlowDroid/old/results/00421_result.txt
+BREW 07/28/2022 - 02:57:34 Finished execution of internal FlowDroid (1) after 68.81 seconds. [/home/fpauck/tools/FlowDroid/old: /home/fpauck/tools/FlowDroid/old/aqlRunSS.sh 96 /media/sf_brewThesis/data/storage/00421.apk /media/sf_sdks/platforms/ results/00421_result.txt /home/fpauck/tools/FlowDroid/env/SourcesAndSinks_newForOld.txt]
+BREW 07/28/2022 - 02:57:34 Running on exit event for the tool: FlowDroid (1)
+BREW 07/28/2022 - 02:57:35 Timeout-Timer (FlowDroid) stopped normally.
+BREW 07/28/2022 - 02:57:35 Process (22964) output: Not root! Reattempting as root...
+BREW 07/28/2022 - 02:57:35 Process (22964) output: Root! Flushing memory...
+BREW 07/28/2022 - 02:57:35 Setting variable (%RESULT_FILE%) value to: "/home/fpauck/tools/FlowDroid/old/results/00421_result.txt"
+BREW 07/28/2022 - 02:57:35 Setting variable (%APP_APK_IN_NAME%) value to: "db"
+BREW 07/28/2022 - 02:57:35 Setting variable (%APP_APK_NAME%) value to: "db"
+BREW 07/28/2022 - 02:57:35 Setting variable (%APP_APK_IN_FILENAME%) value to: "00421"
+BREW 07/28/2022 - 02:57:35 Setting variable (%APP_APK_FILENAME%) value to: "00421"
+BREW 07/28/2022 - 02:57:35 Setting variable (%APP_APK_IN%) value to: "/media/sf_brewThesis/data/storage/00421.apk"
+BREW 07/28/2022 - 02:57:35 Setting variable (%APP_APK%) value to: "/media/sf_brewThesis/data/storage/00421.apk"
+BREW 07/28/2022 - 02:57:35 Setting variable (%APP_APK_IN_PACKAGE%) value to: "de.hafas.android.db"
+BREW 07/28/2022 - 02:57:35 Setting variable (%APP_APK_PACKAGE%) value to: "de.hafas.android.db"
+BREW 07/28/2022 - 02:57:36 Timeout (DefaultConverter for FlowDroid) set to: 60m
+BREW 07/28/2022 - 02:57:36 Starting execution of default DefaultConverter for FlowDroid (2.0.1-SNAPSHOT). [/media/sf_brewThesis: DefaultConverter for null (2.0.1-SNAPSHOT) with { %APP_APK_IN_FILENAME% = '00421', %APP_APK_IN_NAME% = 'db', %APP_APK_NAME% = 'db', %APP_APK_IN% = '/media/sf_brewThesis/data/storage/00421.apk', %APP_APK_FILENAME% = '00421', %APP_APK% = '/media/sf_brewThesis/data/storage/00421.apk', %APP_APK_PACKAGE% = 'de.hafas.android.db', %RESULT_FILE% = '/home/fpauck/tools/FlowDroid/old/results/00421_result.txt', %LINENUMBER_IN% = '-1', %APP_APK_IN_PACKAGE% = 'de.hafas.android.db' }]
+BREW 07/28/2022 - 02:57:39 Storing answered task: /media/sf_brewThesis/data/storage/00496.xml [/home/fpauck/tools/FlowDroid/old/aqlRunSS.sh 96 3e6d9b9577322403d2b1a155ae56ea8977c912c494e827e0bfc216a28f2f1aa0 /media/sf_sdks/platforms/ results/00421_result.txt 3f1e3450c7c1d5392fd123320ac727a0acd6bb4f71e57e92afb82b9ed513489e]
+BREW 07/28/2022 - 02:57:39 Finished execution of default DefaultConverter for FlowDroid (2.0.1-SNAPSHOT) after 3.12 seconds. [/media/sf_brewThesis: DefaultConverter for null (2.0.1-SNAPSHOT) with { %APP_APK_IN_FILENAME% = '00421', %APP_APK_IN_NAME% = 'db', %APP_APK_NAME% = 'db', %APP_APK_IN% = '/media/sf_brewThesis/data/storage/00421.apk', %APP_APK_FILENAME% = '00421', %APP_APK% = '/media/sf_brewThesis/data/storage/00421.apk', %APP_APK_PACKAGE% = 'de.hafas.android.db', %RESULT_FILE% = '/home/fpauck/tools/FlowDroid/old/results/00421_result.txt', %LINENUMBER_IN% = '-1', %APP_APK_IN_PACKAGE% = 'de.hafas.android.db' }]
+BREW 07/28/2022 - 02:57:39 [1;32mFinished (after 76.329s): Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/1/de.hafas.android.db.apk') ?[m[m
+BREW 07/28/2022 - 02:57:39
+[1m***** Answer (/media/sf_brewThesis/answers/answer_28_07_2022-02_57_39-001.xml) *****
+[m*** Flows ***
+#1:
+From:
+Statement('$r6 = virtualinvoke $r5.<java.util.Calendar: java.util.TimeZone getTimeZone()>()')->Method('<com.adobe.mobile.StaticMethods: java.lang.String R()>')->Class('com.adobe.mobile.StaticMethods')->App('/media/sf_brewThesis/data/storage/00421.apk')
+To:
+Statement('staticinvoke <android.util.Log: int e(java.lang.String,java.lang.String)>("ADBMobile", $r1)')->Method('<com.adobe.mobile.StaticMethods: void a0(java.lang.String,java.lang.Object[])>')->Class('com.adobe.mobile.StaticMethods')->App('/media/sf_brewThesis/data/storage/00421.apk')
+#2:
+From:
+Statement('$r6 = virtualinvoke $r5.<java.util.Calendar: java.util.TimeZone getTimeZone()>()')->Method('<com.adobe.mobile.StaticMethods: java.lang.String R()>')->Class('com.adobe.mobile.StaticMethods')->App('/media/sf_brewThesis/data/storage/00421.apk')
+To:
+Statement('staticinvoke <android.util.Log: int d(java.lang.String,java.lang.String)>("ADBMobile", $r1)')->Method('<com.adobe.mobile.StaticMethods: void Z(java.lang.String,java.lang.Object[])>')->Class('com.adobe.mobile.StaticMethods')->App('/media/sf_brewThesis/data/storage/00421.apk')
+[m[m
+BREW 07/28/2022 - 02:57:39
+
+
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<answer>
+    <flows>
+        <flow>
+            <reference type="to">
+                <statement>
+                    <statementfull>staticinvoke &lt;android.util.Log: int e(java.lang.String,java.lang.String)&gt;("ADBMobile", $r1)</statementfull>
+                    <statementgeneric>android.util.Log: int e(java.lang.String,java.lang.String)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>java.lang.String</type>
+                            <value>"ADBMobile"</value>
+                        </parameter>
+                        <parameter>
+                            <type>java.lang.String</type>
+                            <value>$r1</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;com.adobe.mobile.StaticMethods: void a0(java.lang.String,java.lang.Object[])&gt;</method>
+                <classname>com.adobe.mobile.StaticMethods</classname>
+                <app>
+                    <file>/media/sf_brewThesis/data/storage/00421.apk</file>
+                    <hashes>
+                        <hash type="MD5">c3b2c18b7140f6b7969ca70b4431625c</hash>
+                        <hash type="SHA-1">48503666ce528b89b1a31b53320543de7aecf302</hash>
+                        <hash type="SHA-256">90f1dfd671ba29cba2c53984f4cfd1ae5e05e3603d4bcae19f0f438ae96f287c</hash>
+                    </hashes>
+                </app>
+            </reference>
+            <reference type="from">
+                <statement>
+                    <statementfull>$r6 = virtualinvoke $r5.&lt;java.util.Calendar: java.util.TimeZone getTimeZone()&gt;()</statementfull>
+                    <statementgeneric>java.util.Calendar: java.util.TimeZone getTimeZone()</statementgeneric>
+                </statement>
+                <method>&lt;com.adobe.mobile.StaticMethods: java.lang.String R()&gt;</method>
+                <classname>com.adobe.mobile.StaticMethods</classname>
+                <app>
+                    <file>/media/sf_brewThesis/data/storage/00421.apk</file>
+                    <hashes>
+                        <hash type="MD5">c3b2c18b7140f6b7969ca70b4431625c</hash>
+                        <hash type="SHA-1">48503666ce528b89b1a31b53320543de7aecf302</hash>
+                        <hash type="SHA-256">90f1dfd671ba29cba2c53984f4cfd1ae5e05e3603d4bcae19f0f438ae96f287c</hash>
+                    </hashes>
+                </app>
+            </reference>
+        </flow>
+        <flow>
+            <reference type="to">
+                <statement>
+                    <statementfull>staticinvoke &lt;android.util.Log: int d(java.lang.String,java.lang.String)&gt;("ADBMobile", $r1)</statementfull>
+                    <statementgeneric>android.util.Log: int d(java.lang.String,java.lang.String)</statementgeneric>
+                    <parameters>
+                        <parameter>
+                            <type>java.lang.String</type>
+                            <value>"ADBMobile"</value>
+                        </parameter>
+                        <parameter>
+                            <type>java.lang.String</type>
+                            <value>$r1</value>
+                        </parameter>
+                    </parameters>
+                </statement>
+                <method>&lt;com.adobe.mobile.StaticMethods: void Z(java.lang.String,java.lang.Object[])&gt;</method>
+                <classname>com.adobe.mobile.StaticMethods</classname>
+                <app>
+                    <file>/media/sf_brewThesis/data/storage/00421.apk</file>
+                    <hashes>
+                        <hash type="MD5">c3b2c18b7140f6b7969ca70b4431625c</hash>
+                        <hash type="SHA-1">48503666ce528b89b1a31b53320543de7aecf302</hash>
+                        <hash type="SHA-256">90f1dfd671ba29cba2c53984f4cfd1ae5e05e3603d4bcae19f0f438ae96f287c</hash>
+                    </hashes>
+                </app>
+            </reference>
+            <reference type="from">
+                <statement>
+                    <statementfull>$r6 = virtualinvoke $r5.&lt;java.util.Calendar: java.util.TimeZone getTimeZone()&gt;()</statementfull>
+                    <statementgeneric>java.util.Calendar: java.util.TimeZone getTimeZone()</statementgeneric>
+                </statement>
+                <method>&lt;com.adobe.mobile.StaticMethods: java.lang.String R()&gt;</method>
+                <classname>com.adobe.mobile.StaticMethods</classname>
+                <app>
+                    <file>/media/sf_brewThesis/data/storage/00421.apk</file>
+                    <hashes>
+                        <hash type="MD5">c3b2c18b7140f6b7969ca70b4431625c</hash>
+                        <hash type="SHA-1">48503666ce528b89b1a31b53320543de7aecf302</hash>
+                        <hash type="SHA-256">90f1dfd671ba29cba2c53984f4cfd1ae5e05e3603d4bcae19f0f438ae96f287c</hash>
+                    </hashes>
+                </app>
+            </reference>
+        </flow>
+    </flows>
+</answer>
+
+
+
+
+BREW 07/28/2022 - 02:57:39 Continuing with configuration: /media/sf_webservice/config.xml (a9ee75f31fbb720aa6746ae2f72aade2)
+BREW 07/28/2022 - 02:57:39 [1;32mStarting: Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/1/de.rki.coronawarnapp.apk') ?[m[m
+BREW 07/28/2022 - 02:57:39 Parsed: Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/1/de.rki.coronawarnapp.apk') ?
+BREW 07/28/2022 - 02:57:39 Resolved: Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/1/de.rki.coronawarnapp.apk') ?
+BREW 07/28/2022 - 02:57:39 Transformation-rule applied: ToolSelection
+BREW 07/28/2022 - 02:57:39 Transformation-rule applied: ApplySimplifier
+BREW 07/28/2022 - 02:57:39
+Transformed:
+Flows IN App(SIMPLIFY [
+	'/home/fpauck/benchmarks/temp/top15/subset/1/de.rki.coronawarnapp.apk' !
+] !) USES 'FlowDroid-1' WITH 'SourcesAndSinks' = '/home/fpauck/tools/FlowDroid/env/SourcesAndSinks_newForOld.txt' ?
+BREW 07/28/2022 - 02:57:40 Loaded storage from: /media/sf_brewThesis/data/storage/storage.ser
+BREW 07/28/2022 - 02:57:40 Setting variable (%MEMORY%) value to: "96"
+BREW 07/28/2022 - 02:57:40 Setting variable (%ANDROID_PLATFORMS%) value to: "/media/sf_sdks/platforms/"
+BREW 07/28/2022 - 02:57:40 Setting variable (%ANDROID_BUILDTOOLS%) value to: "null"
+BREW 07/28/2022 - 02:57:40 Setting variable (%DATE%) value to: "28_07_2022-02_57_40"
+BREW 07/28/2022 - 02:57:40 Setting variable (%LINENUMBER_IN%) value to: "-1"
+BREW 07/28/2022 - 02:57:40 Setting variable (%SourcesAndSinks%) value to: "/home/fpauck/tools/FlowDroid/env/SourcesAndSinks_newForOld.txt"
+BREW 07/28/2022 - 02:57:40 Setting variable (%LINENUMBER_IN%) value to: "-1"
+BREW 07/28/2022 - 02:57:40 Warning: Maximum memory (105 GB) specified in config file will never become available. Using maximal available memory instead: 101 GB
+BREW 07/28/2022 - 02:57:40 Timeout (Answer-Loader) set to: 60m
+BREW 07/28/2022 - 02:57:40 Starting execution of default Answer-Loader (2.0.1-SNAPSHOT). [/media/sf_brewThesis/.: Load from file: /media/sf_brewThesis/data/storage/00502.%FILE_ENDING%]
+BREW 07/28/2022 - 02:57:40 Finished execution of default Answer-Loader (2.0.1-SNAPSHOT) after 0.0 seconds. [/media/sf_brewThesis/.: Load from file: /home/fpauck/benchmarks/temp/top15/subset/1/de.rki.coronawarnapp.apk]
+BREW 07/28/2022 - 02:57:40 Setting variable (%ANSWERS%) value to: "/home/fpauck/benchmarks/temp/top15/subset/1/de.rki.coronawarnapp.apk"
+BREW 07/28/2022 - 02:57:40 Setting variable (%ANSWERSHASH%) value to: "df74c6b3a747c2a10427531262dfd73b1d47f20bc25da4867f95bda39b5f272e"
+BREW 07/28/2022 - 02:57:40 Setting variable (%ANSWERSHASH_MD5%) value to: "fe0400b4de861d7cf78aca179a4a64b1"
+BREW 07/28/2022 - 02:57:40 Setting variable (%ANSWERSHASH_SHA-1%) value to: "912ce485056833e125cb11b3d4ccd68a76c9b531"
+BREW 07/28/2022 - 02:57:40 Setting variable (%ANSWERSHASH_SHA-256%) value to: "df74c6b3a747c2a10427531262dfd73b1d47f20bc25da4867f95bda39b5f272e"
+BREW 07/28/2022 - 02:57:40 Timeout (DefaultSimplifyOperator) set to: 60m
+BREW 07/28/2022 - 02:57:40
+Loaded from storage:
+SIMPLIFY [
+	'/home/fpauck/benchmarks/temp/top15/subset/1/de.rki.coronawarnapp.apk' !
+] !
+BREW 07/28/2022 - 02:57:40 Setting variable (%APP_APK_IN%) value to: "/media/sf_brewThesis/data/storage/00425.apk"
+BREW 07/28/2022 - 02:57:40 Setting variable (%APP_APK%) value to: "/media/sf_brewThesis/data/storage/00425.apk"
+BREW 07/28/2022 - 02:57:40 Setting variable (%APP_APK_IN_FILENAME%) value to: "00425"
+BREW 07/28/2022 - 02:57:40 Setting variable (%APP_APK_FILENAME%) value to: "00425"
+BREW 07/28/2022 - 02:57:40 Setting variable (%APP_APK_IN_NAME%) value to: "coronawarnapp"
+BREW 07/28/2022 - 02:57:40 Setting variable (%APP_APK_NAME%) value to: "coronawarnapp"
+BREW 07/28/2022 - 02:57:40 Setting variable (%APP_APK_IN_PACKAGE%) value to: "de.rki.coronawarnapp"
+BREW 07/28/2022 - 02:57:40 Setting variable (%APP_APK_PACKAGE%) value to: "de.rki.coronawarnapp"
+BREW 07/28/2022 - 02:57:40 Running on entry event for the tool: FlowDroid (1)
+BREW 07/28/2022 - 02:57:40 Timeout (FlowDroid) set to: 60m
+BREW 07/28/2022 - 02:57:40 Starting execution of internal FlowDroid (1). [/home/fpauck/tools/FlowDroid/old: /home/fpauck/tools/FlowDroid/old/aqlRunSS.sh 96 /media/sf_brewThesis/data/storage/00425.apk /media/sf_sdks/platforms/ results/00425_result.txt /home/fpauck/tools/FlowDroid/env/SourcesAndSinks_newForOld.txt]
+BREW 07/28/2022 - 02:57:40 Setting variable (%PID%) value to: "23003"
+BREW 07/28/2022 - 02:57:40 Process (FlowDroid, 23003) output: 'SourcesAndSinks.txt' -> 'SourcesAndSinks_bak.txt'
+BREW 07/28/2022 - 02:57:41 Process (FlowDroid, 23003) output: '/home/fpauck/tools/FlowDroid/env/SourcesAndSinks_newForOld.txt' -> 'SourcesAndSinks.txt'
+BREW 07/28/2022 - 02:57:45 Process (FlowDroid, 23003) output: removed 'SourcesAndSinks.txt'
+BREW 07/28/2022 - 02:57:45 Process (FlowDroid, 23003) output: 'SourcesAndSinks_bak.txt' -> 'SourcesAndSinks.txt'
+BREW 07/28/2022 - 02:57:45 Process 23003 (FlowDroid) terminated sucessfully (0)
+BREW 07/28/2022 - 02:57:45 Result available: /home/fpauck/tools/FlowDroid/old/results/00425_result.txt
+BREW 07/28/2022 - 02:57:45 Finished execution of internal FlowDroid (1) after 5.14 seconds. [/home/fpauck/tools/FlowDroid/old: /home/fpauck/tools/FlowDroid/old/aqlRunSS.sh 96 /media/sf_brewThesis/data/storage/00425.apk /media/sf_sdks/platforms/ results/00425_result.txt /home/fpauck/tools/FlowDroid/env/SourcesAndSinks_newForOld.txt]
+BREW 07/28/2022 - 02:57:45 Running on exit event for the tool: FlowDroid (1)
+BREW 07/28/2022 - 02:57:46 Timeout-Timer (FlowDroid) stopped normally.
+BREW 07/28/2022 - 02:57:46 Process (23023) output: Not root! Reattempting as root...
+BREW 07/28/2022 - 02:57:46 Process (23023) output: Root! Flushing memory...
+BREW 07/28/2022 - 02:57:46 Setting variable (%RESULT_FILE%) value to: "/home/fpauck/tools/FlowDroid/old/results/00425_result.txt"
+BREW 07/28/2022 - 02:57:46 Setting variable (%APP_APK_IN_NAME%) value to: "coronawarnapp"
+BREW 07/28/2022 - 02:57:46 Setting variable (%APP_APK_NAME%) value to: "coronawarnapp"
+BREW 07/28/2022 - 02:57:46 Setting variable (%APP_APK_IN_FILENAME%) value to: "00425"
+BREW 07/28/2022 - 02:57:46 Setting variable (%APP_APK_FILENAME%) value to: "00425"
+BREW 07/28/2022 - 02:57:46 Setting variable (%APP_APK_IN%) value to: "/media/sf_brewThesis/data/storage/00425.apk"
+BREW 07/28/2022 - 02:57:46 Setting variable (%APP_APK%) value to: "/media/sf_brewThesis/data/storage/00425.apk"
+BREW 07/28/2022 - 02:57:46 Setting variable (%APP_APK_IN_PACKAGE%) value to: "de.rki.coronawarnapp"
+BREW 07/28/2022 - 02:57:46 Setting variable (%APP_APK_PACKAGE%) value to: "de.rki.coronawarnapp"
+BREW 07/28/2022 - 02:57:46 Timeout (DefaultConverter for FlowDroid) set to: 60m
+BREW 07/28/2022 - 02:57:46 Starting execution of default DefaultConverter for FlowDroid (2.0.1-SNAPSHOT). [/media/sf_brewThesis: DefaultConverter for null (2.0.1-SNAPSHOT) with { %APP_APK_IN_FILENAME% = '00425', %APP_APK_IN_NAME% = 'coronawarnapp', %APP_APK_NAME% = 'coronawarnapp', %APP_APK_IN% = '/media/sf_brewThesis/data/storage/00425.apk', %APP_APK_FILENAME% = '00425', %APP_APK% = '/media/sf_brewThesis/data/storage/00425.apk', %APP_APK_PACKAGE% = 'de.rki.coronawarnapp', %RESULT_FILE% = '/home/fpauck/tools/FlowDroid/old/results/00425_result.txt', %LINENUMBER_IN% = '-1', %APP_APK_IN_PACKAGE% = 'de.rki.coronawarnapp' }]
+BREW 07/28/2022 - 02:57:47 Storing answered task: /media/sf_brewThesis/data/storage/00500.xml [/home/fpauck/tools/FlowDroid/old/aqlRunSS.sh 96 cf94527e005b119a2ad2b8ff0221d513af7424bf5a3d11c0d1f158bac3132c71 /media/sf_sdks/platforms/ results/00425_result.txt 3f1e3450c7c1d5392fd123320ac727a0acd6bb4f71e57e92afb82b9ed513489e]
+BREW 07/28/2022 - 02:57:47 Finished execution of default DefaultConverter for FlowDroid (2.0.1-SNAPSHOT) after 0.87 seconds. [/media/sf_brewThesis: DefaultConverter for null (2.0.1-SNAPSHOT) with { %APP_APK_IN_FILENAME% = '00425', %APP_APK_IN_NAME% = 'coronawarnapp', %APP_APK_NAME% = 'coronawarnapp', %APP_APK_IN% = '/media/sf_brewThesis/data/storage/00425.apk', %APP_APK_FILENAME% = '00425', %APP_APK% = '/media/sf_brewThesis/data/storage/00425.apk', %APP_APK_PACKAGE% = 'de.rki.coronawarnapp', %RESULT_FILE% = '/home/fpauck/tools/FlowDroid/old/results/00425_result.txt', %LINENUMBER_IN% = '-1', %APP_APK_IN_PACKAGE% = 'de.rki.coronawarnapp' }]
+BREW 07/28/2022 - 02:57:47 [1;32mFinished (after 7.598s): Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/1/de.rki.coronawarnapp.apk') ?[m[m
+BREW 07/28/2022 - 02:57:47
+[1m***** Answer (/media/sf_brewThesis/answers/answer_28_07_2022-02_57_47-001.xml) *****
+[m*** Flows ***
+
+[m[m
+BREW 07/28/2022 - 02:57:47
+
+
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<answer>
+    <flows/>
+</answer>
+
+
+
+
+BREW 07/28/2022 - 02:57:47 Continuing with configuration: /media/sf_webservice/config.xml (a9ee75f31fbb720aa6746ae2f72aade2)
+BREW 07/28/2022 - 02:57:48 [1;32mStarting: Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/1/org.telegram.messenger.apk') ?[m[m
+BREW 07/28/2022 - 02:57:48 Parsed: Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/1/org.telegram.messenger.apk') ?
+BREW 07/28/2022 - 02:57:48 Resolved: Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/1/org.telegram.messenger.apk') ?
+BREW 07/28/2022 - 02:57:48 Transformation-rule applied: ToolSelection
+BREW 07/28/2022 - 02:57:48 Transformation-rule applied: ApplySimplifier
+BREW 07/28/2022 - 02:57:48
+Transformed:
+Flows IN App(SIMPLIFY [
+	'/home/fpauck/benchmarks/temp/top15/subset/1/org.telegram.messenger.apk' !
+] !) USES 'FlowDroid-1' WITH 'SourcesAndSinks' = '/home/fpauck/tools/FlowDroid/env/SourcesAndSinks_newForOld.txt' ?
+BREW 07/28/2022 - 02:57:48 Loaded storage from: /media/sf_brewThesis/data/storage/storage.ser
+BREW 07/28/2022 - 02:57:48 Setting variable (%MEMORY%) value to: "96"
+BREW 07/28/2022 - 02:57:48 Setting variable (%ANDROID_PLATFORMS%) value to: "/media/sf_sdks/platforms/"
+BREW 07/28/2022 - 02:57:48 Setting variable (%ANDROID_BUILDTOOLS%) value to: "null"
+BREW 07/28/2022 - 02:57:48 Setting variable (%DATE%) value to: "28_07_2022-02_57_48"
+BREW 07/28/2022 - 02:57:48 Setting variable (%LINENUMBER_IN%) value to: "-1"
+BREW 07/28/2022 - 02:57:48 Setting variable (%SourcesAndSinks%) value to: "/home/fpauck/tools/FlowDroid/env/SourcesAndSinks_newForOld.txt"
+BREW 07/28/2022 - 02:57:48 Setting variable (%LINENUMBER_IN%) value to: "-1"
+BREW 07/28/2022 - 02:57:48 Warning: Maximum memory (105 GB) specified in config file will never become available. Using maximal available memory instead: 102 GB
+BREW 07/28/2022 - 02:57:48 Timeout (Answer-Loader) set to: 60m
+BREW 07/28/2022 - 02:57:48 Starting execution of default Answer-Loader (2.0.1-SNAPSHOT). [/media/sf_brewThesis/.: Load from file: /media/sf_brewThesis/data/storage/00506.%FILE_ENDING%]
+BREW 07/28/2022 - 02:57:48 Finished execution of default Answer-Loader (2.0.1-SNAPSHOT) after 0.0 seconds. [/media/sf_brewThesis/.: Load from file: /home/fpauck/benchmarks/temp/top15/subset/1/org.telegram.messenger.apk]
+BREW 07/28/2022 - 02:57:48 Setting variable (%ANSWERS%) value to: "/home/fpauck/benchmarks/temp/top15/subset/1/org.telegram.messenger.apk"
+BREW 07/28/2022 - 02:57:48 Setting variable (%ANSWERSHASH%) value to: "5892f9139196d90307fd5c9e1b100c7d7e6b6323bb7db403c2f4541ff3ff63c0"
+BREW 07/28/2022 - 02:57:48 Setting variable (%ANSWERSHASH_MD5%) value to: "385ced1a557659e9f49b90290dc8328c"
+BREW 07/28/2022 - 02:57:48 Setting variable (%ANSWERSHASH_SHA-1%) value to: "bd00d8d7e3ba74cc5987696c6a303ef04cc38fe6"
+BREW 07/28/2022 - 02:57:48 Setting variable (%ANSWERSHASH_SHA-256%) value to: "5892f9139196d90307fd5c9e1b100c7d7e6b6323bb7db403c2f4541ff3ff63c0"
+BREW 07/28/2022 - 02:57:48 Timeout (DefaultSimplifyOperator) set to: 60m
+BREW 07/28/2022 - 02:57:49
+Loaded from storage:
+SIMPLIFY [
+	'/home/fpauck/benchmarks/temp/top15/subset/1/org.telegram.messenger.apk' !
+] !
+BREW 07/28/2022 - 02:57:49 Setting variable (%APP_APK_IN%) value to: "/media/sf_brewThesis/data/storage/00429.apk"
+BREW 07/28/2022 - 02:57:49 Setting variable (%APP_APK%) value to: "/media/sf_brewThesis/data/storage/00429.apk"
+BREW 07/28/2022 - 02:57:49 Setting variable (%APP_APK_IN_FILENAME%) value to: "00429"
+BREW 07/28/2022 - 02:57:49 Setting variable (%APP_APK_FILENAME%) value to: "00429"
+BREW 07/28/2022 - 02:57:49 Setting variable (%APP_APK_IN_NAME%) value to: "messenger"
+BREW 07/28/2022 - 02:57:49 Setting variable (%APP_APK_NAME%) value to: "messenger"
+BREW 07/28/2022 - 02:57:49 Setting variable (%APP_APK_IN_PACKAGE%) value to: "org.telegram.messenger"
+BREW 07/28/2022 - 02:57:49 Setting variable (%APP_APK_PACKAGE%) value to: "org.telegram.messenger"
+BREW 07/28/2022 - 02:57:49 Running on entry event for the tool: FlowDroid (1)
+BREW 07/28/2022 - 02:57:49 Timeout (FlowDroid) set to: 60m
+BREW 07/28/2022 - 02:57:50 Starting execution of internal FlowDroid (1). [/home/fpauck/tools/FlowDroid/old: /home/fpauck/tools/FlowDroid/old/aqlRunSS.sh 96 /media/sf_brewThesis/data/storage/00429.apk /media/sf_sdks/platforms/ results/00429_result.txt /home/fpauck/tools/FlowDroid/env/SourcesAndSinks_newForOld.txt]
+BREW 07/28/2022 - 02:57:50 Setting variable (%PID%) value to: "23062"
+BREW 07/28/2022 - 02:57:50 Process (FlowDroid, 23062) output: 'SourcesAndSinks.txt' -> 'SourcesAndSinks_bak.txt'
+BREW 07/28/2022 - 02:57:50 Process (FlowDroid, 23062) output: '/home/fpauck/tools/FlowDroid/env/SourcesAndSinks_newForOld.txt' -> 'SourcesAndSinks.txt'
+BREW 07/28/2022 - 02:59:35 Process (FlowDroid, 23062) output: removed 'SourcesAndSinks.txt'
+BREW 07/28/2022 - 02:59:35 Process (FlowDroid, 23062) output: 'SourcesAndSinks_bak.txt' -> 'SourcesAndSinks.txt'
+BREW 07/28/2022 - 02:59:35 Process 23062 (FlowDroid) terminated sucessfully (0)
+BREW 07/28/2022 - 02:59:35 Result available: /home/fpauck/tools/FlowDroid/old/results/00429_result.txt
+BREW 07/28/2022 - 02:59:35 Finished execution of internal FlowDroid (1) after 105.88 seconds. [/home/fpauck/tools/FlowDroid/old: /home/fpauck/tools/FlowDroid/old/aqlRunSS.sh 96 /media/sf_brewThesis/data/storage/00429.apk /media/sf_sdks/platforms/ results/00429_result.txt /home/fpauck/tools/FlowDroid/env/SourcesAndSinks_newForOld.txt]
+BREW 07/28/2022 - 02:59:35 Running on exit event for the tool: FlowDroid (1)
+BREW 07/28/2022 - 02:59:36 Timeout-Timer (FlowDroid) stopped normally.
+BREW 07/28/2022 - 02:59:36 Process (23082) output: Not root! Reattempting as root...
+BREW 07/28/2022 - 02:59:36 Process (23082) output: Root! Flushing memory...
+BREW 07/28/2022 - 02:59:36 Setting variable (%RESULT_FILE%) value to: "/home/fpauck/tools/FlowDroid/old/results/00429_result.txt"
+BREW 07/28/2022 - 02:59:36 Setting variable (%APP_APK_IN_NAME%) value to: "messenger"
+BREW 07/28/2022 - 02:59:36 Setting variable (%APP_APK_NAME%) value to: "messenger"
+BREW 07/28/2022 - 02:59:36 Setting variable (%APP_APK_IN_FILENAME%) value to: "00429"
+BREW 07/28/2022 - 02:59:36 Setting variable (%APP_APK_FILENAME%) value to: "00429"
+BREW 07/28/2022 - 02:59:36 Setting variable (%APP_APK_IN%) value to: "/media/sf_brewThesis/data/storage/00429.apk"
+BREW 07/28/2022 - 02:59:36 Setting variable (%APP_APK%) value to: "/media/sf_brewThesis/data/storage/00429.apk"
+BREW 07/28/2022 - 02:59:36 Setting variable (%APP_APK_IN_PACKAGE%) value to: "org.telegram.messenger"
+BREW 07/28/2022 - 02:59:36 Setting variable (%APP_APK_PACKAGE%) value to: "org.telegram.messenger"
+BREW 07/28/2022 - 02:59:36 Timeout (DefaultConverter for FlowDroid) set to: 60m
+BREW 07/28/2022 - 02:59:36 Starting execution of default DefaultConverter for FlowDroid (2.0.1-SNAPSHOT). [/media/sf_brewThesis: DefaultConverter for null (2.0.1-SNAPSHOT) with { %APP_APK_IN_FILENAME% = '00429', %APP_APK_IN_NAME% = 'messenger', %APP_APK_NAME% = 'messenger', %APP_APK_IN% = '/media/sf_brewThesis/data/storage/00429.apk', %APP_APK_FILENAME% = '00429', %APP_APK% = '/media/sf_brewThesis/data/storage/00429.apk', %APP_APK_PACKAGE% = 'org.telegram.messenger', %RESULT_FILE% = '/home/fpauck/tools/FlowDroid/old/results/00429_result.txt', %LINENUMBER_IN% = '-1', %APP_APK_IN_PACKAGE% = 'org.telegram.messenger' }]
+BREW 07/28/2022 - 02:59:38 Storing answered task: /media/sf_brewThesis/data/storage/00504.xml [/home/fpauck/tools/FlowDroid/old/aqlRunSS.sh 96 914a7f3db06e516c28b1b9e7e1a1a4ac33566a970b18a1e54f4631b88bd8e271 /media/sf_sdks/platforms/ results/00429_result.txt 3f1e3450c7c1d5392fd123320ac727a0acd6bb4f71e57e92afb82b9ed513489e]
+BREW 07/28/2022 - 02:59:38 Finished execution of default DefaultConverter for FlowDroid (2.0.1-SNAPSHOT) after 1.65 seconds. [/media/sf_brewThesis: DefaultConverter for null (2.0.1-SNAPSHOT) with { %APP_APK_IN_FILENAME% = '00429', %APP_APK_IN_NAME% = 'messenger', %APP_APK_NAME% = 'messenger', %APP_APK_IN% = '/media/sf_brewThesis/data/storage/00429.apk', %APP_APK_FILENAME% = '00429', %APP_APK% = '/media/sf_brewThesis/data/storage/00429.apk', %APP_APK_PACKAGE% = 'org.telegram.messenger', %RESULT_FILE% = '/home/fpauck/tools/FlowDroid/old/results/00429_result.txt', %LINENUMBER_IN% = '-1', %APP_APK_IN_PACKAGE% = 'org.telegram.messenger' }]
+BREW 07/28/2022 - 02:59:38 [1;32mFinished (after 110.122s): Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/1/org.telegram.messenger.apk') ?[m[m
+BREW 07/28/2022 - 02:59:38
+[1m***** Answer (/media/sf_brewThesis/answers/answer_28_07_2022-02_59_38-001.xml) *****
+[m*** Flows ***
+
+[m[m
+BREW 07/28/2022 - 02:59:38
+
+
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<answer>
+    <flows/>
+</answer>
+
+
+
+

@@ -1,0 +1,810 @@
+BREW 07/27/2022 - 16:28:25 Continuing with configuration: /media/sf_webservice/config.xml (a9ee75f31fbb720aa6746ae2f72aade2)
+BREW 07/27/2022 - 16:28:25 [1;32mStarting: Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/1/com.gamma.scan.apk') ?[m[m
+BREW 07/27/2022 - 16:28:25 Parsed: Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/1/com.gamma.scan.apk') ?
+BREW 07/27/2022 - 16:28:25 Resolved: Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/1/com.gamma.scan.apk') ?
+BREW 07/27/2022 - 16:28:25 Transformation-rule applied: ToolSelection
+BREW 07/27/2022 - 16:28:25 Transformation-rule applied: ApplySimplifier
+BREW 07/27/2022 - 16:28:25
+Transformed:
+Flows IN App(SIMPLIFY [
+	'/home/fpauck/benchmarks/temp/top15/subset/1/com.gamma.scan.apk' !,
+	Arguments IN App('/home/fpauck/benchmarks/temp/top15/subset/1/com.gamma.scan.apk') USES 'SimplifyParser' !
+] !) USES 'DidFail' ?
+BREW 07/27/2022 - 16:28:25 Loaded storage from: /media/sf_brewThesis/data/storage/storage.ser
+BREW 07/27/2022 - 16:28:25 Setting variable (%MEMORY%) value to: "96"
+BREW 07/27/2022 - 16:28:25 Setting variable (%ANDROID_PLATFORMS%) value to: "/media/sf_sdks/platforms/"
+BREW 07/27/2022 - 16:28:25 Setting variable (%ANDROID_BUILDTOOLS%) value to: "null"
+BREW 07/27/2022 - 16:28:25 Setting variable (%DATE%) value to: "27_07_2022-16_28_25"
+BREW 07/27/2022 - 16:28:25 Setting variable (%LINENUMBER_IN%) value to: "-1"
+BREW 07/27/2022 - 16:28:25 Setting variable (%LINENUMBER_IN%) value to: "-1"
+BREW 07/27/2022 - 16:28:25 Setting variable (%MEMORY%) value to: "48"
+BREW 07/27/2022 - 16:28:25 Setting variable (%ANDROID_PLATFORMS%) value to: "/media/sf_sdks/platforms/"
+BREW 07/27/2022 - 16:28:25 Setting variable (%ANDROID_BUILDTOOLS%) value to: "null"
+BREW 07/27/2022 - 16:28:25 Setting variable (%DATE%) value to: "27_07_2022-16_28_25"
+BREW 07/27/2022 - 16:28:25 Setting variable (%APP_APK_IN%) value to: "/home/fpauck/benchmarks/temp/top15/subset/1/com.gamma.scan.apk"
+BREW 07/27/2022 - 16:28:25 Setting variable (%APP_APK%) value to: "/home/fpauck/benchmarks/temp/top15/subset/1/com.gamma.scan.apk"
+BREW 07/27/2022 - 16:28:25 Setting variable (%APP_APK_IN_FILENAME%) value to: "com.gamma.scan"
+BREW 07/27/2022 - 16:28:25 Setting variable (%APP_APK_FILENAME%) value to: "com.gamma.scan"
+BREW 07/27/2022 - 16:28:25 Setting variable (%APP_APK_IN_NAME%) value to: "scan"
+BREW 07/27/2022 - 16:28:25 Setting variable (%APP_APK_NAME%) value to: "scan"
+BREW 07/27/2022 - 16:28:25 Setting variable (%APP_APK_IN_PACKAGE%) value to: "com.gamma.scan"
+BREW 07/27/2022 - 16:28:25 Setting variable (%APP_APK_PACKAGE%) value to: "com.gamma.scan"
+BREW 07/27/2022 - 16:28:25 Setting variable (%LINENUMBER_IN%) value to: "-1"
+BREW 07/27/2022 - 16:28:25 Warning: Maximum memory (105 GB) specified in config file will never become available. Using maximal available memory instead: 101 GB
+BREW 07/27/2022 - 16:28:25 Timeout (SimplifyParser) set to: 60m
+BREW 07/27/2022 - 16:28:25 Timeout (Answer-Loader) set to: 60m
+BREW 07/27/2022 - 16:28:25 Starting execution of default Answer-Loader (2.0.1-SNAPSHOT). [/media/sf_brewThesis/.: Load from file: /media/sf_brewThesis/data/storage/00305.%FILE_ENDING%]
+BREW 07/27/2022 - 16:28:25 Finished execution of default Answer-Loader (2.0.1-SNAPSHOT) after 0.0 seconds. [/media/sf_brewThesis/.: Load from file: /home/fpauck/benchmarks/temp/top15/subset/1/com.gamma.scan.apk]
+BREW 07/27/2022 - 16:28:25 Loaded from storage: Arguments IN App('/home/fpauck/benchmarks/temp/top15/subset/1/com.gamma.scan.apk') USES 'SimplifyParser' !
+BREW 07/27/2022 - 16:28:26 Setting variable (%ANSWERS%) value to: "/home/fpauck/benchmarks/temp/top15/subset/1/com.gamma.scan.apk, /media/sf_brewThesis/data/storage/00241.txt"
+BREW 07/27/2022 - 16:28:26 Setting variable (%ANSWERSHASH%) value to: "67f4aa29061b0832ba9a66740ffb47d9f409e174ccb39c61be71651ac4825cb1"
+BREW 07/27/2022 - 16:28:26 Setting variable (%ANSWERSHASH_MD5%) value to: "6b9def836e7f9eb44b1accb9f17935a9"
+BREW 07/27/2022 - 16:28:26 Setting variable (%ANSWERSHASH_SHA-1%) value to: "97aafe1d3efe542885d1fd01e140a76f146d5da7"
+BREW 07/27/2022 - 16:28:26 Setting variable (%ANSWERSHASH_SHA-256%) value to: "67f4aa29061b0832ba9a66740ffb47d9f409e174ccb39c61be71651ac4825cb1"
+BREW 07/27/2022 - 16:28:26 Timeout (DefaultSimplifyOperator) set to: 60m
+BREW 07/27/2022 - 16:28:26
+Loaded from storage:
+SIMPLIFY [
+	'/home/fpauck/benchmarks/temp/top15/subset/1/com.gamma.scan.apk' !,
+	Arguments IN App('/home/fpauck/benchmarks/temp/top15/subset/1/com.gamma.scan.apk') USES 'SimplifyParser' !
+] !
+BREW 07/27/2022 - 16:28:26 Setting variable (%APP_APK_IN%) value to: "/media/sf_brewThesis/data/storage/00239.apk"
+BREW 07/27/2022 - 16:28:26 Setting variable (%APP_APK%) value to: "/media/sf_brewThesis/data/storage/00239.apk"
+BREW 07/27/2022 - 16:28:26 Setting variable (%APP_APK_IN_FILENAME%) value to: "00239"
+BREW 07/27/2022 - 16:28:26 Setting variable (%APP_APK_FILENAME%) value to: "00239"
+BREW 07/27/2022 - 16:28:26 Setting variable (%APP_APK_IN_NAME%) value to: "scan"
+BREW 07/27/2022 - 16:28:26 Setting variable (%APP_APK_NAME%) value to: "scan"
+BREW 07/27/2022 - 16:28:26 Setting variable (%APP_APK_IN_PACKAGE%) value to: "com.gamma.scan"
+BREW 07/27/2022 - 16:28:26 Setting variable (%APP_APK_PACKAGE%) value to: "com.gamma.scan"
+BREW 07/27/2022 - 16:28:26 Timeout (DidFail) set to: 60m
+BREW 07/27/2022 - 16:28:26 Starting execution of internal DidFail (03-2015-intra). [/home/fpauck/tools/DidFail/AQL: /home/fpauck/tools/DidFail/cert/run-didfail.sh /home/fpauck/tools/DidFail/AQL/results/00239 /media/sf_brewThesis/data/storage/00239.apk]
+BREW 07/27/2022 - 16:28:26 Setting variable (%PID%) value to: "16052"
+BREW 07/27/2022 - 16:28:26 Process (DidFail, 16052) output: Processing /media/sf_brewThesis/data/storage/00239.apk
+BREW 07/27/2022 - 16:28:26 Process (DidFail, 16052) output: Transforming /media/sf_brewThesis/data/storage/00239.apk
+BREW 07/27/2022 - 16:34:25 [31mProcess (DidFail, 16052) error: mv: cannot stat '/home/fpauck/tools/DidFail/AQL/results/00239/sootOutput/00239.apk': No such file or directory[m[m
+BREW 07/27/2022 - 16:34:25 [31mProcess (DidFail, 16052) error: java.io.FileNotFoundException: /home/fpauck/tools/DidFail/AQL/results/00239/00239.apk (No such file or directory)[m[m
+BREW 07/27/2022 - 16:34:25 [31mProcess (DidFail, 16052) error: 	at java.util.zip.ZipFile.open(Native Method)[m[m
+BREW 07/27/2022 - 16:34:25 [31mProcess (DidFail, 16052) error: 	at java.util.zip.ZipFile.<init>(ZipFile.java:226)[m[m
+BREW 07/27/2022 - 16:34:25 [31mProcess (DidFail, 16052) error: 	at java.util.zip.ZipFile.<init>(ZipFile.java:155)[m[m
+BREW 07/27/2022 - 16:34:25 Process (DidFail, 16052) output: Running DARE on /media/sf_brewThesis/data/storage/00239.apk
+BREW 07/27/2022 - 16:34:25 Process (DidFail, 16052) output: Running EPICC on /media/sf_brewThesis/data/storage/00239.apk
+BREW 07/27/2022 - 16:34:25 [31mProcess (DidFail, 16052) error: 	at java.util.zip.ZipFile.<init>(ZipFile.java:126)[m[m
+BREW 07/27/2022 - 16:34:25 [31mProcess (DidFail, 16052) error: 	at soot.jimple.interproc.cc.manifest.ManifestPullParser.parse(ManifestPullParser.java:136)[m[m
+BREW 07/27/2022 - 16:34:25 [31mProcess (DidFail, 16052) error: 	at soot.jimple.interproc.cc.ConnectedComponents.computeConnectedComponents(ConnectedComponents.java:99)[m[m
+BREW 07/27/2022 - 16:34:25 [31mProcess (DidFail, 16052) error: 	at soot.jimple.interproc.cc.Main.main(Main.java:11)[m[m
+BREW 07/27/2022 - 16:34:25 [31mProcess (DidFail, 16052) error: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)[m[m
+BREW 07/27/2022 - 16:34:25 [31mProcess (DidFail, 16052) error: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)[m[m
+BREW 07/27/2022 - 16:34:25 [31mProcess (DidFail, 16052) error: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)[m[m
+BREW 07/27/2022 - 16:34:25 [31mProcess (DidFail, 16052) error: 	at java.lang.reflect.Method.invoke(Method.java:498)[m[m
+BREW 07/27/2022 - 16:34:25 [31mProcess (DidFail, 16052) error: 	at org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:58)[m[m
+BREW 07/27/2022 - 16:34:27 Process (DidFail, 16052) output: Running FlowDroid on /media/sf_brewThesis/data/storage/00239.apk
+BREW 07/27/2022 - 16:34:27 Process (DidFail, 16052) output: Failure!
+BREW 07/27/2022 - 16:34:27 [31mProcess (DidFail, 16052) error: Usage: /home/fpauck/tools/DidFail/cert/taintflows.py [OPTIONS] [FILES][m[m
+BREW 07/27/2022 - 16:34:27 [31mProcess (DidFail, 16052) error: Files: For each app, should include manifest, epicc, and flowdroid output.[m[m
+BREW 07/27/2022 - 16:34:27 [31mProcess (DidFail, 16052) error: Options: [m[m
+BREW 07/27/2022 - 16:34:27 [31mProcess (DidFail, 16052) error:   --gv graphfile: Generates graphfile.{gv,txt,pdf}[m[m
+BREW 07/27/2022 - 16:34:27 [31mProcess (DidFail, 16052) error:   --js jsonfile:  Writes the flows and taint solution in JSON format[m[m
+BREW 07/27/2022 - 16:34:27 [31mProcess (DidFail, 16052) error:   --find-sources: Just find a list of sources[m[m
+BREW 07/27/2022 - 16:34:27 [31mProcess (DidFail, 16052) error:   --dump-dbg FILE: Dump debugging info to FILE[m[m
+BREW 07/27/2022 - 16:34:27 [31mProcess (DidFail, 16052) error:   --only-intents: Only consider flows that involve an intent[m[m
+BREW 07/27/2022 - 16:34:27 [31mProcess (DidFail, 16052) error:   --quiet:        Don't write as much to stdout[m[m
+BREW 07/27/2022 - 16:34:27 [31mProcess (DidFail, 16052) error:   --no-comp-name: Don't distinguish between components in a single app[m[m
+BREW 07/27/2022 - 16:34:27 [31mProcess (DidFail, 16052) error:   --quiet2:       Write even less to stdout[m[m
+BREW 07/27/2022 - 16:34:27 Process 16052 (DidFail) terminated sucessfully (0)
+BREW 07/27/2022 - 16:34:27 Result available: /home/fpauck/tools/DidFail/AQL/results/00239
+BREW 07/27/2022 - 16:34:27 Finished execution of internal DidFail (03-2015-intra) after 361.7 seconds. [/home/fpauck/tools/DidFail/AQL: /home/fpauck/tools/DidFail/cert/run-didfail.sh /home/fpauck/tools/DidFail/AQL/results/00239 /media/sf_brewThesis/data/storage/00239.apk]
+BREW 07/27/2022 - 16:34:27 Running on exit event for the tool: DidFail (03-2015-intra)
+BREW 07/27/2022 - 16:34:28 Timeout-Timer (DidFail) stopped normally.
+BREW 07/27/2022 - 16:34:28 Process (16159) output: Not root! Reattempting as root...
+BREW 07/27/2022 - 16:34:28 Process (16159) output: Root! Flushing memory...
+BREW 07/27/2022 - 16:34:28 Setting variable (%RESULT_FILE%) value to: "/home/fpauck/tools/DidFail/AQL/results/00239"
+BREW 07/27/2022 - 16:34:28 Setting variable (%APP_APK_IN_NAME%) value to: "scan"
+BREW 07/27/2022 - 16:34:28 Setting variable (%APP_APK_NAME%) value to: "scan"
+BREW 07/27/2022 - 16:34:28 Setting variable (%APP_APK_IN_FILENAME%) value to: "00239"
+BREW 07/27/2022 - 16:34:28 Setting variable (%APP_APK_FILENAME%) value to: "00239"
+BREW 07/27/2022 - 16:34:28 Setting variable (%APP_APK_IN%) value to: "/media/sf_brewThesis/data/storage/00239.apk"
+BREW 07/27/2022 - 16:34:28 Setting variable (%APP_APK%) value to: "/media/sf_brewThesis/data/storage/00239.apk"
+BREW 07/27/2022 - 16:34:28 Setting variable (%APP_APK_IN_PACKAGE%) value to: "com.gamma.scan"
+BREW 07/27/2022 - 16:34:28 Setting variable (%APP_APK_PACKAGE%) value to: "com.gamma.scan"
+BREW 07/27/2022 - 16:34:28 Warning: File for hash creation is a directory (/home/fpauck/tools/DidFail/AQL/results/00239). Using only its name ("00239") for hash creation.
+BREW 07/27/2022 - 16:34:28 Timeout (DefaultConverter for DidFail) set to: 60m
+BREW 07/27/2022 - 16:34:28 Starting execution of default DefaultConverter for DidFail (2.0.1-SNAPSHOT). [/media/sf_brewThesis: DefaultConverter for null (2.0.1-SNAPSHOT) with { %APP_APK_IN_FILENAME% = '00239', %APP_APK_IN_NAME% = 'scan', %APP_APK_NAME% = 'scan', %APP_APK_IN% = '/media/sf_brewThesis/data/storage/00239.apk', %APP_APK_FILENAME% = '00239', %APP_APK% = '/media/sf_brewThesis/data/storage/00239.apk', %APP_APK_PACKAGE% = 'com.gamma.scan', %RESULT_FILE% = '/home/fpauck/tools/DidFail/AQL/results/00239', %LINENUMBER_IN% = '-1', %APP_APK_IN_PACKAGE% = 'com.gamma.scan' }]
+BREW 07/27/2022 - 16:34:28 Storing answered task: /media/sf_brewThesis/data/storage/00303.xml [/home/fpauck/tools/DidFail/cert/run-didfail.sh /home/fpauck/tools/DidFail/AQL/results/00239 3d27fce93ae522d30cea9076454af312b095bfcee4c81959a14b3968b470d644]
+BREW 07/27/2022 - 16:34:28 Finished execution of default DefaultConverter for DidFail (2.0.1-SNAPSHOT) after 0.43 seconds. [/media/sf_brewThesis: DefaultConverter for null (2.0.1-SNAPSHOT) with { %APP_APK_IN_FILENAME% = '00239', %APP_APK_IN_NAME% = 'scan', %APP_APK_NAME% = 'scan', %APP_APK_IN% = '/media/sf_brewThesis/data/storage/00239.apk', %APP_APK_FILENAME% = '00239', %APP_APK% = '/media/sf_brewThesis/data/storage/00239.apk', %APP_APK_PACKAGE% = 'com.gamma.scan', %RESULT_FILE% = '/home/fpauck/tools/DidFail/AQL/results/00239', %LINENUMBER_IN% = '-1', %APP_APK_IN_PACKAGE% = 'com.gamma.scan' }]
+BREW 07/27/2022 - 16:34:28 [1;32mFinished (after 363.426s): Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/1/com.gamma.scan.apk') ?[m[m
+BREW 07/27/2022 - 16:34:28
+[1m***** Answer (/media/sf_brewThesis/answers/answer_27_07_2022-16_34_28-001.xml) *****
+[m*** Flows ***
+
+[m[m
+BREW 07/27/2022 - 16:34:29
+
+
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<answer>
+    <flows/>
+</answer>
+
+
+
+
+BREW 07/27/2022 - 16:34:29 Continuing with configuration: /media/sf_webservice/config.xml (a9ee75f31fbb720aa6746ae2f72aade2)
+BREW 07/27/2022 - 16:34:29 [1;32mStarting: Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/1/com.starfinanz.mobile.android.pushtan.apk') ?[m[m
+BREW 07/27/2022 - 16:34:29 Parsed: Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/1/com.starfinanz.mobile.android.pushtan.apk') ?
+BREW 07/27/2022 - 16:34:29 Resolved: Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/1/com.starfinanz.mobile.android.pushtan.apk') ?
+BREW 07/27/2022 - 16:34:29 Transformation-rule applied: ToolSelection
+BREW 07/27/2022 - 16:34:29 Transformation-rule applied: ApplySimplifier
+BREW 07/27/2022 - 16:34:29
+Transformed:
+Flows IN App(SIMPLIFY [
+	'/home/fpauck/benchmarks/temp/top15/subset/1/com.starfinanz.mobile.android.pushtan.apk' !,
+	Arguments IN App('/home/fpauck/benchmarks/temp/top15/subset/1/com.starfinanz.mobile.android.pushtan.apk') USES 'SimplifyParser' !
+] !) USES 'DidFail' ?
+BREW 07/27/2022 - 16:34:29 Loaded storage from: /media/sf_brewThesis/data/storage/storage.ser
+BREW 07/27/2022 - 16:34:29 Setting variable (%MEMORY%) value to: "96"
+BREW 07/27/2022 - 16:34:29 Setting variable (%ANDROID_PLATFORMS%) value to: "/media/sf_sdks/platforms/"
+BREW 07/27/2022 - 16:34:29 Setting variable (%ANDROID_BUILDTOOLS%) value to: "null"
+BREW 07/27/2022 - 16:34:29 Setting variable (%DATE%) value to: "27_07_2022-16_34_29"
+BREW 07/27/2022 - 16:34:29 Setting variable (%LINENUMBER_IN%) value to: "-1"
+BREW 07/27/2022 - 16:34:29 Setting variable (%LINENUMBER_IN%) value to: "-1"
+BREW 07/27/2022 - 16:34:29 Setting variable (%MEMORY%) value to: "48"
+BREW 07/27/2022 - 16:34:29 Setting variable (%ANDROID_PLATFORMS%) value to: "/media/sf_sdks/platforms/"
+BREW 07/27/2022 - 16:34:29 Setting variable (%ANDROID_BUILDTOOLS%) value to: "null"
+BREW 07/27/2022 - 16:34:29 Setting variable (%DATE%) value to: "27_07_2022-16_34_29"
+BREW 07/27/2022 - 16:34:30 Setting variable (%APP_APK_IN%) value to: "/home/fpauck/benchmarks/temp/top15/subset/1/com.starfinanz.mobile.android.pushtan.apk"
+BREW 07/27/2022 - 16:34:30 Setting variable (%APP_APK%) value to: "/home/fpauck/benchmarks/temp/top15/subset/1/com.starfinanz.mobile.android.pushtan.apk"
+BREW 07/27/2022 - 16:34:30 Setting variable (%APP_APK_IN_FILENAME%) value to: "com.starfinanz.mobile.android.pushtan"
+BREW 07/27/2022 - 16:34:30 Setting variable (%APP_APK_FILENAME%) value to: "com.starfinanz.mobile.android.pushtan"
+BREW 07/27/2022 - 16:34:30 Setting variable (%APP_APK_IN_NAME%) value to: "pushtan"
+BREW 07/27/2022 - 16:34:30 Setting variable (%APP_APK_NAME%) value to: "pushtan"
+BREW 07/27/2022 - 16:34:30 Setting variable (%APP_APK_IN_PACKAGE%) value to: "com.starfinanz.mobile.android.pushtan"
+BREW 07/27/2022 - 16:34:30 Setting variable (%APP_APK_PACKAGE%) value to: "com.starfinanz.mobile.android.pushtan"
+BREW 07/27/2022 - 16:34:30 Setting variable (%LINENUMBER_IN%) value to: "-1"
+BREW 07/27/2022 - 16:34:30 Warning: Maximum memory (105 GB) specified in config file will never become available. Using maximal available memory instead: 101 GB
+BREW 07/27/2022 - 16:34:30 Timeout (SimplifyParser) set to: 60m
+BREW 07/27/2022 - 16:34:30 Timeout (Answer-Loader) set to: 60m
+BREW 07/27/2022 - 16:34:30 Starting execution of default Answer-Loader (2.0.1-SNAPSHOT). [/media/sf_brewThesis/.: Load from file: /media/sf_brewThesis/data/storage/00310.%FILE_ENDING%]
+BREW 07/27/2022 - 16:34:30 Finished execution of default Answer-Loader (2.0.1-SNAPSHOT) after 0.0 seconds. [/media/sf_brewThesis/.: Load from file: /home/fpauck/benchmarks/temp/top15/subset/1/com.starfinanz.mobile.android.pushtan.apk]
+BREW 07/27/2022 - 16:34:30 Setting variable (%ANSWERS%) value to: "/home/fpauck/benchmarks/temp/top15/subset/1/com.starfinanz.mobile.android.pushtan.apk"
+BREW 07/27/2022 - 16:34:30 Setting variable (%ANSWERSHASH%) value to: "c307ef857e4d6c975439d35f612a3d2890c8b169e01ad5e75a0d456fb22990a8"
+BREW 07/27/2022 - 16:34:30 Setting variable (%ANSWERSHASH_MD5%) value to: "b879e79a289f0a4f4bbd819ae26d0be1"
+BREW 07/27/2022 - 16:34:30 Setting variable (%ANSWERSHASH_SHA-1%) value to: "403d02a6acda72affae4eecae5cf25efda3983b1"
+BREW 07/27/2022 - 16:34:30 Setting variable (%ANSWERSHASH_SHA-256%) value to: "c307ef857e4d6c975439d35f612a3d2890c8b169e01ad5e75a0d456fb22990a8"
+BREW 07/27/2022 - 16:34:30 Loaded from storage: Arguments IN App('/home/fpauck/benchmarks/temp/top15/subset/1/com.starfinanz.mobile.android.pushtan.apk') USES 'SimplifyParser' !
+BREW 07/27/2022 - 16:34:30 Replacing variable (%ANSWERS%) value ("/home/fpauck/benchmarks/temp/top15/subset/1/com.starfinanz.mobile.android.pushtan.apk") by: "/home/fpauck/benchmarks/temp/top15/subset/1/com.starfinanz.mobile.android.pushtan.apk, /media/sf_brewThesis/data/storage/00246.txt"
+BREW 07/27/2022 - 16:34:30 Replacing variable (%ANSWERSHASH%) value ("c307ef857e4d6c975439d35f612a3d2890c8b169e01ad5e75a0d456fb22990a8") by: "16dbcbd88462dd2028ee03290de403954f33121672e9c368d5a1f14be4455c67"
+BREW 07/27/2022 - 16:34:30 Replacing variable (%ANSWERSHASH_MD5%) value ("b879e79a289f0a4f4bbd819ae26d0be1") by: "0eb9db213286935f85a10dd27646d245"
+BREW 07/27/2022 - 16:34:30 Replacing variable (%ANSWERSHASH_SHA-1%) value ("403d02a6acda72affae4eecae5cf25efda3983b1") by: "6e361891104d28159d22bce5fc52f3efe69dbeb7"
+BREW 07/27/2022 - 16:34:30 Replacing variable (%ANSWERSHASH_SHA-256%) value ("c307ef857e4d6c975439d35f612a3d2890c8b169e01ad5e75a0d456fb22990a8") by: "16dbcbd88462dd2028ee03290de403954f33121672e9c368d5a1f14be4455c67"
+BREW 07/27/2022 - 16:34:30 Timeout (DefaultSimplifyOperator) set to: 60m
+BREW 07/27/2022 - 16:34:30
+Loaded from storage:
+SIMPLIFY [
+	'/home/fpauck/benchmarks/temp/top15/subset/1/com.starfinanz.mobile.android.pushtan.apk' !,
+	Arguments IN App('/home/fpauck/benchmarks/temp/top15/subset/1/com.starfinanz.mobile.android.pushtan.apk') USES 'SimplifyParser' !
+] !
+BREW 07/27/2022 - 16:34:30 Setting variable (%APP_APK_IN%) value to: "/media/sf_brewThesis/data/storage/00244.apk"
+BREW 07/27/2022 - 16:34:30 Setting variable (%APP_APK%) value to: "/media/sf_brewThesis/data/storage/00244.apk"
+BREW 07/27/2022 - 16:34:30 Setting variable (%APP_APK_IN_FILENAME%) value to: "00244"
+BREW 07/27/2022 - 16:34:30 Setting variable (%APP_APK_FILENAME%) value to: "00244"
+BREW 07/27/2022 - 16:34:30 Setting variable (%APP_APK_IN_NAME%) value to: "pushtan"
+BREW 07/27/2022 - 16:34:30 Setting variable (%APP_APK_NAME%) value to: "pushtan"
+BREW 07/27/2022 - 16:34:30 Setting variable (%APP_APK_IN_PACKAGE%) value to: "com.starfinanz.mobile.android.pushtan"
+BREW 07/27/2022 - 16:34:30 Setting variable (%APP_APK_PACKAGE%) value to: "com.starfinanz.mobile.android.pushtan"
+BREW 07/27/2022 - 16:34:30 Timeout (DidFail) set to: 60m
+BREW 07/27/2022 - 16:34:31 Starting execution of internal DidFail (03-2015-intra). [/home/fpauck/tools/DidFail/AQL: /home/fpauck/tools/DidFail/cert/run-didfail.sh /home/fpauck/tools/DidFail/AQL/results/00244 /media/sf_brewThesis/data/storage/00244.apk]
+BREW 07/27/2022 - 16:34:31 Setting variable (%PID%) value to: "16194"
+BREW 07/27/2022 - 16:34:31 Process (DidFail, 16194) output: Processing /media/sf_brewThesis/data/storage/00244.apk
+BREW 07/27/2022 - 16:34:31 Process (DidFail, 16194) output: Transforming /media/sf_brewThesis/data/storage/00244.apk
+BREW 07/27/2022 - 16:36:29 Process (DidFail, 16194) output: Running DARE on /media/sf_brewThesis/data/storage/00244.apk
+BREW 07/27/2022 - 16:36:52 Process (DidFail, 16194) output: Running EPICC on /media/sf_brewThesis/data/storage/00244.apk
+BREW 07/27/2022 - 16:44:31 [31mProcess (DidFail, 16194) error: /home/fpauck/tools/DidFail/cert/run-epicc.sh: line 22: 16289 Killed                  java8 $jvm_flags -jar $epicc_dir/epicc-0.1.jar -apk $apk_xform -android-directory $outdir/dare/$apk_base/retargeted/* -cp $epicc_dir/android.jar > $outdir/$apk_base.epicc[m[m
+BREW 07/27/2022 - 16:44:31 Process (DidFail, 16194) output: Running FlowDroid on /media/sf_brewThesis/data/storage/00244.apk
+BREW 07/27/2022 - 16:44:42 [31mProcess (DidFail, 16194) error: Usage: /home/fpauck/tools/DidFail/cert/taintflows.py [OPTIONS] [FILES][m[m
+BREW 07/27/2022 - 16:44:42 [31mProcess (DidFail, 16194) error: Files: For each app, should include manifest, epicc, and flowdroid output.[m[m
+BREW 07/27/2022 - 16:44:42 [31mProcess (DidFail, 16194) error: Options: [m[m
+BREW 07/27/2022 - 16:44:42 [31mProcess (DidFail, 16194) error:   --gv graphfile: Generates graphfile.{gv,txt,pdf}[m[m
+BREW 07/27/2022 - 16:44:42 [31mProcess (DidFail, 16194) error:   --js jsonfile:  Writes the flows and taint solution in JSON format[m[m
+BREW 07/27/2022 - 16:44:42 [31mProcess (DidFail, 16194) error:   --find-sources: Just find a list of sources[m[m
+BREW 07/27/2022 - 16:44:42 [31mProcess (DidFail, 16194) error:   --dump-dbg FILE: Dump debugging info to FILE[m[m
+BREW 07/27/2022 - 16:44:42 [31mProcess (DidFail, 16194) error:   --only-intents: Only consider flows that involve an intent[m[m
+BREW 07/27/2022 - 16:44:42 [31mProcess (DidFail, 16194) error:   --quiet:        Don't write as much to stdout[m[m
+BREW 07/27/2022 - 16:44:42 [31mProcess (DidFail, 16194) error:   --no-comp-name: Don't distinguish between components in a single app[m[m
+BREW 07/27/2022 - 16:44:42 [31mProcess (DidFail, 16194) error:   --quiet2:       Write even less to stdout[m[m
+BREW 07/27/2022 - 16:44:42 Process (DidFail, 16194) output: Failure!
+BREW 07/27/2022 - 16:44:42 Process 16194 (DidFail) terminated sucessfully (0)
+BREW 07/27/2022 - 16:44:42 Result available: /home/fpauck/tools/DidFail/AQL/results/00244
+BREW 07/27/2022 - 16:44:42 Finished execution of internal DidFail (03-2015-intra) after 611.32 seconds. [/home/fpauck/tools/DidFail/AQL: /home/fpauck/tools/DidFail/cert/run-didfail.sh /home/fpauck/tools/DidFail/AQL/results/00244 /media/sf_brewThesis/data/storage/00244.apk]
+BREW 07/27/2022 - 16:44:42 Running on exit event for the tool: DidFail (03-2015-intra)
+BREW 07/27/2022 - 16:44:42 Process (16327) output: Not root! Reattempting as root...
+BREW 07/27/2022 - 16:44:42 Timeout-Timer (DidFail) stopped normally.
+BREW 07/27/2022 - 16:44:42 Process (16327) output: Root! Flushing memory...
+BREW 07/27/2022 - 16:44:42 Setting variable (%RESULT_FILE%) value to: "/home/fpauck/tools/DidFail/AQL/results/00244"
+BREW 07/27/2022 - 16:44:42 Setting variable (%APP_APK_IN_NAME%) value to: "pushtan"
+BREW 07/27/2022 - 16:44:42 Setting variable (%APP_APK_NAME%) value to: "pushtan"
+BREW 07/27/2022 - 16:44:42 Setting variable (%APP_APK_IN_FILENAME%) value to: "00244"
+BREW 07/27/2022 - 16:44:42 Setting variable (%APP_APK_FILENAME%) value to: "00244"
+BREW 07/27/2022 - 16:44:42 Setting variable (%APP_APK_IN%) value to: "/media/sf_brewThesis/data/storage/00244.apk"
+BREW 07/27/2022 - 16:44:42 Setting variable (%APP_APK%) value to: "/media/sf_brewThesis/data/storage/00244.apk"
+BREW 07/27/2022 - 16:44:42 Setting variable (%APP_APK_IN_PACKAGE%) value to: "com.starfinanz.mobile.android.pushtan"
+BREW 07/27/2022 - 16:44:42 Setting variable (%APP_APK_PACKAGE%) value to: "com.starfinanz.mobile.android.pushtan"
+BREW 07/27/2022 - 16:44:42 Warning: File for hash creation is a directory (/home/fpauck/tools/DidFail/AQL/results/00244). Using only its name ("00244") for hash creation.
+BREW 07/27/2022 - 16:44:42 Timeout (DefaultConverter for DidFail) set to: 60m
+BREW 07/27/2022 - 16:44:42 Starting execution of default DefaultConverter for DidFail (2.0.1-SNAPSHOT). [/media/sf_brewThesis: DefaultConverter for null (2.0.1-SNAPSHOT) with { %APP_APK_IN_FILENAME% = '00244', %APP_APK_IN_NAME% = 'pushtan', %APP_APK_NAME% = 'pushtan', %APP_APK_IN% = '/media/sf_brewThesis/data/storage/00244.apk', %APP_APK_FILENAME% = '00244', %APP_APK% = '/media/sf_brewThesis/data/storage/00244.apk', %APP_APK_PACKAGE% = 'com.starfinanz.mobile.android.pushtan', %RESULT_FILE% = '/home/fpauck/tools/DidFail/AQL/results/00244', %LINENUMBER_IN% = '-1', %APP_APK_IN_PACKAGE% = 'com.starfinanz.mobile.android.pushtan' }]
+BREW 07/27/2022 - 16:44:43 Storing answered task: /media/sf_brewThesis/data/storage/00308.xml [/home/fpauck/tools/DidFail/cert/run-didfail.sh /home/fpauck/tools/DidFail/AQL/results/00244 3f661591146de4b3c8ed5682f82ff08bc91eb3931895c92932f30a49c3fa1213]
+BREW 07/27/2022 - 16:44:43 Finished execution of default DefaultConverter for DidFail (2.0.1-SNAPSHOT) after 0.6 seconds. [/media/sf_brewThesis: DefaultConverter for null (2.0.1-SNAPSHOT) with { %APP_APK_IN_FILENAME% = '00244', %APP_APK_IN_NAME% = 'pushtan', %APP_APK_NAME% = 'pushtan', %APP_APK_IN% = '/media/sf_brewThesis/data/storage/00244.apk', %APP_APK_FILENAME% = '00244', %APP_APK% = '/media/sf_brewThesis/data/storage/00244.apk', %APP_APK_PACKAGE% = 'com.starfinanz.mobile.android.pushtan', %RESULT_FILE% = '/home/fpauck/tools/DidFail/AQL/results/00244', %LINENUMBER_IN% = '-1', %APP_APK_IN_PACKAGE% = 'com.starfinanz.mobile.android.pushtan' }]
+BREW 07/27/2022 - 16:44:43 [1;32mFinished (after 613.889s): Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/1/com.starfinanz.mobile.android.pushtan.apk') ?[m[m
+BREW 07/27/2022 - 16:44:43
+[1m***** Answer (/media/sf_brewThesis/answers/answer_27_07_2022-16_44_43-001.xml) *****
+[m*** Flows ***
+
+[m[m
+BREW 07/27/2022 - 16:44:43
+
+
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<answer>
+    <flows/>
+</answer>
+
+
+
+
+BREW 07/27/2022 - 16:44:43 Continuing with configuration: /media/sf_webservice/config.xml (a9ee75f31fbb720aa6746ae2f72aade2)
+BREW 07/27/2022 - 16:44:44 [1;32mStarting: Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/1/de.cellular.ottohybrid.apk') ?[m[m
+BREW 07/27/2022 - 16:44:44 Parsed: Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/1/de.cellular.ottohybrid.apk') ?
+BREW 07/27/2022 - 16:44:44 Resolved: Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/1/de.cellular.ottohybrid.apk') ?
+BREW 07/27/2022 - 16:44:44 Transformation-rule applied: ToolSelection
+BREW 07/27/2022 - 16:44:44 Transformation-rule applied: ApplySimplifier
+BREW 07/27/2022 - 16:44:44
+Transformed:
+Flows IN App(SIMPLIFY [
+	'/home/fpauck/benchmarks/temp/top15/subset/1/de.cellular.ottohybrid.apk' !,
+	Arguments IN App('/home/fpauck/benchmarks/temp/top15/subset/1/de.cellular.ottohybrid.apk') USES 'SimplifyParser' !
+] !) USES 'DidFail' ?
+BREW 07/27/2022 - 16:44:44 Loaded storage from: /media/sf_brewThesis/data/storage/storage.ser
+BREW 07/27/2022 - 16:44:44 Setting variable (%MEMORY%) value to: "96"
+BREW 07/27/2022 - 16:44:44 Setting variable (%ANDROID_PLATFORMS%) value to: "/media/sf_sdks/platforms/"
+BREW 07/27/2022 - 16:44:44 Setting variable (%ANDROID_BUILDTOOLS%) value to: "null"
+BREW 07/27/2022 - 16:44:44 Setting variable (%DATE%) value to: "27_07_2022-16_44_44"
+BREW 07/27/2022 - 16:44:44 Setting variable (%LINENUMBER_IN%) value to: "-1"
+BREW 07/27/2022 - 16:44:44 Setting variable (%LINENUMBER_IN%) value to: "-1"
+BREW 07/27/2022 - 16:44:44 Setting variable (%MEMORY%) value to: "48"
+BREW 07/27/2022 - 16:44:44 Setting variable (%ANDROID_PLATFORMS%) value to: "/media/sf_sdks/platforms/"
+BREW 07/27/2022 - 16:44:44 Setting variable (%ANDROID_BUILDTOOLS%) value to: "null"
+BREW 07/27/2022 - 16:44:44 Setting variable (%DATE%) value to: "27_07_2022-16_44_44"
+BREW 07/27/2022 - 16:44:44 Setting variable (%APP_APK_IN%) value to: "/home/fpauck/benchmarks/temp/top15/subset/1/de.cellular.ottohybrid.apk"
+BREW 07/27/2022 - 16:44:44 Setting variable (%APP_APK%) value to: "/home/fpauck/benchmarks/temp/top15/subset/1/de.cellular.ottohybrid.apk"
+BREW 07/27/2022 - 16:44:44 Setting variable (%APP_APK_IN_FILENAME%) value to: "de.cellular.ottohybrid"
+BREW 07/27/2022 - 16:44:44 Setting variable (%APP_APK_FILENAME%) value to: "de.cellular.ottohybrid"
+BREW 07/27/2022 - 16:44:44 Setting variable (%APP_APK_IN_NAME%) value to: "ottohybrid"
+BREW 07/27/2022 - 16:44:44 Setting variable (%APP_APK_NAME%) value to: "ottohybrid"
+BREW 07/27/2022 - 16:44:44 Setting variable (%APP_APK_IN_PACKAGE%) value to: "de.cellular.ottohybrid"
+BREW 07/27/2022 - 16:44:44 Setting variable (%APP_APK_PACKAGE%) value to: "de.cellular.ottohybrid"
+BREW 07/27/2022 - 16:44:44 Setting variable (%LINENUMBER_IN%) value to: "-1"
+BREW 07/27/2022 - 16:44:44 Warning: Maximum memory (105 GB) specified in config file will never become available. Using maximal available memory instead: 101 GB
+BREW 07/27/2022 - 16:44:44 Timeout (SimplifyParser) set to: 60m
+BREW 07/27/2022 - 16:44:44 Timeout (Answer-Loader) set to: 60m
+BREW 07/27/2022 - 16:44:44 Starting execution of default Answer-Loader (2.0.1-SNAPSHOT). [/media/sf_brewThesis/.: Load from file: /media/sf_brewThesis/data/storage/00315.%FILE_ENDING%]
+BREW 07/27/2022 - 16:44:44 Finished execution of default Answer-Loader (2.0.1-SNAPSHOT) after 0.0 seconds. [/media/sf_brewThesis/.: Load from file: /home/fpauck/benchmarks/temp/top15/subset/1/de.cellular.ottohybrid.apk]
+BREW 07/27/2022 - 16:44:44 Setting variable (%ANSWERS%) value to: "/home/fpauck/benchmarks/temp/top15/subset/1/de.cellular.ottohybrid.apk"
+BREW 07/27/2022 - 16:44:44 Setting variable (%ANSWERSHASH%) value to: "aca94f423e1aaae3f9f0d8ab9982403fe8d8c72e0d6720484be3927c6a2b4a27"
+BREW 07/27/2022 - 16:44:44 Setting variable (%ANSWERSHASH_MD5%) value to: "8b2be8af2568e1d6a7bdace97282e69b"
+BREW 07/27/2022 - 16:44:44 Setting variable (%ANSWERSHASH_SHA-1%) value to: "24fd1958e5002c8e5c419e023f60471d99b0a24a"
+BREW 07/27/2022 - 16:44:44 Setting variable (%ANSWERSHASH_SHA-256%) value to: "aca94f423e1aaae3f9f0d8ab9982403fe8d8c72e0d6720484be3927c6a2b4a27"
+BREW 07/27/2022 - 16:44:44 Loaded from storage: Arguments IN App('/home/fpauck/benchmarks/temp/top15/subset/1/de.cellular.ottohybrid.apk') USES 'SimplifyParser' !
+BREW 07/27/2022 - 16:44:44 Replacing variable (%ANSWERS%) value ("/home/fpauck/benchmarks/temp/top15/subset/1/de.cellular.ottohybrid.apk") by: "/home/fpauck/benchmarks/temp/top15/subset/1/de.cellular.ottohybrid.apk, /media/sf_brewThesis/data/storage/00251.txt"
+BREW 07/27/2022 - 16:44:44 Replacing variable (%ANSWERSHASH%) value ("aca94f423e1aaae3f9f0d8ab9982403fe8d8c72e0d6720484be3927c6a2b4a27") by: "ea4263defbb53ed9d29d963ec56acc7b77181c1f0ccfba81a2b0bbde3c78dc47"
+BREW 07/27/2022 - 16:44:44 Replacing variable (%ANSWERSHASH_MD5%) value ("8b2be8af2568e1d6a7bdace97282e69b") by: "50796c07d66fdbc238ef7a2f1e708212"
+BREW 07/27/2022 - 16:44:44 Replacing variable (%ANSWERSHASH_SHA-1%) value ("24fd1958e5002c8e5c419e023f60471d99b0a24a") by: "74116a3d46ee2ce95602a7d85b01fa906a68d3e0"
+BREW 07/27/2022 - 16:44:44 Replacing variable (%ANSWERSHASH_SHA-256%) value ("aca94f423e1aaae3f9f0d8ab9982403fe8d8c72e0d6720484be3927c6a2b4a27") by: "ea4263defbb53ed9d29d963ec56acc7b77181c1f0ccfba81a2b0bbde3c78dc47"
+BREW 07/27/2022 - 16:44:44 Timeout (DefaultSimplifyOperator) set to: 60m
+BREW 07/27/2022 - 16:44:44
+Loaded from storage:
+SIMPLIFY [
+	'/home/fpauck/benchmarks/temp/top15/subset/1/de.cellular.ottohybrid.apk' !,
+	Arguments IN App('/home/fpauck/benchmarks/temp/top15/subset/1/de.cellular.ottohybrid.apk') USES 'SimplifyParser' !
+] !
+BREW 07/27/2022 - 16:44:44 Setting variable (%APP_APK_IN%) value to: "/media/sf_brewThesis/data/storage/00249.apk"
+BREW 07/27/2022 - 16:44:44 Setting variable (%APP_APK%) value to: "/media/sf_brewThesis/data/storage/00249.apk"
+BREW 07/27/2022 - 16:44:44 Setting variable (%APP_APK_IN_FILENAME%) value to: "00249"
+BREW 07/27/2022 - 16:44:44 Setting variable (%APP_APK_FILENAME%) value to: "00249"
+BREW 07/27/2022 - 16:44:44 Setting variable (%APP_APK_IN_NAME%) value to: "ottohybrid"
+BREW 07/27/2022 - 16:44:44 Setting variable (%APP_APK_NAME%) value to: "ottohybrid"
+BREW 07/27/2022 - 16:44:44 Setting variable (%APP_APK_IN_PACKAGE%) value to: "de.cellular.ottohybrid"
+BREW 07/27/2022 - 16:44:44 Setting variable (%APP_APK_PACKAGE%) value to: "de.cellular.ottohybrid"
+BREW 07/27/2022 - 16:44:44 Timeout (DidFail) set to: 60m
+BREW 07/27/2022 - 16:44:44 Starting execution of internal DidFail (03-2015-intra). [/home/fpauck/tools/DidFail/AQL: /home/fpauck/tools/DidFail/cert/run-didfail.sh /home/fpauck/tools/DidFail/AQL/results/00249 /media/sf_brewThesis/data/storage/00249.apk]
+BREW 07/27/2022 - 16:44:44 Setting variable (%PID%) value to: "16362"
+BREW 07/27/2022 - 16:44:45 Process (DidFail, 16362) output: Processing /media/sf_brewThesis/data/storage/00249.apk
+BREW 07/27/2022 - 16:44:45 Process (DidFail, 16362) output: Transforming /media/sf_brewThesis/data/storage/00249.apk
+BREW 07/27/2022 - 16:47:10 Process (DidFail, 16362) output: Running DARE on /media/sf_brewThesis/data/storage/00249.apk
+BREW 07/27/2022 - 16:47:45 Process (DidFail, 16362) output: Running EPICC on /media/sf_brewThesis/data/storage/00249.apk
+BREW 07/27/2022 - 16:47:46 [31mProcess (DidFail, 16362) error: Warning: malformed Manifest file: action at depth 3[m[m
+BREW 07/27/2022 - 16:47:46 [31mProcess (DidFail, 16362) error: Warning: malformed Manifest file: data at depth 3[m[m
+BREW 07/27/2022 - 16:47:46 [31mProcess (DidFail, 16362) error: Warning: malformed Manifest file: action at depth 3[m[m
+BREW 07/27/2022 - 16:48:29 [31mProcess (DidFail, 16362) error: java.lang.ClassCastException: soot.coffi.CONSTANT_InterfaceMethodref_info cannot be cast to soot.coffi.CONSTANT_Methodref_info[m[m
+BREW 07/27/2022 - 16:48:29 [31mProcess (DidFail, 16362) error: 	at soot.coffi.CFG.jimpleReturnTypeOfMethodRef(CFG.java:2519)[m[m
+BREW 07/27/2022 - 16:48:29 [31mProcess (DidFail, 16362) error: 	at soot.coffi.CFG.processFlow(CFG.java:2378)[m[m
+BREW 07/27/2022 - 16:48:29 [31mProcess (DidFail, 16362) error: 	at soot.coffi.CFG.jimplify(CFG.java:1149)[m[m
+BREW 07/27/2022 - 16:48:29 [31mProcess (DidFail, 16362) error: 	at soot.coffi.CFG.jimplify(CFG.java:955)[m[m
+BREW 07/27/2022 - 16:48:29 [31mProcess (DidFail, 16362) error: 	at soot.coffi.CoffiMethodSource.getBody(CoffiMethodSource.java:100)[m[m
+BREW 07/27/2022 - 16:48:29 [31mProcess (DidFail, 16362) error: 	at soot.SootMethod.getBodyFromMethodSource(SootMethod.java:89)[m[m
+BREW 07/27/2022 - 16:48:29 [31mProcess (DidFail, 16362) error: 	at soot.SootMethod.retrieveActiveBody(SootMethod.java:322)[m[m
+BREW 07/27/2022 - 16:48:29 [31mProcess (DidFail, 16362) error: 	at soot.jimple.toolkits.callgraph.OnFlyCallGraphBuilder.processNewMethod(OnFlyCallGraphBuilder.java:532)[m[m
+BREW 07/27/2022 - 16:48:29 [31mProcess (DidFail, 16362) error: 	at soot.jimple.toolkits.callgraph.OnFlyCallGraphBuilder.processReachables(OnFlyCallGraphBuilder.java:427)[m[m
+BREW 07/27/2022 - 16:48:29 [31mProcess (DidFail, 16362) error: 	at soot.jimple.toolkits.callgraph.CallGraphBuilder.build(CallGraphBuilder.java:84)[m[m
+BREW 07/27/2022 - 16:48:29 [31mProcess (DidFail, 16362) error: 	at soot.jimple.toolkits.callgraph.CHATransformer.internalTransform(CHATransformer.java:43)[m[m
+BREW 07/27/2022 - 16:48:29 [31mProcess (DidFail, 16362) error: 	at soot.SceneTransformer.transform(SceneTransformer.java:39)[m[m
+BREW 07/27/2022 - 16:48:29 [31mProcess (DidFail, 16362) error: 	at soot.SceneTransformer.transform(SceneTransformer.java:45)[m[m
+BREW 07/27/2022 - 16:48:29 [31mProcess (DidFail, 16362) error: 	at soot.SceneTransformer.transform(SceneTransformer.java:50)[m[m
+BREW 07/27/2022 - 16:48:29 [31mProcess (DidFail, 16362) error: 	at soot.jimple.interproc.cc.ConnectedComponents.detectEntryPoints(ConnectedComponents.java:360)[m[m
+BREW 07/27/2022 - 16:48:29 [31mProcess (DidFail, 16362) error: 	at soot.jimple.interproc.cc.ConnectedComponents.computeConnectedComponents(ConnectedComponents.java:218)[m[m
+BREW 07/27/2022 - 16:48:29 [31mProcess (DidFail, 16362) error: 	at soot.jimple.interproc.cc.Main.main(Main.java:11)[m[m
+BREW 07/27/2022 - 16:48:29 [31mProcess (DidFail, 16362) error: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)[m[m
+BREW 07/27/2022 - 16:48:29 [31mProcess (DidFail, 16362) error: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)[m[m
+BREW 07/27/2022 - 16:48:29 [31mProcess (DidFail, 16362) error: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)[m[m
+BREW 07/27/2022 - 16:48:29 [31mProcess (DidFail, 16362) error: 	at java.lang.reflect.Method.invoke(Method.java:498)[m[m
+BREW 07/27/2022 - 16:48:29 [31mProcess (DidFail, 16362) error: 	at org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:58)[m[m
+BREW 07/27/2022 - 16:48:29 Process (DidFail, 16362) output: Running FlowDroid on /media/sf_brewThesis/data/storage/00249.apk
+BREW 07/27/2022 - 16:48:56 [31mProcess (DidFail, 16362) error: Usage: /home/fpauck/tools/DidFail/cert/taintflows.py [OPTIONS] [FILES][m[m
+BREW 07/27/2022 - 16:48:56 [31mProcess (DidFail, 16362) error: Files: For each app, should include manifest, epicc, and flowdroid output.[m[m
+BREW 07/27/2022 - 16:48:56 [31mProcess (DidFail, 16362) error: Options: [m[m
+BREW 07/27/2022 - 16:48:56 [31mProcess (DidFail, 16362) error:   --gv graphfile: Generates graphfile.{gv,txt,pdf}[m[m
+BREW 07/27/2022 - 16:48:56 [31mProcess (DidFail, 16362) error:   --js jsonfile:  Writes the flows and taint solution in JSON format[m[m
+BREW 07/27/2022 - 16:48:56 [31mProcess (DidFail, 16362) error:   --find-sources: Just find a list of sources[m[m
+BREW 07/27/2022 - 16:48:56 [31mProcess (DidFail, 16362) error:   --dump-dbg FILE: Dump debugging info to FILE[m[m
+BREW 07/27/2022 - 16:48:56 [31mProcess (DidFail, 16362) error:   --only-intents: Only consider flows that involve an intent[m[m
+BREW 07/27/2022 - 16:48:56 [31mProcess (DidFail, 16362) error:   --quiet:        Don't write as much to stdout[m[m
+BREW 07/27/2022 - 16:48:56 [31mProcess (DidFail, 16362) error:   --no-comp-name: Don't distinguish between components in a single app[m[m
+BREW 07/27/2022 - 16:48:56 [31mProcess (DidFail, 16362) error:   --quiet2:       Write even less to stdout[m[m
+BREW 07/27/2022 - 16:48:56 Process (DidFail, 16362) output: Failure!
+BREW 07/27/2022 - 16:48:57 Process 16362 (DidFail) terminated sucessfully (0)
+BREW 07/27/2022 - 16:48:57 Result available: /home/fpauck/tools/DidFail/AQL/results/00249
+BREW 07/27/2022 - 16:48:57 Finished execution of internal DidFail (03-2015-intra) after 252.17 seconds. [/home/fpauck/tools/DidFail/AQL: /home/fpauck/tools/DidFail/cert/run-didfail.sh /home/fpauck/tools/DidFail/AQL/results/00249 /media/sf_brewThesis/data/storage/00249.apk]
+BREW 07/27/2022 - 16:48:57 Running on exit event for the tool: DidFail (03-2015-intra)
+BREW 07/27/2022 - 16:48:57 Timeout-Timer (DidFail) stopped normally.
+BREW 07/27/2022 - 16:48:57 Process (16557) output: Not root! Reattempting as root...
+BREW 07/27/2022 - 16:48:57 Process (16557) output: Root! Flushing memory...
+BREW 07/27/2022 - 16:48:57 Setting variable (%RESULT_FILE%) value to: "/home/fpauck/tools/DidFail/AQL/results/00249"
+BREW 07/27/2022 - 16:48:57 Setting variable (%APP_APK_IN_NAME%) value to: "ottohybrid"
+BREW 07/27/2022 - 16:48:57 Setting variable (%APP_APK_NAME%) value to: "ottohybrid"
+BREW 07/27/2022 - 16:48:57 Setting variable (%APP_APK_IN_FILENAME%) value to: "00249"
+BREW 07/27/2022 - 16:48:57 Setting variable (%APP_APK_FILENAME%) value to: "00249"
+BREW 07/27/2022 - 16:48:57 Setting variable (%APP_APK_IN%) value to: "/media/sf_brewThesis/data/storage/00249.apk"
+BREW 07/27/2022 - 16:48:57 Setting variable (%APP_APK%) value to: "/media/sf_brewThesis/data/storage/00249.apk"
+BREW 07/27/2022 - 16:48:57 Setting variable (%APP_APK_IN_PACKAGE%) value to: "de.cellular.ottohybrid"
+BREW 07/27/2022 - 16:48:57 Setting variable (%APP_APK_PACKAGE%) value to: "de.cellular.ottohybrid"
+BREW 07/27/2022 - 16:48:57 Warning: File for hash creation is a directory (/home/fpauck/tools/DidFail/AQL/results/00249). Using only its name ("00249") for hash creation.
+BREW 07/27/2022 - 16:48:57 Timeout (DefaultConverter for DidFail) set to: 60m
+BREW 07/27/2022 - 16:48:57 Starting execution of default DefaultConverter for DidFail (2.0.1-SNAPSHOT). [/media/sf_brewThesis: DefaultConverter for null (2.0.1-SNAPSHOT) with { %APP_APK_IN_FILENAME% = '00249', %APP_APK_IN_NAME% = 'ottohybrid', %APP_APK_NAME% = 'ottohybrid', %APP_APK_IN% = '/media/sf_brewThesis/data/storage/00249.apk', %APP_APK_FILENAME% = '00249', %APP_APK% = '/media/sf_brewThesis/data/storage/00249.apk', %APP_APK_PACKAGE% = 'de.cellular.ottohybrid', %RESULT_FILE% = '/home/fpauck/tools/DidFail/AQL/results/00249', %LINENUMBER_IN% = '-1', %APP_APK_IN_PACKAGE% = 'de.cellular.ottohybrid' }]
+BREW 07/27/2022 - 16:48:58 Storing answered task: /media/sf_brewThesis/data/storage/00313.xml [/home/fpauck/tools/DidFail/cert/run-didfail.sh /home/fpauck/tools/DidFail/AQL/results/00249 6cfaf6edd23de4b93282693127d9b362c85c526880a4756314a5657cf2f15ccb]
+BREW 07/27/2022 - 16:48:58 Finished execution of default DefaultConverter for DidFail (2.0.1-SNAPSHOT) after 0.49 seconds. [/media/sf_brewThesis: DefaultConverter for null (2.0.1-SNAPSHOT) with { %APP_APK_IN_FILENAME% = '00249', %APP_APK_IN_NAME% = 'ottohybrid', %APP_APK_NAME% = 'ottohybrid', %APP_APK_IN% = '/media/sf_brewThesis/data/storage/00249.apk', %APP_APK_FILENAME% = '00249', %APP_APK% = '/media/sf_brewThesis/data/storage/00249.apk', %APP_APK_PACKAGE% = 'de.cellular.ottohybrid', %RESULT_FILE% = '/home/fpauck/tools/DidFail/AQL/results/00249', %LINENUMBER_IN% = '-1', %APP_APK_IN_PACKAGE% = 'de.cellular.ottohybrid' }]
+BREW 07/27/2022 - 16:48:58 [1;32mFinished (after 254.147s): Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/1/de.cellular.ottohybrid.apk') ?[m[m
+BREW 07/27/2022 - 16:48:58
+[1m***** Answer (/media/sf_brewThesis/answers/answer_27_07_2022-16_48_58-001.xml) *****
+[m*** Flows ***
+
+[m[m
+BREW 07/27/2022 - 16:48:58
+
+
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<answer>
+    <flows/>
+</answer>
+
+
+
+
+BREW 07/27/2022 - 16:48:58 Continuing with configuration: /media/sf_webservice/config.xml (a9ee75f31fbb720aa6746ae2f72aade2)
+BREW 07/27/2022 - 16:48:58 [1;32mStarting: Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/1/de.hafas.android.db.apk') ?[m[m
+BREW 07/27/2022 - 16:48:58 Parsed: Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/1/de.hafas.android.db.apk') ?
+BREW 07/27/2022 - 16:48:58 Resolved: Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/1/de.hafas.android.db.apk') ?
+BREW 07/27/2022 - 16:48:58 Transformation-rule applied: ToolSelection
+BREW 07/27/2022 - 16:48:58 Transformation-rule applied: ApplySimplifier
+BREW 07/27/2022 - 16:48:58
+Transformed:
+Flows IN App(SIMPLIFY [
+	'/home/fpauck/benchmarks/temp/top15/subset/1/de.hafas.android.db.apk' !,
+	Arguments IN App('/home/fpauck/benchmarks/temp/top15/subset/1/de.hafas.android.db.apk') USES 'SimplifyParser' !
+] !) USES 'DidFail' ?
+BREW 07/27/2022 - 16:48:58 Loaded storage from: /media/sf_brewThesis/data/storage/storage.ser
+BREW 07/27/2022 - 16:48:58 Setting variable (%MEMORY%) value to: "96"
+BREW 07/27/2022 - 16:48:58 Setting variable (%ANDROID_PLATFORMS%) value to: "/media/sf_sdks/platforms/"
+BREW 07/27/2022 - 16:48:58 Setting variable (%ANDROID_BUILDTOOLS%) value to: "null"
+BREW 07/27/2022 - 16:48:58 Setting variable (%DATE%) value to: "27_07_2022-16_48_58"
+BREW 07/27/2022 - 16:48:58 Setting variable (%LINENUMBER_IN%) value to: "-1"
+BREW 07/27/2022 - 16:48:58 Setting variable (%LINENUMBER_IN%) value to: "-1"
+BREW 07/27/2022 - 16:48:58 Setting variable (%MEMORY%) value to: "48"
+BREW 07/27/2022 - 16:48:58 Setting variable (%ANDROID_PLATFORMS%) value to: "/media/sf_sdks/platforms/"
+BREW 07/27/2022 - 16:48:58 Setting variable (%ANDROID_BUILDTOOLS%) value to: "null"
+BREW 07/27/2022 - 16:48:58 Setting variable (%DATE%) value to: "27_07_2022-16_48_58"
+BREW 07/27/2022 - 16:48:59 Setting variable (%APP_APK_IN%) value to: "/home/fpauck/benchmarks/temp/top15/subset/1/de.hafas.android.db.apk"
+BREW 07/27/2022 - 16:48:59 Setting variable (%APP_APK%) value to: "/home/fpauck/benchmarks/temp/top15/subset/1/de.hafas.android.db.apk"
+BREW 07/27/2022 - 16:48:59 Setting variable (%APP_APK_IN_FILENAME%) value to: "de.hafas.android.db"
+BREW 07/27/2022 - 16:48:59 Setting variable (%APP_APK_FILENAME%) value to: "de.hafas.android.db"
+BREW 07/27/2022 - 16:48:59 Setting variable (%APP_APK_IN_NAME%) value to: "db"
+BREW 07/27/2022 - 16:48:59 Setting variable (%APP_APK_NAME%) value to: "db"
+BREW 07/27/2022 - 16:48:59 Setting variable (%APP_APK_IN_PACKAGE%) value to: "de.hafas.android.db"
+BREW 07/27/2022 - 16:48:59 Setting variable (%APP_APK_PACKAGE%) value to: "de.hafas.android.db"
+BREW 07/27/2022 - 16:48:59 Setting variable (%LINENUMBER_IN%) value to: "-1"
+BREW 07/27/2022 - 16:49:00 Warning: Maximum memory (105 GB) specified in config file will never become available. Using maximal available memory instead: 101 GB
+BREW 07/27/2022 - 16:49:00 Timeout (Answer-Loader) set to: 60m
+BREW 07/27/2022 - 16:49:00 Starting execution of default Answer-Loader (2.0.1-SNAPSHOT). [/media/sf_brewThesis/.: Load from file: /media/sf_brewThesis/data/storage/00320.%FILE_ENDING%]
+BREW 07/27/2022 - 16:49:00 Finished execution of default Answer-Loader (2.0.1-SNAPSHOT) after 0.0 seconds. [/media/sf_brewThesis/.: Load from file: /home/fpauck/benchmarks/temp/top15/subset/1/de.hafas.android.db.apk]
+BREW 07/27/2022 - 16:49:00 Timeout (SimplifyParser) set to: 60m
+BREW 07/27/2022 - 16:49:01 Setting variable (%ANSWERS%) value to: "/home/fpauck/benchmarks/temp/top15/subset/1/de.hafas.android.db.apk"
+BREW 07/27/2022 - 16:49:01 Setting variable (%ANSWERSHASH%) value to: "9544e2963bbb845dd47b7db8fc936d8aa314309604f924210d1fc7834ad9f0b7"
+BREW 07/27/2022 - 16:49:01 Setting variable (%ANSWERSHASH_MD5%) value to: "c220553a4dc2e3444844c1ce002a8b05"
+BREW 07/27/2022 - 16:49:01 Setting variable (%ANSWERSHASH_SHA-1%) value to: "8f35221f92f2c1ce16813781bf230d9f3a7e0fdd"
+BREW 07/27/2022 - 16:49:01 Setting variable (%ANSWERSHASH_SHA-256%) value to: "9544e2963bbb845dd47b7db8fc936d8aa314309604f924210d1fc7834ad9f0b7"
+BREW 07/27/2022 - 16:49:01 Loaded from storage: Arguments IN App('/home/fpauck/benchmarks/temp/top15/subset/1/de.hafas.android.db.apk') USES 'SimplifyParser' !
+BREW 07/27/2022 - 16:49:02 Replacing variable (%ANSWERS%) value ("/home/fpauck/benchmarks/temp/top15/subset/1/de.hafas.android.db.apk") by: "/home/fpauck/benchmarks/temp/top15/subset/1/de.hafas.android.db.apk, /media/sf_brewThesis/data/storage/00256.txt"
+BREW 07/27/2022 - 16:49:02 Replacing variable (%ANSWERSHASH%) value ("9544e2963bbb845dd47b7db8fc936d8aa314309604f924210d1fc7834ad9f0b7") by: "9624c671adbfc0b1a566c744933345f03d77d77f1d1de84886052c7158cdb9f5"
+BREW 07/27/2022 - 16:49:02 Replacing variable (%ANSWERSHASH_MD5%) value ("c220553a4dc2e3444844c1ce002a8b05") by: "104d83314a585b06d4be670c54a22cea"
+BREW 07/27/2022 - 16:49:02 Replacing variable (%ANSWERSHASH_SHA-1%) value ("8f35221f92f2c1ce16813781bf230d9f3a7e0fdd") by: "a0e00578421e8cf791dd83145bf3b9425185a8ba"
+BREW 07/27/2022 - 16:49:02 Replacing variable (%ANSWERSHASH_SHA-256%) value ("9544e2963bbb845dd47b7db8fc936d8aa314309604f924210d1fc7834ad9f0b7") by: "9624c671adbfc0b1a566c744933345f03d77d77f1d1de84886052c7158cdb9f5"
+BREW 07/27/2022 - 16:49:02 Timeout (DefaultSimplifyOperator) set to: 60m
+BREW 07/27/2022 - 16:49:03
+Loaded from storage:
+SIMPLIFY [
+	'/home/fpauck/benchmarks/temp/top15/subset/1/de.hafas.android.db.apk' !,
+	Arguments IN App('/home/fpauck/benchmarks/temp/top15/subset/1/de.hafas.android.db.apk') USES 'SimplifyParser' !
+] !
+BREW 07/27/2022 - 16:49:03 Setting variable (%APP_APK_IN%) value to: "/media/sf_brewThesis/data/storage/00254.apk"
+BREW 07/27/2022 - 16:49:03 Setting variable (%APP_APK%) value to: "/media/sf_brewThesis/data/storage/00254.apk"
+BREW 07/27/2022 - 16:49:03 Setting variable (%APP_APK_IN_FILENAME%) value to: "00254"
+BREW 07/27/2022 - 16:49:03 Setting variable (%APP_APK_FILENAME%) value to: "00254"
+BREW 07/27/2022 - 16:49:03 Setting variable (%APP_APK_IN_NAME%) value to: "db"
+BREW 07/27/2022 - 16:49:03 Setting variable (%APP_APK_NAME%) value to: "db"
+BREW 07/27/2022 - 16:49:03 Setting variable (%APP_APK_IN_PACKAGE%) value to: "de.hafas.android.db"
+BREW 07/27/2022 - 16:49:03 Setting variable (%APP_APK_PACKAGE%) value to: "de.hafas.android.db"
+BREW 07/27/2022 - 16:49:04 Timeout (DidFail) set to: 60m
+BREW 07/27/2022 - 16:49:05 Starting execution of internal DidFail (03-2015-intra). [/home/fpauck/tools/DidFail/AQL: /home/fpauck/tools/DidFail/cert/run-didfail.sh /home/fpauck/tools/DidFail/AQL/results/00254 /media/sf_brewThesis/data/storage/00254.apk]
+BREW 07/27/2022 - 16:49:05 Setting variable (%PID%) value to: "16592"
+BREW 07/27/2022 - 16:49:05 Process (DidFail, 16592) output: Processing /media/sf_brewThesis/data/storage/00254.apk
+BREW 07/27/2022 - 16:49:05 Process (DidFail, 16592) output: Transforming /media/sf_brewThesis/data/storage/00254.apk
+BREW 07/27/2022 - 16:51:14 [31mProcess (DidFail, 16592) error: mv: cannot stat '/home/fpauck/tools/DidFail/AQL/results/00254/sootOutput/00254.apk': No such file or directory[m[m
+BREW 07/27/2022 - 16:51:14 [31mProcess (DidFail, 16592) error: java.io.FileNotFoundException: /home/fpauck/tools/DidFail/AQL/results/00254/00254.apk (No such file or directory)[m[m
+BREW 07/27/2022 - 16:51:14 [31mProcess (DidFail, 16592) error: 	at java.util.zip.ZipFile.open(Native Method)[m[m
+BREW 07/27/2022 - 16:51:14 [31mProcess (DidFail, 16592) error: 	at java.util.zip.ZipFile.<init>(ZipFile.java:226)[m[m
+BREW 07/27/2022 - 16:51:14 [31mProcess (DidFail, 16592) error: 	at java.util.zip.ZipFile.<init>(ZipFile.java:155)[m[m
+BREW 07/27/2022 - 16:51:14 [31mProcess (DidFail, 16592) error: 	at java.util.zip.ZipFile.<init>(ZipFile.java:126)[m[m
+BREW 07/27/2022 - 16:51:14 [31mProcess (DidFail, 16592) error: 	at soot.jimple.interproc.cc.manifest.ManifestPullParser.parse(ManifestPullParser.java:136)[m[m
+BREW 07/27/2022 - 16:51:14 [31mProcess (DidFail, 16592) error: 	at soot.jimple.interproc.cc.ConnectedComponents.computeConnectedComponents(ConnectedComponents.java:99)[m[m
+BREW 07/27/2022 - 16:51:14 [31mProcess (DidFail, 16592) error: 	at soot.jimple.interproc.cc.Main.main(Main.java:11)[m[m
+BREW 07/27/2022 - 16:51:14 [31mProcess (DidFail, 16592) error: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)[m[m
+BREW 07/27/2022 - 16:51:14 [31mProcess (DidFail, 16592) error: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)[m[m
+BREW 07/27/2022 - 16:51:14 [31mProcess (DidFail, 16592) error: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)[m[m
+BREW 07/27/2022 - 16:51:14 [31mProcess (DidFail, 16592) error: 	at java.lang.reflect.Method.invoke(Method.java:498)[m[m
+BREW 07/27/2022 - 16:51:14 [31mProcess (DidFail, 16592) error: 	at org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:58)[m[m
+BREW 07/27/2022 - 16:51:14 Process (DidFail, 16592) output: Running DARE on /media/sf_brewThesis/data/storage/00254.apk
+BREW 07/27/2022 - 16:51:14 Process (DidFail, 16592) output: Running EPICC on /media/sf_brewThesis/data/storage/00254.apk
+BREW 07/27/2022 - 16:51:16 Process (DidFail, 16592) output: Running FlowDroid on /media/sf_brewThesis/data/storage/00254.apk
+BREW 07/27/2022 - 16:51:16 [31mProcess (DidFail, 16592) error: Usage: /home/fpauck/tools/DidFail/cert/taintflows.py [OPTIONS] [FILES][m[m
+BREW 07/27/2022 - 16:51:16 [31mProcess (DidFail, 16592) error: Files: For each app, should include manifest, epicc, and flowdroid output.[m[m
+BREW 07/27/2022 - 16:51:16 [31mProcess (DidFail, 16592) error: Options: [m[m
+BREW 07/27/2022 - 16:51:16 [31mProcess (DidFail, 16592) error:   --gv graphfile: Generates graphfile.{gv,txt,pdf}[m[m
+BREW 07/27/2022 - 16:51:16 [31mProcess (DidFail, 16592) error:   --js jsonfile:  Writes the flows and taint solution in JSON format[m[m
+BREW 07/27/2022 - 16:51:16 [31mProcess (DidFail, 16592) error:   --find-sources: Just find a list of sources[m[m
+BREW 07/27/2022 - 16:51:16 [31mProcess (DidFail, 16592) error:   --dump-dbg FILE: Dump debugging info to FILE[m[m
+BREW 07/27/2022 - 16:51:16 [31mProcess (DidFail, 16592) error:   --only-intents: Only consider flows that involve an intent[m[m
+BREW 07/27/2022 - 16:51:16 [31mProcess (DidFail, 16592) error:   --quiet:        Don't write as much to stdout[m[m
+BREW 07/27/2022 - 16:51:16 [31mProcess (DidFail, 16592) error:   --no-comp-name: Don't distinguish between components in a single app[m[m
+BREW 07/27/2022 - 16:51:16 [31mProcess (DidFail, 16592) error:   --quiet2:       Write even less to stdout[m[m
+BREW 07/27/2022 - 16:51:16 Process (DidFail, 16592) output: Failure!
+BREW 07/27/2022 - 16:51:16 Process 16592 (DidFail) terminated sucessfully (0)
+BREW 07/27/2022 - 16:51:16 Result available: /home/fpauck/tools/DidFail/AQL/results/00254
+BREW 07/27/2022 - 16:51:16 Finished execution of internal DidFail (03-2015-intra) after 132.34 seconds. [/home/fpauck/tools/DidFail/AQL: /home/fpauck/tools/DidFail/cert/run-didfail.sh /home/fpauck/tools/DidFail/AQL/results/00254 /media/sf_brewThesis/data/storage/00254.apk]
+BREW 07/27/2022 - 16:51:16 Running on exit event for the tool: DidFail (03-2015-intra)
+BREW 07/27/2022 - 16:51:17 Timeout-Timer (DidFail) stopped normally.
+BREW 07/27/2022 - 16:51:17 Process (16699) output: Not root! Reattempting as root...
+BREW 07/27/2022 - 16:51:17 Process (16699) output: Root! Flushing memory...
+BREW 07/27/2022 - 16:51:17 Setting variable (%RESULT_FILE%) value to: "/home/fpauck/tools/DidFail/AQL/results/00254"
+BREW 07/27/2022 - 16:51:17 Setting variable (%APP_APK_IN_NAME%) value to: "db"
+BREW 07/27/2022 - 16:51:17 Setting variable (%APP_APK_NAME%) value to: "db"
+BREW 07/27/2022 - 16:51:17 Setting variable (%APP_APK_IN_FILENAME%) value to: "00254"
+BREW 07/27/2022 - 16:51:17 Setting variable (%APP_APK_FILENAME%) value to: "00254"
+BREW 07/27/2022 - 16:51:17 Setting variable (%APP_APK_IN%) value to: "/media/sf_brewThesis/data/storage/00254.apk"
+BREW 07/27/2022 - 16:51:17 Setting variable (%APP_APK%) value to: "/media/sf_brewThesis/data/storage/00254.apk"
+BREW 07/27/2022 - 16:51:17 Setting variable (%APP_APK_IN_PACKAGE%) value to: "de.hafas.android.db"
+BREW 07/27/2022 - 16:51:17 Setting variable (%APP_APK_PACKAGE%) value to: "de.hafas.android.db"
+BREW 07/27/2022 - 16:51:17 Warning: File for hash creation is a directory (/home/fpauck/tools/DidFail/AQL/results/00254). Using only its name ("00254") for hash creation.
+BREW 07/27/2022 - 16:51:17 Timeout (DefaultConverter for DidFail) set to: 60m
+BREW 07/27/2022 - 16:51:18 Starting execution of default DefaultConverter for DidFail (2.0.1-SNAPSHOT). [/media/sf_brewThesis: DefaultConverter for null (2.0.1-SNAPSHOT) with { %APP_APK_IN_FILENAME% = '00254', %APP_APK_IN_NAME% = 'db', %APP_APK_NAME% = 'db', %APP_APK_IN% = '/media/sf_brewThesis/data/storage/00254.apk', %APP_APK_FILENAME% = '00254', %APP_APK% = '/media/sf_brewThesis/data/storage/00254.apk', %APP_APK_PACKAGE% = 'de.hafas.android.db', %RESULT_FILE% = '/home/fpauck/tools/DidFail/AQL/results/00254', %LINENUMBER_IN% = '-1', %APP_APK_IN_PACKAGE% = 'de.hafas.android.db' }]
+BREW 07/27/2022 - 16:51:19 Storing answered task: /media/sf_brewThesis/data/storage/00318.xml [/home/fpauck/tools/DidFail/cert/run-didfail.sh /home/fpauck/tools/DidFail/AQL/results/00254 af58db3468459a10e2b5646fa74bff58ef9f9983360194c49c64eaf2eb31eec4]
+BREW 07/27/2022 - 16:51:19 Finished execution of default DefaultConverter for DidFail (2.0.1-SNAPSHOT) after 1.87 seconds. [/media/sf_brewThesis: DefaultConverter for null (2.0.1-SNAPSHOT) with { %APP_APK_IN_FILENAME% = '00254', %APP_APK_IN_NAME% = 'db', %APP_APK_NAME% = 'db', %APP_APK_IN% = '/media/sf_brewThesis/data/storage/00254.apk', %APP_APK_FILENAME% = '00254', %APP_APK% = '/media/sf_brewThesis/data/storage/00254.apk', %APP_APK_PACKAGE% = 'de.hafas.android.db', %RESULT_FILE% = '/home/fpauck/tools/DidFail/AQL/results/00254', %LINENUMBER_IN% = '-1', %APP_APK_IN_PACKAGE% = 'de.hafas.android.db' }]
+BREW 07/27/2022 - 16:51:19 [1;32mFinished (after 141.071s): Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/1/de.hafas.android.db.apk') ?[m[m
+BREW 07/27/2022 - 16:51:19
+[1m***** Answer (/media/sf_brewThesis/answers/answer_27_07_2022-16_51_19-001.xml) *****
+[m*** Flows ***
+
+[m[m
+BREW 07/27/2022 - 16:51:19
+
+
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<answer>
+    <flows/>
+</answer>
+
+
+
+
+BREW 07/27/2022 - 16:51:20 Continuing with configuration: /media/sf_webservice/config.xml (a9ee75f31fbb720aa6746ae2f72aade2)
+BREW 07/27/2022 - 16:51:20 [1;32mStarting: Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/1/de.rki.coronawarnapp.apk') ?[m[m
+BREW 07/27/2022 - 16:51:20 Parsed: Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/1/de.rki.coronawarnapp.apk') ?
+BREW 07/27/2022 - 16:51:20 Resolved: Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/1/de.rki.coronawarnapp.apk') ?
+BREW 07/27/2022 - 16:51:20 Transformation-rule applied: ToolSelection
+BREW 07/27/2022 - 16:51:20 Transformation-rule applied: ApplySimplifier
+BREW 07/27/2022 - 16:51:20
+Transformed:
+Flows IN App(SIMPLIFY [
+	'/home/fpauck/benchmarks/temp/top15/subset/1/de.rki.coronawarnapp.apk' !,
+	Arguments IN App('/home/fpauck/benchmarks/temp/top15/subset/1/de.rki.coronawarnapp.apk') USES 'SimplifyParser' !
+] !) USES 'DidFail' ?
+BREW 07/27/2022 - 16:51:20 Loaded storage from: /media/sf_brewThesis/data/storage/storage.ser
+BREW 07/27/2022 - 16:51:20 Setting variable (%MEMORY%) value to: "96"
+BREW 07/27/2022 - 16:51:20 Setting variable (%ANDROID_PLATFORMS%) value to: "/media/sf_sdks/platforms/"
+BREW 07/27/2022 - 16:51:20 Setting variable (%ANDROID_BUILDTOOLS%) value to: "null"
+BREW 07/27/2022 - 16:51:20 Setting variable (%DATE%) value to: "27_07_2022-16_51_20"
+BREW 07/27/2022 - 16:51:20 Setting variable (%LINENUMBER_IN%) value to: "-1"
+BREW 07/27/2022 - 16:51:20 Setting variable (%LINENUMBER_IN%) value to: "-1"
+BREW 07/27/2022 - 16:51:20 Setting variable (%MEMORY%) value to: "48"
+BREW 07/27/2022 - 16:51:20 Setting variable (%ANDROID_PLATFORMS%) value to: "/media/sf_sdks/platforms/"
+BREW 07/27/2022 - 16:51:20 Setting variable (%ANDROID_BUILDTOOLS%) value to: "null"
+BREW 07/27/2022 - 16:51:20 Setting variable (%DATE%) value to: "27_07_2022-16_51_20"
+BREW 07/27/2022 - 16:51:20 Setting variable (%APP_APK_IN%) value to: "/home/fpauck/benchmarks/temp/top15/subset/1/de.rki.coronawarnapp.apk"
+BREW 07/27/2022 - 16:51:20 Setting variable (%APP_APK%) value to: "/home/fpauck/benchmarks/temp/top15/subset/1/de.rki.coronawarnapp.apk"
+BREW 07/27/2022 - 16:51:20 Setting variable (%APP_APK_IN_FILENAME%) value to: "de.rki.coronawarnapp"
+BREW 07/27/2022 - 16:51:20 Setting variable (%APP_APK_FILENAME%) value to: "de.rki.coronawarnapp"
+BREW 07/27/2022 - 16:51:20 Setting variable (%APP_APK_IN_NAME%) value to: "coronawarnapp"
+BREW 07/27/2022 - 16:51:20 Setting variable (%APP_APK_NAME%) value to: "coronawarnapp"
+BREW 07/27/2022 - 16:51:20 Setting variable (%APP_APK_IN_PACKAGE%) value to: "de.rki.coronawarnapp"
+BREW 07/27/2022 - 16:51:20 Setting variable (%APP_APK_PACKAGE%) value to: "de.rki.coronawarnapp"
+BREW 07/27/2022 - 16:51:20 Setting variable (%LINENUMBER_IN%) value to: "-1"
+BREW 07/27/2022 - 16:51:21 Warning: Maximum memory (105 GB) specified in config file will never become available. Using maximal available memory instead: 101 GB
+BREW 07/27/2022 - 16:51:21 Timeout (SimplifyParser) set to: 60m
+BREW 07/27/2022 - 16:51:21 Timeout (Answer-Loader) set to: 60m
+BREW 07/27/2022 - 16:51:21 Starting execution of default Answer-Loader (2.0.1-SNAPSHOT). [/media/sf_brewThesis/.: Load from file: /media/sf_brewThesis/data/storage/00325.%FILE_ENDING%]
+BREW 07/27/2022 - 16:51:21 Finished execution of default Answer-Loader (2.0.1-SNAPSHOT) after 0.0 seconds. [/media/sf_brewThesis/.: Load from file: /home/fpauck/benchmarks/temp/top15/subset/1/de.rki.coronawarnapp.apk]
+BREW 07/27/2022 - 16:51:21 Setting variable (%ANSWERS%) value to: "/home/fpauck/benchmarks/temp/top15/subset/1/de.rki.coronawarnapp.apk"
+BREW 07/27/2022 - 16:51:21 Setting variable (%ANSWERSHASH%) value to: "df74c6b3a747c2a10427531262dfd73b1d47f20bc25da4867f95bda39b5f272e"
+BREW 07/27/2022 - 16:51:21 Setting variable (%ANSWERSHASH_MD5%) value to: "fe0400b4de861d7cf78aca179a4a64b1"
+BREW 07/27/2022 - 16:51:21 Setting variable (%ANSWERSHASH_SHA-1%) value to: "912ce485056833e125cb11b3d4ccd68a76c9b531"
+BREW 07/27/2022 - 16:51:21 Setting variable (%ANSWERSHASH_SHA-256%) value to: "df74c6b3a747c2a10427531262dfd73b1d47f20bc25da4867f95bda39b5f272e"
+BREW 07/27/2022 - 16:51:21 Loaded from storage: Arguments IN App('/home/fpauck/benchmarks/temp/top15/subset/1/de.rki.coronawarnapp.apk') USES 'SimplifyParser' !
+BREW 07/27/2022 - 16:51:21 Replacing variable (%ANSWERS%) value ("/home/fpauck/benchmarks/temp/top15/subset/1/de.rki.coronawarnapp.apk") by: "/home/fpauck/benchmarks/temp/top15/subset/1/de.rki.coronawarnapp.apk, /media/sf_brewThesis/data/storage/00261.txt"
+BREW 07/27/2022 - 16:51:21 Replacing variable (%ANSWERSHASH%) value ("df74c6b3a747c2a10427531262dfd73b1d47f20bc25da4867f95bda39b5f272e") by: "aefdd77c302d864fc298edaca55246c17a1917acb9cff55ce4c017309b6b9210"
+BREW 07/27/2022 - 16:51:21 Replacing variable (%ANSWERSHASH_MD5%) value ("fe0400b4de861d7cf78aca179a4a64b1") by: "7e72fe4e7ff0470d2b6b7e705143b8bc"
+BREW 07/27/2022 - 16:51:21 Replacing variable (%ANSWERSHASH_SHA-1%) value ("912ce485056833e125cb11b3d4ccd68a76c9b531") by: "26baf6e871b2121e2f260bde07eff4e38dd08e47"
+BREW 07/27/2022 - 16:51:21 Replacing variable (%ANSWERSHASH_SHA-256%) value ("df74c6b3a747c2a10427531262dfd73b1d47f20bc25da4867f95bda39b5f272e") by: "aefdd77c302d864fc298edaca55246c17a1917acb9cff55ce4c017309b6b9210"
+BREW 07/27/2022 - 16:51:21 Timeout (DefaultSimplifyOperator) set to: 60m
+BREW 07/27/2022 - 16:51:21
+Loaded from storage:
+SIMPLIFY [
+	'/home/fpauck/benchmarks/temp/top15/subset/1/de.rki.coronawarnapp.apk' !,
+	Arguments IN App('/home/fpauck/benchmarks/temp/top15/subset/1/de.rki.coronawarnapp.apk') USES 'SimplifyParser' !
+] !
+BREW 07/27/2022 - 16:51:21 Setting variable (%APP_APK_IN%) value to: "/media/sf_brewThesis/data/storage/00259.apk"
+BREW 07/27/2022 - 16:51:21 Setting variable (%APP_APK%) value to: "/media/sf_brewThesis/data/storage/00259.apk"
+BREW 07/27/2022 - 16:51:21 Setting variable (%APP_APK_IN_FILENAME%) value to: "00259"
+BREW 07/27/2022 - 16:51:21 Setting variable (%APP_APK_FILENAME%) value to: "00259"
+BREW 07/27/2022 - 16:51:21 Setting variable (%APP_APK_IN_NAME%) value to: "coronawarnapp"
+BREW 07/27/2022 - 16:51:21 Setting variable (%APP_APK_NAME%) value to: "coronawarnapp"
+BREW 07/27/2022 - 16:51:21 Setting variable (%APP_APK_IN_PACKAGE%) value to: "de.rki.coronawarnapp"
+BREW 07/27/2022 - 16:51:21 Setting variable (%APP_APK_PACKAGE%) value to: "de.rki.coronawarnapp"
+BREW 07/27/2022 - 16:51:21 Timeout (DidFail) set to: 60m
+BREW 07/27/2022 - 16:51:21 Starting execution of internal DidFail (03-2015-intra). [/home/fpauck/tools/DidFail/AQL: /home/fpauck/tools/DidFail/cert/run-didfail.sh /home/fpauck/tools/DidFail/AQL/results/00259 /media/sf_brewThesis/data/storage/00259.apk]
+BREW 07/27/2022 - 16:51:22 Setting variable (%PID%) value to: "16735"
+BREW 07/27/2022 - 16:51:22 Process (DidFail, 16735) output: Processing /media/sf_brewThesis/data/storage/00259.apk
+BREW 07/27/2022 - 16:51:22 Process (DidFail, 16735) output: Transforming /media/sf_brewThesis/data/storage/00259.apk
+BREW 07/27/2022 - 16:51:29 [31mProcess (DidFail, 16735) error: mv: cannot stat '/home/fpauck/tools/DidFail/AQL/results/00259/sootOutput/00259.apk': No such file or directory[m[m
+BREW 07/27/2022 - 16:51:30 [31mProcess (DidFail, 16735) error: java.io.FileNotFoundException: /home/fpauck/tools/DidFail/AQL/results/00259/00259.apk (No such file or directory)[m[m
+BREW 07/27/2022 - 16:51:30 [31mProcess (DidFail, 16735) error: 	at java.util.zip.ZipFile.open(Native Method)[m[m
+BREW 07/27/2022 - 16:51:30 [31mProcess (DidFail, 16735) error: 	at java.util.zip.ZipFile.<init>(ZipFile.java:226)[m[m
+BREW 07/27/2022 - 16:51:30 [31mProcess (DidFail, 16735) error: 	at java.util.zip.ZipFile.<init>(ZipFile.java:155)[m[m
+BREW 07/27/2022 - 16:51:30 [31mProcess (DidFail, 16735) error: 	at java.util.zip.ZipFile.<init>(ZipFile.java:126)[m[m
+BREW 07/27/2022 - 16:51:30 [31mProcess (DidFail, 16735) error: 	at soot.jimple.interproc.cc.manifest.ManifestPullParser.parse(ManifestPullParser.java:136)[m[m
+BREW 07/27/2022 - 16:51:30 [31mProcess (DidFail, 16735) error: 	at soot.jimple.interproc.cc.ConnectedComponents.computeConnectedComponents(ConnectedComponents.java:99)[m[m
+BREW 07/27/2022 - 16:51:30 [31mProcess (DidFail, 16735) error: 	at soot.jimple.interproc.cc.Main.main(Main.java:11)[m[m
+BREW 07/27/2022 - 16:51:30 [31mProcess (DidFail, 16735) error: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)[m[m
+BREW 07/27/2022 - 16:51:30 Process (DidFail, 16735) output: Running DARE on /media/sf_brewThesis/data/storage/00259.apk
+BREW 07/27/2022 - 16:51:30 Process (DidFail, 16735) output: Running EPICC on /media/sf_brewThesis/data/storage/00259.apk
+BREW 07/27/2022 - 16:51:30 [31mProcess (DidFail, 16735) error: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)[m[m
+BREW 07/27/2022 - 16:51:30 [31mProcess (DidFail, 16735) error: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)[m[m
+BREW 07/27/2022 - 16:51:30 [31mProcess (DidFail, 16735) error: 	at java.lang.reflect.Method.invoke(Method.java:498)[m[m
+BREW 07/27/2022 - 16:51:30 [31mProcess (DidFail, 16735) error: 	at org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:58)[m[m
+BREW 07/27/2022 - 16:51:31 Process (DidFail, 16735) output: Running FlowDroid on /media/sf_brewThesis/data/storage/00259.apk
+BREW 07/27/2022 - 16:51:31 Process (DidFail, 16735) output: Failure!
+BREW 07/27/2022 - 16:51:31 [31mProcess (DidFail, 16735) error: Usage: /home/fpauck/tools/DidFail/cert/taintflows.py [OPTIONS] [FILES][m[m
+BREW 07/27/2022 - 16:51:31 [31mProcess (DidFail, 16735) error: Files: For each app, should include manifest, epicc, and flowdroid output.[m[m
+BREW 07/27/2022 - 16:51:31 [31mProcess (DidFail, 16735) error: Options: [m[m
+BREW 07/27/2022 - 16:51:31 [31mProcess (DidFail, 16735) error:   --gv graphfile: Generates graphfile.{gv,txt,pdf}[m[m
+BREW 07/27/2022 - 16:51:31 [31mProcess (DidFail, 16735) error:   --js jsonfile:  Writes the flows and taint solution in JSON format[m[m
+BREW 07/27/2022 - 16:51:31 [31mProcess (DidFail, 16735) error:   --find-sources: Just find a list of sources[m[m
+BREW 07/27/2022 - 16:51:31 [31mProcess (DidFail, 16735) error:   --dump-dbg FILE: Dump debugging info to FILE[m[m
+BREW 07/27/2022 - 16:51:31 [31mProcess (DidFail, 16735) error:   --only-intents: Only consider flows that involve an intent[m[m
+BREW 07/27/2022 - 16:51:31 [31mProcess (DidFail, 16735) error:   --quiet:        Don't write as much to stdout[m[m
+BREW 07/27/2022 - 16:51:31 [31mProcess (DidFail, 16735) error:   --no-comp-name: Don't distinguish between components in a single app[m[m
+BREW 07/27/2022 - 16:51:31 [31mProcess (DidFail, 16735) error:   --quiet2:       Write even less to stdout[m[m
+BREW 07/27/2022 - 16:51:31 Process 16735 (DidFail) terminated sucessfully (0)
+BREW 07/27/2022 - 16:51:31 Result available: /home/fpauck/tools/DidFail/AQL/results/00259
+BREW 07/27/2022 - 16:51:31 Finished execution of internal DidFail (03-2015-intra) after 9.67 seconds. [/home/fpauck/tools/DidFail/AQL: /home/fpauck/tools/DidFail/cert/run-didfail.sh /home/fpauck/tools/DidFail/AQL/results/00259 /media/sf_brewThesis/data/storage/00259.apk]
+BREW 07/27/2022 - 16:51:31 Running on exit event for the tool: DidFail (03-2015-intra)
+BREW 07/27/2022 - 16:51:31 Process (16841) output: Not root! Reattempting as root...
+BREW 07/27/2022 - 16:51:31 Timeout-Timer (DidFail) stopped normally.
+BREW 07/27/2022 - 16:51:32 Process (16841) output: Root! Flushing memory...
+BREW 07/27/2022 - 16:51:32 Setting variable (%RESULT_FILE%) value to: "/home/fpauck/tools/DidFail/AQL/results/00259"
+BREW 07/27/2022 - 16:51:32 Setting variable (%APP_APK_IN_NAME%) value to: "coronawarnapp"
+BREW 07/27/2022 - 16:51:32 Setting variable (%APP_APK_NAME%) value to: "coronawarnapp"
+BREW 07/27/2022 - 16:51:32 Setting variable (%APP_APK_IN_FILENAME%) value to: "00259"
+BREW 07/27/2022 - 16:51:32 Setting variable (%APP_APK_FILENAME%) value to: "00259"
+BREW 07/27/2022 - 16:51:32 Setting variable (%APP_APK_IN%) value to: "/media/sf_brewThesis/data/storage/00259.apk"
+BREW 07/27/2022 - 16:51:32 Setting variable (%APP_APK%) value to: "/media/sf_brewThesis/data/storage/00259.apk"
+BREW 07/27/2022 - 16:51:32 Setting variable (%APP_APK_IN_PACKAGE%) value to: "de.rki.coronawarnapp"
+BREW 07/27/2022 - 16:51:32 Setting variable (%APP_APK_PACKAGE%) value to: "de.rki.coronawarnapp"
+BREW 07/27/2022 - 16:51:32 Warning: File for hash creation is a directory (/home/fpauck/tools/DidFail/AQL/results/00259). Using only its name ("00259") for hash creation.
+BREW 07/27/2022 - 16:51:32 Timeout (DefaultConverter for DidFail) set to: 60m
+BREW 07/27/2022 - 16:51:32 Starting execution of default DefaultConverter for DidFail (2.0.1-SNAPSHOT). [/media/sf_brewThesis: DefaultConverter for null (2.0.1-SNAPSHOT) with { %APP_APK_IN_FILENAME% = '00259', %APP_APK_IN_NAME% = 'coronawarnapp', %APP_APK_NAME% = 'coronawarnapp', %APP_APK_IN% = '/media/sf_brewThesis/data/storage/00259.apk', %APP_APK_FILENAME% = '00259', %APP_APK% = '/media/sf_brewThesis/data/storage/00259.apk', %APP_APK_PACKAGE% = 'de.rki.coronawarnapp', %RESULT_FILE% = '/home/fpauck/tools/DidFail/AQL/results/00259', %LINENUMBER_IN% = '-1', %APP_APK_IN_PACKAGE% = 'de.rki.coronawarnapp' }]
+BREW 07/27/2022 - 16:51:32 Storing answered task: /media/sf_brewThesis/data/storage/00323.xml [/home/fpauck/tools/DidFail/cert/run-didfail.sh /home/fpauck/tools/DidFail/AQL/results/00259 a541b94b855bd7565bf1ebe1d4adf1778841346ed1e460ad00f916994a5743f3]
+BREW 07/27/2022 - 16:51:32 Finished execution of default DefaultConverter for DidFail (2.0.1-SNAPSHOT) after 0.61 seconds. [/media/sf_brewThesis: DefaultConverter for null (2.0.1-SNAPSHOT) with { %APP_APK_IN_FILENAME% = '00259', %APP_APK_IN_NAME% = 'coronawarnapp', %APP_APK_NAME% = 'coronawarnapp', %APP_APK_IN% = '/media/sf_brewThesis/data/storage/00259.apk', %APP_APK_FILENAME% = '00259', %APP_APK% = '/media/sf_brewThesis/data/storage/00259.apk', %APP_APK_PACKAGE% = 'de.rki.coronawarnapp', %RESULT_FILE% = '/home/fpauck/tools/DidFail/AQL/results/00259', %LINENUMBER_IN% = '-1', %APP_APK_IN_PACKAGE% = 'de.rki.coronawarnapp' }]
+BREW 07/27/2022 - 16:51:32 [1;32mFinished (after 12.359s): Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/1/de.rki.coronawarnapp.apk') ?[m[m
+BREW 07/27/2022 - 16:51:32
+[1m***** Answer (/media/sf_brewThesis/answers/answer_27_07_2022-16_51_32-001.xml) *****
+[m*** Flows ***
+
+[m[m
+BREW 07/27/2022 - 16:51:32
+
+
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<answer>
+    <flows/>
+</answer>
+
+
+
+
+BREW 07/27/2022 - 16:51:33 Continuing with configuration: /media/sf_webservice/config.xml (a9ee75f31fbb720aa6746ae2f72aade2)
+BREW 07/27/2022 - 16:51:33 [1;32mStarting: Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/1/org.telegram.messenger.apk') ?[m[m
+BREW 07/27/2022 - 16:51:33 Parsed: Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/1/org.telegram.messenger.apk') ?
+BREW 07/27/2022 - 16:51:33 Resolved: Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/1/org.telegram.messenger.apk') ?
+BREW 07/27/2022 - 16:51:33 Transformation-rule applied: ToolSelection
+BREW 07/27/2022 - 16:51:33 Transformation-rule applied: ApplySimplifier
+BREW 07/27/2022 - 16:51:33
+Transformed:
+Flows IN App(SIMPLIFY [
+	'/home/fpauck/benchmarks/temp/top15/subset/1/org.telegram.messenger.apk' !,
+	Arguments IN App('/home/fpauck/benchmarks/temp/top15/subset/1/org.telegram.messenger.apk') USES 'SimplifyParser' !
+] !) USES 'DidFail' ?
+BREW 07/27/2022 - 16:51:33 Loaded storage from: /media/sf_brewThesis/data/storage/storage.ser
+BREW 07/27/2022 - 16:51:33 Setting variable (%MEMORY%) value to: "96"
+BREW 07/27/2022 - 16:51:33 Setting variable (%ANDROID_PLATFORMS%) value to: "/media/sf_sdks/platforms/"
+BREW 07/27/2022 - 16:51:33 Setting variable (%ANDROID_BUILDTOOLS%) value to: "null"
+BREW 07/27/2022 - 16:51:33 Setting variable (%DATE%) value to: "27_07_2022-16_51_33"
+BREW 07/27/2022 - 16:51:33 Setting variable (%LINENUMBER_IN%) value to: "-1"
+BREW 07/27/2022 - 16:51:33 Setting variable (%LINENUMBER_IN%) value to: "-1"
+BREW 07/27/2022 - 16:51:33 Setting variable (%MEMORY%) value to: "48"
+BREW 07/27/2022 - 16:51:33 Setting variable (%ANDROID_PLATFORMS%) value to: "/media/sf_sdks/platforms/"
+BREW 07/27/2022 - 16:51:33 Setting variable (%ANDROID_BUILDTOOLS%) value to: "null"
+BREW 07/27/2022 - 16:51:33 Setting variable (%DATE%) value to: "27_07_2022-16_51_33"
+BREW 07/27/2022 - 16:51:34 Setting variable (%APP_APK_IN%) value to: "/home/fpauck/benchmarks/temp/top15/subset/1/org.telegram.messenger.apk"
+BREW 07/27/2022 - 16:51:34 Setting variable (%APP_APK%) value to: "/home/fpauck/benchmarks/temp/top15/subset/1/org.telegram.messenger.apk"
+BREW 07/27/2022 - 16:51:34 Setting variable (%APP_APK_IN_FILENAME%) value to: "org.telegram.messenger"
+BREW 07/27/2022 - 16:51:34 Setting variable (%APP_APK_FILENAME%) value to: "org.telegram.messenger"
+BREW 07/27/2022 - 16:51:34 Setting variable (%APP_APK_IN_NAME%) value to: "messenger"
+BREW 07/27/2022 - 16:51:34 Setting variable (%APP_APK_NAME%) value to: "messenger"
+BREW 07/27/2022 - 16:51:34 Setting variable (%APP_APK_IN_PACKAGE%) value to: "org.telegram.messenger"
+BREW 07/27/2022 - 16:51:34 Setting variable (%APP_APK_PACKAGE%) value to: "org.telegram.messenger"
+BREW 07/27/2022 - 16:51:34 Setting variable (%LINENUMBER_IN%) value to: "-1"
+BREW 07/27/2022 - 16:51:34 Warning: Maximum memory (105 GB) specified in config file will never become available. Using maximal available memory instead: 101 GB
+BREW 07/27/2022 - 16:51:34 Timeout (Answer-Loader) set to: 60m
+BREW 07/27/2022 - 16:51:34 Starting execution of default Answer-Loader (2.0.1-SNAPSHOT). [/media/sf_brewThesis/.: Load from file: /media/sf_brewThesis/data/storage/00330.%FILE_ENDING%]
+BREW 07/27/2022 - 16:51:34 Timeout (SimplifyParser) set to: 60m
+BREW 07/27/2022 - 16:51:34 Finished execution of default Answer-Loader (2.0.1-SNAPSHOT) after 0.0 seconds. [/media/sf_brewThesis/.: Load from file: /home/fpauck/benchmarks/temp/top15/subset/1/org.telegram.messenger.apk]
+BREW 07/27/2022 - 16:51:34 Setting variable (%ANSWERS%) value to: "/home/fpauck/benchmarks/temp/top15/subset/1/org.telegram.messenger.apk"
+BREW 07/27/2022 - 16:51:34 Setting variable (%ANSWERSHASH%) value to: "5892f9139196d90307fd5c9e1b100c7d7e6b6323bb7db403c2f4541ff3ff63c0"
+BREW 07/27/2022 - 16:51:34 Setting variable (%ANSWERSHASH_MD5%) value to: "385ced1a557659e9f49b90290dc8328c"
+BREW 07/27/2022 - 16:51:34 Setting variable (%ANSWERSHASH_SHA-1%) value to: "bd00d8d7e3ba74cc5987696c6a303ef04cc38fe6"
+BREW 07/27/2022 - 16:51:34 Setting variable (%ANSWERSHASH_SHA-256%) value to: "5892f9139196d90307fd5c9e1b100c7d7e6b6323bb7db403c2f4541ff3ff63c0"
+BREW 07/27/2022 - 16:51:34 Loaded from storage: Arguments IN App('/home/fpauck/benchmarks/temp/top15/subset/1/org.telegram.messenger.apk') USES 'SimplifyParser' !
+BREW 07/27/2022 - 16:51:35 Replacing variable (%ANSWERS%) value ("/home/fpauck/benchmarks/temp/top15/subset/1/org.telegram.messenger.apk") by: "/home/fpauck/benchmarks/temp/top15/subset/1/org.telegram.messenger.apk, /media/sf_brewThesis/data/storage/00266.txt"
+BREW 07/27/2022 - 16:51:35 Replacing variable (%ANSWERSHASH%) value ("5892f9139196d90307fd5c9e1b100c7d7e6b6323bb7db403c2f4541ff3ff63c0") by: "2efd837754a12e3cb12530cb628963ba5243296ff63b00d0c3ae0f46d20d6823"
+BREW 07/27/2022 - 16:51:35 Replacing variable (%ANSWERSHASH_MD5%) value ("385ced1a557659e9f49b90290dc8328c") by: "6346eb2056ecd9c45bc848cb104eb0ff"
+BREW 07/27/2022 - 16:51:35 Replacing variable (%ANSWERSHASH_SHA-1%) value ("bd00d8d7e3ba74cc5987696c6a303ef04cc38fe6") by: "17f4fce7aff31d7200ef2169c2b455b5c9402cea"
+BREW 07/27/2022 - 16:51:35 Replacing variable (%ANSWERSHASH_SHA-256%) value ("5892f9139196d90307fd5c9e1b100c7d7e6b6323bb7db403c2f4541ff3ff63c0") by: "2efd837754a12e3cb12530cb628963ba5243296ff63b00d0c3ae0f46d20d6823"
+BREW 07/27/2022 - 16:51:35 Timeout (DefaultSimplifyOperator) set to: 60m
+BREW 07/27/2022 - 16:51:35
+Loaded from storage:
+SIMPLIFY [
+	'/home/fpauck/benchmarks/temp/top15/subset/1/org.telegram.messenger.apk' !,
+	Arguments IN App('/home/fpauck/benchmarks/temp/top15/subset/1/org.telegram.messenger.apk') USES 'SimplifyParser' !
+] !
+BREW 07/27/2022 - 16:51:35 Setting variable (%APP_APK_IN%) value to: "/media/sf_brewThesis/data/storage/00264.apk"
+BREW 07/27/2022 - 16:51:35 Setting variable (%APP_APK%) value to: "/media/sf_brewThesis/data/storage/00264.apk"
+BREW 07/27/2022 - 16:51:35 Setting variable (%APP_APK_IN_FILENAME%) value to: "00264"
+BREW 07/27/2022 - 16:51:35 Setting variable (%APP_APK_FILENAME%) value to: "00264"
+BREW 07/27/2022 - 16:51:35 Setting variable (%APP_APK_IN_NAME%) value to: "messenger"
+BREW 07/27/2022 - 16:51:35 Setting variable (%APP_APK_NAME%) value to: "messenger"
+BREW 07/27/2022 - 16:51:35 Setting variable (%APP_APK_IN_PACKAGE%) value to: "org.telegram.messenger"
+BREW 07/27/2022 - 16:51:35 Setting variable (%APP_APK_PACKAGE%) value to: "org.telegram.messenger"
+BREW 07/27/2022 - 16:51:36 Timeout (DidFail) set to: 60m
+BREW 07/27/2022 - 16:51:36 Starting execution of internal DidFail (03-2015-intra). [/home/fpauck/tools/DidFail/AQL: /home/fpauck/tools/DidFail/cert/run-didfail.sh /home/fpauck/tools/DidFail/AQL/results/00264 /media/sf_brewThesis/data/storage/00264.apk]
+BREW 07/27/2022 - 16:51:36 Setting variable (%PID%) value to: "16876"
+BREW 07/27/2022 - 16:51:36 Process (DidFail, 16876) output: Processing /media/sf_brewThesis/data/storage/00264.apk
+BREW 07/27/2022 - 16:51:36 Process (DidFail, 16876) output: Transforming /media/sf_brewThesis/data/storage/00264.apk
+BREW 07/27/2022 - 16:54:59 [31mProcess (DidFail, 16876) error: mv: cannot stat '/home/fpauck/tools/DidFail/AQL/results/00264/sootOutput/00264.apk': No such file or directory[m[m
+BREW 07/27/2022 - 16:54:59 [31mProcess (DidFail, 16876) error: java.io.FileNotFoundException: /home/fpauck/tools/DidFail/AQL/results/00264/00264.apk (No such file or directory)[m[m
+BREW 07/27/2022 - 16:54:59 [31mProcess (DidFail, 16876) error: 	at java.util.zip.ZipFile.open(Native Method)[m[m
+BREW 07/27/2022 - 16:54:59 [31mProcess (DidFail, 16876) error: 	at java.util.zip.ZipFile.<init>(ZipFile.java:226)[m[m
+BREW 07/27/2022 - 16:54:59 [31mProcess (DidFail, 16876) error: 	at java.util.zip.ZipFile.<init>(ZipFile.java:155)[m[m
+BREW 07/27/2022 - 16:54:59 [31mProcess (DidFail, 16876) error: 	at java.util.zip.ZipFile.<init>(ZipFile.java:126)[m[m
+BREW 07/27/2022 - 16:54:59 [31mProcess (DidFail, 16876) error: 	at soot.jimple.interproc.cc.manifest.ManifestPullParser.parse(ManifestPullParser.java:136)[m[m
+BREW 07/27/2022 - 16:54:59 [31mProcess (DidFail, 16876) error: 	at soot.jimple.interproc.cc.ConnectedComponents.computeConnectedComponents(ConnectedComponents.java:99)[m[m
+BREW 07/27/2022 - 16:54:59 [31mProcess (DidFail, 16876) error: 	at soot.jimple.interproc.cc.Main.main(Main.java:11)[m[m
+BREW 07/27/2022 - 16:54:59 [31mProcess (DidFail, 16876) error: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)[m[m
+BREW 07/27/2022 - 16:54:59 [31mProcess (DidFail, 16876) error: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)[m[m
+BREW 07/27/2022 - 16:54:59 [31mProcess (DidFail, 16876) error: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)[m[m
+BREW 07/27/2022 - 16:54:59 [31mProcess (DidFail, 16876) error: 	at java.lang.reflect.Method.invoke(Method.java:498)[m[m
+BREW 07/27/2022 - 16:54:59 [31mProcess (DidFail, 16876) error: 	at org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader.main(JarRsrcLoader.java:58)[m[m
+BREW 07/27/2022 - 16:54:59 Process (DidFail, 16876) output: Running DARE on /media/sf_brewThesis/data/storage/00264.apk
+BREW 07/27/2022 - 16:54:59 Process (DidFail, 16876) output: Running EPICC on /media/sf_brewThesis/data/storage/00264.apk
+BREW 07/27/2022 - 16:55:00 Process (DidFail, 16876) output: Running FlowDroid on /media/sf_brewThesis/data/storage/00264.apk
+BREW 07/27/2022 - 16:55:01 [31mProcess (DidFail, 16876) error: Usage: /home/fpauck/tools/DidFail/cert/taintflows.py [OPTIONS] [FILES][m[m
+BREW 07/27/2022 - 16:55:01 [31mProcess (DidFail, 16876) error: Files: For each app, should include manifest, epicc, and flowdroid output.[m[m
+BREW 07/27/2022 - 16:55:01 [31mProcess (DidFail, 16876) error: Options: [m[m
+BREW 07/27/2022 - 16:55:01 Process (DidFail, 16876) output: Failure!
+BREW 07/27/2022 - 16:55:01 [31mProcess (DidFail, 16876) error:   --gv graphfile: Generates graphfile.{gv,txt,pdf}[m[m
+BREW 07/27/2022 - 16:55:01 [31mProcess (DidFail, 16876) error:   --js jsonfile:  Writes the flows and taint solution in JSON format[m[m
+BREW 07/27/2022 - 16:55:01 [31mProcess (DidFail, 16876) error:   --find-sources: Just find a list of sources[m[m
+BREW 07/27/2022 - 16:55:01 [31mProcess (DidFail, 16876) error:   --dump-dbg FILE: Dump debugging info to FILE[m[m
+BREW 07/27/2022 - 16:55:01 [31mProcess (DidFail, 16876) error:   --only-intents: Only consider flows that involve an intent[m[m
+BREW 07/27/2022 - 16:55:01 [31mProcess (DidFail, 16876) error:   --quiet:        Don't write as much to stdout[m[m
+BREW 07/27/2022 - 16:55:01 [31mProcess (DidFail, 16876) error:   --no-comp-name: Don't distinguish between components in a single app[m[m
+BREW 07/27/2022 - 16:55:01 [31mProcess (DidFail, 16876) error:   --quiet2:       Write even less to stdout[m[m
+BREW 07/27/2022 - 16:55:01 Process 16876 (DidFail) terminated sucessfully (0)
+BREW 07/27/2022 - 16:55:01 Result available: /home/fpauck/tools/DidFail/AQL/results/00264
+BREW 07/27/2022 - 16:55:01 Finished execution of internal DidFail (03-2015-intra) after 205.42 seconds. [/home/fpauck/tools/DidFail/AQL: /home/fpauck/tools/DidFail/cert/run-didfail.sh /home/fpauck/tools/DidFail/AQL/results/00264 /media/sf_brewThesis/data/storage/00264.apk]
+BREW 07/27/2022 - 16:55:01 Running on exit event for the tool: DidFail (03-2015-intra)
+BREW 07/27/2022 - 16:55:01 Process (16982) output: Not root! Reattempting as root...
+BREW 07/27/2022 - 16:55:01 Process (16982) output: Root! Flushing memory...
+BREW 07/27/2022 - 16:55:01 Timeout-Timer (DidFail) stopped normally.
+BREW 07/27/2022 - 16:55:02 Setting variable (%RESULT_FILE%) value to: "/home/fpauck/tools/DidFail/AQL/results/00264"
+BREW 07/27/2022 - 16:55:02 Setting variable (%APP_APK_IN_NAME%) value to: "messenger"
+BREW 07/27/2022 - 16:55:02 Setting variable (%APP_APK_NAME%) value to: "messenger"
+BREW 07/27/2022 - 16:55:02 Setting variable (%APP_APK_IN_FILENAME%) value to: "00264"
+BREW 07/27/2022 - 16:55:02 Setting variable (%APP_APK_FILENAME%) value to: "00264"
+BREW 07/27/2022 - 16:55:02 Setting variable (%APP_APK_IN%) value to: "/media/sf_brewThesis/data/storage/00264.apk"
+BREW 07/27/2022 - 16:55:02 Setting variable (%APP_APK%) value to: "/media/sf_brewThesis/data/storage/00264.apk"
+BREW 07/27/2022 - 16:55:02 Setting variable (%APP_APK_IN_PACKAGE%) value to: "org.telegram.messenger"
+BREW 07/27/2022 - 16:55:02 Setting variable (%APP_APK_PACKAGE%) value to: "org.telegram.messenger"
+BREW 07/27/2022 - 16:55:02 Warning: File for hash creation is a directory (/home/fpauck/tools/DidFail/AQL/results/00264). Using only its name ("00264") for hash creation.
+BREW 07/27/2022 - 16:55:02 Timeout (DefaultConverter for DidFail) set to: 60m
+BREW 07/27/2022 - 16:55:02 Starting execution of default DefaultConverter for DidFail (2.0.1-SNAPSHOT). [/media/sf_brewThesis: DefaultConverter for null (2.0.1-SNAPSHOT) with { %APP_APK_IN_FILENAME% = '00264', %APP_APK_IN_NAME% = 'messenger', %APP_APK_NAME% = 'messenger', %APP_APK_IN% = '/media/sf_brewThesis/data/storage/00264.apk', %APP_APK_FILENAME% = '00264', %APP_APK% = '/media/sf_brewThesis/data/storage/00264.apk', %APP_APK_PACKAGE% = 'org.telegram.messenger', %RESULT_FILE% = '/home/fpauck/tools/DidFail/AQL/results/00264', %LINENUMBER_IN% = '-1', %APP_APK_IN_PACKAGE% = 'org.telegram.messenger' }]
+BREW 07/27/2022 - 16:55:03 Storing answered task: /media/sf_brewThesis/data/storage/00328.xml [/home/fpauck/tools/DidFail/cert/run-didfail.sh /home/fpauck/tools/DidFail/AQL/results/00264 2856b726fa25a1d6e1273d6ab3323915dba331b4daf930a80e5e5523e69799]
+BREW 07/27/2022 - 16:55:03 Finished execution of default DefaultConverter for DidFail (2.0.1-SNAPSHOT) after 1.02 seconds. [/media/sf_brewThesis: DefaultConverter for null (2.0.1-SNAPSHOT) with { %APP_APK_IN_FILENAME% = '00264', %APP_APK_IN_NAME% = 'messenger', %APP_APK_NAME% = 'messenger', %APP_APK_IN% = '/media/sf_brewThesis/data/storage/00264.apk', %APP_APK_FILENAME% = '00264', %APP_APK% = '/media/sf_brewThesis/data/storage/00264.apk', %APP_APK_PACKAGE% = 'org.telegram.messenger', %RESULT_FILE% = '/home/fpauck/tools/DidFail/AQL/results/00264', %LINENUMBER_IN% = '-1', %APP_APK_IN_PACKAGE% = 'org.telegram.messenger' }]
+BREW 07/27/2022 - 16:55:03 [1;32mFinished (after 210.056s): Flows IN App('/home/fpauck/benchmarks/temp/top15/subset/1/org.telegram.messenger.apk') ?[m[m
+BREW 07/27/2022 - 16:55:03
+[1m***** Answer (/media/sf_brewThesis/answers/answer_27_07_2022-16_55_03-001.xml) *****
+[m*** Flows ***
+
+[m[m
+BREW 07/27/2022 - 16:55:03
+
+
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<answer>
+    <flows/>
+</answer>
+
+
+
+
